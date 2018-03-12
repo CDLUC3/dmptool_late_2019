@@ -34,7 +34,7 @@ gem 'friendly_id', '~> 5.1.0'
 
 # ------------------------------------------------
 #    SUPER ADMIN SECTION
-gem "administrate", :github => 'thoughtbot/administrate', :branch =>'v0.7.0'
+#gem "administrate", :github => 'thoughtbot/administrate', :branch =>'v0.7.0'
 
 # ------------------------------------------------
 #    USERS
@@ -96,7 +96,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'minitest-rails-capybara', '~> 2.1.2'
+#  gem 'minitest-rails-capybara', '~> 2.1.2'
   gem 'minitest-reporters', '~> 1.1.11'
   gem 'rack-test', '~> 0.6.3'
   gem 'webmock', '~> 2.1.0'
@@ -111,6 +111,11 @@ group :development do
   #gem 'rack-mini-profiler', '~> 0.10.1'
   #gem 'flamegraph'
 end
+
+# ------------------------------------------------
+# DMPTOOL Specific Gems
+gem 'rack-attack'
+
 
 # ------------------------------------------------
 #    GEMS THAT ARE NO LONGER IN USE

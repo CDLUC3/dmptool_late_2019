@@ -94,6 +94,11 @@ module DMPRoadmap
     # The percentage of answered questions needed to enable the plan visibility section of the Share plan page
     config.default_plan_percentage_answered = 50
     
+    # DMPTool Specific configuration
+    # -----------------------------------------------
+    # RSS feed used for the latest DMPTool news carousel on the home page
     config.rss = 'https://blog.dmptool.org/feed'
+    # Rack Attack middleware to throttle incoming requests from an IP (used to gate malicious bots)
+    config.middleware.use Rack::Attack
   end
 end
