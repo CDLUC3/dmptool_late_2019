@@ -78,7 +78,6 @@ class Rack::Attack
   # Also throttle create account requests 1 per 20 seconds
   throttle("signups/ip", limit: 1, period: 20.seconds) do |req|
     if req.path == '/users' && req.post?
-      # return the email if present, nil otherwise
       req.ip
     end
   end

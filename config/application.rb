@@ -98,7 +98,13 @@ module DMPRoadmap
     # -----------------------------------------------
     # RSS feed used for the latest DMPTool news carousel on the home page
     config.rss = 'https://blog.dmptool.org/feed'
+    
     # Rack Attack middleware to throttle incoming requests from an IP (used to gate malicious bots)
     config.middleware.use Rack::Attack
+    ActiveSupport::Notifications.subscribe("rack.attack") do |name, start, finish, request_id, req|
+      if req.env['rack.attack.matched'] == 'req/ip' && req.env['rack.attack.match_type'] == :throttle
+        Rails.logger.warn "Rack Attack: Request limit reached: for #{req.ip}"
+      end
+    end
   end
 end
