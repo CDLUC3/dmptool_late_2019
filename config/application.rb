@@ -104,6 +104,10 @@ module DMPRoadmap
     ActiveSupport::Notifications.subscribe("rack.attack") do |name, start, finish, request_id, req|
       if req.env['rack.attack.matched'] == 'req/ip' && req.env['rack.attack.match_type'] == :throttle
         Rails.logger.warn "Rack Attack: Request limit reached: for #{req.ip}"
+      elsif ['logins/ip', 'logins/email'].include?(req.env['rack.attack.matched']) && req.env['rack.attack.match_type'] == :throttle
+        Rails.logger.warn "Rack Attack: Login attack detected: for #{req.ip}"
+      elsif req.env['rack.attack.matched'] == 'signups/ip' && req.env['rack.attack.match_type'] == :throttle
+        Rails.logger.warn "Rack Attack: Singup attack detected: for #{req.ip}"
       end
     end
   end
