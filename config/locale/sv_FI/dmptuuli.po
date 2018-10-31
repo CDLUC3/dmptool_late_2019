@@ -1,0 +1,652 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the dmptuuli package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-24 15:38+0100\n"
+"PO-Revision-Date: 2018-05-18 12:56+0100\n"
+"Last-Translator: tuija <tuija.korhonen@helsinki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1526648198.442424\n"
+
+msgid "%{application_name} is based on <a href='https://dmponline.dcc.ac.uk/'>DMPonline</a> code, developed by the UK's <a href='https://dcc.ac.uk/'>Digital Curation Centre</a>."
+msgstr ""
+"%{application_name} baserar sig på <a "
+"href='https://dmponline.dcc.ac.uk/'>DMPonline</a> koden som <a "
+"href='https://dcc.ac.uk/'>Digital Curation Centre</a> i Storbritannien har "
+"utvecklat."
+
+msgid "%{application_name} is based on DMPonline code and delivered by the UK's  <a href='https://dcc.ac.uk/'>Digital Curation Centre</a>."
+msgstr ""
+"%{application_name} baserar sig på DMPonline koden och levereras av  <a "
+"href='https://dcc.ac.uk/'>Digital Curation Centre</a> i Storbritannien."
+
+msgid "%{application_name} is provided by the %{organisation_name}.<br /> You can find out more about us on our <a href=\"%{organisation_url}\" target=\"_blank\">website</a>. If you would like to contact us about %{application_name}, please fill out the form below."
+msgstr ""
+
+msgid "%{application_name} is provided by the Finnish <a href='https://wiki.helsinki.fi/display/Tuuli/Tuuli-projekti'>Tuuli project</a>.The project has worked closely with researchers and research funders to produce guidance and templates that assist researchers to produce an effective data management plan (DMP) to cater for the whole lifecycle of a project, from bid-preparation stage through to completion."
+msgstr ""
+"%{application_name} har skapats av finska <a "
+"href='https://wiki.helsinki.fi/display/Tuuli/Tuuli-projekti'>Tuuli "
+"projektet</a>. Projektet har arbetat intensivt med forskare och finansiärer "
+"för att skapa instruktioner och modeller som hjälper forskarna att skriva "
+"effektiva datahanteringsplaner som beskriver hur forskningsdata kommer att "
+"hanteras genom forskningens hela livscykel."
+
+#, fuzzy
+msgid "'Download' allows you to download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application."
+msgstr ""
+
+#, fuzzy
+msgid "'Project Details' includes basic administrative details."
+msgstr ""
+
+#, fuzzy
+msgid "'Share' allows you to invite others to read or contribute to your plan."
+msgstr ""
+
+#, fuzzy
+msgid "5 DMPs submitted to the NSF, shared by the DataOne initiative."
+msgstr ""
+
+#, fuzzy
+msgid "A DMP submitted by a researcher from the University of Bristol, also including comments from the reviewers."
+msgstr ""
+
+#, fuzzy
+msgid "A guide by ANDS and the Digital Curation Centre on how to select which data to keep for long-term preservation, sharing and reuse. The guide puts forward several criteria to aid selection decisions."
+msgstr ""
+
+#, fuzzy
+msgid "A guide by the Digital Curation Centre giving practical guidelines on how to cite data and the different tools and infrastructure that can be used to support data citation."
+msgstr ""
+
+#, fuzzy
+msgid "A guide by the Digital Curation Centre that outlines different types of licenses, the pros and cons of each and how they can be applied."
+msgstr ""
+
+#, fuzzy
+msgid "A guide by the Digital Curation Centre that outlines typical funder requirements for DMPs and the types of considerations to make when responding."
+msgstr ""
+
+#, fuzzy
+msgid "A guide by the UK Data Service covering a range of topics including data formats, documentaion, ethics, copyright and data sharing."
+msgstr ""
+
+#, fuzzy
+msgid "A list of 13 questions and associated guidance, that represent the main issues to come up in Data Management and Sharing Plans. The Checklist is used as a generic template in DMPTuuli, and is presented when no funder or organsiational requirements are applicable for the user."
+msgstr ""
+
+#, fuzzy
+msgid "A selection of DMPs published in the Research Information and Outcomes journal."
+msgstr ""
+
+#, fuzzy
+msgid "A summary of requirements from the NSF, NIH and other key funders in the USA."
+msgstr ""
+
+#, fuzzy
+msgid "A variety of US example DMPs from Mines and elsewhere."
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "About %{application_name}"
+msgstr ""
+
+msgid "Additional Information"
+msgstr "Ytterligare information"
+
+msgid "Admin"
+msgstr ""
+
+#, fuzzy
+msgid "An online training course designed for researchers or others planning to manage digital data as part of the research process. The course includes a number of software practicals on using SPSS, R, ArcGIS and NVivo."
+msgstr ""
+
+msgid "Authorised officers of user's home institution may access the metadata of data management plans or user information. Metadata includes: Plan name, ID, Grant number, Principal Investigator/Researcher, Principal Investigator/Researcher ID, Plan data contact, Description, email."
+msgstr ""
+
+msgid "Based on work by the Digital Curation Centre"
+msgstr ""
+
+#, fuzzy
+msgid "By default all new and test plans will be set to ‘Private’ visibility. ‘Public’ and ‘Organisational’ visibility are intended for finished plans. You must answer at least 50&#37; of the questions to enable these options."
+msgstr ""
+
+#, fuzzy
+msgid "Colorado School of Mines examples"
+msgstr ""
+
+msgid "Contact Us"
+msgstr ""
+
+msgid "Contact point"
+msgstr ""
+
+msgid "Contact us"
+msgstr ""
+
+msgid "Contents of the data register"
+msgstr ""
+
+msgid "Controller"
+msgstr ""
+
+#, fuzzy
+msgid "Create a plan"
+msgstr ""
+
+msgid "Create plans"
+msgstr ""
+
+#, fuzzy
+msgid "DCC Checklist for a Data Management Plan"
+msgstr ""
+
+#, fuzzy
+msgid "DCC website"
+msgstr ""
+
+msgid "Data management plan"
+msgstr ""
+
+msgid "Data management plan (DMP) will help you manage your data, meet funder requirements and help others use your data if shared. %{application_name} will help you write data management plans."
+msgstr ""
+"Datahanteringsplanering hjälper dig att hantera dina data, att uppfylla "
+"finansiärernas krav och andra att återanvända dina data om du gör dem öppet "
+"tillgängliga. %{application_name} hjälper dig att skriva din "
+"datahanteringsplan."
+
+msgid "Data management planning tool %{application_name} helps you to create, review, and share data management plans that meet institutional and funder requirements."
+msgstr ""
+
+msgid "Data transmitted along information networks are encrypted by means of SSL technology. A register generated from data of Users and data management plans for a server is thereby protected."
+msgstr ""
+
+msgid "Delivered by DCC"
+msgstr ""
+
+#, fuzzy
+msgid "Digital Curation Centre"
+msgstr ""
+
+msgid "Disclosure of personal data"
+msgstr ""
+
+#, fuzzy
+msgid "Download plans"
+msgstr ""
+
+#, fuzzy
+msgid "Downloadable templates based on the requirements of UK Research Councils and other charitable or health funders."
+msgstr ""
+
+#, fuzzy
+msgid "Edinburgh, EH8 9YL"
+msgstr ""
+
+msgid "Edit profile"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+#, fuzzy
+msgid "Example Data Management Plans"
+msgstr ""
+
+#, fuzzy
+msgid "Example plans from researchers at the University of Leeds, shared as part of the Leeds RoaDMaP training materials."
+msgstr ""
+
+#, fuzzy
+msgid "FI-00014 University of Helsinki"
+msgstr ""
+
+msgid "First name"
+msgstr ""
+
+msgid "Forgot password?"
+msgstr ""
+
+#, fuzzy
+msgid "From here you can download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application. Choose what format you would like to view/download your plan in and click to download. You can also adjust the formatting (font type, size and margins) for PDF files, which may be helpful if working to page limits."
+msgstr ""
+
+#, fuzzy
+msgid "Further examples are available on the"
+msgstr ""
+
+msgid "Getting Started"
+msgstr "Att komma igång"
+
+msgid "Github"
+msgstr ""
+
+msgid "Grant number"
+msgstr ""
+
+msgid "Guidance"
+msgstr ""
+
+#, fuzzy
+msgid "Guidance is displayed in the right-hand panel. If you need more guidance or find there is too much, you can make adjustments on the ‘Project Details’ tab."
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+#, fuzzy
+msgid "Helpline"
+msgstr ""
+
+#, fuzzy
+msgid "Helsinki University Library"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "How the tool works"
+msgstr "Hur verktyget fungerar"
+
+#, fuzzy
+msgid "How to Appraise and Select Research Data for Curation"
+msgstr ""
+
+#, fuzzy
+msgid "How to Cite Datasets and Link to Publications"
+msgstr ""
+
+#, fuzzy
+msgid "How to License Research Data"
+msgstr ""
+
+#, fuzzy
+msgid "How to develop a Data Management and Sharing Plan"
+msgstr ""
+
+msgid "If you do not have a %{application_name} account, click on <a href='/'>'Create account'</a> on the homepage."
+msgstr ""
+"Om du inte har ett konto i %{application_name}, klicka på <a href='/'>'Skapa "
+"ett konto'</a> på hemsidan."
+
+msgid "If you have an account please sign in and start creating or editing your DMP."
+msgstr ""
+"Om du har ett konto du kan logga in och börja skriva eller redigera din "
+"datahanterinsplan."
+
+msgid "In order to help identify and administer your account with %{application_name}, we need to store your name and email address. We may also use it to contact you to obtain feedback on your use of the tool, or to inform you of the latest developments or releases."
+msgstr ""
+
+#, fuzzy
+msgid "Insert the email address of any collaborators you would like to invite to read or edit your plan. Set the level of permissions you would like to grant them via the radio buttons and click to 'Add collaborator.' Adjust permissions or remove collaborators at any time via the drop-down options."
+msgstr ""
+
+msgid "Join the growing number of researchers that have adopted DMPTuuli:"
+msgstr ""
+
+msgid "Language"
+msgstr ""
+
+msgid "Last name"
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+#, fuzzy
+msgid "Managing and Sharing Data: best practice for researchers"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "My Dashboard"
+msgstr ""
+
+#, fuzzy
+msgid "NSF data management plans"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name of the register"
+msgstr ""
+
+msgid "ORCID number"
+msgstr ""
+
+#, fuzzy
+msgid "Old College, South Bridge"
+msgstr ""
+
+msgid "On %{application_name}"
+msgstr ""
+
+msgid "On data management planning"
+msgstr ""
+
+msgid "Organisation"
+msgstr ""
+
+msgid "Organisation details"
+msgstr ""
+
+#, fuzzy
+msgid "Organisational: anyone at your organisation can view your plan."
+msgstr ""
+
+msgid "Organisations"
+msgstr ""
+
+#, fuzzy
+msgid "P.O.Box 53 (Fabianinkatu 30)"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+#, fuzzy
+msgid "Plan Overview’ tells you what template and guidance your plan is based on and gives you an overview to the questions that you will be asked."
+msgstr ""
+
+msgid "Plan data contact"
+msgstr ""
+
+msgid "Plan name"
+msgstr ""
+
+msgid "Plans"
+msgstr ""
+
+msgid "Please visit the <a href='/help'>'Help'</a> page for guidance."
+msgstr "Om du behöver hjälp besök vår <a href='/help'>'Hjälp'</a> sida."
+
+msgid "Powered by DMPonline"
+msgstr ""
+
+msgid "Principal Investigator/Researcher"
+msgstr ""
+
+msgid "Principal Investigator/Researcher ID"
+msgstr ""
+
+msgid "Privacy policy"
+msgstr ""
+
+#, fuzzy
+msgid "Private: restricted to you and your collaborators."
+msgstr ""
+
+msgid "Public DMP templates"
+msgstr ""
+
+msgid "Public DMPs"
+msgstr ""
+
+#, fuzzy
+msgid "Public: anyone can view your plan in the Public DMPs list."
+msgstr ""
+
+msgid "Purpose for processing the personal data"
+msgstr ""
+
+#, fuzzy
+msgid "RIOjournal Data Management Plan collection"
+msgstr ""
+
+msgid "Reference"
+msgstr ""
+
+msgid "Regular sources of information"
+msgstr ""
+
+#, fuzzy
+msgid "Remember email"
+msgstr ""
+
+#, fuzzy
+msgid "Request feedback"
+msgstr ""
+
+#, fuzzy
+msgid "Research Data MANTRA"
+msgstr ""
+
+msgid "Right of access by the data subject"
+msgstr ""
+
+msgid "Right to lodge a complaint with a supervisory authority"
+msgstr ""
+
+#, fuzzy
+msgid "Screencast on How to Use DMPTuuli"
+msgstr ""
+
+msgid "Security check"
+msgstr ""
+
+#, fuzzy
+msgid "Share plans"
+msgstr ""
+
+msgid "Sign in"
+msgstr ""
+
+msgid "Sign in with institutional credentials (HAKA only)"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Submit"
+msgstr ""
+
+#, fuzzy
+msgid "Technical plan submitted to the AHRC"
+msgstr ""
+
+#, fuzzy
+msgid "Tel: +358 (0) 2941 911"
+msgstr ""
+
+#, fuzzy
+msgid "Tel: +44 (0) 131 651 1239"
+msgstr ""
+
+msgid "Templates"
+msgstr ""
+
+msgid "Templates for data management plans are based on the specific requirements listed in funder policy documents. DMPTuuli maintains these templates, however, researchers should always consult the funder guidelines directly for authoritative information. "
+msgstr ""
+
+msgid "The data will be generated by the users."
+msgstr ""
+
+#, fuzzy
+msgid "The following tab(s) present the questions to answer. There may be more than one tab if your funder or university asks different sets of questions at different stages e.g. at grant application and post-award."
+msgstr ""
+
+msgid "The information user enter into this system can be seen by the User, people User have chosen to share access with, and - solely for the purposes of maintaining the service - system administrators at the University of Edinburgh and Helsinki University Library. Admistrators compile anonymised, automated and aggregated information from plans, but they will not directly access, make use of, or share content created by User with anyone else without users' permission."
+msgstr ""
+
+msgid "The passwords are stored in encrypted form and cannot be retrieved. If forgotten it has to be reset."
+msgstr ""
+
+msgid "The personal data is managed by the user (data subject). The system administrator will manage personal data of the user only based on request from the user."
+msgstr ""
+
+msgid "The personal data is managed by the user (data subject). Therefore they have full access to their own personal data at any point of time. We will hold the personal data you provided us for as long as you continue using the %{application_name} service. Your personal data can be removed from this service upon request to the %{application_name} team within a period of 30 days."
+msgstr ""
+
+msgid "The principles of data protection"
+msgstr ""
+
+msgid "The register is developed to manage information about users and data management plans created by users. The information about the users is needed to manage user accounts and give access to the %{application_name} tool. The University of Edinburgh holds plans created by users on user's behalf, but they are user's property and responsibility."
+msgstr ""
+
+#, fuzzy
+msgid "The tabbed interface allows you to navigate through different functions when editing your plan."
+msgstr ""
+
+#, fuzzy
+msgid "The ‘Share’ tab is also where you can set your plan visibility."
+msgstr ""
+
+msgid "Themes"
+msgstr ""
+
+msgid "There are a number of templates within the tool that represent the requirements of different funders and institutions. Users are asked three questions at the outset so we can determine the appropriate template to display. Guidance is provided to help you interpret and answer the questions. This guidance is provided by researcher funders, universities and disciplines."
+msgstr ""
+"Det finns ett antal modeller i verktyget som representerar olika "
+"finansiärers och institutioners krav. Användarna svarar på tre frågor i "
+"början så att vi kan avgöra vilka modeller är lämpliga. Du får instruktioner "
+"för att hjälpa dig tolka och svara på frågorna. Instruktionerna är skapade "
+"av forskningsfinansiärerna, universiteten och forskningsområdena."
+
+msgid "There are currently no public Templates."
+msgstr ""
+
+#, fuzzy
+msgid "There may also be an option to request feedback on your plan. This is available when research support staff at your organisation have enabled this service. Click to ‘Request feedback’ and your local administrators will be alerted to your request. Their comments will be visible in the ‘Comments’ field adjacent to each question. You will be notified by email when an administrator provides feedback."
+msgstr ""
+
+#, fuzzy
+msgid "To create a plan, click the 'Create plan' button from the 'My Dashboard' page or the top menu. Select options from the menus and tickboxes to determine what questions and guidance you should be presented with. Confirm your selection by clicking 'Create plan.'"
+msgstr ""
+
+#, fuzzy
+msgid "Tuuli Office, "
+msgstr ""
+
+#, fuzzy
+msgid "Two social science DMPs"
+msgstr ""
+
+#, fuzzy
+msgid "UK funder requirements for Data Management Plans"
+msgstr ""
+
+#, fuzzy
+msgid "US funder requirements for Data Management Plans"
+msgstr ""
+
+#, fuzzy
+msgid "University of Edinburgh"
+msgstr ""
+
+msgid "Usage"
+msgstr ""
+
+#, fuzzy
+msgid "Useful guides on Research Data Management in general"
+msgstr ""
+
+#, fuzzy
+msgid "Useful resources on Data Management Planning"
+msgstr ""
+
+msgid "User gives by creating a DMP information about:"
+msgstr ""
+
+msgid "User gives during registration information about:"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "We are constantly improving the user interface and functionality of %{application_name}. If you would like to contribute with feedback and suggestions, please contact us by emailing <a href='mailto:%{application_email}?Subject=%{application_name} inquiry' target='_top'>%{application_email}</a>."
+msgstr ""
+"Vi vill alltid förbättra %{application_name}s användargränssnittet och -"
+"funktionen. Om du vill bidra med feedback och förslag, kan du kontakta oss "
+"per e-post: <a href='mailto:%{application_email}?Subject=%{application_name} "
+"inquiry' target='_top'>%{application_email}</a>."
+
+msgid "We will not sell, rent, or trade any personal information you provide to us."
+msgstr ""
+
+msgid "Welcome"
+msgstr ""
+
+#, fuzzy
+msgid "When viewing any of the question tabs, you will see the different sections of your plan displayed. Click into these in turn to answer the questions. You can format your responses using the text editing buttons."
+msgstr ""
+
+#, fuzzy
+msgid "When you log in to DMPTuuli you will be directed to the 'My Dashboard' page. From here you can edit, share, download, copy or remove any of your plans. You will also see plans that have been shared with you by others."
+msgstr ""
+
+#, fuzzy
+msgid "Write your plan"
+msgstr ""
+
+msgid "You can download funder templates without logging in, but from DMPTuuli you will find tailored guidance from many research organisations, including universities and service providers like the Finnish Social Science Data Archive. Why not sign up for an account and try it out?"
+msgstr ""
+
+#, fuzzy
+msgid "[PDF, 12 pages]"
+msgstr ""
+
+#, fuzzy
+msgid "[PDF, 16 pages]"
+msgstr ""
+
+#, fuzzy
+msgid "[PDF, 3 pages]"
+msgstr ""
+
+#, fuzzy
+msgid "[PDF, 36 pages]"
+msgstr ""
+
+#, fuzzy
+msgid "[PDF, 7 pages]"
+msgstr ""
+
+#, fuzzy
+msgid "[PDF, 8 pages]"
+msgstr ""
+
+#, fuzzy
+msgid "[online resource]"
+msgstr ""
+
+#, fuzzy
+msgid "[webpage]"
+msgstr ""
+
+#, fuzzy
+msgid "_( 'Organisations"
+msgstr ""
+
+#, fuzzy
+msgid "_( 'Plans"
+msgstr ""
+
+#, fuzzy
+msgid "_( 'Users"
+msgstr ""
+
+#, fuzzy
+msgid "_( \"We will not sell, rent, or trade any personal information you provide to us."
+msgstr ""
+
+#, fuzzy
+msgid "logo"
+msgstr ""
+
+msgid "or"
+msgstr ""

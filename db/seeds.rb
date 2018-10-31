@@ -15,8 +15,8 @@ include FactoryBot::Syntax::Methods
 I18n.available_locales = ['en', 'en-GB', 'de', 'fr']
 I18n.locale                = LocaleFormatter.new(:en, format: :i18n).to_s
 # Keep this as :en. Faker doesn't have :en-GB
-Faker::Config.locale       = LocaleFormatter.new(:en, format: :i18n).to_s
-FastGettext.default_locale = LocaleFormatter.new(:en, format: :fast_gettext).to_s
+Faker::Config.locale       = 'en'
+I18n.default_locale = 'en'
 
 
 require 'factory_bot'

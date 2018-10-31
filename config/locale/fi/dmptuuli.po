@@ -1,0 +1,861 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the dmptuuli package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-24 15:38+0100\n"
+"PO-Revision-Date: 2018-10-15 15:13+0100\n"
+"Last-Translator: tuija <tuija.korhonen@helsinki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.8\n"
+"X-POOTLE-MTIME: 1539616420.221496\n"
+
+msgid "%{application_name} is based on <a href='https://dmponline.dcc.ac.uk/'>DMPonline</a> code, developed by the UK's <a href='https://dcc.ac.uk/'>Digital Curation Centre</a>."
+msgstr ""
+"%{application_name} on <a href='https://dmponline.dcc.ac.uk/'>DMPonline</a> "
+"kansallinen instanssi ja DMPOnlinen on kehittänyt <a "
+"href='https://dcc.ac.uk/'>Digital Curation Centre</a> (Iso-Britannia)."
+
+msgid "%{application_name} is based on DMPonline code and delivered by the UK's  <a href='https://dcc.ac.uk/'>Digital Curation Centre</a>."
+msgstr ""
+"%{application_name} perustuu DMPonlinen koodiin ja sen on tuottanut  <a "
+"href='https://dcc.ac.uk/'>Digital Curation Centre</a> Isossa-Britanniassa."
+
+msgid "%{application_name} is provided by the %{organisation_name}.<br /> You can find out more about us on our <a href=\"%{organisation_url}\" target=\"_blank\">website</a>. If you would like to contact us about %{application_name}, please fill out the form below."
+msgstr ""
+"Tuuli projekti tarjoaa %{application_name} -työkalun.<br /> Jos haluat "
+"tietää lisää meistä <a href=\"%{organisation_url}\" target=\"_blank\"> "
+"https://wiki.helsinki.fi/display/Tuuli/Tuuli-projekti</a>. Jos haluat "
+"kommentoida %{application_name}:a, täytä allaoleva lomake"
+
+msgid "%{application_name} is provided by the Finnish <a href='https://wiki.helsinki.fi/display/Tuuli/Tuuli-projekti'>Tuuli project</a>.The project has worked closely with researchers and research funders to produce guidance and templates that assist researchers to produce an effective data management plan (DMP) to cater for the whole lifecycle of a project, from bid-preparation stage through to completion."
+msgstr ""
+"%{application_name} on tuotettu Tuuli-projektissa <a "
+"href='https://wiki.helsinki.fi/display/Tuuli/Tuuli-projekti'>Tuuli "
+"project</a>. DMPTuulissa olevat oppaat ja suunnitelmapohjat on tehty "
+"yhteistyössä tutkijoiden ja tutkimuksen rahoittajien kanssa. Ohjeiden "
+"tarkoitus on auttaa tutkijoita kirjoittamaan aineistonhallintasuunnitelma, "
+"joka kattaa koko tutkimusprojektin elinkaaren."
+
+msgid "'Download' allows you to download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application."
+msgstr ""
+"Tulostus-välilehdellä voit ladata suunnitelmasi monissa eri "
+"tiedostomuodoissa. Tästä toiminnosta on hyötyä, jos rahoittajasi vaatii "
+"suunnitelman liittämistä rahoitushakemukseen."
+
+msgid "'Project Details' includes basic administrative details."
+msgstr ""
+"Tutkimusprojekti -välilehdellä on hallinnollisia yleistietoja "
+"suunnitelmastasi."
+
+msgid "'Share' allows you to invite others to read or contribute to your plan."
+msgstr ""
+"Jaa-välilehdellä voit jakaa muille luku- tai muokkausoikeuksia "
+"suunnitelmaasi."
+
+msgid "5 DMPs submitted to the NSF, shared by the DataOne initiative."
+msgstr ""
+"Viisi NSF:lle tehtyä aineistonhallintasuunnitelmaa, jotka DataOne initiative "
+"on jakanut."
+
+msgid "A DMP submitted by a researcher from the University of Bristol, also including comments from the reviewers."
+msgstr ""
+"Bristolin yliopiston tutkijan jakama aineistonhallintasuunnitelma, jossa on "
+"myös arvioijan kommentit."
+
+msgid "A guide by ANDS and the Digital Curation Centre on how to select which data to keep for long-term preservation, sharing and reuse. The guide puts forward several criteria to aid selection decisions."
+msgstr ""
+"Australian kansallisen datapalvelun (ANDS) ja Digital Curation Center:in "
+"opas siitä, kuinka valitaan aineisto pitkäaikaiseen säilytykseen, kuinka "
+"sitä jaetaan ja miten sitä voi jatkokäyttää. Oppaassa esitetään useita "
+"kriteerejä, jotka auttavat aineiston valinnassa."
+
+msgid "A guide by the Digital Curation Centre giving practical guidelines on how to cite data and the different tools and infrastructure that can be used to support data citation."
+msgstr ""
+"Digital Curation Centre:in opas, joka neuvoo, miten dataan viitataan ja "
+"esittelee erilaisia työkaluja ja infrastruktuureja, joita voi käyttää apuna "
+"dataan viittaamisessa."
+
+msgid "A guide by the Digital Curation Centre that outlines different types of licenses, the pros and cons of each and how they can be applied."
+msgstr ""
+"Digital Curation Centre:in opas, jossa esitellään erilaisia lisenssejä, "
+"niiden hyviä ja huonoja puolia sekä, miten niitä voi käyttää."
+
+msgid "A guide by the Digital Curation Centre that outlines typical funder requirements for DMPs and the types of considerations to make when responding."
+msgstr ""
+"Digital Curation Centre:in opas, jossa esitellään pääpiirteissään "
+"rahoittajien tyypillisiä vaatimuksia aineistonhallintasuunnitelmille ja mitä "
+"niihin vastattaessa kannattaa pohtia."
+
+msgid "A guide by the UK Data Service covering a range of topics including data formats, documentaion, ethics, copyright and data sharing."
+msgstr ""
+"Yhdistyneitten kuningaskuntien Datapalvelun opas, jossa käsitellään mm. "
+"tiedostomuotoja, dokumentaatiota, etiikkaa, tekijänoikeutta ja datan "
+"jakamista."
+
+msgid "A list of 13 questions and associated guidance, that represent the main issues to come up in Data Management and Sharing Plans. The Checklist is used as a generic template in DMPTuuli, and is presented when no funder or organsiational requirements are applicable for the user."
+msgstr ""
+"13 kysymyksen lista ja niihin liittyvät ohjeet, joissa käsitellään "
+"aineistonhallintaan ja aineiston jakamiseen liittyvät pääasiat. "
+"Tarkistuslista on myös DMPTuulin yleinen mallipohja, jota käytetään silloin "
+"kun suunnitelman kirjoittamiseen ei liity rahoittajan tai organisaation "
+"vaatimuksia."
+
+msgid "A selection of DMPs published in the Research Information and Outcomes journal."
+msgstr ""
+"Valikoima aineistonhallintasuunnitelmia, jotka on julkaistu Research "
+"Information and Outcomes -lehdessä."
+
+msgid "A summary of requirements from the NSF, NIH and other key funders in the USA."
+msgstr ""
+"Tiivistelmä USA:n tärkeimpien rahoittajien, kuten NSF:n ja NIH:n, "
+"vaatimuksista."
+
+msgid "A variety of US example DMPs from Mines and elsewhere."
+msgstr "Esimerkkejä yhdysvaltalaisista aineistonhallintasuunnitelmista"
+
+msgid "About"
+msgstr "Tietoa"
+
+msgid "About %{application_name}"
+msgstr "Tietoa %{application_name} -työkalusta"
+
+msgid "Additional Information"
+msgstr "Lisätietoja"
+
+msgid "Admin"
+msgstr "Ylläpitäjä"
+
+msgid "An online training course designed for researchers or others planning to manage digital data as part of the research process. The course includes a number of software practicals on using SPSS, R, ArcGIS and NVivo."
+msgstr ""
+"Tutkijoille ja muille, jotka käsittelevät digitaalisia aineistoja "
+"suunniteltu verkkokurssi. Kurssi sisältää muutamia osioita, joissa käytetään "
+"seuraavia ohjelmistoja: SPSS, R, ArcGIS ja NVivo."
+
+msgid "Authorised officers of user's home institution may access the metadata of data management plans or user information. Metadata includes: Plan name, ID, Grant number, Principal Investigator/Researcher, Principal Investigator/Researcher ID, Plan data contact, Description, email."
+msgstr ""
+"Käyttäjän kotiorganisaation valtuutetut henkilöt voivat päästä "
+"aineistonhallintasuunnitelmien metatietoihin. Metatietoja ovat: suunnitelman "
+"nimi, tunnistenumero, hakemusnumero, päätutkijan nimi, päätutkijan tunniste, "
+"suunnitelman tekijän yhteystiedot, suunnitelman kuvailutiedot, "
+"sähköpostiosoite."
+
+msgid "Based on work by the Digital Curation Centre"
+msgstr "Based on work by the Digital Curation Centre"
+
+msgid "By default all new and test plans will be set to ‘Private’ visibility. ‘Public’ and ‘Organisational’ visibility are intended for finished plans. You must answer at least 50&#37; of the questions to enable these options."
+msgstr ""
+"Oletusasetuksena kaikilla uusilla ja testisuunnitelmilla on yksityinen "
+"näkyvyys. Julkinen ja organisatorinen näkyvyysasetus on tarkoitettu "
+"valmiille suunnitelmille. Suunnitelmassa täytyy olla vastattuna ainakin 50%:"
+"iin kysymyksistä, jotta voisi valita julkinen tai organisatorinen "
+"-vaihtoehdot."
+
+msgid "Colorado School of Mines examples"
+msgstr "Esimerkkejä Colorado School of Mines:lta"
+
+msgid "Contact Us"
+msgstr "Ota yhteyttä"
+
+msgid "Contact point"
+msgstr "Yhteystiedot"
+
+msgid "Contact us"
+msgstr "Ota yhteyttä"
+
+msgid "Contents of the data register"
+msgstr "Rekisterin sisältämät tiedot"
+
+msgid "Controller"
+msgstr "Rekisterinpitäjä"
+
+msgid "Create a plan"
+msgstr "Luo suunnitelma"
+
+msgid "Create plans"
+msgstr "Tee suunnitelmia"
+
+msgid "DCC Checklist for a Data Management Plan"
+msgstr "DCC:n aineistonhallintasuunnitelman tarkistuslista"
+
+msgid "DCC website"
+msgstr "DCC:n kotisivu"
+
+msgid "Data management plan"
+msgstr "Aineistonhallintasuunnitelma"
+
+msgid "Data management plan (DMP) will help you manage your data, meet funder requirements and help others use your data if shared. %{application_name} will help you write data management plans."
+msgstr ""
+"Aineistonhallinnan suunnittelu auttaa aineistonhallinnan käytännön "
+"toteuttamisen ohella vastaamaan rahoittajien vaatimuksiin. "
+"Suunnitelmallisuutta vaaditaan myös aineiston jakamiseen ja jatkokäytön "
+"varmistamiseen. %{application_name} antaa ohjeita "
+"aineistonhallintasuunnitelman kirjoittamiseen. "
+
+msgid "Data management planning tool %{application_name} helps you to create, review, and share data management plans that meet institutional and funder requirements."
+msgstr "Voit tehdä aineistonhallintasuunnitelman %{application_name}n avulla."
+
+msgid "Data transmitted along information networks are encrypted by means of SSL technology. A register generated from data of Users and data management plans for a server is thereby protected."
+msgstr ""
+"Tiedot salataan SSL salausteknologian avulla, silloin kun tietoa siirretään "
+"järjestelmästä toiseen. Rekisterin sisältämät tiedot ovat täten suojatut."
+
+msgid "Delivered by DCC"
+msgstr "Delivered by DCC"
+
+msgid "Digital Curation Centre"
+msgstr "Digital Curation Centre"
+
+msgid "Disclosure of personal data"
+msgstr "Tietojen luovutus"
+
+msgid "Download plans"
+msgstr "Tulosta suunnitelmia"
+
+msgid "Downloadable templates based on the requirements of UK Research Councils and other charitable or health funders."
+msgstr ""
+"Ladattavia aineistonhallintapohjia Yhdistyneitten kansakuntien "
+"tutkimusneuvostoilta ja muilta rahoittajilta."
+
+msgid "Edinburgh, EH8 9YL"
+msgstr "Edinburgh, EH8 9YL"
+
+msgid "Edit profile"
+msgstr "Muokkaa käyttäjätietoja"
+
+msgid "Email"
+msgstr "Sähköposti"
+
+msgid "Example Data Management Plans"
+msgstr "Esimerkkejä aineistonhallintasuunnitelmista"
+
+msgid "Example plans from researchers at the University of Leeds, shared as part of the Leeds RoaDMaP training materials."
+msgstr "Leedsin yliopiston tutkijoiden aineistonhallintasuunnitelmia"
+
+msgid "FI-00014 University of Helsinki"
+msgstr "00014 Helsingin yliopisto"
+
+msgid "First name"
+msgstr "Etunimi"
+
+msgid "Forgot password?"
+msgstr "Unohditko salasanasi?"
+
+msgid "From here you can download your plan in various formats. This may be useful if you need to submit your plan as part of a grant application. Choose what format you would like to view/download your plan in and click to download. You can also adjust the formatting (font type, size and margins) for PDF files, which may be helpful if working to page limits."
+msgstr ""
+"Tällä välilehdellä voit tulostaa suunnitelman eri tiedostomuodoissa, mistä "
+"voi olla apua, jos rahoittajasi vaatii suunnitelman liittämistä "
+"rahoitushakemukseen. Valitse tiedostomuoto, jolla haluat avata suunnitelman "
+"ja klikkaa Lataa. Voit myös muotoilla PDF-tiedostoa (fontti, kirjasinkoko ja "
+"marginaalit) ja tästä voi olla apua, jos sivumäärä on rajattu."
+
+msgid "Further examples are available on the"
+msgstr "Lisää esimerkkejä löytyy"
+
+msgid "Getting Started"
+msgstr "Näin pääset alkuun"
+
+msgid "Github"
+msgstr "GitHub"
+
+msgid "Grant number"
+msgstr "Hakemuksen numero"
+
+msgid "Guidance"
+msgstr "Ohjeistus"
+
+msgid "Guidance is displayed in the right-hand panel. If you need more guidance or find there is too much, you can make adjustments on the ‘Project Details’ tab."
+msgstr ""
+"Suunnitelman ohjeistus näkyy oikeassa reunassa klikkaamalla +-merkkiä. "
+"Ohjeiden näkymistä voi muokata Tutkimusprojekti-välilehdellä."
+
+msgid "Help"
+msgstr "Ohje"
+
+msgid "Helpline"
+msgstr "Neuvontapuhelin"
+
+msgid "Helsinki University Library"
+msgstr "Helsingin yliopiston kirjasto"
+
+msgid "Home"
+msgstr "Etusivu"
+
+msgid "How the tool works"
+msgstr "Työkalun toiminta"
+
+msgid "How to Appraise and Select Research Data for Curation"
+msgstr "Kuinka tutkimusaineistoja arvioidaan ja valitaan säilytykseen"
+
+msgid "How to Cite Datasets and Link to Publications"
+msgstr "Kuinka datasetteihin viitataan ja liitetään julkaisuihin"
+
+msgid "How to License Research Data"
+msgstr "Tutkimusaineistojen lisenssointi"
+
+msgid "How to develop a Data Management and Sharing Plan"
+msgstr "How to develop a Data Management and Sharing Plan"
+
+msgid "If you do not have a %{application_name} account, click on <a href='/'>'Create account'</a> on the homepage."
+msgstr ""
+"Jos sinulla ei vielä ole %{application_name} -tiliä, voit luoda sen "
+"klikkaamalla <a href='/'>'Luo tili'</a> -painiketta etusivulla."
+
+msgid "If you have an account please sign in and start creating or editing your DMP."
+msgstr ""
+"Jos sinulla on jo tili, voit kirjautua sisään ja aloittaa uuden "
+"aineistonhallintasuunnitelman kirjoittamisen tai vanhan muokkaamisen."
+
+msgid "In order to help identify and administer your account with %{application_name}, we need to store your name and email address. We may also use it to contact you to obtain feedback on your use of the tool, or to inform you of the latest developments or releases."
+msgstr ""
+"Meidän täytyy tallentaa sinun sähköpostiosoitteesi, jotta voimme tunnistaa "
+"sinut ja hallinnoida käyttäjätiliäsi %{application_name}:ssa. Saatamme myös "
+"tarvita osoitettasi, jos kaipaamme palautetta työkalun käytöstä, tai jos "
+"haluamme kertoa sinulle uusista päivityksistä."
+
+msgid "Insert the email address of any collaborators you would like to invite to read or edit your plan. Set the level of permissions you would like to grant them via the radio buttons and click to 'Add collaborator.' Adjust permissions or remove collaborators at any time via the drop-down options."
+msgstr ""
+"Lisää tekstikenttään niiden henkilöiden sähköpostiosoitteet, joille haluat "
+"jakaa suunnitelmasi ja lähetä kutsu klikkaamalla Lähetä-painiketta. "
+"Määrittele heidän käyttöoikeutensa valintanapeilla, ja voit myös milloin "
+"tahansa muokata käyttöoikeuksia tai poistaa niitä pudotusvalikosta."
+
+msgid "Join the growing number of researchers that have adopted DMPTuuli:"
+msgstr "Liity DMPTuulin käyttäjien yhä kasvavaan joukkoon:"
+
+msgid "Language"
+msgstr "Kieli"
+
+msgid "Last name"
+msgstr "Sukunimi"
+
+msgid "Logout"
+msgstr "Kirjaudu ulos"
+
+msgid "Managing and Sharing Data: best practice for researchers"
+msgstr "Managing and Sharing Data: best practice for researchers"
+
+msgid "Message"
+msgstr "Viesti"
+
+msgid "My Dashboard"
+msgstr "Oma näkymä"
+
+msgid "NSF data management plans"
+msgstr "NSF data management plans"
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "Name of the register"
+msgstr "Rekisterin nimi"
+
+msgid "ORCID number"
+msgstr "ORCID numero"
+
+msgid "Old College, South Bridge"
+msgstr "Old College, South Bridge"
+
+msgid "On %{application_name}"
+msgstr "Tietoa %{application_name}:sta"
+
+msgid "On data management planning"
+msgstr "aineistonhallintasuunnitelmista"
+
+msgid "Organisation"
+msgstr "Organisaatio"
+
+msgid "Organisation details"
+msgstr "Organisaation tiedot"
+
+msgid "Organisational: anyone at your organisation can view your plan."
+msgstr "Organisatorinen: kuka tahansa organisaatiossasi voi nähdä suunnitelman."
+
+msgid "Organisations"
+msgstr "Organisaatiota"
+
+msgid "P.O.Box 53 (Fabianinkatu 30)"
+msgstr "PL 53 (Fabianinkatu 30)"
+
+msgid "Password"
+msgstr "Salasana"
+
+msgid "Plan Overview’ tells you what template and guidance your plan is based on and gives you an overview to the questions that you will be asked."
+msgstr ""
+"Suunnitelma -välilehdeltä näet valitsemasi ohjepohjan ja siihen liittyvät "
+"kysymykset."
+
+msgid "Plan data contact"
+msgstr "suunnitelman tekijän yhteystiedot"
+
+msgid "Plan name"
+msgstr "Suunnitelman nimi"
+
+msgid "Plans"
+msgstr "Suunnitelmaa"
+
+msgid "Please visit the <a href='/help'>'Help'</a> page for guidance."
+msgstr "Lisäohjeita löytyy <a href='/help'>'Apua'</a> –välilehdeltä."
+
+msgid "Powered by DMPonline"
+msgstr "Powered by DMPonline"
+
+msgid "Principal Investigator/Researcher"
+msgstr "Vastaava tutkija"
+
+msgid "Principal Investigator/Researcher ID"
+msgstr "Vastaavan tutkijan tunniste"
+
+msgid "Privacy policy"
+msgstr "Yksityisyydensuoja"
+
+msgid "Private: restricted to you and your collaborators."
+msgstr "Yksityinen: vain sinä ja kutsumasi henkilöt voivat nähdä suunnitelmasi."
+
+msgid "Public DMP templates"
+msgstr "Julkisia mallipohjia"
+
+msgid "Public DMPs"
+msgstr "Julkiset suunnitelmat"
+
+msgid "Public: anyone can view your plan in the Public DMPs list."
+msgstr ""
+"Julkinen: kuka tahansa voi nähdä suunnitelmasi Julkiset suunnitelmat "
+"-listalla."
+
+msgid "Purpose for processing the personal data"
+msgstr "Henkilötietojen käsittelyn peruste"
+
+msgid "RIOjournal Data Management Plan collection"
+msgstr "RIOjournal Data Management Plan collection"
+
+msgid "Reference"
+msgstr "Apulähteet"
+
+msgid "Regular sources of information"
+msgstr "Säännönmukaiset tietolähteet"
+
+msgid "Remember email"
+msgstr "Muista minut"
+
+msgid "Request feedback"
+msgstr "Palautteen pyytäminen"
+
+msgid "Research Data MANTRA"
+msgstr "Research Data MANTRA"
+
+msgid "Right of access by the data subject"
+msgstr "Tarkastusoikeus"
+
+msgid "Right to lodge a complaint with a supervisory authority"
+msgstr "Valitusoikeus"
+
+msgid "Screencast on How to Use DMPTuuli"
+msgstr "DMPTuulin ohjevideo"
+
+msgid "Security check"
+msgstr "Varmistus"
+
+msgid "Share plans"
+msgstr "Suunnitelman jakaminen"
+
+msgid "Sign in"
+msgstr "Kirjaudu sisään"
+
+msgid "Sign in with institutional credentials (HAKA only)"
+msgstr "Tai kirjaudu oman organisaatiosi tunnuksilla (HAKA)"
+
+msgid "Subject"
+msgstr "Aihe"
+
+msgid "Submit"
+msgstr "Lähetä"
+
+msgid "Technical plan submitted to the AHRC"
+msgstr "Technical plan submitted to the AHRC"
+
+msgid "Tel: +358 (0) 2941 911"
+msgstr "Puh: +358 (0) 2941 911"
+
+msgid "Tel: +44 (0) 131 651 1239"
+msgstr "Puh: +44 (0) 131 651 1239"
+
+msgid "Templates"
+msgstr "Mallipohjat"
+
+msgid "Templates for data management plans are based on the specific requirements listed in funder policy documents. DMPTuuli maintains these templates, however, researchers should always consult the funder guidelines directly for authoritative information. "
+msgstr ""
+"Aineistonhallintasuunnitelmien mallipohjat pohjautuvat rahoittajien "
+"julkisiin asiakirjoihin. DMPTuuli säilyttää näitä mallipohjia mutta "
+"tutkijoiden tulisi aina lukea rahoittajien ohjeet, joista löytyy virallinen "
+"tieto."
+
+msgid "The data will be generated by the users."
+msgstr "Tietokannan käyttäjät tuottavat rekisterin sisältämän tiedon."
+
+msgid "The following tab(s) present the questions to answer. There may be more than one tab if your funder or university asks different sets of questions at different stages e.g. at grant application and post-award."
+msgstr ""
+"Seuraava välilehti sisältää kysymyksiä, joihin "
+"aineistonhallintasuunnitelmassa halutaan vastaus. Välilehtiä voi olla "
+"useampiakin, jos rahoittaja tai organisaatio edellyttää eri tietoja "
+"rahoitushakemuksen eri vaiheissa."
+
+msgid "The information user enter into this system can be seen by the User, people User have chosen to share access with, and - solely for the purposes of maintaining the service - system administrators at the University of Edinburgh and Helsinki University Library. Admistrators compile anonymised, automated and aggregated information from plans, but they will not directly access, make use of, or share content created by User with anyone else without users' permission."
+msgstr ""
+"Käyttäjän työkaluun syöttämän tiedon voi nähdä käyttäjä itse ja ne henkilöt, "
+"joille hän on myöntänyt luvan nähdä tietonsa, sekä Edinburghin yliopiston ja "
+"Helsingin yliopiston kirjaston tietokannan ylläpitäjät, jotka vastaavat "
+"palvelun ylläpidosta. Ylläpitäjät kokoavat anonymisoitua, automatisoitua ja "
+"koottua tietoa suunnitelmista mutta he eivät hae, käytä tai jaa käyttäjän "
+"luomia sisältöjä ilman käyttäjän antamaa lupaa."
+
+msgid "The passwords are stored in encrypted form and cannot be retrieved. If forgotten it has to be reset."
+msgstr ""
+"Salasanat tallennetaan koodatussa muodossa ja niitä ei pystytä palauttamaan. "
+"Jos salasana unohtuu, se on luotava uudelleen."
+
+msgid "The personal data is managed by the user (data subject). The system administrator will manage personal data of the user only based on request from the user."
+msgstr ""
+"Käyttäjät hallinnoivat itse henkilötietojaan. Tietokannan ylläpitäjät "
+"hallinnoivat henkilötietoja ainoastaan käyttäjien pyynnöstä."
+
+msgid "The personal data is managed by the user (data subject). Therefore they have full access to their own personal data at any point of time. We will hold the personal data you provided us for as long as you continue using the %{application_name} service. Your personal data can be removed from this service upon request to the %{application_name} team within a period of 30 days."
+msgstr ""
+"Käyttäjät hallinnoivat itse henkilötietojaan. Käyttäjillä on täysi pääsy "
+"omiin henkilötietoihinsa koska tahansa. Säilytämme tietojasi niin kauan kuin "
+"käytät %{application_name} -palvelua. Henkilötietosi voidaan poistaa "
+"palvelusta pyynnöstäsi 30 päivän kuluessa."
+
+msgid "The principles of data protection"
+msgstr "Rekisterin suojausperiaatteet"
+
+msgid "The register is developed to manage information about users and data management plans created by users. The information about the users is needed to manage user accounts and give access to the %{application_name} tool. The University of Edinburgh holds plans created by users on user's behalf, but they are user's property and responsibility."
+msgstr ""
+"Rekisteriä ylläpidetään käyttäjien ja heidän luomiensa suunnitelmien "
+"hallinnoimiseksi. Käyttäjätietoja käytetään käyttäjätilien hallinnoimiseen "
+"ja %{application_name} -työkaluun pääsyn mahdollistamiseksi. Edinburghin "
+"yliopisto säilyttää käyttäjien suunnitelmat käyttäjien puolesta mutta "
+"suunnitelmat ovat käyttäjien itsensä omaisuutta ja vastuulla."
+
+msgid "The tabbed interface allows you to navigate through different functions when editing your plan."
+msgstr "Työkalussa on useita välilehtiä, joissa on eri toimintoja."
+
+msgid "The ‘Share’ tab is also where you can set your plan visibility."
+msgstr "Jaa -välilehdellä voit myös määritellä suunnitelmasi näkyvyyden."
+
+msgid "Themes"
+msgstr "Teemat"
+
+msgid "There are a number of templates within the tool that represent the requirements of different funders and institutions. Users are asked three questions at the outset so we can determine the appropriate template to display. Guidance is provided to help you interpret and answer the questions. This guidance is provided by researcher funders, universities and disciplines."
+msgstr ""
+"Työkalussa on rahoittajien tai muiden organisaatioiden vaatimusten mukaisia "
+"suunnitelmapohjia. Jotta käyttäjä saisi sopivan mallipohjan "
+"suunnitelmalleen, häneltä kysytään aluksi kolme kysymystä. DMPTuulissa oleva "
+"ohjeistus tulee kansalliselta DMPTuulin ohjetyöryhmältä, "
+"tutkimusrahoittajilta, tutkimusorganisaatioilta sekä eri tieteenaloilta."
+
+msgid "There are currently no public Templates."
+msgstr "Tällä hetkellä ei ole yhtään julkista aineistonhallintasuunnitelmaa."
+
+msgid "There may also be an option to request feedback on your plan. This is available when research support staff at your organisation have enabled this service. Click to ‘Request feedback’ and your local administrators will be alerted to your request. Their comments will be visible in the ‘Comments’ field adjacent to each question. You will be notified by email when an administrator provides feedback."
+msgstr ""
+"Myös palautteen pyytäminen suunnitelmasta on mahdollista, jos tutkimuksen "
+"tukipalvelut ovat ottaneet tämän palvelun käyttöön. Klikkaa Pyydä palautetta "
+"-painiketta ja organisaatiosi tukihenkilöt saavat ilmoituksen pyynnöstäsi "
+"sähköpostiinsa. Heidän kommenttinsa näkyvät kommenttikentässä eri kysymysten "
+"kohdalla. Saat sähköposti-ilmoituksen, kun tukihenkilö on antanut palautetta."
+
+msgid "To create a plan, click the 'Create plan' button from the 'My Dashboard' page or the top menu. Select options from the menus and tickboxes to determine what questions and guidance you should be presented with. Confirm your selection by clicking 'Create plan.'"
+msgstr ""
+"Kun aloitat uuden suunnitelman luomisen, klikkaa Luo suunnitelma –painiketta "
+"ohjausnäkymä –välilehdellä tai ylävalikossa. Valitse pudotusvalikosta "
+"rahoittaja ja organisaatio, jonka kysymyksiä ja ohjeita haluat noudattaa "
+"suunnitelman kirjoittamisessa. Vahvista valinnat klikkaamalla Luo "
+"suunnitelma –painiketta."
+
+msgid "Tuuli Office, "
+msgstr "Tuulitoimisto,"
+
+msgid "Two social science DMPs"
+msgstr "Kaksi yhteiskuntatieteiden aineistonhallintasuunnitelmaa"
+
+msgid "UK funder requirements for Data Management Plans"
+msgstr "UK funder requirements for Data Management Plans"
+
+msgid "US funder requirements for Data Management Plans"
+msgstr ""
+"Yhdysvaltalaisten rahoittajien vaatimuksia aineistonhallintasuunnitelmille."
+
+msgid "University of Edinburgh"
+msgstr "Edinburghin yliopisto"
+
+msgid "Usage"
+msgstr "Käyttö"
+
+msgid "Useful guides on Research Data Management in general"
+msgstr "Hyödyllisiä oppaita aineistonhallinnasta"
+
+msgid "Useful resources on Data Management Planning"
+msgstr "Hyödyllisiä lähteitä"
+
+msgid "User gives by creating a DMP information about:"
+msgstr "Aineistonhallintasuunnitelmasta tulee seuraavat tiedot:"
+
+msgid "User gives during registration information about:"
+msgstr "Rekisteröityessään käyttäjä antaa itsestään seuraavat tiedot:"
+
+msgid "Users"
+msgstr "Käyttäjät"
+
+msgid "We are constantly improving the user interface and functionality of %{application_name}. If you would like to contribute with feedback and suggestions, please contact us by emailing <a href='mailto:%{application_email}?Subject=%{application_name} inquiry' target='_top'>%{application_email}</a>."
+msgstr ""
+"Kehitämme jatkuvasti %{application_name}n käyttöliittymää ja "
+"käytettävyyttä.  Meille voi antaa palautetta ja lähettää kehitysehdotuksia "
+"osoitteeseen:<a href='mailto:%{application_email}?Subject=%{application_name}"
+" inquiry' target='_top'>%{application_email}</a>."
+
+msgid "We will not sell, rent, or trade any personal information you provide to us."
+msgstr ""
+"Emme koskaan myy, vuokraa tai muuten kauppaa mitään meille luovuttamiasi "
+"henkilötietojasi."
+
+msgid "Welcome"
+msgstr "Tervetuloa"
+
+msgid "When viewing any of the question tabs, you will see the different sections of your plan displayed. Click into these in turn to answer the questions. You can format your responses using the text editing buttons."
+msgstr ""
+"Klikkaamalla otsikoita saat näkyviin suunnitelman eri osiot. Pääset "
+"kirjoittamaan vastauksesi klikkaamalla osion otsikkoa. Vastauksia voi "
+"muokata tekstinmuokkaustyökaluilla."
+
+msgid "When you log in to DMPTuuli you will be directed to the 'My Dashboard' page. From here you can edit, share, download, copy or remove any of your plans. You will also see plans that have been shared with you by others."
+msgstr ""
+"Kun olet kirjautunut DMPTuuliin, olet ensin Oma näkymä -sivulla, jossa voit "
+"muokata, jakaa, viedä, kopioida ja poistaa omia suunnitelmiasi. Näet myös "
+"muiden sinulle jakamat suunnitelmat."
+
+msgid "Write your plan"
+msgstr "Kirjoita suunnitelma"
+
+msgid "You can download funder templates without logging in, but from DMPTuuli you will find tailored guidance from many research organisations, including universities and service providers like the Finnish Social Science Data Archive. Why not sign up for an account and try it out?"
+msgstr ""
+"Rahoittajien mallipohjien tulostaminen ei vaadi kirjautumista DMPTuuliin. "
+"DMPTuuli sisältää monien tutkimusorganisaatioiden ohjeita. Luo itsellesi "
+"tili ja pääset kirjoittamaan aineistonhallintasuunnitelman DMPTuulin avulla. "
+
+msgid "[PDF, 12 pages]"
+msgstr "[PDF, 12 sivua]"
+
+msgid "[PDF, 16 pages]"
+msgstr "[PDF, 16 sivua]"
+
+msgid "[PDF, 3 pages]"
+msgstr "[PDF, 3 sivua]"
+
+msgid "[PDF, 36 pages]"
+msgstr "[PDF, 36 sivua]"
+
+msgid "[PDF, 7 pages]"
+msgstr "[PDF, 7 sivua]"
+
+msgid "[PDF, 8 pages]"
+msgstr "[PDF, 8 sivua]"
+
+msgid "[online resource]"
+msgstr "[Verkkoaineisto]"
+
+msgid "[webpage]"
+msgstr "[verkkosivu]"
+
+msgid "_( 'Organisations"
+msgstr "_( 'Organisaatiot"
+
+msgid "_( 'Plans"
+msgstr "_( 'Suunnitelmia"
+
+msgid "_( 'Users"
+msgstr "_( 'Käyttäjät"
+
+msgid "_( \"We will not sell, rent, or trade any personal information you provide to us."
+msgstr ""
+"Emme koskaan myy, vuokraa tai muuten kauppaa mitään meille luovuttamiasi "
+"henkilötietojasi."
+
+msgid "logo"
+msgstr "logo"
+
+msgid "or"
+msgstr "tai"
+
+#~ msgid ""
+#~ "<p>When you log in to DMPTuuli you will be directed to the 'My Dashboard' "
+#~ "page. From here you can edit, share, download, copy or remove any of your "
+#~ "plans. You will also see plans that have been shared with you by others.</"
+#~ "p> \n"
+#~ "\n"
+#~ "          <h3>Create a plan</h3> \n"
+#~ "\n"
+#~ "          <p>To create a plan, click the 'Create plan' button from the "
+#~ "'My Dashboard' page or the top menu. Select options from the menus and "
+#~ "tickboxes to determine what questions and guidance you should be "
+#~ "presented with. Confirm your selection by clicking 'Create plan.'</p> \n"
+#~ "\n"
+#~ "          <h3>Write your plan</h3> \n"
+#~ "\n"
+#~ "          <p>The tabbed interface allows you to navigate through "
+#~ "different functions when editing your plan.</p> \n"
+#~ "          <ul> \n"
+#~ "            <li>'Project Details' includes basic administrative details.</"
+#~ "li>\n"
+#~ "            <li>Plan Overview’ tells you what template and guidance your "
+#~ "plan is based on and gives you an overview to the questions that you will "
+#~ "be asked.</li> \n"
+#~ "            <li>The following tab(s) present the questions to answer. "
+#~ "There may be more than one tab if your funder or university asks "
+#~ "different sets of questions at different stages e.g. at grant application "
+#~ "and post-award.</li> \n"
+#~ "            <li>'Share' allows you to invite others to read or contribute "
+#~ "to your plan.</li> \n"
+#~ "            <li>'Download' allows you to download your plan in various "
+#~ "formats. This may be useful if you need to submit your plan as part of a "
+#~ "grant application.</li>\n"
+#~ "          </ul> \n"
+#~ "\n"
+#~ "          <p>When viewing any of the question tabs, you will see the "
+#~ "different sections of your plan displayed. Click into these in turn to "
+#~ "answer the questions. You can format your responses using the text "
+#~ "editing buttons.</p> \n"
+#~ "\n"
+#~ "          <p>Guidance is displayed in the right-hand panel. If you need "
+#~ "more guidance or find there is too much, you can make adjustments on the "
+#~ "‘Project Details’ tab.</p> \n"
+#~ "\n"
+#~ "          <h3>Share plans</h3> \n"
+#~ "\n"
+#~ "          <p>Insert the email address of any collaborators you would like "
+#~ "to invite to read or edit your plan. Set the level of permissions you "
+#~ "would like to grant them via the radio buttons and click to 'Add "
+#~ "collaborator.' Adjust permissions or remove collaborators at any time via "
+#~ "the drop-down options. </p> \n"
+#~ "\n"
+#~ "          <p>The ‘Share’ tab is also where you can set your plan "
+#~ "visibility.</p>\n"
+#~ "          <ul> \n"
+#~ "            <li>Private: restricted to you and your collaborators.</li>\n"
+#~ "            <li>Organisational: anyone at your organisation can view your "
+#~ "plan.</li> \n"
+#~ "            <li>Public: anyone can view your plan in the Public DMPs list."
+#~ "</li> \n"
+#~ "          </ul> \n"
+#~ "\n"
+#~ "          <p>By default all new and test plans will be set to ‘Private’ "
+#~ "visibility. ‘Public’ and ‘Organisational’ visibility are intended for "
+#~ "finished plans. You must answer at least 50&#37; of the questions to "
+#~ "enable these options.</p>\n"
+#~ " \n"
+#~ "          <h3>Request feedback</h3>\n"
+#~ "          <p>There may also be an option to request feedback on your "
+#~ "plan. This is available when research support staff at your organisation "
+#~ "have enabled this service. Click to ‘Request feedback’ and your local "
+#~ "administrators will be alerted to your request. Their comments will be "
+#~ "visible in the ‘Comments’ field adjacent to each question. You will be "
+#~ "notified by email when an administrator provides feedback.</p> \n"
+#~ "\n"
+#~ "\n"
+#~ "          <h3>Download plans</h3>\n"
+#~ "          <p>From here you can download your plan in various formats. "
+#~ "This may be useful if you need to submit your plan as part of a grant "
+#~ "application. Choose what format you would like to view/download your plan "
+#~ "in and click to download. You can also adjust the formatting (font type, "
+#~ "size and margins) for PDF files, which may be helpful if working to page "
+#~ "limits.</p>"
+#~ msgstr ""
+#~ "<p>Kirjauduttuasi DMPTuuliin ohjaudut Ohjausnäkymä -sivulle. Täältä käsin "
+#~ "voit muokata, jakaa, viedä, kopioida ja poistaa omia suunnitelmiasi. "
+#~ "Täältä näet myös muiden sinulle jakamat suunnitelmat.</p> \n"
+#~ "\n"
+#~ "          <h3>Luo suunnitelma</h3> \n"
+#~ "\n"
+#~ "          <p>Kun aloitat uuden suunnitelman luomisen, klikkaa Luo "
+#~ "suunnitelma –painiketta ohjausnäkymä –välilehdellä tai ylävalikossa. "
+#~ "Valitse pudotusvalikosta rahoittaja ja organisaatio, jonka kysymyksiä ja "
+#~ "ohjeita haluat noudattaa suunnitelman kirjoittamisessa. Vahvista valinnat "
+#~ "klikkaamalla Luo suunnitelma –painiketta.</p> \n"
+#~ "\n"
+#~ "          <h3>Kirjoita suunnitelma</h3> \n"
+#~ "\n"
+#~ "          <p>Työkalussa on useita välilehtiä, joiden välillä voit liikkua."
+#~ "</p> \n"
+#~ "          <ul> \n"
+#~ "            <li>Tutkimusprojekti -välilehdellä näet hallinnollisia "
+#~ "yleistietoja suunnitelmastasi.</li>\n"
+#~ "            <li>Suunnitelma -välilehdeltä näet valitsemasi ohjepohjan ja "
+#~ "siihen liittyvät kysymykset.</li> \n"
+#~ "            <li>Seuraava välilehti sisältää kysymyksiä, joihin "
+#~ "aineistonhallintasuunnitelmassa halutaan vastaus. Välilehtiä voi olla "
+#~ "useampiakin, jos rahoittaja tai organisaatio edellyttää eri tietoja "
+#~ "rahoitushakemuksen eri vaiheissa.</li> \n"
+#~ "            <li>Jaa-välilehdellä voit jakaa muille luku- tai "
+#~ "muokkausoikeuksia suunnitelmaasi.</li> \n"
+#~ "            <li>Lataus-välilehdellä voit ladata suunnitelmasi monissa eri "
+#~ "tiedostomuodoissa. Tästä toiminnosta on hyötyä, jos rahoittajasi vaatii "
+#~ "suunnitelman liittämistä rahoitushakemukseen.</li>\n"
+#~ "          </ul> \n"
+#~ "\n"
+#~ "          <p>Klikkaamalla otsikoita saat näkyviin suunnitelman eri osiot. "
+#~ "Pääset kirjoittamaan vastauksesi klikkaamalla osion otsikkoa. Vastauksia "
+#~ "voi muokata tekstinmuokkaustyökaluilla.</p> \n"
+#~ "\n"
+#~ "          <p>Suunnitelman ohjeistus näkyy oikeassa reunassa klikkaamalla "
+#~ "+-merkkiä. Ohjeiden näkymistä voi muokata Tutkimusprojekti-välilehdellä.</"
+#~ "p> \n"
+#~ "\n"
+#~ "          <h3>Suunnitelman jakaminen</h3> \n"
+#~ "\n"
+#~ "          <p>Lisää tekstikenttään niiden henkilöiden sähköpostiosoitteet, "
+#~ "joille haluat jakaa suunnitelmasi. Käyttöoikeuden voit määritellä "
+#~ "valintanapeilla ja voit lähettää kutsun yhteistyökumppanille klikkaamalla "
+#~ "Lähetä-painiketta. Voit muokata käyttöoikeuksia tai poistaa niitä koska "
+#~ "tahansa pudotusvalikosta. </p> \n"
+#~ "\n"
+#~ "          <p>Jaa-välilehdellä voit myös määritellä suunnitelmasi "
+#~ "näkyvyyden.</p>\n"
+#~ "          <ul> \n"
+#~ "            <li>Yksityinen: vain sinä ja kutsumasi ihmiset voivat nähdä "
+#~ "suunnitelmasi.</li>\n"
+#~ "            <li>Organisatorinen: kuka tahansa organisaatiossasi voi nähdä "
+#~ "suunnitelman.</li> \n"
+#~ "            <li>Julkinen: kuka tahansa voi nähdä suunnitelmasi Julkiset "
+#~ "suunnitelmat -listalla.</li> \n"
+#~ "          </ul> \n"
+#~ "\n"
+#~ "          <p>Oletusasetuksena kaikilla uusilla ja testisuunnitelmilla on "
+#~ "yksityinen näkyvyys. Julkinen ja organisatorinen näkyvyysasetus on "
+#~ "tarkoitettu valmiille suunnitelmille. Suunnitelmassa täytyy olla "
+#~ "vastattuna ainakin 50&#37; kysymyksistä, jotta voisi valita julkinen tai "
+#~ "organisatorinen -vaihtoehdot.</p>\n"
+#~ "\n"
+#~ "          <h3>Palautteen pyytäminen</h3>\n"
+#~ "          <p>Myös palautteen pyytäminen suunnitelmasta on mahdollista, "
+#~ "jos tutkimuksen tukipalvelut ovat ottaneet tämän palvelun käyttöön. "
+#~ "Klikkaa Pyydä palautetta -painiketta ja organisaatiosi tukihenkilöt "
+#~ "saavat ilmoituksen pyynnöstäsi sähköpostiinsa. Heidän kommenttinsa "
+#~ "näkyvät kommenttikentässä eri kysymysten kohdalla. Saat sähköposti-"
+#~ "ilmoituksen, kun tukihenkilö on antanut palautetta.</p> \n"
+#~ "\n"
+#~ "\n"
+#~ "          <h3>Suunnitelman lataaminen</h3>\n"
+#~ "          <p>Tällä välilehdellä voit tallentaa suunnitelman eri "
+#~ "tiedostomuodoissa. Tästä toiminnosta on hyötyä, jos rahoittajasi vaatii "
+#~ "suunnitelman liittämistä rahoitushakemukseen. Valitse tiedostomuoto, "
+#~ "jolla haluat avata suunnitelman ja klikkaa Lataa. Voit myös muotoilla PDF-"
+#~ "tiedostoa (fontti, kirjasinkoko ja marginaalit) ja tästä voi olla apua, "
+#~ "jos sivumäärä on rajattu. </p>\n"
