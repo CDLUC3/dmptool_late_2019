@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: app 1.0\n"
 "Report-Msgid-Bugs-To: contact@translation.io\n"
-"POT-Creation-Date: 2018-10-31 14:48+0000\n"
-"PO-Revision-Date: 2018-10-31 15:48+0100\n"
+"POT-Creation-Date: 2018-11-01 13:21+0000\n"
+"PO-Revision-Date: 2018-11-01 14:21+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Finnish\n"
 "Language: fi\n"
@@ -101,25 +101,13 @@ msgstr "Liity kasvaviin tutkijoihin, jotka ovat ottaneet DMPTuulit käyttöön:"
 msgid "%{num_users} Users"
 msgstr "%{num_users} Käyttäjät"
 
-#: ../../app/views/branded/home/_welcome.html.erb:12
-msgid "num_usersUsers"
-msgstr "num_usersUsers"
-
 #: ../../app/views/branded/home/_welcome.html.erb:16
 msgid "%{num_plans} Plans"
 msgstr "%{num_plans} suunnitelmat"
 
-#: ../../app/views/branded/home/_welcome.html.erb:16
-msgid "num_plansPlans"
-msgstr "num_plansPlans"
-
 #: ../../app/views/branded/home/_welcome.html.erb:20
 msgid "%{num_orgs} Organisations"
 msgstr "%{num_orgs} -organisaatiot"
-
-#: ../../app/views/branded/home/_welcome.html.erb:20
-msgid "num_orgsOrganisations"
-msgstr "num_orgsOrganisations"
 
 #: ../../app/views/branded/home/_welcome.html.erb:24
 msgid ""
