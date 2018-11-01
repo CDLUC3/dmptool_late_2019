@@ -201,10 +201,6 @@ es:
       destroy:
         notice: "%{resource_name} fue destruido con éxito."
         alert: "%{resource_name} no podía ser destruida."
-  multibyte:
-  - "\U0001F600"
-  - ðŸ~¡
-  - â ¤
   devise:
     confirmations:
       confirmed: Su cuenta ha sido confirmada.
@@ -335,3 +331,7 @@ es:
       previous: "&lsaquo; Anterior"
       next: Siguiente &rsaquo;
       truncate: "&hellip;"
+  multibyte:
+  - "\U0001F600"
+  - ðŸ~¡
+  - â ¤

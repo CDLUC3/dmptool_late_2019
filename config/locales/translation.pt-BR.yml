@@ -203,10 +203,6 @@ pt-BR:
       destroy:
         notice: "%{resource_name} foi destruído com sucesso."
         alert: "%{resource_name} não pôde ser destruído."
-  multibyte:
-  - "\U0001F600"
-  - ðŸ˜¡
-  - "¤ ¤"
   devise:
     confirmations:
       confirmed: Sua conta foi confirmada com sucesso. Por favor, inscreva-se.
@@ -339,3 +335,7 @@ pt-BR:
       previous: "&lsaquo; Anterior"
       next: Próximo &rsaquo;
       truncate: "&hellip;"
+  multibyte:
+  - "\U0001F600"
+  - ðŸ˜¡
+  - "¤ ¤"

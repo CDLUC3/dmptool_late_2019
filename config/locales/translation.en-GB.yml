@@ -194,10 +194,6 @@ en-GB:
       destroy:
         notice: 
         alert: 
-  multibyte:
-  - 
-  - 
-  - 
   devise:
     confirmations:
       confirmed: Your account was successfully confirmed. Please sign in.
@@ -325,3 +321,7 @@ en-GB:
       previous: "&lsaquo; Prev"
       next: Next &rsaquo;
       truncate: "&hellip;"
+  multibyte:
+  - 
+  - 
+  - 

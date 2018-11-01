@@ -202,10 +202,6 @@ de:
       destroy:
         notice: "%{resource_name} wurde erfolgreich zerstört."
         alert: "%{resource_name} konnte nicht zerstört werden."
-  multibyte:
-  - "\U0001F600"
-  - ŸŸ~¡
-  - "¤ ¤"
   devise:
     confirmations:
       confirmed: Vielen Dank für Ihre Registrierung. Bitte melden Sie sich an.
@@ -342,3 +338,7 @@ de:
       previous: "&lsaquo; Zurück"
       next: Weiter &rsaquo;
       truncate: "&hellip;"
+  multibyte:
+  - "\U0001F600"
+  - ŸŸ~¡
+  - "¤ ¤"
