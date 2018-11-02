@@ -43,12 +43,7 @@ class SessionsController < Devise::SessionsController
         session[:locale] = existing_user.get_locale
       end
       # Method defined at controllers/application_controller.rb
-      set_gettext_locale
-
-
-
-        #Method defined at controllers/application_controller.rb
-
+      set_locale
     end
     super
   end
@@ -57,7 +52,7 @@ class SessionsController < Devise::SessionsController
     super
     session[:locale] = nil
     # Method defined at controllers/application_controller.rb
-    set_gettext_locale
+    set_locale
   end
 
 end
