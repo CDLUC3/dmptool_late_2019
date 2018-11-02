@@ -2,10 +2,17 @@
 # IF YOU UPDATE IT, YOUR CHANGES WILL BE LOST AT THE NEXT SYNC.
 #
 # To update this file, use this translation interface:
-# https://translation.io/xsrust/roadmap/es
+# https://translation.io/briri/dmptool/es
 #
 ---
 es:
+  views:
+    pagination:
+      truncate: "&hellip;"
+      first: "&laquo; Primera"
+      last: Última &raquo;
+      previous: "&lsaquo; Anterior"
+      next: Siguiente &rsaquo;
   date:
     day_names:
     - domingo
@@ -103,15 +110,15 @@ es:
       odd: debe ser impar
       even: debe ser par
       taken: ya está en uso
-      already_confirmed: ya ha sido confirmado, por favor intente iniciar sesión.
+      already_confirmed: fue ya confirmada.
       confirmation_period_expired: necesita ser confirmado en %{period}, por favor
         vuelva a solicitarla.
       expired: ha expirado, por favor vuelva a solicitarla.
-      not_found: no se ha encontró.
-      not_locked: no estaba bloqueado.
+      not_found: no encontrado
+      not_locked: no estaba bloqueada
       not_saved:
-        one: '1 error impidió que este %{resource} fuese guardado:'
-        other: "%{count} errores impidieron que este %{resource} fuese guardado:"
+        one: 1 error evitó que este %{resource} fuese grabado.
+        other: "%{count} errores evitaron que este %{resource} fuese grabado:"
     unavailable_session: |-
       Sesión %{id} ya no se encuentra disponible en la memoria.
 
@@ -201,32 +208,35 @@ es:
       destroy:
         notice: "%{resource_name} fue destruido con éxito."
         alert: "%{resource_name} no podía ser destruida."
+  multibyte:
+  - 
+  - ðŸ~¡
+  - â ¤
   devise:
     confirmations:
-      confirmed: Su cuenta ha sido confirmada.
-      send_instructions: Recibira un correo electrónico en unos minutos con instrucciones
-        sobre cómo restablecer su contraseña.
+      confirmed: Tu cuenta fue confirmada satisfactoriamente. Ya estás registrado.
+      send_instructions: Recibirás un email con instrucciones sobre como confirmar
+        tu cuenta en breves minutos.
       send_paranoid_instructions: Si su correo electrónico existe en nuestra base
         de datos recibirás un correo electrónico en unos minutos con instrucciones
         sobre cómo reiniciar su contraseña.
     failure:
       already_authenticated: Ya ha sido identificado.
-      inactive: Su cuenta ya no está activa. Por favor contáctenos para reactivar
-        su cuenta.
-      invalid: Correo o contraseña inválidos.
-      locked: Su cuenta ha sido bloqueada.
+      inactive: Tu cuenta no fue activada todavía.
+      invalid: Email o password inválido.
+      locked: Tu cuenta está bloqueada
       last_attempt: Tiene un intento más antes de que su cuenta está bloqueada.
-      not_found_in_database: Correo o contraseña inválidos.
-      timeout: su sesión ha expirado, por favor identifíquese de nuevo para continuar.
-      unauthenticated: Necesita iniciar sesión o registrarse para continuar.
-      unconfirmed: Debe confirmar su cuenta para continuar.
+      not_found_in_database: Email o password inválido.
+      timeout: Tu sesión expiró, por favor regístrate otra vez para continuar.
+      unauthenticated: Necesitas registrarte o darte de alta antes de continuar
+      unconfirmed: Tienes que confirmar tu cuenta antes de continuar.
       invited: Usted tiene una invitación pendiente, lo aceptan para terminar de crear
         su cuenta.
     mailer:
       confirmation_instructions:
         subject: Instrucciones de confirmación
       reset_password_instructions:
-        subject: Instrucciones para restablecer su contraseña
+        subject: Instrucciones para reinicializar el password
       unlock_instructions:
         subject: Instrucciones de desbloqueo
       email_changed:
@@ -240,9 +250,7 @@ es:
           través del siguiente enlace.
         accept: Aceptar la invitacion
         accept_until: Esta invitación se entregará en %{due_date}.
-        ignore: Si no desea aceptar la invitación, ignore este correo electrónico.
-          <br /> Su cuenta no se creará hasta que acceda al enlace anterior y establezca
-          su contraseña.
+        ignore: 
     omniauth_callbacks:
       failure: No se le ha podido autorizar de %{kind} debido a "%{reason}".
       success: Identificado correctamente de %{kind}.
@@ -275,11 +283,11 @@ es:
       signed_out: Ha cerrado la sesión satisfactoriamente.
       already_signed_out: Ha cerrado la sesión satisfactoriamente.
     unlocks:
-      send_instructions: Recibira un correo electrónico en unos minutos con instrucciones
-        sobre cómo desbloquear su cuenta.
+      send_instructions: Recibirás un email con instrucciones sobre como desbloquear
+        la cuenta en breves minutos.
       send_paranoid_instructions: Si su cuenta existe, recibira un correo electrónico
         en unos minutos con instrucciones sobre cómo desbloquear su cuenta.
-      unlocked: Su cuenta ha sido desbloqueada. Por favor inicie sesión para continuar.
+      unlocked: Tu cuenta fue desbloqueada satisfactoriamente. Ya estás registrado.
     invitations:
       send_instructions: Un correo de invitación ha sido enviado a %{email}.
       invitation_token_invalid: "¡El codigo de invitación no es valido!"
@@ -324,14 +332,3 @@ es:
     notices:
       error: Debes de ingresar ambos campos.
       success: El correo electrónico de contacto fue enviado con éxito.
-  views:
-    pagination:
-      first: "&laquo; Primera"
-      last: Última &raquo;
-      previous: "&lsaquo; Anterior"
-      next: Siguiente &rsaquo;
-      truncate: "&hellip;"
-  multibyte:
-  - "\U0001F600"
-  - ðŸ~¡
-  - â ¤

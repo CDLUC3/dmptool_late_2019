@@ -2,10 +2,17 @@
 # IF YOU UPDATE IT, YOUR CHANGES WILL BE LOST AT THE NEXT SYNC.
 #
 # To update this file, use this translation interface:
-# https://translation.io/xsrust/roadmap/en-US
+# https://translation.io/briri/dmptool/en-US
 #
 ---
 en-US:
+  views:
+    pagination:
+      truncate: "&hellip;"
+      first: "&laquo; First"
+      last: Last &raquo;
+      previous: "&lsaquo; Prev"
+      next: Next &rsaquo;
   date:
     day_names:
     - Sunday
@@ -194,6 +201,10 @@ en-US:
       destroy:
         notice: 
         alert: 
+  multibyte:
+  - 
+  - 
+  - 
   devise:
     confirmations:
       confirmed: Your account was successfully confirmed. Please sign in.
@@ -314,14 +325,3 @@ en-US:
     notices:
       error: You must enter both fields.
       success: Contact email was successfully sent.
-  views:
-    pagination:
-      first: "&laquo; First"
-      last: Last &raquo;
-      previous: "&lsaquo; Prev"
-      next: Next &rsaquo;
-      truncate: "&hellip;"
-  multibyte:
-  - 
-  - 
-  - 

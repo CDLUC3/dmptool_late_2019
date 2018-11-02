@@ -1,4 +1,4 @@
-# Japanese translations for dmptool package.
+# Spanish translations for dmptool package.
 # Copyright (C) 2018 dmptool
 # This file is distributed under the same license as the dmptool package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
@@ -10,18 +10,18 @@ msgstr ""
 "POT-Creation-Date: 2018-11-02 09:27-0700\n"
 "PO-Revision-Date: 2018-11-02 17:27+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: Japanese\n"
-"Language: ja\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "\n"
 
 #: ../../app/views/branded/contact_us/contacts/new.html.erb:1
 #: ../../app/views/branded/contact_us/contacts/new.html.erb:4
 msgid "Contact Us"
-msgstr "お問い合わせ"
+msgstr "Contactanos"
 
 #: ../../app/views/branded/contact_us/contacts/new.html.erb:6
 msgid ""
@@ -30,26 +30,28 @@ msgid ""
 "te <em class=\"sr-only\">(new window)</em></a>. If you would like to contact us "
 "about %{application_name}, please fill out the form below."
 msgstr ""
-"%{application_name}は%{organisation_name}によって提供されます。 <br />弊社の<a href=\"%{organi"
-"sation_url}\" target=\"_blank\">ウェブサイト<em class=\"sr-only\">（新しいウィンドウ）で</em></a>詳しく"
-"知ることができます。 %{application_name}についてのお問い合わせは、下記のフォームにご記入ください。"
+"%{application_name} es proporcionada por %{organisation_name}. <br /> Puede en"
+"contrar más información sobre nosotros en nuestro <a href=\"%{organisation_url}"
+"\" target=\"_blank\">sitio web <em class=\"sr-only\">(nueva ventana)</em></a> . Si "
+"desea comunicarse con nosotros sobre %{application_name}, complete el formular"
+"io a continuación."
 
 #: ../../app/views/branded/devise/passwords/edit.html.erb:1
 #: ../../app/views/branded/devise/passwords/edit.html.erb:4
 msgid "Change your password"
-msgstr "パスワードを変更してください"
+msgstr "Cambiar la contraseña"
 
 #: ../../app/views/branded/devise/passwords/edit.html.erb:22
 msgid "New password"
-msgstr "新しいパスワード"
+msgstr "Nueva clave"
 
 #: ../../app/views/branded/devise/passwords/edit.html.erb:26
 msgid "Password confirmation"
-msgstr "パスワードの確認"
+msgstr "Confirmación de clave"
 
 #: ../../app/views/branded/devise/passwords/edit.html.erb:31
 msgid "Show passwords"
-msgstr "パスワードを表示する"
+msgstr "Mostrar contraseñas"
 
 #: ../../app/views/branded/devise/passwords/edit.html.erb:34
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:76
@@ -57,29 +59,31 @@ msgstr "パスワードを表示する"
 #: ../../app/views/branded/super_admin/users/edit.html.erb:52
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:64
 msgid "Save"
-msgstr "セーブ"
+msgstr "Guardar"
 
 #: ../../app/views/branded/devise/passwords/new.html.erb:1
 #: ../../app/views/branded/devise/passwords/new.html.erb:13
 msgid "Forgot your password?"
-msgstr "パスワードをお忘れですか？"
+msgstr "¿Olvidó su clave?"
 
 #: ../../app/views/branded/devise/passwords/new.html.erb:8
 #: ../../app/views/branded/layouts/_notifications.html.erb:11
 msgid "Error:"
-msgstr "エラー："
+msgstr "Error:"
 
 #: ../../app/views/branded/devise/passwords/new.html.erb:9
 msgid ""
 "There is no account associated with that email address. Please try again or %{"
 "contact_us_link}."
-msgstr "そのメールアドレスに関連付けられているアカウントはありません。もう一度お試しください。%{contact_us_link}"
+msgstr ""
 
 #: ../../app/views/branded/devise/passwords/new.html.erb:15
 msgid ""
 "Please enter your email below and we will send you instructions on how to rese"
 "t your password."
-msgstr "下記のメールアドレスを入力してください。パスワードをリセットする方法をお知らせします。"
+msgstr ""
+"Ingrese su correo electrónico a continuación y le enviaremos instrucciones sob"
+"re cómo restablecer su contraseña."
 
 #: ../../app/views/branded/devise/passwords/new.html.erb:23
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:9
@@ -91,11 +95,11 @@ msgstr "下記のメールアドレスを入力してください。パスワー
 #: ../../app/views/branded/shared/_sign_in_form.html.erb:3
 #: ../../app/views/branded/super_admin/users/edit.html.erb:15
 msgid "Email"
-msgstr "メールアドレス"
+msgstr "Correo electrónico"
 
 #: ../../app/views/branded/devise/passwords/new.html.erb:27
 msgid "Send"
-msgstr "SEND"
+msgstr "Enviar"
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:3
 msgid ""
@@ -104,117 +108,115 @@ msgid ""
 "with your institutional credentials you must contact us to change your email o"
 "r organisation."
 msgstr ""
-"あなたのメールアドレスはあなたのユーザー名でもあることに注意してください。これを変更した場合は、ログイン時に新しいメールアドレスを使用することを忘れないでく"
-"ださい。あなたの機関の資格情報でアカウントが作成された場合は、電子メールまたは組織を変更するために私達に連絡する必要があります。"
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:12
 msgid ""
 "Your account is linked to your institutional credentials for login. Please con"
 "tact the helpdesk to change your email."
-msgstr "あなたのアカウントは、ログインのためのあなたの機関の資格情報にリンクされています。メールを変更するには、ヘルプデスクにご連絡ください。"
+msgstr ""
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:22
 #: ../../app/views/branded/super_admin/users/edit.html.erb:20
 msgid "First name"
-msgstr "ファーストネーム"
+msgstr "Nombre"
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:27
 #: ../../app/views/branded/super_admin/users/edit.html.erb:25
 msgid "Last name"
-msgstr "苗字"
+msgstr "Apellidos"
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:33
 #: ../../app/views/branded/orgs/_profile_form.html.erb:110
 #: ../../app/views/branded/paginable/plans/_org_admin.html.erb:7
 #: ../../app/views/branded/shared/_my_org.html.erb:7
 msgid "Organisation"
-msgstr "組織"
+msgstr "Organización"
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:35
 msgid ""
 "Your account is linked to your institutional credentials for login. Please con"
 "tact the helpdesk to change your organisation."
-msgstr "あなたのアカウントは、ログインのためのあなたの機関の資格情報にリンクされています。組織を変更するには、ヘルプデスクにお問い合わせください。"
+msgstr ""
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:46
 #: ../../app/views/branded/layouts/_language_menu.html.erb:7
 #: ../../app/views/branded/super_admin/users/edit.html.erb:44
 msgid "Language"
-msgstr "言語"
+msgstr "Idioma"
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:55
 msgid "My privileges"
-msgstr "私の特権"
+msgstr "Mis privilegios"
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:56
 msgid "Super Admin"
-msgstr "スーパー管理者"
+msgstr "Super administrador"
 
 #: ../../app/views/branded/devise/registrations/_personal_details.html.erb:56
 msgid "Organisational Admin"
-msgstr "組織管理者"
+msgstr "Administrador organizacional"
 
 #: ../../app/views/branded/devise/registrations/edit.html.erb:3
 #: ../../app/views/branded/devise/registrations/edit.html.erb:6
 #: ../../app/views/branded/layouts/_profile_menu.html.erb:7
 msgid "Edit profile"
-msgstr "プロファイル編集"
+msgstr "Editar perfil"
 
 #: ../../app/views/branded/devise/registrations/edit.html.erb:14
 msgid "Personal Details"
-msgstr "個人情報"
+msgstr "Detalles personales"
 
 #: ../../app/views/branded/devise/registrations/edit.html.erb:19
 #: ../../app/views/branded/shared/_create_account_form.html.erb:19
 #: ../../app/views/branded/shared/_sign_in_form.html.erb:7
 msgid "Password"
-msgstr "パスワード"
+msgstr "Clave"
 
 #: ../../app/views/branded/devise/registrations/edit.html.erb:24
 msgid "Notification Preferences"
-msgstr "通知設定"
+msgstr "Preferencias de notificación"
 
 #: ../../app/views/branded/devise/registrations/new.html.erb:2
 msgid "Create your account"
-msgstr "アカウントを作成"
+msgstr ""
 
 #: ../../app/views/branded/devise/registrations/new.html.erb:3
 msgid ""
 "Your account has been verified with your institutional credentials. Please fil"
 "l out the form below to finish creating your account."
-msgstr "あなたのアカウントはあなたの機関の資格で確認されています。下記のフォームに必要事項をご記入のうえ、アカウントの作成を完了してください。"
+msgstr ""
 
 #: ../../app/views/branded/devise/registrations/new.html.erb:10
 #: ../../app/views/branded/shared/_create_account_form.html.erb:4
 msgid "First Name"
-msgstr "ファーストネーム"
+msgstr "Nombre de pila"
 
 #: ../../app/views/branded/devise/registrations/new.html.erb:16
 #: ../../app/views/branded/shared/_create_account_form.html.erb:8
 msgid "Last Name"
-msgstr "苗字"
+msgstr "Apellido"
 
 #: ../../app/views/branded/devise/registrations/new.html.erb:36
 msgid ""
 "We were unable to determine your organization. Please select your organization"
 " below."
-msgstr "あなたの組織を特定できませんでした。下記の組織を選択してください。"
+msgstr ""
 
 #: ../../app/views/branded/guidance_groups/_show.html.erb:6
 #: ../../app/views/branded/phases/_edit_plan_answers.html.erb:9
 msgid "expand all"
-msgstr "すべて展開"
+msgstr "expandir todo"
 
 #: ../../app/views/branded/guidance_groups/_show.html.erb:8
 #: ../../app/views/branded/phases/_edit_plan_answers.html.erb:11
 msgid "collapse all"
-msgstr "すべてを崩壊させる"
+msgstr "desplegar todo"
 
 #: ../../app/views/branded/guidances/admin_index.html.erb:1
 #: ../../app/views/branded/guidances/admin_index.html.erb:4
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:39
 msgid "Guidance"
-msgstr "ガイダンス"
+msgstr "Guía"
 
 #: ../../app/views/branded/guidances/admin_index.html.erb:7
 msgid ""
@@ -222,24 +224,26 @@ msgid ""
 ". a particular College / School, Institute or department. When you create guid"
 "ance you'll be asked to assign it to a guidance group."
 msgstr ""
-"まずガイダンスグループを作成します。これは、組織全体であってもサブセットであってもよい。特定のカレッジ/スクール、研究所または部門。ガイダンスを作成すると、"
-"それをガイダンスグループに割り当てるよう求められます。"
+"Primero crea un grupo de orientación. Esto podría ser una organización amplia "
+"o un subconjunto, por ejemplo. Un colegio / escuela, instituto o departamento "
+"en particular. Cuando cree una guía, se le pedirá que la asigne a un grupo de "
+"orientación."
 
 #: ../../app/views/branded/guidances/admin_index.html.erb:15
 msgid "Guidance group list"
-msgstr "ガイダンスグループリスト"
+msgstr "Listado de grupos de orientación"
 
 #: ../../app/views/branded/guidances/admin_index.html.erb:16
 msgid "Create a guidance group"
-msgstr "ガイダンスグループを作成する"
+msgstr "Crear un grupo de orientación."
 
 #: ../../app/views/branded/guidances/admin_index.html.erb:29
 msgid "Guidance list"
-msgstr "ガイダンスリスト"
+msgstr "Listado de orientaciones"
 
 #: ../../app/views/branded/guidances/admin_index.html.erb:30
 msgid "Create guidance"
-msgstr "ガイダンスを作成する"
+msgstr "Crear orientación"
 
 #: ../../app/views/branded/guidances/admin_index.html.erb:34
 msgid ""
@@ -249,8 +253,11 @@ msgid ""
 "ally displayed across all templates rather than having to write guidance to ac"
 "company each."
 msgstr ""
-"テーマ別に表示するガイダンスを書くことができます（例：ボード全体に表示されるストレージとバックアップに関する一般的なガイダンス）。テーマ別の一般的なガイダン"
-"スを書くことは、それぞれに付随するガイダンスを書く必要がなく、すべてのテンプレートにわたってアドバイスが自動的に表示されるので、時間と労力を節約します。"
+"Puede escribir partes de la guía que se mostrarán por tema (por ejemplo, una g"
+"uía genérica sobre el almacenamiento y la copia de seguridad que debe presenta"
+"rse en todos los ámbitos). Escribir una guía genérica por tema le ahorra tiemp"
+"o y esfuerzo, ya que su consejo se mostrará automáticamente en todas las plant"
+"illas en lugar de tener que escribir una guía para acompañar cada una."
 
 #: ../../app/views/branded/guidances/admin_index.html.erb:37
 msgid ""
@@ -259,128 +266,130 @@ msgid ""
 "icants to BBSRC for example), you can do so by adding guidance to a specific q"
 "uestion when you edit your template."
 msgstr ""
-"BBSRCへの応募者に具体的な指示がある場合など、より広いオーディエンスにとって役に立たない特定の資金提供者のためのガイダンスを提供する必要がある場合は、編"
-"集するときに特定の質問にガイダンスを追加することによって行うことができますあなたのテンプレート。"
+"Si tiene la necesidad de proporcionar orientación para financiadores específic"
+"os que no sería útil para un público más amplio (por ejemplo, si tiene instruc"
+"ciones específicas para los solicitantes de BBSRC, por ejemplo), puede hacerlo"
+" agregando orientación a una pregunta específica cuando edite tu plantilla"
 
 #: ../../app/views/branded/home/index.html.erb:6
 msgid "DMPTool by the Numbers"
-msgstr "数値によるDMPTool"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:13
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:27
 msgid "Users"
-msgstr "ユーザー"
+msgstr "Usuarios"
 
 #: ../../app/views/branded/home/index.html.erb:19
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:30
 msgid "Plans"
-msgstr "予定"
+msgstr "Planes"
 
 #: ../../app/views/branded/home/index.html.erb:22
 msgid "View the list of public data management plans"
-msgstr "パブリックデータ管理計画のリストを表示する"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:22
 #: ../../app/views/branded/home/index.html.erb:34
 #: ../../app/views/branded/home/index.html.erb:57
 msgid "More"
-msgstr "もっと"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:29
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:16
 #: ../../app/views/branded/public_pages/orgs.html.erb:3
 msgid "Participating Institutions"
-msgstr "参加機関"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:30
 msgid "View the list of participating institutions"
-msgstr "参加機関の一覧を見る"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:45
 msgid "Top Templates"
-msgstr "トップテンプレート"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:54
 msgid "View the list of funder requirements"
-msgstr "資金提供者の要件のリストを表示する"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:65
 msgid "DMPTool News"
-msgstr "DMPToolニュース"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:80
 msgid "News is currently unavailable"
-msgstr "ニュースは現在利用できません"
+msgstr ""
 
 #: ../../app/views/branded/home/index.html.erb:87
 msgid "Go to the blog"
-msgstr "ブログに行く"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:2
 #: ../../app/views/branded/plans/index.html.erb:1
 #: ../../app/views/branded/plans/index.html.erb:5
 msgid "My Dashboard"
-msgstr "マイダッシュボード"
+msgstr "Mi tablero"
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:5
 #: ../../app/views/branded/plans/index.html.erb:6
 msgid "Create plan"
-msgstr "計画を作成する"
+msgstr "Crear un plan"
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:12
 msgid "Admin Features"
-msgstr "管理機能"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:17
 msgid "Organisations"
-msgstr "組織"
+msgstr "Organizaciones"
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:21
 msgid "Organizations"
-msgstr "組織"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:21
 msgid "Organisation details"
-msgstr "組織の詳細"
+msgstr "Detalles de la entidad"
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:31
 msgid "Usage"
-msgstr "使用法"
+msgstr "Uso"
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:35
 #: ../../app/views/branded/org_admin/templates/index.html.erb:4
 msgid "Templates"
-msgstr "テンプレート"
+msgstr "Plantillas"
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:43
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:6
 msgid "Themes"
-msgstr "テーマ"
+msgstr "Temas"
 
 #: ../../app/views/branded/layouts/_app_menu_links.html.erb:47
 msgid "Notifications"
-msgstr "お知らせ"
+msgstr "Notificaciones"
 
 #: ../../app/views/branded/layouts/_constants.html.erb:9
 msgid "This field is required."
-msgstr "この項目は必須です。"
+msgstr "Este campo es requerido."
 
 #: ../../app/views/branded/layouts/_constants.html.erb:11
 #: ../../app/views/branded/shared/_create_account_form.html.erb:25
 msgid "Show password"
-msgstr "パスワードを表示する"
+msgstr "Mostrar contraseña"
 
 #: ../../app/views/branded/layouts/_constants.html.erb:12
 msgid "Select an organisation from the list."
-msgstr "リストから組織を選択します。"
+msgstr "Seleccione una organización de la lista."
 
 #: ../../app/views/branded/layouts/_constants.html.erb:13
 msgid "My organisation isn't listed"
-msgstr "私の組織はリストされていません"
+msgstr "Mi organización no está en la lista"
 
 #: ../../app/views/branded/layouts/_constants.html.erb:15
 msgid "The passwords you provided do not match."
-msgstr "入力したパスワードが一致しません。"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_constants.html.erb:17
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:38
@@ -389,203 +398,209 @@ msgstr "N / A"
 
 #: ../../app/views/branded/layouts/_constants.html.erb:18
 msgid "Private"
-msgstr "プライベート"
+msgstr "Privado"
 
 #: ../../app/views/branded/layouts/_constants.html.erb:19
 msgid "Private: restricted to me and people I invite."
-msgstr "プライベート：私と私が招待する人に制限されています。"
+msgstr "Privado: restringido a mí y a las personas que invito."
 
 #: ../../app/views/branded/layouts/_constants.html.erb:21
 msgid "Hide list."
-msgstr "リストを非表示にする。"
+msgstr "Ocultar lista"
 
 #: ../../app/views/branded/layouts/_constants.html.erb:22
 msgid "See the full list of participating institutions."
-msgstr "参加機関の全リストを参照してください。"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_constants.html.erb:24
 msgid ""
 "Unable to find a suitable template for the research organisation and funder yo"
 "u selected."
-msgstr "あなたが選んだ研究機関と資金提供者に適したテンプレートを見つけることができません。"
+msgstr ""
+"No se puede encontrar una plantilla adecuada para la organización de investiga"
+"ción y el financiador que seleccionó."
 
 #: ../../app/views/branded/layouts/_constants.html.erb:25
 msgid "Please select a research organisation and funder to continue."
-msgstr "続行するには、研究機関と資金提供者を選択してください。"
+msgstr ""
+"Por favor seleccione una organización de investigación y financiador para cont"
+"inuar."
 
 #: ../../app/views/branded/layouts/_constants.html.erb:27
 msgid "Loading ..."
-msgstr "読み込んでいます..."
+msgstr "Cargando ..."
 
 #: ../../app/views/branded/layouts/_constants.html.erb:28
 msgid "Unable to load the section's content at this time."
-msgstr "この時点でセクションのコンテンツを読み込むことができません。"
+msgstr "No se puede cargar el contenido de la sección en este momento."
 
 #: ../../app/views/branded/layouts/_constants.html.erb:29
 msgid "Unable to load the question's content at this time."
-msgstr "この時点で質問の内容を読み込むことができません。"
+msgstr "No se puede cargar el contenido de la pregunta en este momento."
 
 #: ../../app/views/branded/layouts/_fixed_menu.html.erb:16
 #: ../../app/views/branded/layouts/mobile/_fixed_menu.html.erb:61
 #: ../../app/views/branded/shared/_sign_in_form.html.erb:19
 #: ../../app/views/branded/shared/_signin_create_form.html.erb:18
 msgid "Sign in"
-msgstr "サインイン"
+msgstr "Conectar"
 
 #: ../../app/views/branded/layouts/_footer.html.erb:13
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:10
 #: ../../app/views/branded/public_pages/orgs.html.erb:4
 #: ../../app/views/branded/static_pages/about_us.html.erb:2
 msgid "About"
-msgstr "約1時間t"
+msgstr "Acerca de"
 
 #: ../../app/views/branded/layouts/_footer.html.erb:14
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:11
 msgid "Terms of use"
-msgstr "利用規約"
+msgstr "Términos de Uso"
 
 #: ../../app/views/branded/layouts/_footer.html.erb:15
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:12
 msgid "Privacy statement"
-msgstr "プライバシーに関する声明"
+msgstr "Declaracion de privacidad"
 
 #: ../../app/views/branded/layouts/_footer.html.erb:16
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:13
 msgid "Accessibility"
-msgstr "アクセシビリティ"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_footer.html.erb:16
 #: ../../app/views/branded/layouts/_footer.html.erb:17
 msgid "new window"
-msgstr "新しい窓"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_footer.html.erb:17
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:14
 msgid "Github"
-msgstr "ギター"
+msgstr "Github"
 
 #: ../../app/views/branded/layouts/_footer.html.erb:18
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:15
 msgid "Contact us"
-msgstr "お問い合わせ"
+msgstr "Contacto"
 
 #: ../../app/views/branded/layouts/_footer.html.erb:29
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:18
 msgid "Twitter"
-msgstr "Twitter"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_footer.html.erb:32
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:19
 msgid "RSS"
-msgstr "RSS"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_footer.html.erb:44
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:28
 msgid "DMPTool is a service of the %{uc3} of the %{cdl}"
-msgstr "DMPToolは%{cdl}の%{uc3}のサービスであり、"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_footer.html.erb:49
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:33
 msgid "Copyright 2010-%{current_year} The Regents of the University of California"
-msgstr "Copyright 2010- %{current_year}カリフォルニア大学リージェント"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_homepage_image.html.erb:5
 msgid "Welcome to the DMPTool"
-msgstr "DMPToolへようこそ"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_homepage_image.html.erb:6
 msgid "Create data management plans that meet institutional and funder requirements."
-msgstr "機関や資金提供者の要件を満たすデータ管理プランを作成します。"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_homepage_image.html.erb:11
 msgid "Get started"
-msgstr "始める"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:6
 msgid "Learn"
-msgstr "学ぶ"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:14
 #: ../../app/views/branded/public_pages/template_index.html.erb:4
 msgid "Funder Requirements"
-msgstr "Funder Requirements"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:15
 msgid "Public Plans"
-msgstr "公共計画"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:17
 #: ../../app/views/branded/static_pages/faq.html.erb:2
 msgid "FAQ"
-msgstr "よくある質問"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:21
 #: ../../app/views/branded/static_pages/faq.html.erb:18
 #: ../../app/views/branded/static_pages/faq.html.erb:104
 msgid "For Researchers"
-msgstr "研究者のため"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:22
 msgid "Quick Start Guide"
-msgstr "クイックスタートガイド"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:23
 msgid "Data Management General Guidance"
-msgstr "データ管理一般的なガイダンス"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:26
 msgid "For Administrators <em class=\"sr-only\">(new window)</em>"
-msgstr "管理者向け<em class=\"sr-only\">（新しいウィンドウ）</em>"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_learn_menu.html.erb:29
 #: ../../app/views/branded/static_pages/promote.html.erb:2
 msgid "Promote the DMPTool"
-msgstr "DMPToolを宣伝する"
+msgstr ""
 
 #: ../../app/views/branded/layouts/_notifications.html.erb:11
 msgid "Notice:"
-msgstr "通知："
+msgstr "Darse cuenta:"
 
 #: ../../app/views/branded/layouts/_profile_menu.html.erb:8
 msgid "Logout"
-msgstr "ログアウト"
+msgstr "Cerrar Sesión"
 
 #: ../../app/views/branded/layouts/application.html.erb:6
 msgid "%{application_name}"
-msgstr "%{application_name}"
+msgstr "DMPonline"
 
 #: ../../app/views/branded/layouts/mobile/_fixed_menu.html.erb:71
 #: ../../app/views/branded/layouts/mobile/_fixed_menu.html.erb:75
 msgid "Sign in through an affiliated institution"
-msgstr "提携機関を通じてサインインする"
+msgstr ""
 
 #: ../../app/views/branded/layouts/mobile/_fixed_menu.html.erb:84
 msgid "Sign in with your email address"
-msgstr "あなたのメールアドレスでサインインしてください"
+msgstr ""
 
 #: ../../app/views/branded/layouts/mobile/_fixed_menu.html.erb:87
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:30
 msgid "Create account with email address"
-msgstr "電子メールアドレスでアカウントを作成する"
+msgstr ""
 
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:13
 #: ../../app/views/branded/layouts/mobile/_footer.html.erb:14
 msgid "(new window)"
-msgstr "（新しい窓）"
+msgstr ""
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:10
 msgid ""
 "If you would like to modify one of the templates below, you must first change "
 "your organisation affiliation."
-msgstr "以下のテンプレートのいずれかを変更する場合は、まず組織所属を変更する必要があります。"
+msgstr ""
+"Si desea modificar una de las plantillas a continuación, primero debe cambiar "
+"la afiliación de su organización."
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:24
 msgid "Change affiliation"
-msgstr "所属を変更する"
+msgstr "Cambiar afiliación"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:29
 msgid "Create a template"
-msgstr "テンプレートを作成する"
+msgstr "Crear una plantilla"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:33
 msgid ""
@@ -596,153 +611,160 @@ msgid ""
 " want to add questions to funder templates use the 'customise template' option"
 "s below."
 msgstr ""
-"データ管理プランの組織テンプレートを追加する場合は、[テンプレート作成]ボタンを使用します。必要に応じて、複数のテンプレートを作成できます。研究者のためのも"
-"のと博士課程の学生のためのものです。テンプレートは、ファインダーテンプレートが適用されていない場合、組織内のユーザーに表示されます。あなたがfunderテン"
-"プレートに質問を追加する場合は、下記の 'customize template'オプションを使用してください。"
+"Si desea agregar una plantilla organizativa para un plan de gestión de datos, "
+"use el botón 'crear plantilla'. Puede crear más de una plantilla si lo desea, "
+"por ejemplo. Una para investigadores y otra para estudiantes de doctorado. Su "
+"plantilla se presentará a los usuarios dentro de su organización cuando no se "
+"apliquen plantillas de patrocinadores. Si desea agregar preguntas a las planti"
+"llas de patrocinadores, utilice las opciones de 'personalizar plantilla' a con"
+"tinuación."
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:44
 msgid "All Templates"
-msgstr "すべてのテンプレート"
+msgstr "Todas las plantillas"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:53
 msgid "%{org_name} Templates"
-msgstr "%{org_name}テンプレート"
+msgstr "%{org_name} Plantillas"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:55
 msgid "Own Templates"
-msgstr "自分のテンプレート"
+msgstr "Plantillas propias"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:64
 msgid "Customisable Templates"
-msgstr "カスタマイズ可能なテンプレート"
+msgstr "Plantillas personalizables"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:81
 #: ../../app/views/branded/org_admin/templates/index.html.erb:94
 msgid "All (%{count})"
-msgstr "すべて（%{count}）"
+msgstr "Todos (%{count})"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:84
 #: ../../app/views/branded/org_admin/templates/index.html.erb:97
 msgid "Published (%{count})"
-msgstr "公開済み（%{count}）"
+msgstr "Publicado (%{count})"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:87
 #: ../../app/views/branded/org_admin/templates/index.html.erb:100
 msgid "Unpublished (%{count})"
-msgstr "未公開（%{count}）"
+msgstr "No publicado (%{count})"
 
 #: ../../app/views/branded/org_admin/templates/index.html.erb:90
 msgid "Not customised (%{count})"
-msgstr "カスタマイズされていない（%{count}）"
+msgstr "No personalizado (%{count})"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:4
 msgid "Organisation full name"
-msgstr "組織の正式名称"
+msgstr "Nombre completo de la organización"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:10
 msgid "Organisation abbreviated name"
-msgstr "組織略称"
+msgstr "Nombre abreviado de la organización"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:17
 msgid "Organization logo"
-msgstr "組織のロゴ"
+msgstr "Logotipo de la organización"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:25
 msgid "This will remove your organisation's logo"
-msgstr "これにより、組織のロゴが削除されます"
+msgstr "Esto eliminará el logotipo de su organización."
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:26
 msgid "Remove logo"
-msgstr "ロゴを削除する"
+msgstr "Quitar logo"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:28
 msgid "or"
-msgstr "または"
+msgstr "o"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:42
 msgid "Organisation URLs"
-msgstr "組織のURL"
+msgstr "URLs de organización"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:45
 msgid "Links will be displayed next to your organisation's logo"
-msgstr "組織のロゴの横にリンクが表示されます"
+msgstr "Los enlaces se mostrarán junto al logotipo de su organización."
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:52
 msgid "Administrator contact"
-msgstr "管理者の連絡先"
+msgstr "Contacto del administrador"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:57
 msgid "Contact email"
-msgstr "連絡先メールアドレス"
+msgstr "Email de contacto"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:61
 msgid "Link text"
-msgstr "リンクテキスト"
+msgstr "Texto del enlace"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:66
 msgid ""
 "This information can only be changed by a system administrator. Contact the He"
 "lp Desk if you have questions or to request changes."
-msgstr "この情報は、システム管理者のみが変更できます。質問がある場合や変更を求める場合は、ヘルプデスクにお問い合わせください。"
+msgstr ""
+"Esta información solo puede ser modificada por un administrador del sistema. P"
+"óngase en contacto con el servicio de asistencia si tiene preguntas o para sol"
+"icitar cambios."
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:67
 msgid "Organisational Configuration Information"
-msgstr "組織の構成情報"
+msgstr "Información de configuración organizacional"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:81
 msgid "Shibboleth Entity Id"
-msgstr "ShibbolethエンティティID"
+msgstr "ID de la entidad Shibboleth"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:82
 msgid "Example: urn:mace:incommon:my-org.org"
-msgstr "例：urn：mace：incommon：my-org.org"
+msgstr "Ejemplo: urna: maza: incommon: my-org.org"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:87
 msgid "Shibboleth Domain"
-msgstr "シボルスドメイン"
+msgstr "Dominio de Shibboleth"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:88
 msgid "Example: my-org.org"
-msgstr "例：my-org.org"
+msgstr "Ejemplo: my-org.org"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:94
 msgid "Organisation Types"
-msgstr "組織タイプ"
+msgstr "Tipos de organizacion"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:98
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:12
 #: ../../app/views/branded/plans/_edit_details.html.erb:19
 msgid "Funder"
-msgstr "ファインダー"
+msgstr "Financiador"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:104
 #: ../../app/views/branded/paginable/orgs/_public.html.erb:5
 msgid "Institution"
-msgstr "機関"
+msgstr "institución"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:115
 msgid "You must select at least one organisation type"
-msgstr "少なくとも1つの組織タイプを選択する必要があります"
+msgstr "Debe seleccionar al menos un tipo de organización"
 
 #: ../../app/views/branded/orgs/_profile_form.html.erb:121
 msgid "Organisation type(s)"
-msgstr "組織のタイプ"
+msgstr "Tipo (s) de organización"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:5
 msgid "Text"
-msgstr "テキスト"
+msgstr "Texto"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:7
 msgid "Guidance group"
-msgstr "ガイダンスグループ"
+msgstr "Grupo de orientación"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:8
 msgid "Status"
-msgstr "状態"
+msgstr "Estado"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:9
 msgid "Last updated"
-msgstr "最終更新"
+msgstr "Última actualización"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:10
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:50
@@ -750,209 +772,221 @@ msgstr "最終更新"
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:52
 #: ../../app/views/branded/plans/_share_form.html.erb:42
 msgid "Actions"
-msgstr "行動"
+msgstr "Acciones"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:34
 msgid "Unpublished"
-msgstr "未発表"
+msgstr "Inédito"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:36
 msgid "Published"
-msgstr "発行済み"
+msgstr "Publicado"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:53
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:57
 msgid "Edit"
-msgstr "編集"
+msgstr "Editar"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:56
 msgid "Unpublish"
-msgstr "未公開"
+msgstr "Despublicar"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:58
 msgid "Publish"
-msgstr "公開する"
+msgstr "Publicar"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:60
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:74
 #: ../../app/views/branded/plans/_share_form.html.erb:68
 msgid "Remove"
-msgstr "削除します"
+msgstr "Borrar"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:61
 msgid "You are about to delete '%{guidance_summary}'. Are you sure?"
-msgstr "あなたは '%{guidance_summary}'を削除しようとしています。本気ですか？"
+msgstr "Está a punto de borrar '%{guidance_summary}'. ¿Está seguro?"
 
 #: ../../app/views/branded/paginable/guidances/_index.html.erb:61
 msgid "... (continued)"
-msgstr "...（続き）"
+msgstr "... (continuación)"
 
 #: ../../app/views/branded/paginable/orgs/_public.html.erb:6
 msgid "Institutional Signin Enabled"
-msgstr "制度的サインインが有効"
+msgstr ""
 
 #: ../../app/views/branded/paginable/plans/_org_admin.html.erb:5
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:5
 msgid "Project Title"
-msgstr "プロジェクト名"
+msgstr "Título del Proyecto"
 
 #: ../../app/views/branded/paginable/plans/_org_admin.html.erb:6
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:6
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:10
 msgid "Template"
-msgstr "テンプレート"
+msgstr "Modelo"
 
 #: ../../app/views/branded/paginable/plans/_org_admin.html.erb:8
 #: ../../app/views/branded/plans/_share_form.html.erb:52
 msgid "Owner"
-msgstr "オーナー"
+msgstr "Propietario"
 
 #: ../../app/views/branded/paginable/plans/_org_admin.html.erb:9
 msgid "Updated"
-msgstr "更新しました"
+msgstr "Actualizado"
 
 #: ../../app/views/branded/paginable/plans/_org_admin.html.erb:10
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:10
 msgid "Visibility"
-msgstr "可視性"
+msgstr "Visibilidad"
 
 #: ../../app/views/branded/paginable/plans/_org_admin.html.erb:28
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:9
 msgid "Test"
-msgstr "テスト"
+msgstr "Prueba"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:7
 msgid "Edited"
-msgstr "編集済み"
+msgstr "Editado"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:8
 msgid "Role"
-msgstr "役割"
+msgstr "Papel"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:11
 msgid "Shared"
-msgstr "共有"
+msgstr ""
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:31
 #: ../../app/views/branded/plans/_share_form.html.erb:27
 msgid "Update"
-msgstr "更新"
+msgstr "Actualización"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:34
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:42
 msgid "Yes"
-msgstr "はい"
+msgstr "Sí"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:34
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:44
 msgid "No"
-msgstr "ノー"
+msgstr "No"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:60
 msgid "Share"
-msgstr "シェア"
+msgstr "Compartir"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:63
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:69
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:11
 msgid "Download"
-msgstr "ダウンロード"
+msgstr "descargar"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:64
 msgid "Make a copy"
-msgstr "コピーを作成する"
+msgstr "Hacer una copia"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:66
 msgid "View"
-msgstr "ビュー"
+msgstr "Ver"
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:73
 msgid ""
 "Are you sure you wish to remove this public plan? This will remove it from the"
 " Public DMPs page but any collaborators will still be able to access it."
-msgstr "この公的な計画を削除してもよろしいですか？これにより、Public DMPsページから削除されますが、共同編集者は引き続きアクセスできます。"
+msgstr ""
+"¿Estás seguro de que deseas eliminar este plan público? Esto lo eliminará de l"
+"a página de DMP públicos, pero cualquier colaborador podrá acceder a él."
 
 #: ../../app/views/branded/paginable/plans/_privately_visible.html.erb:73
 msgid ""
 "Are you sure you wish to remove this plan? Any collaborators will still be abl"
 "e to access it."
-msgstr "このプランを削除してもよろしいですか？共同編集者は引き続きアクセスできます。"
+msgstr ""
+"¿Estás seguro de que deseas eliminar este plan? Cualquier colaborador podrá se"
+"guir accediendo."
 
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:16
 msgid "Last Updated"
-msgstr "最終更新"
+msgstr "Última actualización"
 
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:17
 msgid "Funder Links"
-msgstr "Funder Links"
+msgstr "Enlaces de financiación"
 
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:18
 msgid "Sample plans are provided by a funder, an organisation or a trusted party."
-msgstr "サンプルプランは、資金提供者、組織、または信頼できる当事者によって提供されます。"
+msgstr ""
+"Los planes de muestra son proporcionados por un financiador, una organización "
+"o una parte confiable."
 
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:18
 msgid "(if available)"
-msgstr "（可能な場合は）"
+msgstr "(si está disponible)"
 
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:18
 msgid "Sample Plans"
-msgstr "サンプルプラン"
+msgstr "Planes de muestra"
 
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:26
 msgid "DOCX <em class=\"sr-only\">(new window)</em>"
-msgstr "DOCX <em class=\"sr-only\">（新しいウィンドウ）</em>"
+msgstr "DOCX <em class=\"sr-only\">(nueva ventana)</em>"
 
 #: ../../app/views/branded/paginable/templates/_publicly_visible.html.erb:27
 msgid "PDF <em class=\"sr-only\">(new window)</em>"
-msgstr "PDF <em class=\"sr-only\">（新しいウィンドウ）</em>"
+msgstr "PDF <em class=\"sr-only\">(nueva ventana)</em>"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:6
 msgid "Project title"
-msgstr "プロジェクト名"
+msgstr "Título del Proyecto"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:10
 msgid "If applying for funding, state the name exactly as in the grant proposal."
-msgstr "資金援助を申請する場合は、助成金提案と同じ名前を記入してください。"
+msgstr ""
+"Si se solicita financiación, indique el nombre exactamente como en la propuest"
+"a de subvención."
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:30
 msgid "Grant number (optional)"
-msgstr "助成金番号（オプション）"
+msgstr ""
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:34
 msgid "Grant reference number if applicable [POST-AWARD DMPs ONLY]"
-msgstr "該当する場合は参照番号を付与する[POST  -  AWARD DMPのみ]"
+msgstr ""
+"Número de referencia de la subvención si es aplicable [SÓLO PGDs YA ADJUDICADO"
+"S]"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:39
 msgid "Project abstract"
-msgstr "プロジェクト概要"
+msgstr "Resumen del proyecto"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:41
 msgid ""
 "Briefly summarise your research project to help others understand the purposes"
 " for which the data are being collected or created."
-msgstr "あなたの研究プロジェクトを簡単に要約して、他の人がデータの収集または作成の目的を理解できるようにします。"
+msgstr ""
+"Resuma brevemente su proyecto de investigación para ayudar a otros a comprende"
+"r los propósitos para los cuales se recopilan o crean los datos."
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:49
 msgid "Principal Investigator"
-msgstr "主任研究員"
+msgstr "Investigador principal"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:52
 #: ../../app/views/branded/plans/_edit_details.html.erb:93
 msgid "Name"
-msgstr "お名前"
+msgstr "Nombre"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:63
 msgid "ORCID iD"
-msgstr "ORCID iD"
+msgstr "IDCID ORD"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:86
 msgid "Data contact person"
-msgstr "データ担当者"
+msgstr "Persona de contacto de datos"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:116
 #: ../../app/views/branded/plans/_edit_details.html.erb:135
 msgid "Submit"
-msgstr "送信する"
+msgstr "Enviar"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:117
 #: ../../app/views/branded/plans/_edit_details.html.erb:143
@@ -960,30 +994,32 @@ msgstr "送信する"
 #: ../../app/views/branded/shared/_signin_create_form.html.erb:8
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:65
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr "Cancelar"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:120
 #: ../../app/views/branded/plans/_edit_details.html.erb:146
 msgid "Plan Guidance Configuration"
-msgstr "ガイダンス設定の計画"
+msgstr ""
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:121
 msgid ""
 "To help you write your plan, %{application_name} can show you guidance from a "
 "variety of organisations."
-msgstr "あなたの計画を書くのを助けるために、%{application_name}はあなたに様々な組織からの指導を示すことができます。"
+msgstr ""
+"Para ayudarlo a escribir su plan, %{application_name} puede mostrarle la orien"
+"tación de una variedad de organizaciones."
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:124
 msgid "Select up to 6 organisations to see their guidance."
-msgstr "ガイダンスを見るには、最大6つの組織を選択してください。"
+msgstr "Seleccione hasta 6 organizaciones para ver su orientación."
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:131
 msgid "Find guidance from additional organisations below"
-msgstr "下記の追加組織からガイダンスを探す"
+msgstr "Encuentre orientación de organizaciones adicionales a continuación"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:132
 msgid "See the full list"
-msgstr "全リストを見る"
+msgstr "Ver la lista completa"
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:148
 msgid ""
@@ -991,16 +1027,17 @@ msgid ""
 "variety of organisations. Please choose up to 6 organisations of the following"
 " organisations who offer guidance relevant to your plan."
 msgstr ""
-"あなたの計画を書くのを助けるために、%{application_name}はあなたに様々な組織からの指導を示すことができます。あなたの計画に関連したガイダン"
-"スを提供する次の組織の6つの組織を選んでください。"
+"Para ayudarlo a escribir su plan, %{application_name} puede mostrarle la orien"
+"tación de una variedad de organizaciones. Elija hasta 6 organizaciones de las "
+"siguientes organizaciones que ofrezcan orientación relevante para su plan."
 
 #: ../../app/views/branded/plans/_edit_details.html.erb:151
 msgid "Don't forget to save your changes after making your selections."
-msgstr "選択した後、変更を保存することを忘れないでください。"
+msgstr "No olvide guardar sus cambios después de hacer sus selecciones."
 
 #: ../../app/views/branded/plans/_share_form.html.erb:1
 msgid "Set plan visibility"
-msgstr "計画の可視性を設定する"
+msgstr "Establecer visibilidad del plan"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:2
 msgid ""
@@ -1008,89 +1045,100 @@ msgid ""
 "nswer at least %{percentage}%% of the questions to enable these options. Note:"
 " test plans are set to private visibility by default."
 msgstr ""
-"公共または組織の可視性は、完成した計画を対象としています。これらのオプションを有効にするには、少なくとも%{percentage} %%の質問に回答する必要"
-"があります。注：テスト計画はデフォルトでプライベートな表示に設定されています。"
+"La visibilidad pública u organizativa está destinada a los planes terminados. "
+"Debe responder al menos %{percentage} %% de las preguntas para habilitar estas"
+" opciones. Nota: los planes de prueba se establecen en visibilidad privada de "
+"forma predeterminada."
 
 #: ../../app/views/branded/plans/_share_form.html.erb:10
 msgid ""
 "Private: visible to me, specified collaborators and administrators at my organ"
 "isation"
-msgstr "非公開：私の目に見える、指定された共同編集者、管理者"
+msgstr ""
+"Privado: visible para mí, colaboradores específicos y administradores en mi or"
+"ganización"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:16
 msgid "Organisation: anyone at my organisation can view"
-msgstr "組織：自分の組織の誰でも閲覧できます"
+msgstr "Organización: cualquiera en mi organización puede ver"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:22
 msgid "Public: anyone can view"
-msgstr "公開：誰でも閲覧できます"
+msgstr "Público: cualquiera puede ver"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:32
 msgid "Manage collaborators"
-msgstr "共同編集者を管理する"
+msgstr "Gestionar colaboradores"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:33
 msgid ""
 "Invite specific people to read, edit, or administer your plan. Invitees will r"
 "eceive an email notification that they have access to this plan."
-msgstr "特定の人にプランを読んだり、編集したり、管理したりしてもらいましょう。招待者には、このプランへのアクセス権がある旨の電子メール通知が届きます。"
+msgstr ""
+"Invite a personas específicas a leer, editar o administrar su plan. Los invita"
+"dos recibirán una notificación por correo electrónico de que tienen acceso a e"
+"ste plan."
 
 #: ../../app/views/branded/plans/_share_form.html.erb:39
 #: ../../app/views/branded/shared/_get_started.html.erb:27
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:25
 msgid "Email address"
-msgstr "電子メールアドレス"
+msgstr "Dirección de correo electrónico"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:40
 #: ../../app/views/branded/plans/_share_form.html.erb:91
 msgid "Permissions"
-msgstr "アクセス許可"
+msgstr "Permisos"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:68
 msgid "Are you sure?"
-msgstr "本気ですか？"
+msgstr "¿Está seguro?"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:78
 msgid "Invite collaborators"
-msgstr "共同編集者を招待する"
+msgstr "Invitar a colaboradores"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:96
 msgid "Co-owner: can edit project details, change visibility, and add collaborators"
-msgstr "共同オーナー：プロジェクトの詳細を編集したり、公開設定を変更したり、共同編集者を追加することができます"
+msgstr ""
+"Co-propietario: puede editar los detalles del proyecto, cambiar la visibilidad"
+" y agregar colaboradores"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:102
 msgid "Editor: can comment and make changes"
-msgstr "エディタ：コメントや変更が可能"
+msgstr "Editor: puede comentar y hacer cambios."
 
 #: ../../app/views/branded/plans/_share_form.html.erb:108
 msgid "Read only: can view and comment, but not make changes"
-msgstr "読み取り専用：表示とコメントはできますが、変更はできません"
+msgstr "Solo lectura: puede ver y comentar, pero no hacer cambios."
 
 #: ../../app/views/branded/plans/_share_form.html.erb:112
 msgid "Send invitation"
-msgstr "招待状を送る"
+msgstr ""
 
 #: ../../app/views/branded/plans/_share_form.html.erb:120
 msgid "Request expert feedback"
-msgstr "エキスパートからのフィードバック"
+msgstr "Solicitar comentarios de expertos"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:121
 msgid ""
 "Click below to give data management staff at your organisation access to read "
 "and comment on your plan."
-msgstr "下記をクリックすると、組織のデータ管理担当者がプランを読んでコメントにアクセスできます。"
+msgstr ""
+"Haga clic a continuación para que el personal de administración de datos de su"
+" organización tenga acceso para leer y comentar sobre su plan."
 
 #: ../../app/views/branded/plans/_share_form.html.erb:125
 msgid "You can continue to edit and download the plan in the interim."
-msgstr "途中で計画を編集してダウンロードし続けることができます。"
+msgstr "Puede continuar editando y descargando el plan mientras tanto."
 
 #: ../../app/views/branded/plans/_share_form.html.erb:128
 msgid "Request feedback"
-msgstr "リクエストのフィードバック"
+msgstr "Solicitar comentarios"
 
 #: ../../app/views/branded/plans/_share_form.html.erb:132
 msgid "Feedback has been requested."
-msgstr "フィードバックが要求されました。"
+msgstr "Se ha solicitado retroalimentación."
 
 #: ../../app/views/branded/plans/index.html.erb:12
 msgid ""
@@ -1098,24 +1146,25 @@ msgid ""
 "ed with you by others. You can edit, share, download, make a copy, or remove t"
 "hese plans at any time."
 msgstr ""
-"次の表には、作成したプランと、他のプランによって共有されたプランがリストされています。これらのプランをいつでも編集、共有、ダウンロード、コピー、または削除す"
-"ることができます。"
+"La siguiente tabla enumera los planes que ha creado y que otros han compartido"
+" con usted. Puede editar, compartir, descargar, hacer una copia o eliminar est"
+"os planes en cualquier momento."
 
 #: ../../app/views/branded/plans/index.html.erb:14
 msgid "Welcome"
-msgstr "ようこそ"
+msgstr "Bienvenido"
 
 #: ../../app/views/branded/plans/index.html.erb:15
 msgid "You are now ready to create your first DMP."
-msgstr "これで、最初のDMPを作成する準備が整いました。"
+msgstr "Ahora estás listo para crear tu primer DMP."
 
 #: ../../app/views/branded/plans/index.html.erb:16
 msgid "Click the 'Create plan' button below to begin."
-msgstr "下の[プラン作成]ボタンをクリックして開始してください。"
+msgstr "Haga clic en el botón 'Crear plan' a continuación para comenzar."
 
 #: ../../app/views/branded/plans/index.html.erb:35
 msgid "%{org_title} Plans"
-msgstr "%{org_title}計画"
+msgstr "%{org_title} Planes"
 
 #: ../../app/views/branded/plans/index.html.erb:36
 msgid ""
@@ -1123,8 +1172,9 @@ msgid ""
 "nd shared within your organisation. This allows you to download a PDF and view"
 " their plans as samples or to discover new research data."
 msgstr ""
-"次の表は、組織内のユーザーが組織内で作成および共有している計画を示しています。これにより、PDFをダウンロードし、その計画をサンプルとして表示したり、新しい"
-"研究データを発見したりすることができます。"
+"La siguiente tabla enumera los planes que los usuarios de su organización han "
+"creado y compartido dentro de su organización. Esto le permite descargar un PD"
+"F y ver sus planes como muestras o descubrir nuevos datos de investigación."
 
 #: ../../app/views/branded/public_pages/orgs.html.erb:4
 msgid ""
@@ -1134,13 +1184,10 @@ msgid ""
 " participating institutions can login with their own institutional accounts. F"
 "or more information visit the %{about_us_link} page."
 msgstr ""
-"参加機関/団体は、リソースとサービスを指し示し、カスタマイズされたヘルプを提供し、資金調達機関からの質問に対して提案された回答を提供するようにツールを設定で"
-"きます。参加機関に所属するDMPToolユーザーは、それぞれの機関のアカウントでログインできます。詳細については、%{about_us_link}ページを参"
-"照してください。"
 
 #: ../../app/views/branded/public_pages/template_index.html.erb:1
 msgid "DMP Templates"
-msgstr "DMPテンプレート"
+msgstr "Plantillas DMP"
 
 #: ../../app/views/branded/public_pages/template_index.html.erb:7
 msgid ""
@@ -1150,130 +1197,126 @@ msgid ""
 "directly for authoritative guidance. Sample plans are provided by a funder or "
 "another trusted party."
 msgstr ""
-"データ管理計画のテンプレートは、ファインダーポリシー文書に記載されている特定の要件に基づいています。 DMPToolはこれらのテンプレートを維持していますが"
-"、研究者はプログラムの役員とポリシー文書を常に信頼できる指導のために直接調べるべきです。サンプルプランは、資金提供者または他の信頼できる当事者によって提供さ"
-"れます。"
 
 #: ../../app/views/branded/public_pages/template_index.html.erb:9
 msgid "There are currently no public Templates."
-msgstr "現在、公開テンプレートはありません。"
+msgstr "Actualmente no hay plantillas públicas."
 
 #: ../../app/views/branded/shared/_create_account_form.html.erb:33
 msgid "You must agree to the term and conditions."
-msgstr "条件に同意する必要があります。"
+msgstr ""
 
 #: ../../app/views/branded/shared/_create_account_form.html.erb:34
 msgid ""
 "<em class=\"red\">*</em> I accept the <a href=\"%{term_and_conditions_url}\" targe"
 "t=\"_blank\">terms and conditions <em class=\"sr-only\">(new window)</em></a>"
 msgstr ""
-"<em class=\"red\">*</em>私は<a href=\"%{term_and_conditions_url}\" target=\"_blank\">利"
-"用規約</a>に同意し<a href=\"%{term_and_conditions_url}\" target=\"_blank\">ます<em class=\"s"
-"r-only\">（新しいウィンドウ）</em></a>"
 
 #: ../../app/views/branded/shared/_create_account_form.html.erb:38
 #: ../../app/views/branded/shared/_signin_create_form.html.erb:23
 msgid "Create account"
-msgstr "アカウントを作成する"
+msgstr "Registrarse"
 
 #: ../../app/views/branded/shared/_get_started.html.erb:4
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:2
 msgid "Sign in options"
-msgstr "ログインオプション"
+msgstr ""
 
 #: ../../app/views/branded/shared/_get_started.html.erb:11
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:9
 msgid "Option %{number}: If your institution is affiliated with DMPTool."
-msgstr "オプション%{number}：あなたの施設がDMPToolと提携している場合。"
+msgstr ""
 
 #: ../../app/views/branded/shared/_get_started.html.erb:14
 #: ../../app/views/branded/shared/_get_started.html.erb:17
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:12
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:15
 msgid "Your institution"
-msgstr "あなたの施設"
+msgstr ""
 
 #: ../../app/views/branded/shared/_get_started.html.erb:19
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:17
 msgid "- or - "
-msgstr " - または - "
+msgstr ""
 
 #: ../../app/views/branded/shared/_get_started.html.erb:25
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:23
 msgid "Option %{number}: If your institution is not affiliated with DMPTool."
-msgstr "オプション%{number}：あなたの施設がDMPToolと提携していない場合。"
+msgstr ""
 
 #: ../../app/views/branded/shared/_get_started.html.erb:29
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:27
 msgid "- or -"
-msgstr " - または - "
+msgstr ""
 
 #: ../../app/views/branded/shared/_get_started.html.erb:30
 #: ../../app/views/branded/shared/_sign_in_options.html.erb:28
 msgid "Option %{number}: If not affiliated and you need an account."
-msgstr "オプション%{number}：提携しておらず、アカウントが必要な場合。"
+msgstr ""
 
 #: ../../app/views/branded/shared/_get_started.html.erb:32
 msgid "Create an account"
-msgstr "アカウントを作成する"
+msgstr ""
 
 #: ../../app/views/branded/shared/_my_org.html.erb:4
 msgid ""
 "Select an organisation from the list or leave blank if your organisation is no"
 "t listed."
-msgstr "リストから組織を選択するか、組織がリストにない場合は空白のままにします。"
+msgstr ""
 
 #: ../../app/views/branded/shared/_my_org.html.erb:5
 msgid ""
 " Warning: Changing your organisation will result in the loss of your administr"
 "ative privileges."
-msgstr " 警告：組織を変更すると、管理者権限が失われます。"
+msgstr ""
 
 #: ../../app/views/branded/shared/_my_org.html.erb:17
 msgid ""
 "Please select an organisation from the list, or click the \"My organisation isn"
 "'t listed\" link and enter your organisation's name."
-msgstr "リストから組織を選択するか、[自分の組織は表示されていません]リンクをクリックして、組織の名前を入力してください。"
+msgstr ""
+"Seleccione una organización de la lista o haga clic en el enlace \"Mi organizac"
+"ión no está en la lista\" e ingrese el nombre de su organización."
 
 #: ../../app/views/branded/shared/_shib_ds_form.html.erb:6
 msgid "Look up your institution here"
-msgstr "ここにあなたの施設を見てください"
+msgstr ""
 
 #: ../../app/views/branded/shared/_shib_ds_form.html.erb:14
 msgid "Please select one"
-msgstr "1つを選択してください"
+msgstr "Por favor, seleccione uno"
 
 #: ../../app/views/branded/shared/_shib_ds_form.html.erb:28
 msgid "Go"
-msgstr "行こう"
+msgstr "Ir"
 
 #: ../../app/views/branded/shared/_shib_ds_form.html.erb:32
 msgid "See the full list of participating institutions"
-msgstr "参加機関の全リストを見る"
+msgstr "Ver la lista completa de instituciones participantes."
 
 #: ../../app/views/branded/shared/_shib_ds_form.html.erb:56
 msgid "Institution not in the list?"
-msgstr "機関がリストにない？"
+msgstr ""
 
 #: ../../app/views/branded/shared/_shib_ds_form.html.erb:57
 msgid "Create an account with any email address"
-msgstr "任意のメールアドレスでアカウントを作成する"
+msgstr "Crea una cuenta con cualquier dirección de correo electrónico."
 
 #: ../../app/views/branded/shared/_sign_in_form.html.erb:13
 msgid "Remember email"
-msgstr "メールアドレスを記憶する"
+msgstr "Recuerda email"
 
 #: ../../app/views/branded/shared/_sign_in_form.html.erb:22
 msgid "Forgot email?"
-msgstr "メールをお忘れですか？"
+msgstr ""
 
 #: ../../app/views/branded/shared/_sign_in_form.html.erb:24
 msgid "Forgot password?"
-msgstr "パスワードをお忘れですか？"
+msgstr "¿Se te olvidó tu contraseña?"
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:5
 msgid "What is the DMPTool?"
-msgstr "DMPToolとは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:7
 msgid ""
@@ -1284,14 +1327,10 @@ msgid ""
 "equirements. It also has direct links to funder websites, help text for answer"
 "ing questions, and resources for best practices surrounding data management."
 msgstr ""
-"DMPToolは、研究者がデータ管理計画を作成するのに役立つ無料のオープンソースオンラインアプリケーションです。これらの計画、すなわちDMPは、現在、助成金"
-"提案提出プロセスの一環として多くの資金提供機関によって要求されています。 DMPToolには、資金提供者の要件に準拠したDMPを作成するためのクリックスルー"
-"ウィザードが用意されています。また、資金提供者のWebサイト、質問に答えるためのヘルプテキスト、およびデータ管理に関するベストプラクティスのためのリソースへ"
-"の直接リンクもあります。"
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:10
 msgid "DMPTool Background"
-msgstr "DMPToolの背景"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:12
 msgid ""
@@ -1305,10 +1344,6 @@ msgid ""
 "icipate on the <a href=\"%{steering_committee_url}\">DMPTool Steering Committee<"
 "/a> that maintains monthly calls."
 msgstr ""
-"元のDMPToolは2011年に始まった草の根的な取り組みで、8つの機関が協力して人材と開発の現物貢献を提供しました。その努力は、研究者が研究データを管理す"
-"る計画を立てている、国立科学財団や国立衛生研究所などの資金提供機関からの要請に直接対応していました。参加機関は、力を合わせることで、専門知識を統合し、データ"
-"管理のニーズに対応するコストを削減することができました。これらの機関の代表者は、毎月の通話を維持する<a href=\"%{steering_committe"
-"e_url}\">DMPTool運営委員会に</a>参加しています。"
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:14
 msgid ""
@@ -1318,9 +1353,6 @@ msgid ""
 "he founding partners obtained funding from the %{sloan_url} to create a second"
 " version of the tool, released in 2014."
 msgstr ""
-"元の貢献機関は、%{cdl_url}、%{data_one_url}、%{dcc_url}、%{smithsonian_url}、%{ucla_url}、%"
-"{ucsd_url}、%{uoi_url}、および%{uva_url}の%{uc3_url}最初のバージョンのDMPToolの成功を受けて、設立パートナーは"
-"%{sloan_url}から2014年にリリースされた第2バージョンのツールを作成するための資金を獲得しました。"
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:16
 msgid ""
@@ -1332,10 +1364,6 @@ msgid ""
 " core infrastructure for DMPs we can extend our reach and move best practices "
 "forward, allowing us to participate in a truly global open science ecosystem."
 msgstr ""
-"最近では、世界中のオープンなデータポリシーの普及により、DMPToolと英国のバージョンDMPonlineへの関心が高まっています。 2016年にUC3とD"
-"CCは、パートナーシップを正式にして、単一のオープンソースプラットフォームをコード化して維持することに決めました。新しいプラットフォームDMPRoadmap"
-"は、各組織がその上で実行するサービスとは別のものです。 DMPのコアインフラストラクチャを提供することで、私たちの到達範囲を広げ、ベストプラクティスを進化さ"
-"せ、真にグローバルなオープンな科学エコシステムに参加することができます。"
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:18
 msgid ""
@@ -1344,13 +1372,10 @@ msgid ""
 "ki to learn how to <a href=\"%{get_involved_url}\">get involved</a> in the proje"
 "ct."
 msgstr ""
-"今後の拡張は、DMPを機械で実行可能にすることに重点を置くので、引き続きユースケースを共有してください。 DMPRoadmap GitHub wikiを熟読"
-"して、プロジェクトに<a href=\"%{get_involved_url}\">参加</a>する方法を学び<a href=\"%{get_involved_u"
-"rl}\">ましょう</a> 。"
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:21
 msgid "How to Participate in the DMPTool"
-msgstr "DMPToolへの参加方法"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:23
 msgid ""
@@ -1368,25 +1393,18 @@ msgid ""
 " (i.e., slow response times, poor performance, or software bugs)</li></ul></li"
 "></ul>"
 msgstr ""
-"DMPTool参加者は、データ管理計画を作成するための効果的かつ効率的な方法としてDMPToolを活用する機関、利益および非営利団体、個人、またはその他のグ"
-"ループです。参加している組織のコミュニティは、以下の方法でDMPToolを維持し、サポートするのに役立ちます。 <ul><li> DMPTool（Shibb"
-"oleth）との機関認証を確立する</li><li>リソース、ヘルプテキスト、提案された回答、またはその他の情報を使用してツールをカスタマイズする</li>"
-"<li> DMPToolコードベースのメンテナンスと拡張に貢献</li><li>次の場合にDMPToolヘルプデスクに通知することによって、DMPToolが"
-"関連性と有用性を維持していることを確認してください。 <ul><li>資金提供者は、ツールに反映されていない新しい要件をリリースする</li><li>エラー"
-"、間違い、または誤報がツールで発見されました</li><li>ツールの機能が損なわれている（応答時間が遅い、パフォーマンスが低い、ソフトウェアのバグなど） "
-"</li></ul></li></ul>"
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:25
 msgid "See a current list of <a href=\"%{participants_url}\">DMPTool participants</a>."
-msgstr "現在の<a href=\"%{participants_url}\">DMPTool参加者</a>リストを参照してください。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:26
 msgid "Use the contact form below if you are interested in adding your organization."
-msgstr "組織の追加に興味がある場合は、下記のお問い合わせフォームを使用してください。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:29
 msgid "DMPTool Principles"
-msgstr "DMPToolの原則"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/about_us.html.erb:31
 msgid ""
@@ -1399,131 +1417,126 @@ msgid ""
 "ciples</a>)</li><li>Quality of code and materials created <a href=\"%{contribut"
 "ing_url}\">(Contributor guidelines)</a></li></ul>"
 msgstr ""
-"DMPToolに関する私たちの作業は、以下の原則に基づいています。 DMPToolコミュニティに参加する組織は、これらの原則を理解し、これを遵守することが求"
-"められます。 <ul><li> DMPToolのユーティリティと機能の継続的な改善</li><li>ユーザー主導の要件と開発の優先順位</li><li> D"
-"MPToolの熱意</li><li>開発、改善、改善のためのオープンなプロセスへのコミットメント（ <a href=\"%{panton_url}\">Pant"
-"on Principles</a>参照） </li><li>作成されたコードと資料の品質<a href=\"%{contributing_url}\">（寄稿者"
-"のガイドライン）</a> </li></ul>"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:5
 #: ../../app/views/branded/static_pages/faq.html.erb:45
 msgid "About the DMPTool"
-msgstr "DMPToolについて"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:7
 msgid "What is a data management plan (DMP)?"
-msgstr "データ管理計画（DMP）とは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:8
 msgid "What can I do with the DMPTool?"
-msgstr "DMPToolで何ができますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:9
 msgid "How much does it cost to use the DMPTool?"
-msgstr "DMPToolの使用にはどれくらいの費用がかかりますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:10
 msgid "Who can use the DMPTool?"
-msgstr "誰がDMPToolを使用できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:11
 msgid "How can my institution participate in the DMPTool?"
-msgstr "私の機関はどのようにDMPToolに参加できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:12
 msgid "What are the benefits of participating in the DMPTool?"
-msgstr "DMPToolに参加することのメリットは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:13
 msgid "Have funders endorsed the DMPTool?"
-msgstr "資金提供者はDMPToolを支持していますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:14
 msgid "Who owns the data management plans created with the DMPTool?"
-msgstr "DMPToolで作成されたデータ管理プランを所有しているのは誰ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:15
 msgid "Why am I getting email notifications from the DMPTool?"
-msgstr "DMPToolから電子メール通知を受け取るのはなぜですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:20
 msgid ""
 "I'm in a hurry! Is there a quick start guide for creating a data management pl"
 "an?"
-msgstr "私は急いでね！データ管理計画を作成するためのクイックスタートガイドはありますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:21
 msgid "Where can I read more about funder requirements for data management plans?"
-msgstr "データ管理計画のための資金調達要件の詳細はどこで確認できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:22
 msgid "Are there examples of data management plans?"
-msgstr "データ管理計画の例はありますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:23
 msgid "What's the difference between “sample” and “public” data management plans?"
-msgstr "「サンプル」と「公開」データ管理計画の違いは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:24
 msgid "What are the visibility options for my data management plan?"
-msgstr "私のデータ管理計画の可視性オプションは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:25
 msgid "I created a test plan. How can I delete it (or hide it)?"
-msgstr "私はテストプランを作成しました。どうすれば削除できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:26
 msgid "How long will you save my plans?"
-msgstr "あなたは私の計画をどれくらい保存しますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:27
 msgid "What if I move to a new institution?"
-msgstr "私が新しい機関に移ったらどうなりますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:28
 msgid "Who can help me at my institution?"
-msgstr "私の施設で私を助けることができる人は誰ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:29
 msgid "I have a collaborator. How can we work on the same plan?"
-msgstr "私は協力者を持っています。どのようにして同じ計画を立てることができますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:30
 msgid "What happens when I “request feedback” on a plan?"
-msgstr "プランに「フィードバックを求める」ときはどうなりますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:33
 #: ../../app/views/branded/static_pages/faq.html.erb:155
 msgid "For Administrators"
-msgstr "管理者向け"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:35
 msgid "Where can I find help customizing the DMPTool for my institution/organization?"
-msgstr "私の機関/組織のDMPToolをカスタマイズするためのヘルプはどこにありますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:36
 msgid ""
 "Can I see customized templates and guidance created by administrators at other"
 " organizations?"
-msgstr "他の組織の管理者が作成したカスタマイズされたテンプレートやガイダンスを表示できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:37
 msgid "I created a test template. How can I delete it?"
-msgstr "テストテンプレートを作成しました。どうすれば削除できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:38
 msgid "How do I create guidance? And what are themes?"
-msgstr "ガイダンスはどのように作成すればよいですか？テーマは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:41
 msgid ""
 "Can't find what you’re looking for? <a href=\"%{contact_us_url}\" >Contact us</a"
 ">"
-msgstr "あなたが探しているものが見つかりませんか？ <a href=\"%{contact_us_url}\" >お問い合わせ</a>"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:48
 msgid "Q: What is a data management plan (DMP)?"
-msgstr "Q：データ管理計画（DMP）とは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:49
 msgid ""
@@ -1534,19 +1547,16 @@ msgid ""
 "r avoided entirely by planning ahead. With the right process and framework it "
 "doesn't take too long and can pay off enormously in the long run."
 msgstr ""
-"A：データ管理計画は、研究プロジェクト中および研究プロジェクト後にデータをどのように処理するかを概説する正式な文書です。ほとんどの研究者は何らかの形の計画を"
-"念頭に置いてデータを収集していますが、それはしばしば不十分に文書化され、不完全に考え出されています。多くのデータ管理の問題は、事前に計画することで簡単に処理"
-"したり、完全に回避することができます。適切なプロセスとフレームワークを使用すると、時間がかかりすぎず、長期的には莫大な利益を得ることができます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:51
 msgid ""
 "Read our <a href=\"%{general_guidance_url}\">Data Management General Guidance</a"
 "> for more information about data management plans."
-msgstr "データ管理計画の詳細については、 <a href=\"%{general_guidance_url}\">データ管理一般ガイダンス</a>を参照してください。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:54
 msgid "Q: What can I do with the DMPTool?"
-msgstr "Q：DMPToolで何ができますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:55
 msgid ""
@@ -1557,24 +1567,21 @@ msgid ""
 "cipating_url}\">participating institutions</a> to help fulfill data management "
 "requirements."
 msgstr ""
-"A：DMPToolは研究者がデータ管理計画（DMP）を作成するのに役立ちます。 DMPを必要とする特定の資金提供者からのガイダンスを提供しますが、このツール"
-"はジェネリックDMPの開発に関心のある人が使用でき、研究の円滑化に役立ちます。このツールはまた、 <a href=\"%{participating_url}"
-"\">参加機関で</a>利用可能なリソースとサービスを提供し、データ管理要件を満たすのに役立ちます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:57
 #: ../../app/views/branded/static_pages/faq.html.erb:65
 msgid "Use our <a href=\"%{help_url}\">Quick Start Guide</a> to begin creating a plan."
-msgstr "<a href=\"%{help_url}\">クイックスタートガイド</a>を使用して計画を作成してください。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:60
 msgid "Q: How much does it cost to use the DMPTool?"
-msgstr "Q：DMPToolの使用にはどれくらいの費用がかかりますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:61
 msgid ""
 "A: The DMPTool is FREE. Anyone can create data management plans using the DMPT"
 "ool."
-msgstr "A：DMPToolは無料です。誰でもDMPToolを使用してデータ管理計画を作成できます。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:63
 msgid ""
@@ -1583,12 +1590,10 @@ msgid ""
 " user from your institution. If your institution does not participate, you can"
 " create your own account."
 msgstr ""
-"DMPToolにアクセスするにはログインが必要です。 <a href=\"%{participating_url}\">参加している機関の</a>研究者の場合は"
-"、あなたの機関のユーザーとしてログインできます。あなたの機関が参加していない場合は、自分のアカウントを作成することができます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:68
 msgid "Q: Who can use the DMPTool?"
-msgstr "Q：誰がDMPToolを使用できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:69
 msgid ""
@@ -1597,22 +1602,20 @@ msgid ""
 "og in as a user from your institution and you will be presented with local gui"
 "dance to help you complete your plan."
 msgstr ""
-"A：誰でもデータ管理計画を作成できます。 <a href=\"%{participating_url}\">参加している施設の</a>研究者の方は、あなたの施設"
-"のユーザーとしてログインすることができます。また、あなたの計画を完了するのに役立つ地元の指導が提示されます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:71
 msgid "If your institution does not participate, you can create your own account."
-msgstr "あなたの機関が参加していない場合は、自分のアカウントを作成することができます。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:73
 msgid ""
 "Use our <a href=\\\"%{help_url}\\\">Quick Start Guide</a> to begin creating a plan"
 "."
-msgstr "<a href=\\\"%{help_url}\\\">クイックスタートガイド</a>を使用して計画を作成してください。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:76
 msgid "Q: How can my institution participate in the DMPTool?"
-msgstr "Q：私の機関はどのようにDMPToolに参加できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:77
 msgid ""
@@ -1620,8 +1623,6 @@ msgid ""
 "</a> to make sure your institution is not already participating. Learn more ab"
 "out becoming a <a href=\"%{about_url}\">participating institution</a>."
 msgstr ""
-"A：まず、この<a href=\"%{participating_url}\">参加機関</a>をチェックして、あなたの機関がまだ参加していないことを確認してく"
-"ださい。 <a href=\"%{about_url}\">参加機関に</a>なる方法の詳細をご覧ください。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:79
 msgid ""
@@ -1629,12 +1630,10 @@ msgid ""
 "at your institution. If you are an administrator (librarian or otherwise) and "
 "interested in joining, please <a href=\"%{contact_url}\">contact us</a>."
 msgstr ""
-"あなたが研究者または潜在的なユーザーであれば、あなたの機関の図書館員に相談することをお勧めします。あなたが管理者（図書館員など）であり、参加に興味がある場合"
-"は、お<a href=\"%{contact_url}\">問い合わせください</a> 。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:82
 msgid "Q: What are the benefits of participating in the DMPTool?"
-msgstr "Q：DMPToolに参加することのメリットは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:83
 msgid ""
@@ -1644,24 +1643,21 @@ msgid ""
 "ed by funding agencies. Users from particpating institutions that have configu"
 "red the tool with Shibboleth can log in with their own institutional accounts."
 msgstr ""
-"A：参加機関は、研究者のデータ管理を支援するために、リソースとサービスに関する情報を組み込むことができます。参加機関は、カスタマイズされたヘルプを提供し、資"
-"金調達機関からの質問に回答することもできます。 Shibbolethを使用してツールを設定した参加機関のユーザーは、自分の機関のアカウントでログインできます"
-"。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:85
 msgid "For more information, see <a href=\"%{about_url}\">About participating</a>."
-msgstr "詳細<a href=\"%{about_url}\">については、参加についてを</a>参照してください。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:88
 msgid "Q: Have funders endorsed the DMPTool?"
-msgstr "Q：資金提供者がDMPToolを支持していますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:89
 msgid ""
 "A: No funders have endorsed the use of the DMPTool, although some provide link"
 "s to the tool or resources within the tool in their public access plans (e.g.,"
 " NEH, DOT)."
-msgstr "A：資金提供者はDMPToolの使用を承認していませんが、ツール内のツールやリソースへのリンクを公衆アクセスプラン（例：NEH、DOT）で提供しています。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:91
 msgid ""
@@ -1671,12 +1667,10 @@ msgid ""
 " as we create templates and for all funders we monitor public notices and webs"
 "ites for changes."
 msgstr ""
-"DMPToolのテンプレートには、正式な裏書がないにもかかわらず、財団や政府機関などさまざまな資金提供者の特定のデータ管理計画要件が組み込まれています。我々"
-"は、テンプレートを作成する際にいくつかの資金提供者と密接な関係にあり、すべての資金提供者のために、公的通知とウェブサイトで変更を監視しています。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:94
 msgid "Q: Who owns the data management plans created with the DMPTool?"
-msgstr "Q：DMPToolで作成したデータ管理プランを所有しているのは誰ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:95
 msgid ""
@@ -1687,19 +1681,16 @@ msgid ""
 "ans_url}\">public plans</a> on the DMPTool website. This will benefit other DMP"
 "Tool users and promote open research."
 msgstr ""
-"A：データ管理計画は、クリエイターの知的財産です。カリフォルニアデジタル図書館は、DMPToolを使用して作成されたデータ管理計画に対する著作権または所有権"
-"を主張していません。しかし、あなたの計画を公に分かち合うことを選ぶことができ、それはDMPToolのウェブサイト上の<a href=\"%{public_pl"
-"ans_url}\">公共計画の</a>図書館に表示されます。これにより、他のDMPToolユーザーにとって利益をもたらし、オープンなリサーチが促進されます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:97
 msgid ""
 "See the <a href=\"%{help_url}\">Quick Start Guide</a> for more information on se"
 "tting your plan's visibility."
-msgstr "プランの可視性の設定の詳細については、「 <a href=\"%{help_url}\">クイックスタートガイド」</a>を参照してください。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:100
 msgid "Q: Why am I getting email notifications from the DMPTool?"
-msgstr "Q：DMPToolから電子メール通知を受け取るのはなぜですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:101
 msgid ""
@@ -1709,25 +1700,22 @@ msgid ""
 "nu, then select the \"Notification preferences\" tab, check/uncheck the appropri"
 "ate boxes, and click the button to save your changes."
 msgstr ""
-"A：DMPToolから自動電子メール通知を生成するアクションは複数あります。ユーザーは、プロフィールページでこれらの通知をオン/オフにすることができます。右"
-"上のプルダウンメニューで自分の名前をクリックし、[通知設定]タブを選択し、該当するボックスをオンまたはオフにしてボタンをクリックして変更を保存し、[プロファ"
-"イルの編集]に移動します。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:107
 msgid ""
 "Q: I'm in a hurry! Is there a quick start guide for creating a data management"
 " plan?"
-msgstr "Q：私は急いでいます！データ管理計画を作成するためのクイックスタートガイドはありますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:108
 msgid ""
 "Yes! The <a href=\"%{help_url}\">Quick Start Guide</a> is available as a website"
 " or a PDF you can download."
-msgstr "はい！ <a href=\"%{help_url}\">クイックスタートガイド</a>は、WebサイトまたはPDFでダウンロードできます。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:111
 msgid "Q: Where can I read more about funder requirements for data management plans?"
-msgstr "Q：データ管理計画の資金需要に関する詳細はどこで確認できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:112
 msgid ""
@@ -1735,12 +1723,10 @@ msgid ""
 " direct links to funder guidelines, as well as sample plans if provided. You d"
 "o not have to be logged into the DMPTool to access this page."
 msgstr ""
-"A：「 <a href=\"%{public_templates_url}\">Funder Requirements」ページに</a>は、資金提供者のガイドラ"
-"インやサンプルプラン（提供されている場合）への直接リンクがあります。このページにアクセスするには、DMPToolにログインする必要はありません。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:115
 msgid "Q: Are there examples of data management plans?"
-msgstr "Q：データ管理計画の例はありますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:116
 msgid ""
@@ -1751,14 +1737,10 @@ msgid ""
 "ks to these plans are available on the <a href=\"%{public_templates_url}\">Funde"
 "r Requirements page</a>."
 msgstr ""
-"A：DMPToolは<a href=\"%{public_plans_url}\">公共計画の</a>コレクションをホストしています。このコレクションには、計画"
-"を公に共有することを選択したDMPToolユーザーによって作成された実際の計画が含まれています。これらの計画は質の高い審査が行われていないことにご注意くださ"
-"い。一部の資金提供者は、Webサイトでサンプルプランを提供しています。これらのプランへのリンクは<a href=\"%{public_templates_ur"
-"l}\">Funder Requirementsページにあります</a> 。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:119
 msgid "Q: What's the difference between “sample” and “public” data management plans?"
-msgstr "Q：「サンプル」と「公開」データ管理計画の違いは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:120
 msgid ""
@@ -1769,14 +1751,10 @@ msgid ""
 "). Both provide helpful examples for researchers creating their own data manag"
 "ement plans."
 msgstr ""
-"A： <a href=\"%{public_templates_url}\">Funder Requirementsページ</a>のサンプルプランは資金提供者に"
-"よって作成され、Webサイトのガイダンスとして提供されます。 <a href=\"%{public_plans_url}\">パブリック・プラン</a>は、DM"
-"PToolのユーザーによって作成された実際のプランです（これらは品質に関して審査されていないことに注意してください）。両方とも、独自のデータ管理計画を作成す"
-"る研究者に役立つ例を提供しています。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:123
 msgid "Q: What are the visibility options for my data management plan?"
-msgstr "Q：データ管理プランの可視性オプションは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:124
 msgid ""
@@ -1790,15 +1768,10 @@ msgid ""
 " Plans</a> page of the DMPTool website. Choose this option to allow others to "
 "see your plan without restrictions (under a CC-Zero license).</li></ol>"
 msgstr ""
-"A：作成するプランごとに3つの表示オプションがあります。 <ol><li>プライベート。あなたの計画は、あなたと指定された計画の共同作業者だけが見ることがで"
-"きます。施設の管理者は、基本計画の詳細（プロジェクトの詳細ページから、計画内容ではなく）を利用できます。 </li><li>組織。あなたの機関/組織がDMP"
-"Toolに参加している場合、この設定では、管理者とあなたの機関のユーザーがあなたの計画を見ることができます。 </li><li>パブリック。あなたの計画は、"
-"DMPToolのウェブサイトの<a href=\"%{public_plans_url}\">Public Plans</a>ページで利用できます。このオプショ"
-"ンを選択すると、他の人が（CC-Zeroライセンスのもとで）制限なくプランを表示できるようになります。 </li></ol>"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:127
 msgid "Q: I created a test plan. How can I delete it (or hide it)?"
-msgstr "Q：テストプランを作成しました。どうすれば削除できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:128
 msgid ""
@@ -1809,14 +1782,10 @@ msgid ""
 "delete the plan: select \"Remove\" from the Actions menu next to the title of th"
 "e appropriate plan. You will be asked to confirm this action.</li></ol>"
 msgstr ""
-"A：テストプランを削除するには、次の手順を実行します。 <ol><li> DMPToolにログインします。 </li><li> [マイダッシュボード]で、該"
-"当するプランのタイトルの横にある[テスト]列のチェックボックスをオンにします。可視性がpublic（テスト/プライベートになる）に設定されている場合、このア"
-"クションはパブリックリストからプランを削除します。 </li><li>プランを削除するには：該当するプランのタイトルの横にある[Actions]メニューから"
-"[Remove]を選択します。この操作を確認するよう求められます。 </li></ol>"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:131
 msgid "Q: How long will you save my plans?"
-msgstr "Q：私の計画をどれくらい保存しますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:132
 msgid ""
@@ -1824,12 +1793,10 @@ msgid ""
 "r, however, you can delete plans by going to “My Dashboard” and selecting “Rem"
 "ove” from the Actions menu next to the plan name."
 msgstr ""
-"A：DMPToolで作成したプランは削除しません。ただし、プランの所有者は、「My Dashboard」に移動し、プラン名の横にある「Actions」メニュ"
-"ーから「Remove」を選択して、プランを削除できます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:135
 msgid "Q: What if I move to a new institution?"
-msgstr "Q：私が新しい機関に移ったらどうなりますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:136
 msgid ""
@@ -1839,13 +1806,10 @@ msgid ""
 "ers who change institutions and assume new institutional credentials must crea"
 "te a new DMPTool account."
 msgstr ""
-"A：DMPToolアカウントは電子メールアドレスに関連付けられているため、ユーザーが機関を変更した場合、その情報は自動的にユーザーにフォローされません。しか"
-"し、もし私たちが連絡を取れば、以前の機関の計画にユーザーをつなげることができます。機関を変更し、新しい機関の資格を引き受けるユーザーは、新しいDMPTool"
-"アカウントを作成する必要があります。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:139
 msgid "Q: Who can help me at my institution?"
-msgstr "Q：私の施設で私を助けることができるのは誰ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:140
 msgid ""
@@ -1855,14 +1819,10 @@ msgid ""
 "ollow up with you. If your institution does not participate in the DMPTool, ch"
 "eck with a librarian to see if someone on campus can help."
 msgstr ""
-"A：あなたの機関<a href=\"%{participating_url}\">がDMPTool</a>に<a href=\"%{participating_u"
-"rl}\">参加している</a>場合は、ツールにログインして、トップバナーの「連絡先」リンクをクリックします。あなたの電子メールは、あなたにフォローアップでき"
-"るキャンパスの専門家に直接送信されます。あなたの機関がDMPToolに参加していない場合は、図書館員に相談して、キャンパス内の誰かが助けることができるかどう"
-"か確認してください。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:143
 msgid "Q: I have a collaborator. How can we work on the same plan?"
-msgstr "Q：私は協力者を持っています。どのようにして同じ計画を立てることができますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:144
 msgid ""
@@ -1872,17 +1832,14 @@ msgid ""
 "n. Enter an email address in the field to \"Invite collaborators,” select the d"
 "esired level of permissions, and click \"Submit\" to send an email invitation."
 msgstr ""
-"A：まず、DMPToolでアカウントを作成し、プランを作成する必要があります。次に共同作業者を共同オーナーとしてプランに追加したり、編集者権限または読み取り"
-"専用権限を与えたりすることができます。これは、計画の[共有]タブで行うことができます。 [共同編集者を招待する]欄にメールアドレスを入力し、必要な権限レベル"
-"を選択して[送信]をクリックすると、メールの招待状が送信されます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:146
 msgid "For more information, see the <a href=\"%{help_url}\">Quick Start Guide</a>."
-msgstr "詳細については、「 <a href=\"%{help_url}\">クイックスタートガイド」を</a>参照してください。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:149
 msgid "Q: What happens when I \"request feedback\" on a plan?"
-msgstr "Q：プランに「フィードバックを求める」ときはどうなりますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:150
 msgid ""
@@ -1895,10 +1852,6 @@ msgid ""
 "ontact. The institutional administrator will be granted read only permissions "
 "and be able to provide comments on the plan within the tool."
 msgstr ""
-"A：DMPToolの要求フィードバック機能は、研究者がデータ管理計画を作成するのに役立つように、施設が設定できるオプションの機能です。フィードバックの計画を"
-"提出するのは、施設内のみです。この機能を有効にすると、プランを作成するときに[共有]タブに[フィードバックを求める]ボタンが表示されます。ユーザーが[フィー"
-"ドバックのリクエスト]ボタンをクリックすると、DMPToolはプラン所有者と施設管理者の連絡先に電子メールを送信します。機関の管理者には、読み取り専用のアク"
-"セス許可が与えられ、ツール内のプランにコメントを付けることができます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:152
 msgid ""
@@ -1906,14 +1859,12 @@ msgid ""
 " at your institution, see the \"Request feedback\" section of the <a href=\"%{adm"
 "in_help_url}\">help for administrators</a> wiki."
 msgstr ""
-"管理者：機関のユーザーにこの機能を有効にすることに関心がある場合は<a href=\"%{admin_help_url}\">、管理者の</a> Wikiの<a"
-" href=\"%{admin_help_url}\">ヘルプの</a> 「要望のフィードバック」を参照してください。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:158
 msgid ""
 "Q: Where can I find help customizing the DMPTool for my institution/organizati"
 "on?"
-msgstr "Q：私の機関/組織のDMPToolをカスタマイズするためのヘルプはどこにありますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:159
 msgid ""
@@ -1925,17 +1876,12 @@ msgid ""
 "li></ul></li><li>Quick overview of terms</li><li>Creating guidance</li><li>Cus"
 "tomizing funder templates</li><li>Creating templates</li></ol>"
 msgstr ""
-"A：GitHubにあるDMPToolをカスタマイズする<a href=\"%{admin_help_url}\">管理者</a>の<a href=\"%{admi"
-"n_help_url}\">ためのヘルプトピックの</a>一覧が豊富にあります。以下の詳細な手順があります。 <ol><li> DMPToolの設定<ul><"
-"li> Shibbolethの有効化</li><li>管理者権限を付与する</li><li>組織プロファイルのカスタマイズ</li><li>計画にフィードバ"
-"ックを提供する</li><li>使用情報</li></ul></li><li>用語の概要</li><li>ガイダンスを作成する</li><li>ファインダテ"
-"ンプレートのカスタマイズ</li><li>テンプレートの作成</li></ol>"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:162
 msgid ""
 "Q: Can I see customized templates and guidance created by administrators at ot"
 "her organizations?"
-msgstr "Q：他の組織の管理者が作成したカスタマイズされたテンプレートやガイダンスを表示できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:163
 msgid ""
@@ -1945,8 +1891,6 @@ msgid ""
 "ations at a time. You will see the selected guidance when you navigate to the "
 "\"Write plan\" tab."
 msgstr ""
-"A：はい！他の人が作成したガイダンスを表示するには、ツールで新しいプランを作成します。 [プロジェクトの詳細]タブには、右側に[計画ガイダンスの設定]が表示"
-"されます。 「フルリストを見る」をクリックすると、一度に最大6つの組織を選択できます。 「書き込み計画」タブに移動すると、選択したガイダンスが表示されます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:165
 msgid ""
@@ -1959,14 +1903,10 @@ msgid ""
 "r own templates and you will be presented with the default DMPTool template af"
 "ter clicking the button to \"Create plan.\""
 msgstr ""
-"他の人が作成したテンプレート（利用可能な場合）を表示するには、ツールで新しいプランを作成し、2番目のステップの組織を選択します。 3番目のプラン作成ステップ"
-"では、「このプランに関連付けられたファインダーがありません」というチェックボックスをオンにすると、使用可能な組織テンプレートが表示されます。フィールドがグレ"
-"ーのままで、組織名のテンプレートが表示されない場合、選択した組織は独自のテンプレートを作成せず、ボタンをクリックしてデフォルトのDMPToolテンプレートが"
-"表示されます。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:168
 msgid "Q: I created a test template. How can I delete it?"
-msgstr "Q：テストテンプレートを作成しました。どうすれば削除できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:169
 msgid ""
@@ -1976,13 +1916,10 @@ msgid ""
 "ppear to users. See our <a href=\"%{admin_help_url}\">help documentation</a> on "
 "how to do this."
 msgstr ""
-"A：DMPTool管理者はテンプレートを削除できます。このオプションは、そのテンプレートを使用して計画を作成していない場合にのみ使用できます。テンプレートを"
-"削除できない、または削除したくない場合は、テンプレートを「公開しない」ようにして、ユーザーに表示されないようにします。これを行う方法については、 <a hr"
-"ef=\"%{admin_help_url}\">ヘルプドキュメント</a>を参照してください。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:172
 msgid "Q: How do I create guidance? And what are themes?"
-msgstr "Q：ガイダンスを作成するにはどうすればよいですか？テーマは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/faq.html.erb:173
 msgid ""
@@ -1994,11 +1931,6 @@ msgid ""
 "ing text, assigning one or more themes, and attaching it to a guidance group</"
 "li><li>Publishing the guidance</li></ol>"
 msgstr ""
-"A： <a href=\"%{admin_help_url}\">管理者向け</a>の<a href=\"%{admin_help_url}\">ヘルプメニューには"
-"、</a>テーマガイダンスを作成するための詳細な手順が記載され<a href=\"%{admin_help_url}\">ています</a> 。基本的な手順は次の"
-"とおりです。 <ol><li>ガイダンスグループを作成する（組織の既定のガイダンスグループはすでにありますが、たとえば、特定の部門のために追加のグループまた"
-"はサブグループを作成することはオプションです） </li><li>テキストを入力し、1つまたは複数のテーマを割り当て、ガイダンスグループに添付してガイダンス"
-"を作成する</li><li>ガイダンスを公開する</li></ol>"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:175
 msgid ""
@@ -2009,77 +1941,74 @@ msgid ""
 " apply their advice over all templates at once. This also alleviates the need "
 "to update guidance each time a new template is released."
 msgstr ""
-"データ管理計画（例えば、データフォーマット、メタデータ）において扱われる最も一般的なトピックを表す14のテーマがある。テーマは、質問やガイダンスを関連付ける"
-"タグのように機能します。テンプレート内の質問には1つまたは複数のテーマがタグ付けされ、ガイダンスはテーマによって書き込まれ、組織はすべてのテンプレートに対し"
-"て一度にアドバイスを適用できます。これはまた、新しいテンプレートがリリースされるたびにガイダンスを更新する必要性を緩和します。"
 
 #: ../../app/views/branded/static_pages/faq.html.erb:178
 msgid ""
 "Can't find the answer you’re looking for? <a href=\"%{contact_url}\">Contact us<"
 "/a>"
-msgstr "あなたが探している答えを見つけることができませんか？ <a href=\"%{contact_url}\">お問い合わせ</a>"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:2
 msgid "Data management general guidance"
-msgstr "データ管理一般的なガイダンス"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:5
 msgid "Table of Contents"
-msgstr "目次"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:8
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:21
 msgid "Introduction"
-msgstr "前書き"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:9
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:39
 msgid "Types of Data"
-msgstr "データの種類"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:10
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:72
 msgid "File Formats"
-msgstr "ファイル形式"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:11
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:112
 msgid "Organizing Files"
-msgstr "ファイルの整理"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:12
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:136
 msgid "Metadata: Data Documentation"
-msgstr "メタデータ：データドキュメント"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:13
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:194
 msgid "Persistent Identifiers"
-msgstr "永続的識別子"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:14
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:213
 msgid "Security and Storage"
-msgstr "セキュリティとストレージ"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:15
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:260
 msgid "Sharing and Archiving"
-msgstr "共有とアーカイブ"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:16
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:286
 msgid "Citing Data"
-msgstr "データの引用"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:17
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:309
 msgid "Copyright and Privacy"
-msgstr "著作権とプライバシー"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:23
 msgid "What is a data management plan?"
-msgstr "データ管理計画とは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:24
 msgid ""
@@ -2090,13 +2019,10 @@ msgid ""
 "voided entirely by planning ahead. With the right process and framework it doe"
 "sn't take too long and can pay off enormously in the long run."
 msgstr ""
-"データ管理計画は、研究プロジェクト中および研究プロジェクト後にデータをどのように処理するかを概説する正式な文書です。ほとんどの研究者は何らかの形の計画を念頭"
-"に置いてデータを収集していますが、それはしばしば不十分に文書化され、不完全に考え出されています。多くのデータ管理の問題は、事前に計画することで簡単に処理した"
-"り、完全に回避することができます。適切なプロセスとフレームワークを使用すると、時間がかかりすぎず、長期的には莫大な利益を得ることができます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:27
 msgid "Who requires a plan?"
-msgstr "誰が計画を必要としますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:28
 msgid ""
@@ -2111,10 +2037,6 @@ msgid ""
 "or explaining why long-term preservation and access cannot be justified\"</bloc"
 "kquote>"
 msgstr ""
-"2013年2月、ホワイトハウス科学技術政策局（OSTP）は、研究への一般のアクセスを拡大する計画を立てるために重要な研究資金を提供する連邦政府機関を指揮する"
-"%{memorandum_url}を発行した。他の要求のなかでも、 <br><blockquote> 「連邦政府の助成金を受けて、科学研究および教員のための"
-"契約を受けているすべての外部研究者が、連邦政府から資金提供を受けたデジタル形式の科学データを長期間保存し、アクセスする方法を説明する、研究、またはなぜ長期的"
-"な保存とアクセスが正当化できないのかを説明する」 </blockquote>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:30
 msgid ""
@@ -2122,12 +2044,10 @@ msgid ""
 "nding proposal process. Most or all US Federally funded grants will eventually"
 " require some form of data management plan."
 msgstr ""
-"国立科学財団（NSF）は、資金援助の提案プロセスの一環として2ページの計画を要求しています。大部分またはすべての米国連邦資金援助は最終的に何らかの形のデータ"
-"管理計画を必要とする。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:33
 msgid "We can help"
-msgstr "お手伝いします"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:34
 msgid ""
@@ -2139,9 +2059,6 @@ msgid ""
 " following through and complying with funding agency and publisher requirement"
 "s."
 msgstr ""
-"私たちは、内部および外部のパートナーと協力して、データ管理計画の開発をあまり複雑にしませんでした。お客様のリサーチとデータを把握することで、お客様の特定のニ"
-"ーズを現場のデータ管理のベストプラクティスと照合し、効果的なデータ管理計画を立てることができます。リサーチプロセスの開始時にこの作業を行うと、資金調達機関や"
-"パブリッシャーの要件を遵守し、順守する時間がはるかに短くなります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:36
 msgid ""
@@ -2150,8 +2067,6 @@ msgid ""
 "irectorate and Division requirements, along with links to additional resources"
 ", services, and help."
 msgstr ""
-"NSFなどの米国連邦機関からの資金調達を申請する者は、DMPToolを使用することをお勧めします。 DMPToolは、追加のリソース、サービス、およびヘルプ"
-"へのリンクとともに、NSF DirectorateおよびDivision要件の多くにガイダンスを提供します。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:41
 msgid ""
@@ -2159,12 +2074,10 @@ msgid ""
 "ate a data management plan, it's useful to categorize your data in four ways: "
 "by source, format, stability, and volume."
 msgstr ""
-"研究プロジェクトは、無数のデータを生成して収集します。データ管理計画を策定するには、ソース、フォーマット、安定性、およびボリュームの4つの方法でデータを分類"
-"すると便利です。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:44
 msgid "What's the source of the data?"
-msgstr "データのソースは何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:45
 msgid ""
@@ -2172,8 +2085,6 @@ msgid ""
 " main categories. The category(ies) your data comes from will affect the choic"
 "es that you make throughout your data management plan."
 msgstr ""
-"データはさまざまなソースから得られますが、4つの主要なカテゴリに分類できます。あなたのデータが由来するカテゴリーは、あなたがデータ管理計画を通して選択したも"
-"のに影響します。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:47
 msgid ""
@@ -2182,8 +2093,6 @@ msgid ""
 "eguard</li><li>Examples: Sensor readings, telemetry, survey results, images</l"
 "i></ul>"
 msgstr ""
-"<strong>観察的</strong> <ul><li>リアルタイムでキャプチャされ、通常は実験室の外にある</li><li>通常は置き換えが不可能であり"
-"、したがって保護することが最も重要です</li><li>例：センサーの読み取り値、遠隔測定値、調査結果、画像</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:49
 msgid ""
@@ -2192,8 +2101,6 @@ msgid ""
 "consuming</li><li>Examples: gene sequences, chromatograms, magnetic field read"
 "ings</li></ul>"
 msgstr ""
-"<strong>実験的</strong> <ul><li>ラボや制御された条件下で生成される</li><li>しばしば再現可能ですが、高価で時間がかかること"
-"があります</li><li>例：遺伝子配列、クロマトグラム、磁界測定値</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:51
 msgid ""
@@ -2201,8 +2108,6 @@ msgid ""
 "Likely to be reproducible if the model and inputs are preserved</li><li>Exampl"
 "es: climate models, economic models</li></ul>"
 msgstr ""
-"<strong>シミュレーション</strong> <ul><li>テストモデルから生成されたマシン</li><li>モデルと入力が保存されていると再現性が"
-"ある</li><li>例：気候モデル、経済モデル</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:53
 msgid ""
@@ -2210,12 +2115,10 @@ msgid ""
 "i><li>Reproducible, but can be very expensive and time-consuming</li><li>Examp"
 "les: text and data mining, compiled database, 3D models</li></ul>"
 msgstr ""
-"<strong>派生/コンパイル</strong> <ul><li>既存のデータセットから生成</li><li>再現可能ですが、非常に高価で時間がかかること"
-"があります</li><li>例：テキストとデータマイニング、コンパイルされたデータベース、3Dモデル</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:56
 msgid "What's the form of the data?"
-msgstr "データの形式は何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:57
 msgid ""
@@ -2226,14 +2129,10 @@ msgid ""
 "scipline-specific</strong>: FITS in astronomy, CIF in chemistry</li><li><stron"
 "g>Instrument-specific</strong>: equipment outputs</li></ul>"
 msgstr ""
-"データには、以下を含む多くの形式があります。 <ul><li> <strong>テキスト</strong> ：フィールドまたは実験室のメモ、調査回答</li"
-"><li> <strong>数値</strong> ：テーブル、カウント、測定値</li><li> <strong>視聴覚</strong> ：画像、録音、"
-"ビデオ</li><li> <strong>モデル、コンピュータコード</strong> </li><li> <strong>分野別</strong> ：天文"
-"学におけるFITS、化学におけるCIF </li><li> <strong>機器固有</strong> ：機器出力</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:60
 msgid "How stable is the data?"
-msgstr "データはどれくらい安定していますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:61
 msgid ""
@@ -2246,11 +2145,6 @@ msgid ""
 "data is never changed or deleted</li><li><strong>Revisable datasets</strong>: "
 "new data may be added, and old data may be changed or deleted</li></ul>"
 msgstr ""
-"データは、プロジェクトの経過とともに（そしておそらくプロジェクトの終わりを超えて）固定または変更することもできます。データは変わりますか？彼らは成長するので"
-"すか？以前に記録されたデータは訂正の対象ですか？データのバージョンを把握する必要がありますか？時間に関しては、データセットの一般的なカテゴリは次のとおりです"
-"。 <ul><li> <strong>固定データセット</strong> ：収集または生成後に変更されない</li><li> <strong>拡大データセッ"
-"ト</strong> ：新しいデータが追加されることがありますが、古いデータは決して変更または削除されません</li><li> <strong>改訂</st"
-"rong>可能なデータ<strong>セット</strong> ：新しいデータが追加され、古いデータが変更または削除されることがあります</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:63
 msgid ""
@@ -2259,12 +2153,10 @@ msgid ""
 "ng datasets can be a challenge so it is imperative that you begin with a plan "
 "to carry you through the entire data management process."
 msgstr ""
-"この質問への回答は、データの整理方法や実行する必要があるバージョン管理のレベルに影響します。急速に変化するデータセットを追跡することは難しいことがありますの"
-"で、データ管理プロセス全体を実行する計画から始めることが不可欠です。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:66
 msgid "How much data will the project produce?"
-msgstr "プロジェクトでどれだけのデータが作成されますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:67
 msgid ""
@@ -2273,8 +2165,6 @@ msgid ""
 "cide which to discard) and where such large data can be housed. Be sure to kno"
 "w your archiving organization's capacity for storage and backups."
 msgstr ""
-"たとえば、イメージデータには通常多くの記憶領域が必要なため、イメージをすべて保持するかどうか（また、そうでない場合は、どのように廃棄するかを決める方法）と、"
-"そのような大きなデータを格納できる場所を決める必要があります。アーカイブ組織のストレージ容量とバックアップ容量を確認してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:69
 msgid ""
@@ -2285,10 +2175,6 @@ msgid ""
 " you accumluate every month or every 90 days?</li><li>How much data do you ant"
 "icipate collecting and generating by the end of your project?</li></ul>"
 msgstr ""
-"不十分な準備ができないようにするには、データの成長率を見積もります。考慮すべきいくつかの質問は次のとおりです。 <ul><li>手動でデータを収集して記録し"
-"ていますか？ </li><li>データを収集するために観測機器とコンピュータを使用していますか？ </li><li>あなたのデータ収集は反復性が高いですか？"
-" </li><li>毎月または90日ごとにどれだけのデータを蓄積しますか？ </li><li>プロジェクト終了時までに、どのくらいのデータを収集し、生成する"
-"予定ですか？ </li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:74
 msgid ""
@@ -2301,58 +2187,54 @@ msgid ""
 "nreadable in the future, some formats are more likely to be readable than othe"
 "rs."
 msgstr ""
-"あなたのデータに選択したファイル形式は、他の誰かの将来のアクセス能力の第一の要因です。データを管理、共有、保存するには、どのファイル形式が最適かを慎重に考え"
-"てください。テクノロジは絶えず変化し、現代のハードウェアとソフトウェアはすべて廃止されることが予想されます。データの作成に使用したソフトウェアが利用できなく"
-"なった場合、データをどのように読み込むか検討してください。現在選択しているファイル形式は将来読めなくなる可能性がありますが、一部の形式は他の形式よりも読みや"
-"すくなる可能性があります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:77
 msgid "Formats likely to be accessible in the future are:"
-msgstr "将来アクセス可能なフォーマットは次のとおりです。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:79
 msgid "Non-proprietary"
-msgstr "非独占的"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:80
 msgid "Open, with documented standards"
-msgstr "公開され、文書化された標準"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:81
 msgid "In common usage by the research community"
-msgstr "研究コミュニティの一般的な使用法"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:82
 msgid "Using standard character encodings (i.e., ASCII, UTF-8)"
-msgstr "標準の文字エンコーディング（ASCII、UTF-8など）を使用すると、"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:83
 msgid "Uncompressed (space permitting)"
-msgstr "非圧縮（スペースの許可）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:87
 msgid "Examples of preferred format choices:"
-msgstr "推奨されるフォーマットの選択肢の例："
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:89
 msgid "Image: JPEG, JPG-2000, PNG, TIFF"
-msgstr "画像：JPEG、JPG-2000、PNG、TIFF"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:90
 msgid "Text: plain text (TXT), HTML, XML, PDF/A"
-msgstr "テキスト：プレーンテキスト（TXT）、HTML、XML、PDF / A"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:91
 msgid "Audio: AIFF, WAVE"
-msgstr "オーディオ：AIFF、WAVE"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:92
 msgid "Containers: TAR, GZIP, ZIP"
-msgstr "コンテナ：TAR、GZIP、ZIP"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:93
 msgid "Databases: prefer XML or CSV to native binary formats"
-msgstr "データベース：ネイティブのバイナリ形式にXMLまたはCSVを使用する"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:96
 msgid ""
@@ -2360,20 +2242,16 @@ msgid ""
 "ouraged file format, do so, but consider saving your work in a more archival f"
 "ormat when you are finished."
 msgstr ""
-"専有/推奨されないファイル形式でデータを扱うことが必要または便利であると分かった場合は、それを行いますが、完了したらアーカイブ形式で保存することを検討してく"
-"ださい。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:98
 msgid ""
 "For more information on recommended formats, see the <a href=\"%{recommended_fo"
 "rmats_url}\">UK Data Service guidance on recommended formats</a>."
 msgstr ""
-"推奨フォーマットの詳細については、推奨フォーマットに関する<a href=\"%{recommended_formats_url}\">英国データサービスガイダ"
-"ンスを</a>参照してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:101
 msgid "Tabular data"
-msgstr "表形式のデータ"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:102
 msgid ""
@@ -2386,14 +2264,10 @@ msgid ""
 "for each column</li><li>Create charts on new sheets- don't embed them in the w"
 "orksheet with the data</li></ul>"
 msgstr ""
-"表形式のデータは、主にExcelスプレッドシートのように分野間で共通するため、特に言及しています。 Excelで分析を行う場合は、「名前を付けて保存...」"
-"コマンドを使用して、作業が完了したら.csv形式にエクスポートする必要があります。スプレッドシートは、ベストプラクティスを設定したときに、次のように理解して"
-"エクスポートする方が簡単です。 <ul><li>ワークシートに複数の表を置かないでください</li><li>各列にわかりやすいタイトルのヘッダー行を含める<"
-"/li><li>新しいシートにチャートを作成する - ワークシートにデータを埋め込む</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:105
 msgid "Other risks to accessibility"
-msgstr "アクセシビリティに対するその他のリスク"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:107
 msgid ""
@@ -2401,8 +2275,6 @@ msgid ""
 " been lost (e.g., a forgotten password). For this reason, encrypted data repre"
 "sentations are strongly discouraged."
 msgstr ""
-"暗号化されたデータは、失われた鍵（例えば、忘れられたパスワード）で暗号化された場合、事実上失われる可能性がある。このため、暗号化されたデータ表現は強く推奨さ"
-"れません。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:108
 msgid ""
@@ -2411,12 +2283,10 @@ msgid ""
 "ifying the rights situation is often prohibitive. See data rights and licensin"
 "g for guidance."
 msgstr ""
-"法的に拘束されているデータも失われたとみなすことができます。したがって、権利の状況を明らかにするコストはしばしば法外なので、データはあいまいな、または未知の"
-"アクセス権とアーカイブ権に縛られます。ガイダンスについては、データの権利とライセンスを参照してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:114
 msgid "Basic Directory and File Naming Conventions"
-msgstr "基本ディレクトリとファイル命名規則"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:115
 msgid ""
@@ -2426,9 +2296,6 @@ msgid ""
 "e identifier (Guidance on persistent external identifiers is available below)<"
 "/li><li>Date (yyyy or yyyy.mm.dd)</li></ul>"
 msgstr ""
-"これらは、独自の内部規則を持っていない場合に備えて、データファイルの管理に役立つための大まかなガイドラインです。ファイルを整理する際、トップレベルのディレク"
-"トリ/フォルダには次のものが含まれている必要があります。 <ul><li>プロジェクト名</li><li>一意の識別子（永続的な外部識別子に関するガイダンス"
-"は以下にあります） </li><li>日付（yyyyまたはyyyy.mm.dd） </li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:117
 msgid ""
@@ -2436,18 +2303,16 @@ msgid ""
 "Separate files or directories could apply, for example, to each run of an expe"
 "riment, each version of a dataset, and/or each person in the group."
 msgstr ""
-"サブディレクトリ構造には、明示的に文書化された命名規則が必要です。例えば、実験の各実行、データセットの各バージョン、および/またはグループ内の各人に、個別の"
-"ファイルまたはディレクトリを適用することができます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:120
 msgid ""
 "Reserve the 3-letter file extension for the file format, such as .txt, .pdf, o"
 "r .csv."
-msgstr ".txt、.pdf、または.csvなど、ファイル形式の3文字のファイル拡張子を予約します。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:121
 msgid "Identify the activity or project in the file name."
-msgstr "ファイル名でアクティビティまたはプロジェクトを特定します。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:122
 msgid ""
@@ -2455,38 +2320,36 @@ msgid ""
 "g conventions. It can quickly become difficult to identify the \"correct\" versi"
 "on of a file."
 msgstr ""
-"ファイルまたはディレクトリの命名規則を使用して、ファイルとデータセットの別バージョンを識別します。ファイルの「正しい」バージョンを特定するのがすぐに難しくな"
-"る可能性があります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:123
 msgid ""
 "Record all changes to a file no matter how small. Discard obsolete versions af"
 "ter making backups."
-msgstr "どんなに小さくても、すべての変更をファイルに記録する。バックアップを作成した後、廃止されたバージョンを破棄します。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:127
 msgid "File Renaming"
-msgstr "ファイルの名前変更"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:128
 msgid "Tools to help you:"
-msgstr "あなたを助けるツール："
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:130
 msgid "(Windows; free)"
-msgstr "（Windows;無料）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:131
 msgid "(Mac; free trial)"
-msgstr "（Mac;無料試用版）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:132
 msgid "(Linux, Mac, Windows; free)"
-msgstr "（Linux、Mac、Windows、無料）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:138
 msgid "Why document data?"
-msgstr "データを文書化する理由"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:139
 msgid ""
@@ -2495,8 +2358,6 @@ msgid ""
 "nal relationships of your data in detail and will enable other researchers to "
 "find, use, and properly cite your data."
 msgstr ""
-"明確で詳細な文書は、データを理解し、解釈し、使用するために不可欠です。データドキュメントは、データの内容、フォーマット、および内部関係を詳細に記述し、他の研"
-"究者がデータを見つけて使用し、適切に引用できるようにします。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:141
 msgid ""
@@ -2506,13 +2367,10 @@ msgid ""
 "ess will be painful and important details will have been lost or forgotten. Do"
 "n't wait to document your data!"
 msgstr ""
-"研究プロジェクトの最初の段階でデータの記録を開始し、プロジェクト全体を通して継続します。そうすることで、プロセスがずっと簡単になります。プロジェクトの最後に"
-"ドキュメンテーションを構築しなければならない場合は、プロセスが苦しくなり、重要な情報が失われたり忘れられたりします。あなたのデータを文書化するのを待ってはい"
-"けません！"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:144
 msgid "What to document?"
-msgstr "何を文書化しますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:146
 msgid ""
@@ -2523,9 +2381,6 @@ msgid ""
 "itize data through analysis</li><li>Information on confidentiality, access and"
 " use conditions</li></ul>"
 msgstr ""
-"<strong>研究プロジェクトのドキュメント</strong> <ul><li>データ収集の根拠とコンテキスト</li><li>データ収集方法</li><"
-"li>データファイルの構造と編成</li><li>使用されるデータソース（データの引用を参照） </li><li>データ検証と品質保証</li><li>墨塗"
-"りデータから分析までのデータの変換</li><li>機密性、アクセスおよび使用条件に関する情報</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:148
 msgid ""
@@ -2534,13 +2389,10 @@ msgid ""
 "s used to transform data (may include computer code)</li><li>File format and s"
 "oftware (including version) used</li></ul>"
 msgstr ""
-"<strong>データセットのドキュメント</strong> <ul><li>変数名と説明</li><li>使用されたコードと分類スキームの説明</li><"
-"li>データを変換するために使用されるアルゴリズム（コンピュータコードを含む） </li><li>使用されるファイル形式とソフトウェア（バージョンを含む） "
-"</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:151
 msgid "How will you document your data?"
-msgstr "あなたのデータをどのように文書化しますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:152
 msgid ""
@@ -2552,10 +2404,6 @@ msgid ""
 " to be able to share or publish your data, the <a href=\"%{datacite_standards_u"
 "rl}\">DataCite metadata standard</a> is of particular signficiance."
 msgstr ""
-"データの文書化は、一般にメタデータ - 「データに関するデータ」と呼ばれます。研究者は、さまざまなメタデータ標準に従ってデータを文書化することができます。い"
-"くつかのメタデータ標準は、ファイルの内容を文書化する目的、ファイルの技術的特性を文書化する目的、データセット内のファイル間の関係を表現する目的で設計されてい"
-"ます。データを共有または公開できるようにするには、 <a href=\"%{datacite_standards_url}\">DataCiteメタデータ標準<"
-"/a>が特に重要です。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:154
 msgid ""
@@ -2563,31 +2411,29 @@ msgid ""
 "ss of your discipline. At minimum, store this documentation in a \"readme.txt\" "
 "file, or the equivalent, with the data itself."
 msgstr ""
-"以下は、あなたの規律に関係なく、文書化すべきデータの一般的な側面です。少なくとも、このドキュメントは「readme.txt」ファイルまたは同等のものをデータ"
-"そのものに保存してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:156
 msgid "General Overview"
-msgstr "総括"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:158
 msgid ""
 "<strong>Title</strong>: Name of the dataset or research project that produced "
 "it"
-msgstr "<strong>タイトル</strong> ：それを作成したデータセットまたは研究プロジェクトの名前"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:159
 msgid ""
 "<strong>Creator</strong>: Names and addresses of the organizations or people w"
 "ho created the data; preferred format for personal names is surname first (e.g"
 "., Smith, Jane)"
-msgstr "<strong>作成者</strong> ：データを作成した組織または人々の名前と住所。個人名の優先形式は、姓が最初です（例：Smith、Jane）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:160
 msgid ""
 "<strong>Identifier</strong>: Unique number used to identify the data, even if "
 "it is just an internal project reference number"
-msgstr "<strong>識別子</strong> ：内部プロジェクトの参照番号であっても、データを識別するために使用される一意の番号"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:161
 msgid ""
@@ -2596,9 +2442,6 @@ msgid ""
 "ates associated with the data lifespan, such as maintenance cycle, update sche"
 "dule; preferred format is yyyy-mm-dd, or yyyy.mm.dd-yyyy.mm.dd for a range"
 msgstr ""
-"<strong>日付</strong> ：データに関連する主要な日付。プロジェクトの開始日と終了日。発売日;データがカバーする期間。データライフサイクルに関"
-"連するその他の日付（メンテナンスサイクル、更新スケジュールなど）優先フォーマットは、yyyy-mm-dd、またはyyyy.mm.dd-yyyy.mm.ddで"
-"す。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:162
 msgid ""
@@ -2606,48 +2449,46 @@ msgid ""
 "ftware used (including model and version numbers), formulae, algorithms, exper"
 "imental protocols, and other things one might include in a lab notebook"
 msgstr ""
-"<strong>方法</strong> ：データがどのように生成されたか、使用された機器およびソフトウェア（モデルおよびバージョン番号を含む）、数式、アルゴ"
-"リズム、実験プロトコル、および実験ノートに含めることができるその他のもの"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:163
 msgid ""
 "<strong>Processing</strong>: How the data have been altered or processed (e.g."
 ", normalized)"
-msgstr "<strong>処理</strong> ：データの変更または処理（正規化など）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:164
 msgid ""
 "<strong>Source</strong>: Citations to data derived from other sources, includi"
 "ng details of where the source data is held and how it was accessed"
-msgstr "<strong>出典</strong> ：出所データがどこに保持され、どのようにアクセスされたかなど、他の出所から派生したデータへの引用"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:165
 msgid "<strong>Funder</strong>: Organizations or agencies who funded the research"
-msgstr "<strong>Funder</strong> ：調査に資金を提供した組織または機関"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:168
 msgid "Content Description"
-msgstr "コンテンツの説明"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:170
 msgid ""
 "<strong>Subject</strong>: Keywords or phrases describing the subject or conten"
 "t of the data"
-msgstr "<strong>件名</strong> ：データの件名または内容を説明するキーワードまたはフレーズ"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:171
 msgid "<strong>Place</strong>: All applicable physical locations"
-msgstr "<strong>場所</strong> ：該当するすべての物理的な場所"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:172
 msgid "<strong>Language</strong>: All languages used in the dataset"
-msgstr "<strong>言語</strong> ：データセットで使用されるすべての言語"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:173
 msgid ""
 "<strong>Variable list</strong>: All variables in the data files, where applica"
 "ble"
-msgstr "<strong>変数リスト</strong> ：データファイル内のすべての変数（該当する場合）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:174
 msgid ""
@@ -2655,38 +2496,34 @@ msgid ""
 "er the file names or the variables in the data files (e.g. \"999 indicates a mi"
 "ssing value in the data\")"
 msgstr ""
-"<strong>コードリスト</strong> ：データファイル内のファイル名または変数のいずれかに使用されているコードまたは略語の説明（「999はデータの"
-"欠損値を示します」など）"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:177
 msgid "Technical Description"
-msgstr "技術的な説明"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:179
 msgid ""
 "<strong>File inventory</strong>: All files associated with the project, includ"
 "ing extensions (e.g. \"NWPalaceTR.WRL\", \"stone.mov\")"
 msgstr ""
-"<strong>ファイルインベントリ</strong> ：プロジェクトに関連するすべてのファイル（拡張子を含む）（例： \"NWPalaceTR.WRL\"、 "
-"\"stone.mov\"）"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:180
 msgid ""
 "<strong>File formats</strong>: Formats of the data, e.g., FITS, SPSS, HTML, JP"
 "EG, etc."
-msgstr "<strong>ファイル形式</strong> ：データの形式（FITS、SPSS、HTML、JPEGなど）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:181
 msgid ""
 "<strong>File structure</strong>: Organization of the data file(s) and layout o"
 "f the variables, where applicable"
-msgstr "<strong>ファイル構造</strong> ：該当する場合は、データ<strong>ファイルの構成</strong>と変数のレイアウト"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:182
 msgid ""
 "<strong>Version</strong>: Unique date/time stamp and identifier for each versi"
 "on"
-msgstr "<strong>バージョン</strong> ：各バージョンのユニークな日付/タイムスタンプと識別子"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:183
 msgid ""
@@ -2694,30 +2531,28 @@ msgid ""
 "sed to detect changes; if a recomputed digest differs from the stored digest, "
 "the file must have changed"
 msgstr ""
-"<strong>チェックサム</strong> ：変更を検出するために使用できる各ファイルについて計算されたダイジェスト値。再計算されたダイジェストが格納さ"
-"れたダイジェストと異なる場合、ファイルは変更されている必要があります"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:184
 msgid ""
 "<strong>Necessary software</strong>: Names of any special-purpose software pac"
 "kages required to create, view, analyze, or otherwise use the data"
-msgstr "<strong>必要なソフトウェア</strong> ：データの作成、表示、分析などに必要な専用ソフトウェアパッケージの名前"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:187
 msgid "Access"
-msgstr "アクセス"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:189
 msgid ""
 "<strong>Rights</strong>: Any known intellectual property rights, statutory rig"
 "hts, licenses, or restrictions on use of the data"
-msgstr "<strong>権利</strong> ：既知の知的財産権、法的権利、ライセンス、またはデータの使用に関する制限"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:190
 msgid ""
 "<strong>Access information</strong>: Where and how your data can be accessed b"
 "y other researchers"
-msgstr "<strong>アクセス情報</strong> ：他の研究者があなたのデータにアクセスできる場所と方法"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:196
 msgid ""
@@ -2728,13 +2563,10 @@ msgid ""
 " across the internet</li><li>Persistent for at least the life of your data</li"
 "></ul>"
 msgstr ""
-"あなたがあなたのデータセットを共有したり引用したりできるようにしたいのであれば、それにパブリックな永続的な一意の識別子を割り当てたいと思うでしょう。さまざま"
-"な公開識別子スキームがありますが、良いスキームの一般的な特性は次のとおりです。 <ul><li>実行可能（ウェブブラウザでそれらを「クリック」することができ"
-"ます） </li><li>世界的にユニークなインターネット</li><li>少なくともあなたのデータの寿命は永続的</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:198
 msgid "Here are some identifier schemes:"
-msgstr "いくつかの識別子体系があります："
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:200
 msgid ""
@@ -2745,9 +2577,6 @@ msgid ""
 "nt2_url}\". Resolution depends on HTTP redirection and can be managed through a"
 "n API or a user interface."
 msgstr ""
-"<a href=\"%{ark_url}\">ARK（アーカイバル・リソース・キー）</a> - 記述的なメタデータとアーカイブ・メタデータを要求したり、識別子"
-"間の特定の種類の関係を認識するための追加機能を備えたURLです。 ARKは、図書館、アーカイブ、美術館などの記憶機関によって使用されています。それらは \"%"
-"{nt2_url}\"で解決されます。解決方法はHTTPリダイレクトに依存し、APIまたはユーザーインターフェイスで管理できます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:201
 msgid ""
@@ -2757,9 +2586,6 @@ msgid ""
 "nds on HTTP redirection and the Handle identifier protocol, and can be managed"
 " through an API or a user interface."
 msgstr ""
-"<a href=\"%{doi_url}\">DOI（Digital Object Identifier）</a> -  URLに埋め込まれたときにアクション可"
-"能になる識別子。 DOIは学術雑誌の出版において非常に人気があります。それらは \"%{doi_resolver_url}\"で解決されます。解決方法は、HTT"
-"PリダイレクトとHandle識別子プロトコルに依存し、APIまたはユーザーインターフェイスで管理できます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:202
 msgid ""
@@ -2768,8 +2594,6 @@ msgid ""
 "ds on HTTP redirection and the Handle protocol, and can be managed through an "
 "API or a user interface."
 msgstr ""
-"<a href=\"%{handle_url}\">ハンドル</a> -  URLに埋め込まれたときにアクション可能になる識別子。ハンドルは \"%{handle"
-"_url}\"で解決されます。解決方法は、HTTPリダイレクトとHandleプロトコルに依存し、APIまたはユーザーインターフェイスで管理できます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:203
 msgid ""
@@ -2778,8 +2602,6 @@ msgid ""
 " and electronic data sources, thus enabling easier linking of diverse data com"
 "pilations."
 msgstr ""
-"<a href=\"%{inchi_url}\">InChI（IUPAC International Chemical Identifier）</a> - 印刷"
-"物や電子データソースで使用できる化学物質の実用的でない識別子で、多様なデータ編集を簡単にリンクできます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:204
 msgid ""
@@ -2789,9 +2611,6 @@ msgid ""
 "tion about them. Like other URNs, it becomes actionable when embedded in a URL"
 "."
 msgstr ""
-"<a href=\"%{lsid_url}\">LSID（Life Sciences Identifier）</a> - 種の名前、概念、発生、遺伝子やタンパク"
-"質などの生物学的に重要な資源、またはそれらに関する情報をコード化するデータオブジェクトを識別するURNの一種。他のURNと同様、URLに埋め込まれたときに実"
-"行可能になります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:205
 msgid ""
@@ -2799,8 +2618,6 @@ msgid ""
 "ESSION</a></li>\n"
 "    <li>a non-actionable number in use by NCBI."
 msgstr ""
-"<a href=\"%{ncbi_url}\">NCBI（国立バイオテクノロジー情報センター）ACCESSION</a> </li><li> NCBIが使用して"
-"いる実行不可能な番号。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:207
 msgid ""
@@ -2808,8 +2625,6 @@ msgid ""
 "hat is always redirected through a hostname (often purl.org). Resolution depen"
 "ds on HTTP redirection and can be managed through an API or a user interface."
 msgstr ""
-"<a href=\"%{purl_url}\">PURL（永続的ユニフォームリソースロケータ）</a> - 常にホスト名（多くの場合、purl.org）を通じて"
-"リダイレクトされるURL。解決方法はHTTPリダイレクトに依存し、APIまたはユーザーインターフェイスで管理できます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:208
 msgid ""
@@ -2822,11 +2637,6 @@ msgid ""
 " identifier. Resolution depends on HTTP redirection and can be managed through"
 " an API or a user interface."
 msgstr ""
-"<strong>URL（Uniform Resource Locator）</strong> - ウェブコンテンツの典型的な「アドレス」。これは、 \"htt"
-"p：//\"で始まり、インターネット上のリソースを識別または名前を付けるために使用される文字列で構成されている一種のURI（Uniform Resource "
-"Identifier）です。そのような識別は、HTTPプロトコルを使用して、ネットワーク、典型的にはワールドワイドウェブ上でリソースの表現と相互作用すること"
-"を可能にする。適切に管理されたURLリダイレクトにより、URLを任意の識別子として永続的にすることができます。解決方法はHTTPリダイレクトに依存し、API"
-"またはユーザーインターフェイスで管理できます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:209
 msgid ""
@@ -2835,13 +2645,10 @@ msgid ""
 "DDDS protocol, and can be managed through an API or a user interface. A browse"
 "r plug-in can save you from typing a hostname in front of it."
 msgstr ""
-"<strong>URN（Uniform Resource Name）</strong> -  URLに埋め込まれたときにアクション可能になる識別子。解決方法"
-"は、HTTPリダイレクトとDDDSプロトコルに依存し、APIまたはユーザーインターフェイスで管理できます。ブラウザプラグインを使用すると、ホスト名の前にホス"
-"ト名を入力する必要がなくなります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:215
 msgid "Data Security"
-msgstr "データセキュリティ"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:216
 msgid ""
@@ -2857,17 +2664,10 @@ msgid ""
 "s and computers</li><li>React with skepticism to phone calls and emails that c"
 "laim to be from your institution's IT department</li></ul></li></ul>"
 msgstr ""
-"データセキュリティとは、不正アクセス、使用、変更、開示、破棄からデータを保護することです。あなたのデータが安全であることを確認する： <ul><li>ネット"
-"ワークセキュリティー<ul><li>機密データをインターネットから守る</li><li>極端な場合は、機密情報をインターネットに接続されていないコンピュータ"
-"に置く</li></ul></li><li>物理的なセキュリティ<ul><li>コンピュータやメディアが保管されている建物や部屋へのアクセスを制限する</l"
-"i><li>信頼できる個人のみがコンピュータの問題をトラブルシューティングできるようにする</li></ul></li><li>コンピュータシステムとファイ"
-"ル<ul><li>ウイルス対策を最新の状態に保つ</li><li>機密データを電子メールまたはFTP経由で送信しないでください（暗号化を使用する必要がある場"
-"合） </li><li>ファイルとコンピュータにパスワードを設定する</li><li>あなたの機関のIT部門からのものであると主張する電話と電子メールに懐疑"
-"的に反応する</li></ul></li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:219
 msgid "Encryption and Compression"
-msgstr "暗号化と圧縮"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:220
 msgid ""
@@ -2876,8 +2676,6 @@ msgid ""
 "s (e.g., PGP)</li><li>Don't rely on third-party encryption alone</li><li>Keep "
 "passwords and keys on paper (2 copies)</li></ul>"
 msgstr ""
-"暗号化されていないデータは、あなたや他の人が将来容易に読むことができますが、機密データを暗号化する必要があります。 <ul><li>主流の暗号化ツール（PG"
-"Pなど）を使用する</li><li>サードパーティの暗号化のみに依存しない</li><li>パスワードとキーを紙に保存する（2部） </li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:222
 msgid ""
@@ -2886,12 +2684,10 @@ msgid ""
 "on tool (e.g., ZIP, GZIP, TAR)</li><li>Limit compression to the 3rd backup cop"
 "y</li></ul>"
 msgstr ""
-"圧縮されていないデータは将来も読みやすくなりますが、ディスクスペースを節約するためにファイルを圧縮する必要があります。 <ul><li>主流の圧縮ツール（Z"
-"IP、GZIP、TARなど）を使用して、 </li><li> 3番目のバックアップコピーに圧縮を制限する</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:225
 msgid "Backups and storage"
-msgstr "バックアップとストレージ"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:226
 msgid ""
@@ -2901,30 +2697,26 @@ msgid ""
 "this process considerably. The UK Data Archive provides additional <a href=\"%{"
 "storage_guidelines_url}\">guidelines on data storage, backup, and security</a>."
 msgstr ""
-"定期的なバックアップを作成することは、データ管理の不可欠な部分です。パーソナルコンピュータ、外付けハードドライブ、部門または大学のサーバーにデータをバックア"
-"ップすることができます。自動的にバックアップを作成するソフトウェアを使用すると、このプロセスを大幅に簡素化できます。英国のデータアーカイブは<a href="
-"\"%{storage_guidelines_url}\">、データの保存、バックアップ、およびセキュリティに関する</a>追加の<a href=\"%{stor"
-"age_guidelines_url}\">ガイドラインを</a>提供します。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:228
 msgid "Backup Your Data"
-msgstr "データのバックアップ"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:230
 msgid ""
 "Good practice is to have three copies in at least two locations (e.g. original"
 " + external/local backup + external/remote backup)"
-msgstr "少なくとも2つの場所に3つのコピーがあることをお勧めします（元のバックアップ+外部バックアップ/ローカルバックアップ+外部/リモートバックアップなど）"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:231
 msgid ""
 "Geographically distribute your local and remote copies to reduce risk of calam"
 "ity at the same location (power outage, flood, fire, etc.)"
-msgstr "ローカルとリモートのコピーを地理的に分散して、同じ場所（停電、洪水、火災など）での災害リスクを軽減します。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:234
 msgid "Test your backup system"
-msgstr "バックアップシステムをテストする"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:236
 msgid ""
@@ -2932,16 +2724,14 @@ msgid ""
 " files and confirm that you can read them. You should do this when you initial"
 "ly set up the system and on a regular schedule thereafter."
 msgstr ""
-"バックアップシステムが動作していることを確認するには、データファイルを定期的に取得し、そのデータファイルを読むことができることを確認します。最初にシステムを"
-"セットアップした後、定期的にスケジュールを立てるときにこれを行う必要があります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:240
 msgid "Other data preservation considerations"
-msgstr "その他のデータ保存の考慮事項"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:242
 msgid "Who is responsible for managing and controlling the data?"
-msgstr "誰がデータの管理と制御を担当していますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:244
 msgid ""
@@ -2950,23 +2740,21 @@ msgid ""
 "to share it, to name it, etc. you should make sure you have the authority to d"
 "o so."
 msgstr ""
-"誰がデータ（PI、学生、研究室、大学、あなたの資金提供者など）を管理していますか？データを保存する方法、共有する方法、名前を付ける方法などを理解するまでに多"
-"くの時間を費やす前に、データを保存する権限があることを確認する必要があります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:247
 msgid "For what or whom are the data intended?"
-msgstr "データの対象は何ですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:249
 msgid ""
 "Who is your intended audience for the data? How do you expect they will use th"
 "e data? The answer to these questions will help inform structuring and distrib"
 "uting the data."
-msgstr "データの対象読者は誰ですか？彼らはデータをどのように使用すると思いますか？これらの質問に対する答えは、データの構造化と配布に役立ちます。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:252
 msgid "How long should the data be retained?"
-msgstr "どのくらいの期間データを保持する必要がありますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:254
 msgid ""
@@ -2975,8 +2763,6 @@ msgid ""
 "a required to be retained need not be retained indefinitely. Have a good under"
 "standing of your obligation for the data's retention."
 msgstr ""
-"データを保持する必要はありますか？もしそうなら、どれくらいの期間ですか？ 3〜5年、10〜20年、永久に？すべてのデータを保持する必要はなく、保持する必要が"
-"あるデータの一部を無期限に保持する必要はありません。データ保持の義務を十分に理解してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:257
 msgid ""
@@ -2987,13 +2773,10 @@ msgid ""
 " of observations made outside the laborartory that can never be repeated, you "
 "may wish to store it indefinitely."
 msgstr ""
-"外部から要求された要件を超えて、データの長期的な有用性について考えてみてください。データが、技術が進歩するにつれてより迅速に、安価に、正確に反復可能であるこ"
-"とが予想される実験からのものである場合、比較的短期間で保存することをお勧めします。データが決して繰り返されることのない研究室の外で行われた観察で構成されてい"
-"る場合は、それを無期限に保管したいと思うかもしれません。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:262
 msgid "Why share your data?"
-msgstr "なぜあなたのデータを共有するのですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:263
 msgid ""
@@ -3002,13 +2785,10 @@ msgid ""
 " to answer new questions</li><li>Makes research more open</li><li>Makes your p"
 "apers more useful and citable by other researchers</li></ul>"
 msgstr ""
-"<ul><li>出版社が必要とするもの（例：細胞、自然、科学） </li><li>政府の資金提供機関（例えば、NIH、NSF） </li><li>新しい質問"
-"に答えるためにデータを使用できるようにする</li><li>研究をよりオープンにする</li><li>他の研究者があなたの論文をより有用かつ引用可能にする<"
-"/li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:266
 msgid "Considerations when preparing to share data"
-msgstr "データ共有の準備の際の考慮事項"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:268
 msgid ""
@@ -3017,8 +2797,6 @@ msgid ""
 " future. Plan for both hardware and software obsolescence. See file formats an"
 "d organization for details on long-term storage formats."
 msgstr ""
-"<strong>長期アクセス用</strong>のファイル形式：データを保持するファイル形式は、将来データを使用する際の主な要因です。ハードウェアとソフトウ"
-"ェアの陳腐化を計画します。長期保存形式の詳細については、ファイル形式と組織を参照してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:269
 msgid ""
@@ -3027,8 +2805,6 @@ msgid ""
 "eginning of your research project and continue throughout the project. See dat"
 "a documentation and metadata for details."
 msgstr ""
-"<strong>ドキュメンテーションを忘れないでください</strong> ：他の人がデータを解釈できるように、あなたの研究とデータを文書化してください。研"
-"究プロジェクトの最初の段階でデータの記録を開始し、プロジェクト全体を通して継続します。詳細については、データのドキュメントとメタデータを参照してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:270
 msgid ""
@@ -3036,12 +2812,10 @@ msgid ""
 " implications of sharing data in terms of copyright, IP ownership, and subject"
 " confidentiality. See copyright and confidentiality for details."
 msgstr ""
-"<strong>所有権とプライバシー</strong> ：著作権、IPの所有権、および被告の機密性の面でデータを共有することの意義を考慮していることを確認し"
-"てください。詳細については、著作権と機密情報を参照してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:274
 msgid "Ways to share your data"
-msgstr "あなたのデータを共有する方法"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:275
 msgid ""
@@ -3051,9 +2825,6 @@ msgid ""
 "i>Deposit in an open repository and publish a \"data paper\" describing the data"
 "</li></ul>"
 msgstr ""
-"<ul><li>個々のリクエスタに電子メール</li><li>プロジェクトまたは個人のウェブサイトからオンラインで投稿する</li><li>ジャーナル出版社"
-"のウェブサイトでホストされる補足資料として提出する</li><li>開いているリポジトリまたはアーカイブに入金する</li><li>オープンなリポジトリに入"
-"金し、データを記述する「データペーパー」を発行する</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:277
 msgid ""
@@ -3064,14 +2835,10 @@ msgid ""
 "ns—published in a journal such as <a href=\"%{nature_url}\">Nature Scientific Da"
 "ta</a> or <a href=\"%{geoscience_url}\">Geoscience Data Journal</a>."
 msgstr ""
-"上記の最初の3つのオプションはデータを共有する有効な方法ですが、リポジトリは長期的なアクセスを提供することが可能です。リポジトリに保存されたデータには、「デ"
-"ータペーパー」（データセットを記述するが、 <a href=\"%{nature_url}\">ネイチャー・サイエンティフィック・データ</a>や<a href"
-"=\"%{geoscience_url}\">ジオサイエンス・データ・ジャーナル</a>などのジャーナルに掲載されている、いかなる結論も解析もdsanitize"
-"もしない比較的新しいタイプのパブリケーション）で補うことができます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:280
 msgid "Finding a data repository"
-msgstr "データリポジトリの検索"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:281
 msgid ""
@@ -3084,11 +2851,6 @@ msgid ""
 "at maintains it (e.g., the University of California's <a href=\"%{dash_url}\">Da"
 "sh</a>)</li></ul>"
 msgstr ""
-"あなたは、提供された長期的なセキュリティと、あなたの分野の同僚による発見とアクセスの容易さに基づいて、データのリポジトリまたはアーカイブを選択する必要があり"
-"ます。探すリポジトリには、次の2つのタイプがあります。 <ul><li> <strong>分野別</strong> ： <strong>特定の</stron"
-"g>分野または特定の種類のデータを受け入れる（例えば、GenBankはヌクレオチド配列データを受け入れる） </li><li> <strong>機関</st"
-"rong> ：それを維持する機関内で生産されたあらゆるタイプのデータを受け入れる（例：カリフォルニア大学<a href=\"%{dash_url}\">ダッシュ"
-"</a>校） </li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:283
 msgid ""
@@ -3100,11 +2862,6 @@ msgid ""
 "atabases and reporting standards, now expanded to include all disciplines</li>"
 "</ul>"
 msgstr ""
-"検索可能でブラウズ可能なリポジトリのリストは、次のWebサイトで見つけることができます。 <ul><li> <a href=\"%{re3data_url}\""
-">re3data.org：REsearch</a>データリポジトリのREGistry </li><li>オープンアクセスディレクトリの<a href=\"%{"
-"open_access_url}\">データリポジトリ</a> ：Simmons Collegeが主催するリポジトリのリスト</li><li> <a href"
-"=\"%{fairshare_url}\">FAIRSharing</a> ：ライフサイエンスデータベースと報告基準のディレクトリ。現在はすべての分野を含むよう"
-"に拡張されています。 </li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:288
 msgid ""
@@ -3112,12 +2869,10 @@ msgid ""
 "e credit</li><li>Allow easier access to the data for repurposing or reuse</li>"
 "<li>Enable readers to verify your results</li></ul>"
 msgstr ""
-"データを引用することは、 <ul><li>データプロデューサに適切なクレジットを与える</li><li>再利用や再利用のためのデータへのアクセスを容易にする"
-"</li><li>読者が結果を検証できるようにする</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:291
 msgid "Citation Elements"
-msgstr "引用要素"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:292
 msgid ""
@@ -3129,14 +2884,10 @@ msgid ""
 "laration of Data Citation Principles</a> and the current <a href=\"%{datacite_s"
 "tandards_url}\">DataCite Metadata Schema</a>."
 msgstr ""
-"データセットは、本文の非公式ではなく、記事の参照リストに正式に引用する必要があります。多くのデータリポジトリおよびパブリッシャは、その内容を引用するための明"
-"示的な指示を提供する。引用情報が提供されていない場合でも、 <a href=\"%{force11_citation_url}\">強制的にデータ引用原則の共同"
-"宣言11</a>および現在の<a href=\"%{datacite_standards_url}\">DataCiteメタデータスキーマ</a>などの一般的に"
-"合意されたガイドラインに従って引用を構成することができます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:294
 msgid "Core elements"
-msgstr "コア要素"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:296
 msgid ""
@@ -3148,23 +2899,16 @@ msgid ""
 ", or repository</li><li><strong>Identifier</strong> – a unique public identifi"
 "er (e.g., an ARK or DOI)</li></ul>"
 msgstr ""
-"通常、データセット引用には5つのコア要素が含まれており、必要に応じて追加要素が追加されています。 <ul><li> <strong>クリエイター</stro"
-"ng> - 個人または組織の可能性があります</li><li> <strong>タイトル</strong> </li><li>データセットが公開された<st"
-"rong>発行年</strong> （アクセス日と異なる場合があります） </li><li> <strong>発行元</strong> - データセンター、"
-"アーカイブ、またはリポジトリ</li><li> <strong>識別子</strong> - ユニークな公開識別子（ARKまたはDOIなど） </li></"
-"ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:297
 msgid ""
 "Creator names in non-Roman scripts should be transliterated using the <a href="
 "\"%{romanization_url}\">ALA-LC Romanization Tables</a>."
 msgstr ""
-"ローマ字以外のスクリプトの作成者名は、 <a href=\"%{romanization_url}\">ALA-LCローマリゼーションテーブル</a>を使用して"
-"変換してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:300
 msgid "Common additional elements"
-msgstr "共通の追加要素"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:302
 msgid ""
@@ -3180,17 +2924,10 @@ msgid ""
 "aset on the internet, needed if the identifier is not \"actionable\" (convertabl"
 "e to a web address)</li></ul>"
 msgstr ""
-"コア要素は、最も単純なケースでは十分ですが、静的なデータセット全体を引用する場合、動的なデータセットまたは大きなデータセットのサブセットを引用する場合は、追"
-"加の要素が必要になることがあります。 <ul><li>引用論文で分析されたデータセットの<strong>バージョン</strong> </li><li>引用"
-"論文の分析のためにデータにアクセスした<strong>アクセス日</strong> </li><li>分析されたデータセットの<strong>サブセット</"
-"strong> （例えば、日付またはレコード番号の範囲、変数のリスト） </li><li>リーダーによってアクセスされるデータセットまたはサブセットが、著者"
-"によって分析されたデータセットまたはサブセット（例えば、チェックサム）と同一であることを<strong>検証する検証者</strong>は、 </li><l"
-"i>識別子が「実行可能」でない（ウェブアドレスに変換可能な）場合に必要な、インターネット上のデータセットの<strong>場所</strong> </li>"
-"</ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:305
 msgid "Example citations"
-msgstr "引用の例"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:306
 msgid ""
@@ -3211,22 +2948,10 @@ msgid ""
 "the rise of the Nile. Alexandria : Printing-Office V Penasson. http://n2t.net/"
 "ark:/13960/t44q88124</li></ul>"
 msgstr ""
-"<ul><li> Kumar、Sujai（2012）：20匹の線虫プロテオーム。 figshare。 https://doi.org/10.6084/m9."
-"figshare.96035.v2（アクセス：2016-09-06） </li><li> 【図2】図1は、本発明の一実施形態に係る、病原菌の宿主病原菌感染の"
-"予防および治療のための方法を示す図である。 Dryadデジタルリポジトリ。 https://doi.org/10.5061/dryad.c3gh6 </li"
-"><li>ドナ・ストラハン\"08-B-1 from Jordan / Petra Great Temple /上テメノス/海溝94 /地点41\"。 （200"
-"9）ペトラ大寺掘削で。マーサシャープJoukowsky（エド）リリース：2009年10月26日。オープンコンテキスト。 https://opencontex"
-"t.org/subjects/30C3F340-5D14-497A-B9D0-7A0DA2C019F1 ARK（アーカイブ）：http://n2t.net/"
-"ark:/28722/k2125xk7p </li><li> OECD（2008）、社会支出集計、OECD社会支出統計（データベース）。 https://d"
-"oi.org/10.1787/000530172303（2008-12-02にアクセスしました） </li><li> Denhard、Michael（200"
-"9）：dphase_mpeps：MicroPEPS LAF  -  MAP D-PHASEプロジェクトでDWDによって実行されるアンサンブル。世界気候データ"
-"センターhttps://doi.org/10.1594/WDCC/dphase_mpeps </li><li> Manoug、JL（1882）：ナイル川の上"
-"昇に関する有用なデータ。アレクサンドリア：印刷 - オフィスV Penasson。 http://n2t.net/ark:/13960/t44q88124 "
-"</li></ul>"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:311
 msgid "Sharing data that you produced/collected yourself"
-msgstr "自分で制作/収集したデータの共有"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:313
 msgid ""
@@ -3234,8 +2959,6 @@ msgid ""
 "acts are not copyrightable. However, a presentation of data (such as a chart o"
 "r table) may be."
 msgstr ""
-"事実は著作権で保護されていないため<strong>、多くのデータは米国で著作権が保護されて</strong>いません。ただし、データ（表や表など）の表示は可"
-"能です。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:314
 msgid ""
@@ -3244,8 +2967,6 @@ msgid ""
 "r to guide downstream uses of the data (e.g., requiring attribution or forbidd"
 "ing for-profit use)."
 msgstr ""
-"<strong>データのライセンス交付が可能です。</strong>一部のデータ提供者は、調査参加者のプライバシーを保護するため、またはデータの下流使用をガ"
-"イドするためにデータを使用する方法を制限するライセンスを適用します（例えば、帰属を必要とする、または営利目的での使用を禁止するなど）。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:315
 msgid ""
@@ -3253,24 +2974,22 @@ msgid ""
 "ur data available under a <a href=\"%{creative_commons_url}\">Creative Commons C"
 "C0 Declaration</a> to make your wishes explicit."
 msgstr ""
-"データの共有と無制限利用を促進したい場合は、 <a href=\"%{creative_commons_url}\">クリエイティブコモンズCC0宣言の</a>"
-"下でデータを利用可能にして、希望を明示することができます。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:319
 msgid "Sharing data that you have collected from other sources"
-msgstr "他のソースから収集したデータの共有"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:321
 msgid ""
 "You may or may not have the rights to do so, depending upon whether that data "
 "were accessed under a license with terms of use."
-msgstr "あなたは、そのデータが使用条件のライセンスでアクセスされたかどうかに応じて、そうする権利がある場合とない場合があります。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:322
 msgid ""
 "Most databases to which the UC Libraries subscribe are licensed and prohibit r"
 "edistribution of data outside of UC."
-msgstr "UCライブラリが購読しているほとんどのデータベースは、ライセンスされており、UC以外のデータの再配布は禁止されています。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:325
 msgid ""
@@ -3278,8 +2997,6 @@ msgid ""
 " consult with your campus Office of General Council. Note: Laws about data var"
 "y outside the U.S."
 msgstr ""
-"データの普及に関するあなたの権利について不確かな場合は、UCの研究者があなたのキャンパスオフィス総理評議会に相談することができます。注：データに関する法律は"
-"米国以外で異なります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:327
 msgid ""
@@ -3287,12 +3004,10 @@ msgid ""
 "lines, see the <a href=\"%{icpsr_url}\">ICPSR Guide to Social Science Data Prepa"
 "ration and Archiving</a>."
 msgstr ""
-"多くの分野に適用可能なデータの公開に関する一般的な議論については、 <a href=\"%{icpsr_url}\">「社会科学データの準備とアーカイブに関する"
-"ICPSRガイド」を</a>参照してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:330
 msgid "Confidentiality and Ethical Concerns"
-msgstr "守秘義務と倫理的懸念"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:331
 msgid ""
@@ -3301,8 +3016,6 @@ msgid ""
 "eed to understand and manage tensions between confidentiality requirements and"
 " the potential benefits of archiving and publishing the data."
 msgstr ""
-"倫理上の問題と研究への継続的な参加を確保するためには、研究対象の機密性を維持することが不可欠です。研究者は、機密性要件と、データをアーカイブし公開する潜在的"
-"な利点との間の緊張を理解し、管理する必要があります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:334
 msgid ""
@@ -3310,8 +3023,6 @@ msgid ""
 "your data contains direct or indirect identifiers that could be combined with "
 "other public information to identify research participants."
 msgstr ""
-"<strong>データの匿名性を評価する。</strong>あなたのデータには、研究参加者を特定するために他の公開情報と組み合わせることができる直接的または"
-"間接的な識別子がどの程度含まれているかを考慮してください。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:335
 msgid ""
@@ -3319,9 +3030,6 @@ msgid ""
 " data with <a href=\"%{icpsr_url}\">ICPSR</a> is that their staff offers a Discl"
 "osure review service to check your data for confidential information."
 msgstr ""
-"<strong>機密保持の審査を受ける。</strong> <a href=\"%{icpsr_url}\">ICPSRに</a>データを<a href=\"%{"
-"icpsr_url}\">保管</a>することの<a href=\"%{icpsr_url}\">利点</a>は、そのスタッフが機密情報のデータをチェックする開示"
-"レビューサービスを提供することです。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:336
 msgid ""
@@ -3329,8 +3037,6 @@ msgid ""
 "dentiality issues with their data should consult the <a href=\"%{uc_policy_url}"
 "\">UC policy for Protection of Human Subjects in Research</a>."
 msgstr ""
-"<strong>UCの規制に従う。</strong>データとの機密性の問題を懸念する研究者<a href=\"%{uc_policy_url}\">は、研究にお"
-"ける人の被験者の保護に関するUC方針を</a>参照する必要があります。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:337
 msgid ""
@@ -3338,8 +3044,6 @@ msgid ""
 "<a href=\"%{hippa_url}\">Health Insurance Portability and Accountability Act (HI"
 "PPA)</a>."
 msgstr ""
-"<a href=\"%{hippa_url}\">健康保険可搬性および説明責任法（HIPPA）に</a>示されている<strong>健康調査の規制を遵守する</"
-"strong> 。"
 
 #: ../../app/views/branded/static_pages/general_guidance.html.erb:340
 msgid ""
@@ -3352,44 +3056,39 @@ msgid ""
 "tricted Data Use Contract</a> and <a href=\"%{icpsr_restricted_url}\">Restricted"
 "-Use Data Management Guidance</a>.</li></ul>"
 msgstr ""
-"機密データを倫理的に共有するには、以下のことが可能です。 <ul><li>データ共有のための<strong>インフォームドコンセント</strong>を<s"
-"trong>得る</strong> （リポジトリまたはアーカイブへの入金など） </li><li>識別情報を削除してデータを<strong>匿名化</str"
-"ong>する。ただし、有用な情報が含まれているデータセットでは、常にリスクが発生することに注意してください。 </li><li> <strong>データの使"
-"用を制限する。</strong> ICPSRは、 <a href=\"%{icpsr_user_url}\">制限付きデータ使用契約</a>および<a href"
-"=\"%{icpsr_restricted_url}\">制限付き使用データ管理ガイダンスの</a>サンプルを提供しています。 </li></ul>"
 
 #: ../../app/views/branded/static_pages/help.html.erb:2
 msgid "Quick start guide"
-msgstr "クイックスタートガイド"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:5
 msgid "Contents"
-msgstr "内容"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:8
 #: ../../app/views/branded/static_pages/help.html.erb:16
 msgid "Who can use the tool?"
-msgstr "誰がこのツールを使用できますか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:9
 #: ../../app/views/branded/static_pages/help.html.erb:21
 msgid "How do I log in or create an account?"
-msgstr "ログインまたはアカウントを作成するにはどうすればいいですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:10
 #: ../../app/views/branded/static_pages/help.html.erb:30
 msgid "Overview of My dashboard"
-msgstr "マイダッシュボードの概要"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:11
 #: ../../app/views/branded/static_pages/help.html.erb:39
 msgid "How do I create a data management plan?"
-msgstr "データ管理計画を作成するにはどうすればよいですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:12
 #: ../../app/views/branded/static_pages/help.html.erb:72
 msgid "How do I get help from someone at my institution?"
-msgstr "私の施設の誰かからどのように援助を受けるのですか？"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:18
 msgid ""
@@ -3400,16 +3099,12 @@ msgid ""
 "ntials. You may then be presented with institution-specific guidance and have "
 "the option to get feedback from local data experts.</li></ul>"
 msgstr ""
-"DMPToolは誰でも自由にデータ管理計画を作成できます。ユーザーは次の操作を行うことができます。 <ul><li>あなた自身の計画を作成してください。 <"
-"/li><li>共同作業者と計画を共著する。 </li><li> <a href=\"%{participating_url}\">参加している機関の</a>研"
-"究員であれば、あなたの機関の資格情報を使ってログインできます。その後、施設固有のガイダンスが提示され、地元のデータ専門家からのフィードバックを得ることができ"
-"ます。 </li></ul>"
 
 #: ../../app/views/branded/static_pages/help.html.erb:23
 msgid ""
 "Click on Sign in at the top-right of the home page. You can also click the whi"
 "te “Get started” button."
-msgstr "ホームページの右上にある[サインイン]をクリックします。白い「開始」ボタンをクリックすることもできます。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:25
 msgid ""
@@ -3426,13 +3121,6 @@ msgid ""
 " with DMPTool (or has not configured single sign-on), you need to create an ac"
 "count with an email address and password.</li></ul>"
 msgstr ""
-"あなたの機関/組織がDMPToolと提携している場合： <ul><li>最初のボタンをクリックして、「あなたの施設」にサインインします。 </li><li>"
-"リストからあなたの機関を選択し、「Go」をクリックしてください。 </li><li>一部の機関の研究者には、その機関の認証ページが提示されます。通常、あなた"
-"の機関のウェブサービスのためにログインします。 </li><li>あなたの機関がシングルサインオンを設定していない場合は、DMPToolを使用してアカウント"
-"を作成する必要があります（最後の箇条書き）。 </li><li>すでにDMPToolでアカウントを作成している場合は、2番目のボタンをクリックして、以前に選"
-"択した電子メールアドレスとパスワードでサインインします。ログインしたら、右上のメニューバーの[プロファイルの編集]を使用して、パスワードやその他の情報を管理"
-"します。 </li><li> DMPToolに所属していない（またはシングルサインオンを設定していない）機関は、電子メールアドレスとパスワードを使用してアカ"
-"ウントを作成する必要があります。 </li></ul>"
 
 #: ../../app/views/branded/static_pages/help.html.erb:32
 msgid ""
@@ -3440,8 +3128,6 @@ msgid ""
 "te, edit, share, download, copy, or remove any of your plans. You will also se"
 "e plans that have been shared with you by others."
 msgstr ""
-"ログインすると「マイダッシュボード」が表示されます。ここからプランを作成、編集、共有、ダウンロード、コピー、または削除できます。他の人があなたと共有している"
-"計画も表示されます。"
 
 #: ../../app/views/branded/static_pages/help.html.erb:34
 msgid ""
@@ -3451,13 +3137,10 @@ msgid ""
 "data. Additional samples are available in the list of <a href=\"%{public_plans_"
 "url}\">public plans</a>."
 msgstr ""
-"あなたの機関/組織の他の人が計画を内部的に共有することを選択した場合、組織計画の第2のテーブルが表示されます。これにより、PDFをダウンロードし、その計画を"
-"サンプルとして表示したり、新しい研究データを発見したりすることができます。追加のサンプルは、 <a href=\"%{public_plans_url}\">公"
-"共計画</a>のリストで入手できます。"
 
 #: ../../app/views/branded/static_pages/help.html.erb:41
 msgid "Create a plan"
-msgstr "計画を作成する"
+msgstr "Crear un plan"
 
 #: ../../app/views/branded/static_pages/help.html.erb:43
 msgid ""
@@ -3465,8 +3148,6 @@ msgid ""
 "nu. This will take you to a wizard that helps you select the appropriate templ"
 "ate:"
 msgstr ""
-"プランを作成するには、マイダッシュボードまたはトップメニューの[プランの作成]ボタンをクリックします。これにより、適切なテンプレートを選択するのに役立つウィ"
-"ザードが表示されます。"
 
 #: ../../app/views/branded/static_pages/help.html.erb:47
 msgid ""
@@ -3486,15 +3167,6 @@ msgid ""
 " for a grant, check the box for “No funder associated with this plan;” this se"
 "lection will provide you with a generic template.</li></ol>"
 msgstr ""
-"<ol type=\"1\"><li>研究プロジェクトのタイトルを入力します。資金援助を申請する場合は、プロポーザルに表示されているプロジェクトのタイトルを使用"
-"します。 </li><li>主要な研究組織を選択します。参加している機関/組織に関連付けられている場合、このフィールドには事前入力が行われます。フィールドを"
-"クリアし、リストから別の組織を選択するオプションがあります。選択した内容に基づいて、施設固有のテンプレートとガイダンスが表示されます。 「組織はこのプランに"
-"関連付けられていません」というチェックボックスをオンにすることもできます。 </li><li>主要な資金調達組織を選択します。助成金提案の一部としてデータ管"
-"理計画を含める必要がある場合は、リストから資金援助者を選択します。資金提供者が特定のプログラム（NSF、DOEなど）に対して異なる要件を持っている場合、セカ"
-"ンダリドロップダウンメニューが表示される場合があります。 DMPToolでサポートされている<a href=\"%{public_templates_url}"
-"\">資金</a>調達<a href=\"%{public_templates_url}\">要件の</a>完全なリストを参照してください。あなたの資金提供者がリ"
-"ストに載っていない場合、または助成金を申請していない場合は、「このプランに関連付けられた資金提供者はありません」のチェックボックスをオンにしてください。 <"
-"/li></ol>"
 
 #: ../../app/views/branded/static_pages/help.html.erb:49
 msgid ""
@@ -3504,12 +3176,10 @@ msgid ""
 " organizational sharing; this allows other users to find real sample plans mor"
 "e easily."
 msgstr ""
-"ツールをテストするだけでなく、データ管理のコースを受講している場合は、「テスト、練習、教育の目的でプロジェクトをモック」のチェックボックスをオンにします。テ"
-"ストとして計画をマークすると、使用統計に反映され、これにより、他のユーザーが実際のサンプルプランをより簡単に見つけることができます。"
 
 #: ../../app/views/branded/static_pages/help.html.erb:51
 msgid "Once you have made your selections, click “Create plan.”"
-msgstr "選択したら、[プランを作成]をクリックします。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:53
 msgid ""
@@ -3517,12 +3187,10 @@ msgid ""
 "e plan on My dashboard) and update it for a new research project and/or grant "
 "proposal."
 msgstr ""
-"また、既存のプラン（Myダッシュボードのプランの隣にある[Actions]メニューから）のコピーを作成し、新しいリサーチプロジェクトや提案書を更新することも"
-"できます。"
 
 #: ../../app/views/branded/static_pages/help.html.erb:56
 msgid "Write your plan"
-msgstr "あなたの計画を書く"
+msgstr "Escribe tu plan"
 
 #: ../../app/views/branded/static_pages/help.html.erb:58
 msgid ""
@@ -3547,21 +3215,10 @@ msgid ""
 " for PDF files, which may be helpful if working to page limits (e.g., NSF data"
 " management plans are limited to 2 pages).</li></ul>"
 msgstr ""
-"タブ付きインタフェースを使用すると、プランを編集するときにさまざまな機能をナビゲートできます。 <ul><li> 「プロジェクトの詳細」には基本的な管理の詳"
-"細が含まれています。ページの右側には、最大6つの組織を選択してプランを作成する際の追加ガイダンスを表示することができます。ここで提供する情報が多くなればなる"
-"ほど、将来的には（たとえば、データの再利用と適切な帰属のために）、あなたや他の人たちにあなたの計画が役立つでしょう。 「プロファイルの編集」ページで、ORC"
-"ID iDを作成または接続できます。これは一部の資金提供者や出版社のリスト（ <a href=\"%{orcid_url}\\\">orcid.org</a>で<"
-"a href=\"%{orcid_url}\\\">詳しく</a>学ぶ）によって必要とされます。 </li><li> 「計画の概要」では、質問される質問の概要を示"
-"します。次のタブに、回答する質問が表示されます。あなたの資金提供者または機関が異なる段階で質問の異なるセットを尋ねる場合（例えば、助成金申請と賞の後で）、複"
-"数のタブがあるかもしれません。ガイダンスとコメントは、各質問の横の右側のパネルに表示されます。より多くのガイダンスが必要な場合や、余裕がある場合は、[プロジ"
-"ェクトの詳細]タブで調整できます。 </li><li> 「共有」を使用すると、他のユーザーをあなたの計画に寄稿したりコメントしたりすることができます。また、"
-"計画の可視性を設定することもできます（詳細は下記参照）。 </li><li> 「ダウンロード」では、さまざまな形式でプランをダウンロードできます。 PDFフ"
-"ァイルの書式（フォントタイプ、サイズ、および余白）を調整できます。これはページ制限に役立つ場合に役立ちます（NSFデータ管理プランは2ページに制限されていま"
-"す）。 </li></ul>"
 
 #: ../../app/views/branded/static_pages/help.html.erb:61
 msgid "Share plans"
-msgstr "計画を共有する"
+msgstr "Compartir planes"
 
 #: ../../app/views/branded/static_pages/help.html.erb:63
 msgid ""
@@ -3570,8 +3227,6 @@ msgid ""
 "o \"Add collaborator.\" Adjust permissions or remove collaborators at any time v"
 "ia the drop-down options in the table."
 msgstr ""
-"プランを読んだり編集したりしたいと思っている共同編集者のメールアドレスを入力してください。ラジオボタンを使用して権限を設定し、[共同編集者を追加]をクリック"
-"します。権限を調整するか、共同編集者を削除するには、表のドロップダウンオプションを使用します。"
 
 #: ../../app/views/branded/static_pages/help.html.erb:65
 msgid ""
@@ -3580,9 +3235,6 @@ msgid ""
 "your organization can view your plan.</li><li>Public: anyone can view your pla"
 "n in the <a href=\"%{public_plans_url}\">public plans</a> list.</li></ul>"
 msgstr ""
-"[共有]タブでは、プランの表示設定を行うこともできます。 <ul><li>非公開：あなたとあなたの協力者だけに制限されます。 </li><li>組織：あなた"
-"の組織の誰でもあなたの計画を見ることができます。 </li><li>公開：誰でもあなたの計画を<a href=\"%{public_plans_url}\">公"
-"開計画</a>リストで見ることができます。 </li></ul>"
 
 #: ../../app/views/branded/static_pages/help.html.erb:67
 msgid ""
@@ -3590,14 +3242,12 @@ msgid ""
 "d Organizational visibility are intended for finished plans. You must answer a"
 "t least 50% of the questions to enable these options."
 msgstr ""
-"デフォルトでは、すべての新規およびテスト計画はプライベートな表示に設定されます。公共および組織の可視性は、完成した計画を対象としています。これらのオプション"
-"を有効にするには、質問の少なくとも50％に回答する必要があります。"
 
 #: ../../app/views/branded/static_pages/help.html.erb:74
 msgid ""
 "After logging in, you will find an email address and URL for help at the top o"
 "f the page."
-msgstr "ログインすると、ページの上部にヘルプの電子メールアドレスとURLが表示されます。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/help.html.erb:76
 msgid ""
@@ -3608,9 +3258,6 @@ msgid ""
 "s” field adjacent to each question. You will receive an email notification whe"
 "n an administrator provides feedback."
 msgstr ""
-"あなたの計画（ \"共有\"タブ）のフィードバックをリクエストするオプションもあります。これは、あなたの機関の研究支援スタッフがサービスを有効にしている場合に利"
-"用できます。 「フィードバックを求める」をクリックすると、あなたのローカル管理者にあなたの要求が通知されます。それらのコメントは、各質問に隣接する「コメント"
-"」フィールドに表示されます。管理者がフィードバックを送信すると、電子メール通知が届きます。"
 
 #: ../../app/views/branded/static_pages/promote.html.erb:5
 msgid ""
@@ -3618,12 +3265,10 @@ msgid ""
 "archers, librarians, administrators and others about the tool. All materials a"
 "re available under a CC-Zero license."
 msgstr ""
-"DMPToolについて語るのに役立ちます！以下の資料を使用して、研究者、図書館員、管理者などにツールに関する情報を提供してください。すべての資料はCC-Ze"
-"roライセンスで入手できます。"
 
 #: ../../app/views/branded/static_pages/promote.html.erb:8
 msgid "DMPTool logo"
-msgstr "DMPToolロゴ"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/promote.html.erb:9
 msgid ""
@@ -3636,17 +3281,10 @@ msgid ""
 "f=\"%{vintage_logo_png_url}\">PNG</a></li><li>Original DMPTool Logo - <a href=\"%"
 "{original_logo_png_url}\">PNG</a></li></ul>"
 msgstr ""
-"<ul><li> DMPToolロゴ（青色）、タグライン付き - <a href=\"%{logo_tagline_eps_url}\">EPS</a> 、 <"
-"a href=\"%{logo_tagline_svg_url}\">SVG</a> 、 <a href=\"%{logo_tagline_png_url}\">P"
-"NG</a> </li><li> DMPToolロゴ（青色）、タグラインなし - <a href=\"%{logo_eps_url}\">EPS</a> 、 <"
-"a href=\"%{logo_svg_url}\">SVG</a> 、 <a href=\"%{logo_png_url}\">PNG</a> </li><li>"
-" DMPToolロゴ（グリーンv2）、タグライン付き - <a href=\"%{vintage_logo_tagline_png_url}\">PNG</a>"
-" </li><li> DMPToolロゴ（緑色のv2）、タグラインなし - <a href=\"%{vintage_logo_png_url}\">PNG</a"
-"> </li><li>元のDMPToolロゴ - <a href=\"%{original_logo_png_url}\">PNG</a> </li></ul>"
 
 #: ../../app/views/branded/static_pages/promote.html.erb:12
 msgid "Postcards"
-msgstr "ポストカード"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/promote.html.erb:13
 msgid ""
@@ -3654,13 +3292,10 @@ msgid ""
 "<a href=\"%{advertise_pdf1_url}\">Postcard 1: Adobe PDF</a></li><li><a href=\"%{a"
 "dvertise_pdf2_url}\">Postcard 2: Adobe PDF</a></li></ul>"
 msgstr ""
-"あなたの施設の学生や研究者にDMPToolを広告します。 <ul><li> <a href=\"%{advertise_pdf1_url}\">はがき1：Ado"
-"be PDF</a> </li><li> <a href=\"%{advertise_pdf2_url}\">はがき2：Adobe PDF</a> </li><"
-"/ul>"
 
 #: ../../app/views/branded/static_pages/promote.html.erb:16
 msgid "Talking points"
-msgstr "話のポイント"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/promote.html.erb:17
 msgid ""
@@ -3677,19 +3312,10 @@ msgid ""
 "chers: <a href=\"%{talking_points_researcher_docx_url}\">Microsoft Word</a> or <"
 "a href=\"%{talking_points_researcher_pdf_url}\">Adobe PDF</a> </li></ul>"
 msgstr ""
-"あなたのキャンパスでDMPToolに興味を持つ他の人たちを取得する必要がありますか？話し合いのポイントを使ってディスカッションをガイドしましょう。一般的に、"
-"会話文書は、あなたの部署外の人とのミーティング中に軌道に乗るのを助けるように設計されています。それはあなたの主要なポイントが手元にあることを保証し、あなたが"
-"会議の目標に向かって進歩するのを助けます。 <ul><li>トーキングポイントの概要： <a href=\"%{talking_points_overview"
-"_pdf_url}\">Adobe PDF</a> </li><li> ITグループとの会議： <a href=\"%{talking_points_it_do"
-"cx_url}\">Microsoft Word</a>または<a href=\"%{talking_points_it_pdf_url}\">Adobe PDF"
-"</a> </li><li>管理者との会議： <a href=\"%{talking_points_admin_docx_url}\">Microsoft Wo"
-"rd</a>または<a href=\"%{talking_points_admin_pdf_url}\">Adobe PDF</a> </li><li>研究者と"
-"の会議： <a href=\"%{talking_points_researcher_docx_url}\">Microsoft Word</a>または<a h"
-"ref=\"%{talking_points_researcher_pdf_url}\">Adobe PDF</a> </li></ul>"
 
 #: ../../app/views/branded/static_pages/promote.html.erb:20
 msgid "General purpose slides"
-msgstr "汎用スライド"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/promote.html.erb:21
 msgid ""
@@ -3697,12 +3323,10 @@ msgid ""
 "others to the DMPTool.<ul><li><a href=\"%{dmptool_slides_ppt_url}\">Microsoft Po"
 "werpoint</a> </li></ul>"
 msgstr ""
-"DMPToolに研究者や他の人を紹介するために使用できる汎用のスライドデッキを作成しました。 <ul><li> <a href=\"%{dmptool_sli"
-"des_ppt_url}\">Microsoft Powerpoint</a> </li></ul>"
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:2
 msgid "Terms of use & Privacy policy"
-msgstr "利用規約とプライバシーポリシー"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:6
 msgid ""
@@ -3711,12 +3335,10 @@ msgid ""
 "ch community; in addition, we provide services to the United States and intern"
 "ational higher education sector."
 msgstr ""
-"<a href=\"%{cdlib_url}\">カリフォルニアデジタル図書館（CDL）</a>は、カリフォルニア大学（UC）の支援を受けています。主な選挙区は"
-"、UCの研究コミュニティです。さらに、米国および国際高等教育機関にサービスを提供しています。"
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:9
 msgid "DMPTool"
-msgstr "DMPTool"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:11
 msgid ""
@@ -3725,12 +3347,10 @@ msgid ""
 "e research community. It is hosted at CDL by the University of California Cura"
 "tion Center (UC3)."
 msgstr ""
-"DMPTool（ 'ツール'、 'システム'）は、CDLと<a href=\"%{dcc_url}\">Digital Curation Center（DCC）"
-"</a>が研究コミュニティの共有リソースとして開発したツールです。カリフォルニア大学カレッジ・センター（UC3）がCDLで主催しています。"
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:14
 msgid "Your personal details"
-msgstr "個人情報"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:16
 msgid ""
@@ -3741,13 +3361,10 @@ msgid ""
 "rganizations but only for legitimate CDL purposes. We will not sell, rent, or "
 "trade any personal information you provide to us."
 msgstr ""
-"DMPToolを使用してアカウントを識別して管理するには、Eメールアドレスを保存する必要があります。また、あなたのツールの使用に関するフィードバックを得るた"
-"めに、または最新の開発やリリースについて通知するために、このツールを使用することもできます。情報はCDLとDCCのパートナー組織間で転送されますが、合法的な"
-"CDLの目的のためにのみ転送されます。当社は、お客様が当社に提供した個人情報を販売、賃貸、または取引することはありません。"
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:19
 msgid "Privacy policy"
-msgstr "個人情報保護方針"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:21
 msgid ""
@@ -3765,36 +3382,30 @@ msgid ""
 "seline Supporting Practices listed at <a href=\"%{policies_url}\">%{policies_url"
 "}</a>"
 msgstr ""
-"このシステムに入力する情報は、あなた、あなたがアクセスを共有することを選択した人、そしてCDLでサービスシステム管理者を維持する目的でのみ表示されます。私た"
-"ちは匿名で自動化され集計された情報を計画から集めますが、お客様の許可なく、CDLや自宅の施設以外の人にコンテンツに直接アクセスしたり、利用したり、共有したり"
-"することはありません。自宅の機関の認定ユーザーは、特定の目的のために計画にアクセスすることができます。例えば、資金需要/制度要件の遵守状況の追跡、ストレージ"
-"要件の計算、分野間のデータ管理サービスの需要の評価などです。本ウェブサイトへの訪問者から収集される情報（計画以外）およびその使用方法および管理方法の詳細につ"
-"いては、 <a href=\"%{policies_url}\">%{policies_url}に</a>記載されているCDLプライバシーポリシーおよびベースラ"
-"イン支援プラクティスを参照してください<a href=\"%{policies_url}\">。</a>"
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:24
 msgid "Freedom of Information"
-msgstr "情報の自由"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:26
 msgid ""
 "The CDL holds your plans on your behalf, but they are your property and respon"
 "sibility. Any FOIA applicants will be referred back to your home institution."
-msgstr "CDLはあなたのためにあなたの計画を保持しますが、あなたの財産と責任です。 FOIAの応募者は、あなたの家庭の施設に照会されます。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:29
 msgid "Passwords"
-msgstr "パスワード"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:31
 msgid ""
 "Your password is stored in encrypted form and cannot be retrieved. If forgotte"
 "n it has to be reset."
-msgstr "パスワードは暗号化された形式で保存されており、検索することはできません。忘れた場合は、リセットする必要があります。"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:34
 msgid "Google Analytics opt-out"
-msgstr "Googleアナリティクスのオプトアウト"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:36
 msgid ""
@@ -3804,13 +3415,10 @@ msgid ""
 "out_url}\">Google Analytics opt-out page</a> and install the add-on for your br"
 "owser."
 msgstr ""
-"このウェブサイトでは、CDLのプライバシーポリシーに記載されているとおり、Googleアナリティクスを使用して使用統計情報を取得および分析しています。 Go"
-"ogleアナリティクスでウェブサイトの活動をトラッキングすることをオプトアウトすることもできます。これを行うには、 <a href=\"%{opt_out_u"
-"rl}\">Googleアナリティクスのオプトアウトページ</a>にアクセスし、ブラウザ用のアドオンをインストールします。"
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:39
 msgid "Third party APIs"
-msgstr "サードパーティのAPI"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:41
 msgid ""
@@ -3820,140 +3428,147 @@ msgid ""
 "policy of that service. CDL does not control how information may be used by th"
 "ese services."
 msgstr ""
-"このウェブサイトの特定の機能は、InCommon / Shibbolethや一般的なJavaScriptライブラリやWebフォントの第三者ホスティングなどの"
-"サードパーティサービスやAPIを利用しています。外部サービスによって使用される情報は、そのサービスのプライバシーポリシーによって管理されます。 CDLは、こ"
-"れらのサービスによって情報がどのように使用されるかを制御しません。"
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:44
 msgid "Revisions"
-msgstr "リビジョン"
+msgstr ""
 
 #: ../../app/views/branded/static_pages/termsuse.html.erb:46
 msgid ""
 "This statement was last revised on October 5, 2017 and may be revised at any t"
 "ime. Use of the tool indicates that you understand and agree to these terms an"
 "d conditions."
-msgstr "この声明は2017年10月5日に最後に改訂され、いつでも改訂することができます。このツールを使用すると、これらの利用規約を理解し、同意することが示されます。"
+msgstr ""
 
 #: ../../app/views/branded/super_admin/users/edit.html.erb:1
 #: ../../app/views/branded/super_admin/users/edit.html.erb:5
 msgid "Editing profile for %{username}"
-msgstr "%{username}のプロフィールの編集"
+msgstr "Perfil de edición para %{username}"
 
 #: ../../app/views/branded/super_admin/users/edit.html.erb:6
 msgid "View all users"
-msgstr "すべてのユーザーを表示"
+msgstr "Ver todos los usuarios"
 
 #: ../../app/views/branded/user_mailer/admin_privileges.html.erb:8
 msgid "Hello %{user_name}"
-msgstr "こんにちは%{user_name}"
+msgstr "Hola %{user_name}"
 
 #: ../../app/views/branded/user_mailer/admin_privileges.html.erb:12
 msgid "You have been granted administrator privileges in %{tool_name}:"
-msgstr "あなたは%{tool_name}の管理者特権を与えられています："
+msgstr "Se le han otorgado privilegios de administrador en %{tool_name}:"
 
 #: ../../app/views/branded/user_mailer/admin_privileges.html.erb:19
 msgid "You have been revoked administrator privileges in %{tool_name}."
-msgstr "%{tool_name}の管理者権限が取り消されました。"
+msgstr "Se le han revocado los privilegios de administrador en %{tool_name}."
 
 #: ../../app/views/branded/user_mailer/admin_privileges.html.erb:23
 msgid ""
 "More information about administering the %{tool_name} for users at your organi"
 "sation is available at the %{help_url}."
-msgstr "組織内のユーザーの%{tool_name}の管理に関する詳細については、%{help_url}を参照してください。"
+msgstr ""
+"Más información sobre la administración de %{tool_name} para los usuarios de s"
+"u organización está disponible en %{help_url}."
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:9
 msgid "Editing privileges for %{username}"
-msgstr "%{username}の編集権限"
+msgstr "Privilegios de edición para %{username}"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:16
 msgid "Organisational admin privileges"
-msgstr "組織の管理者権限"
+msgstr ""
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:19
 msgid ""
 "Allows the user to assign permissions to other users within the same organisat"
 "ion. Users can only assign permissions they own themselves"
-msgstr "ユーザーが同じ組織内の他のユーザーに権限を割り当てることを許可します。ユーザーは自分自身の所有権のみを割り当てることができます"
+msgstr ""
+"Permite al usuario asignar permisos a otros usuarios dentro de la misma organi"
+"zación. Los usuarios solo pueden asignar permisos que ellos mismos posean."
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:21
 msgid "Manage user privileges"
-msgstr "ユーザー権限の管理"
+msgstr "Administrar privilegios de usuario"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:23
 msgid ""
 "Allows the user to create new organisational templates, edit existing ones and"
 " customise funder templates"
-msgstr "ユーザーが新しい組織テンプレートを作成し、既存のテンプレートを編集し、テンプレートテンプレートをカスタマイズできるようにする"
+msgstr ""
+"Permite al usuario crear nuevas plantillas organizativas, editar las existente"
+"s y personalizar plantillas de patrocinadores"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:25
 msgid "Manage templates"
-msgstr "テンプレートの管理"
+msgstr "Administrar plantillas"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:27
 msgid "Allows the user to create and edit guidance"
-msgstr "ユーザーがガイダンスを作成および編集できるようにする"
+msgstr "Permite al usuario crear y editar guías."
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:29
 msgid "Manage guidance"
-msgstr "ガイダンスを管理する"
+msgstr "Gestionar orientación"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:31
 msgid ""
 "Provides the user with an API token and grants rights to harvest information f"
 "rom the tool"
-msgstr "ユーザーにAPIトークンを提供し、ツールから情報を収集する権利を付与する"
+msgstr ""
+"Proporciona al usuario un token de API y otorga derechos para recopilar inform"
+"ación de la herramienta"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:33
 msgid "Use API"
-msgstr "APIを使用する"
+msgstr "Usar API"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:35
 msgid ""
 "Allows the user to amend the organisation details (name, URL etc) and add basi"
 "c branding such as the logo"
-msgstr "組織の詳細（名前、URLなど）を修正し、ロゴなどの基本的なブランドを追加することができます"
+msgstr ""
+"Permite al usuario modificar los detalles de la organización (nombre, URL, etc"
+".) y agregar una marca básica como el logotipo"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:37
 msgid "Manage organisation details"
-msgstr "組織の詳細を管理する"
+msgstr "Administrar los detalles de la organización"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:44
 msgid "Super admin privileges"
-msgstr "スーパー管理者権限"
+msgstr ""
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:47
 msgid "Allows the user to create new organisations"
-msgstr "ユーザーが新しい組織を作成できるようにする"
+msgstr "Permite al usuario crear nuevas organizaciones."
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:49
 msgid "Add Organisations"
-msgstr "組織を追加する"
+msgstr "Añadir organizaciones"
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:51
 msgid "Allows the user to manage organisation affiliation"
-msgstr "ユーザーが組織の所属を管理できるようにする"
+msgstr "Permite al usuario gestionar la afiliación de la organización."
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:53
 msgid "Manage organisation affiliation"
-msgstr "組織の所属を管理する"
+msgstr "Gestionar afiliación a la organización."
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:55
 msgid "Allows the user to grant API access to organisations."
-msgstr "ユーザーが組織にAPIアクセスを許可できるようにします。"
+msgstr "Permite al usuario otorgar acceso a la API a las organizaciones."
 
 #: ../../app/views/branded/users/_admin_grant_permissions.html.erb:57
 msgid "Grant API access"
-msgstr "APIアクセスを許可する"
+msgstr "Otorgar acceso a la API"
 
 #: ../../app/views/branded/users/ldap_username.html.erb:4
 msgid ""
 "If you have an existing DMPTool account, please enter your username and we wil"
 "l provide the associated email address."
-msgstr "既存のDMPToolアカウントをお持ちの場合は、ユーザー名を入力してください。関連するメールアドレスが入力されます。"
+msgstr ""
 
 #: ../../app/views/branded/users/ldap_username.html.erb:21
 msgid ""
 "If you have forgotten the username and email for your existing DMPTool account"
 ", please %{contact_us_link}."
-msgstr "既存のDMPToolアカウントのユーザー名と電子メールを忘れてしまった場合は、%{contact_us_link}をご記入ください。"
+msgstr ""

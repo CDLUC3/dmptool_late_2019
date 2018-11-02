@@ -1,7 +1,7 @@
 TranslationIO.configure do |config|
-  #config.api_key        = '5ad9324b8bb1426290c5509f1753285e'
+  #config.api_key        = '511c05a980334c93b740484cb6a3030f'
   #config.source_locale  = 'en'
-  #config.target_locales = ['de', 'en-GB', 'en-US', 'es', 'fr-FR', 'fi', 'sv-FI']
+  #config.target_locales = ['en-GB', 'en-US', 'fr-CA', 'ja', 'pt-BR', 'es']
 
   # Uncomment this if you don't want to use gettext
   # config.disable_gettext = true
@@ -14,12 +14,12 @@ TranslationIO.configure do |config|
 
   # Additional keys for multi-domain
   config.multi_domain           = true
-  config.domain_names           = ['app', 'dmptuuli']
-  config.domain_api_keys        = ['1343b776dce845ae87642614df46ce36',
-                                    '843f5421120e42279b42c6fc19925b38']
+  config.domain_names           = ['app', 'dmptool']
+  config.domain_api_keys        = ['699f534dde5440848007090f55c04e43',
+                                   'a475835b00794d55a0d40304ed09e0bd']
   config.domain_source_locales  = ['en', 'en']
-  config.domain_target_locales  = [['de', 'en-GB', 'en-US', 'es', 'fr-FR', 'fi', 'sv-FI', 'pt-BR'],
-                                   ['fi', 'sv-FI']]
+  config.domain_target_locales  = [['en-GB', 'en-US', 'fr-CA', 'ja', 'pt-BR', 'es'],
+                                   ['en-GB', 'en-US', 'fr-CA', 'ja', 'pt-BR', 'es']]
   config.domain_folders         = [[],['app/views/branded/']]
 end
 
@@ -46,4 +46,4 @@ end
 
 I18n.available_locales = Language.all.pluck(:abbreviation)
 
-I18n.default_locale        = Language.default.try(:abbreviation) || "en-GB"
+I18n.default_locale    = Language.default.try(:abbreviation) || "en-GB"

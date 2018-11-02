@@ -2,10 +2,17 @@
 # IF YOU UPDATE IT, YOUR CHANGES WILL BE LOST AT THE NEXT SYNC.
 #
 # To update this file, use this translation interface:
-# https://translation.io/xsrust/roadmap/pt-BR
+# https://translation.io/briri/dmptool/pt-BR
 #
 ---
 pt-BR:
+  views:
+    pagination:
+      truncate: "&hellip;"
+      first: "&laquo; Primeiro"
+      last: Último &raquo;
+      previous: "&lsaquo; Anterior"
+      next: Próximo &rsaquo;
   date:
     day_names:
     - Domingo
@@ -22,7 +29,7 @@ pt-BR:
     - Qua
     - Qui
     - Sex
-    - Sab
+    - Sáb
     month_names:
     - 
     - Janeiro
@@ -103,25 +110,23 @@ pt-BR:
       odd: deve ser ímpar
       even: deve ser par
       taken: já está em uso
-      already_confirmed: já foi confirmado, por favor, tente entrar
+      already_confirmed: já foi confirmado
       confirmation_period_expired: precisa ser confirmado dentro de %{período}, solicite
         um novo
       expired: expirou, solicite um novo
       not_found: não encontrado
-      not_locked: não estava trancado
+      not_locked: não foi trancado
       not_saved:
-        one: '1 erro proibiu que %{resource} fosse salvo:'
-        other: "%{count} erros proibiram que esse %{resource} fosse salvo:"
-    unavailable_session: |
+        one: '1 erro impediu %{resource} de ser salvo:'
+        other: "%{count} erros impediram o %{resource} de ser salvo:"
+    unavailable_session: |-
       A sessão %{id} não está mais disponível na memória.
 
       Se acontecer de você executar em um servidor com vários processos (como Unicorn ou Puma), o processo
       esta solicitação não armazena %{id} na memória. Considere transformar o número de
       processos / trabalhadores para um (1) ou usando um servidor diferente em desenvolvimento.
-    unacceptable_request: 'Uma versão suportada é esperada no cabeçalho Accept.
-
-'
-    connection_refused: |
+    unacceptable_request: Uma versão suportada é esperada no cabeçalho Accept.
+    connection_refused: |-
       Opa! Falha ao conectar-se ao middleware do console da Web.
       Por favor, certifique-se de que um servidor de desenvolvimento de trilhos está sendo executado.
   activerecord:
@@ -203,34 +208,37 @@ pt-BR:
       destroy:
         notice: "%{resource_name} foi destruído com sucesso."
         alert: "%{resource_name} não pôde ser destruído."
+  multibyte:
+  - 
+  - ðŸ˜¡
+  - "¤ ¤"
   devise:
     confirmations:
-      confirmed: Sua conta foi confirmada com sucesso. Por favor, inscreva-se.
-      send_instructions: Você receberá um e-mail com instruções sobre como confirmar
-        sua conta em alguns minutos.
+      confirmed: Sua conta foi confirmada com sucesso. Você já está logado.
+      send_instructions: Em alguns minutos você recebrá um email com instruções para
+        confimar sua conta.
       send_paranoid_instructions: Se o seu endereço de e-mail existir em nosso banco
         de dados, você receberá um e-mail com instruções sobre como confirmar sua
         conta em alguns minutos.
     failure:
       already_authenticated: Você já está inscrito.
-      inactive: Sua conta não está mais ativa. Entre em contato para reativar sua
-        conta.
+      inactive: Sua conta ainda não foi ativada.
       invalid: Email ou senha inválidos.
-      locked: Sua conta está bloqueada.
+      locked: Sua conta está congelada.
       last_attempt: Você tem mais uma tentativa antes de sua conta está bloqueada.
       not_found_in_database: Email ou senha inválidos.
-      timeout: Sua sessão expirou, faça login novamente para continuar.
-      unauthenticated: Você precisa fazer login ou se inscrever antes de continuar.
+      timeout: Sua sessão expirou, por favor faça o login novamente.
+      unauthenticated: Você precisa logar-se ou cadastrar-se antes de continuar.
       unconfirmed: Você precisa confirmar sua conta antes de continuar.
       invited: Você tem um convite pendente, aceite-o para concluir a criação da sua
         conta.
     mailer:
       confirmation_instructions:
-        subject: Confirme sua conta DMPRoadmap
+        subject: Instruções de confirmação
       reset_password_instructions:
-        subject: Redefinir instruções de senha
+        subject: Instruções de reset de senha
       unlock_instructions:
-        subject: Desbloquear instruções
+        subject: Instruções de desbloqueio
       email_changed:
         subject: E-mail alterado
       password_change:
@@ -242,8 +250,7 @@ pt-BR:
           através do link abaixo.
         accept: Aceitar convite
         accept_until: Este convite será devido em %{due_date}.
-        ignore: Se você não quiser aceitar o convite, ignore este e-mail. <br /> Sua
-          conta não será criada até que você acesse o link acima e defina sua senha.
+        ignore: 
     omniauth_callbacks:
       failure: Não foi possível autenticá-lo de %{kind} porque "%{reason}".
       success: Autenticado com sucesso da conta %{kind}.
@@ -279,11 +286,11 @@ pt-BR:
       signed_out: Saiu com sucesso.
       already_signed_out: Saiu com sucesso.
     unlocks:
-      send_instructions: Você receberá um email com instruções sobre como desbloquear
-        sua conta em alguns minutos.
+      send_instructions: Em alguns minutos você recebrá um email com instruções para
+        liberar sua conta.
       send_paranoid_instructions: Se a sua conta existir, você receberá um email com
         instruções sobre como desbloqueá-lo em alguns minutos.
-      unlocked: Sua conta foi desbloqueada com sucesso. Por favor, entre para continuar.
+      unlocked: Sua conta foi liberada com sucesso. Você já está logado.
     invitations:
       send_instructions: Um e-mail de convite foi enviado para %{email}.
       invitation_token_invalid: O token de convite fornecido não é válido!
@@ -310,32 +317,21 @@ pt-BR:
         message: Mensagem
         name: Nome
         subject: Assunto
-        submit: Enviar
+        submit: Submeter
       new_formtastic:
         contact_us: Contate-nos
         email: Email
         message: Mensagem
         name: Nome
         subject: Assunto
-        submit: Enviar
+        submit: Submeter
       new_simple_form:
         contact_us: Contate-nos
         email: Email
         message: Mensagem
         name: Nome
         subject: Assunto
-        submit: Enviar
+        submit: Submeter
     notices:
       error: Você tem de preencher ambos os campos.
       success: Email de contato foi enviado com sucesso.
-  views:
-    pagination:
-      first: "&laquo; Primeiro"
-      last: Último &raquo;
-      previous: "&lsaquo; Anterior"
-      next: Próximo &rsaquo;
-      truncate: "&hellip;"
-  multibyte:
-  - "\U0001F600"
-  - ðŸ˜¡
-  - "¤ ¤"

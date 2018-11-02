@@ -1,36 +1,36 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018 app
-# This file is distributed under the same license as the app package.
+# Japanese translations for dmptool package.
+# Copyright (C) 2018 dmptool
+# This file is distributed under the same license as the dmptool package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: app 1.0\n"
+"Project-Id-Version: dmptool 1.0\n"
 "Report-Msgid-Bugs-To: contact@translation.io\n"
-"POT-Creation-Date: 2018-11-01 15:06+0000\n"
-"PO-Revision-Date: 2018-11-01 15:06+0000\n"
+"POT-Creation-Date: 2018-11-02 09:27-0700\n"
+"PO-Revision-Date: 2018-11-02 17:27+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"\n"
 
 #: ../../app/controllers/answers_controller.rb:17
 msgid ""
 "There is no question with id %{question_id} associated to plan id %{plan_id} f"
 "or which to create or update an answer"
-msgstr ""
+msgstr "回答を作成または更新する計画ID %{plan_id}に関連付けられたID %{question_id}には疑問がありません"
 
 #: ../../app/controllers/answers_controller.rb:28
 msgid "There is no plan with id %{id} for which to create or update an answer"
-msgstr ""
+msgstr "ID %{id}の回答を作成または更新する計画はありません"
 
 #: ../../app/controllers/api/v0/base_controller.rb:125
 msgid "Bad Credentials"
-msgstr ""
+msgstr "悪い資格"
 
 #: ../../app/controllers/api/v0/plans_controller.rb:25
 msgid "user must be in your organisation"
@@ -38,144 +38,144 @@ msgstr ""
 
 #: ../../app/controllers/api/v0/plans_controller.rb:53
 msgid "Bad Parameters"
-msgstr ""
+msgstr "悪いパラメータ"
+
+#: ../../app/controllers/api/v0/statistics_controller.rb:35
+msgid "No. Users joined"
+msgstr "いいえ。"
 
 #: ../../app/controllers/api/v0/statistics_controller.rb:35
 #: ../../app/controllers/api/v0/statistics_controller.rb:83
 #: ../../app/controllers/api/v0/statistics_controller.rb:132
 msgid "Month"
-msgstr ""
-
-#: ../../app/controllers/api/v0/statistics_controller.rb:35
-msgid "No. Users joined"
-msgstr ""
+msgstr "月"
 
 #: ../../app/controllers/api/v0/statistics_controller.rb:38
 #: ../../app/controllers/api/v0/statistics_controller.rb:86
 #: ../../app/controllers/api/v0/statistics_controller.rb:135
 msgid "Total"
-msgstr ""
+msgstr "合計"
 
 #: ../../app/controllers/api/v0/statistics_controller.rb:83
 msgid "No. Completed Plans"
-msgstr ""
+msgstr "いいえ、完了した計画"
 
 #: ../../app/controllers/api/v0/statistics_controller.rb:132
 msgid "No. Plans"
-msgstr ""
+msgstr "無計画"
 
 #: ../../app/controllers/application_controller.rb:33
 msgid "You are not authorized to perform this action."
-msgstr ""
+msgstr "あなたはこのアクションを実行する権限がありません。"
 
 #: ../../app/controllers/application_controller.rb:35
 msgid "You need to sign in or sign up before continuing."
-msgstr ""
+msgstr "続ける前にサインインかサインアップが必要です。"
 
-#: ../../app/controllers/application_controller.rb:101
+#: ../../app/controllers/application_controller.rb:108
 msgid "Unable to %{action} the %{object}.%{errors}"
-msgstr ""
+msgstr "%{object}。%{errors}に%{action}できません。"
 
-#: ../../app/controllers/application_controller.rb:109
+#: ../../app/controllers/application_controller.rb:116
 msgid "Successfully %{action} the %{object}."
-msgstr ""
+msgstr "正常に%{action} %{object}。"
 
-#: ../../app/controllers/application_controller.rb:124
+#: ../../app/controllers/application_controller.rb:131
 msgid "plan"
-msgstr ""
+msgstr "計画"
 
-#: ../../app/controllers/application_controller.rb:125
+#: ../../app/controllers/application_controller.rb:132
 msgid "guidance group"
 msgstr ""
 
-#: ../../app/controllers/application_controller.rb:126
+#: ../../app/controllers/application_controller.rb:133
 msgid "comment"
-msgstr ""
+msgstr "コメント"
 
-#: ../../app/controllers/application_controller.rb:127
+#: ../../app/controllers/application_controller.rb:134
 msgid "organisation"
-msgstr ""
+msgstr "組織"
 
-#: ../../app/controllers/application_controller.rb:128
+#: ../../app/controllers/application_controller.rb:135
 msgid "permission"
-msgstr ""
+msgstr "許可"
 
-#: ../../app/controllers/application_controller.rb:129
+#: ../../app/controllers/application_controller.rb:136
 msgid "preferences"
-msgstr ""
+msgstr "プリファレンス"
 
-#: ../../app/controllers/application_controller.rb:130
+#: ../../app/controllers/application_controller.rb:137
 msgid "profile"
 msgstr ""
 
-#: ../../app/controllers/application_controller.rb:130
+#: ../../app/controllers/application_controller.rb:137
 msgid "user"
 msgstr ""
 
 #: ../../app/controllers/concerns/paginable.rb:37
 msgid "scope should be an ActiveRecord::Relation object"
-msgstr ""
+msgstr "scopeは、ActiveRecord :: Relationオブジェクトである必要があります。"
 
 #: ../../app/controllers/concerns/paginable.rb:40
 msgid "path_params should be a Hash object"
-msgstr ""
+msgstr "path_paramsはHashオブジェクトでなければなりません"
 
 #: ../../app/controllers/concerns/paginable.rb:43
 msgid "query_params should be a Hash object"
-msgstr ""
+msgstr "query_paramsはHashオブジェクトでなければなりません"
 
 #: ../../app/controllers/concerns/paginable.rb:46
 msgid "locals should be a Hash object"
-msgstr ""
+msgstr "地元の人々はハッシュオブジェクトでなければなりません"
 
 #: ../../app/controllers/concerns/paginable.rb:66
 msgid "Restricted access to View All the records"
-msgstr ""
-
-#: ../../app/controllers/concerns/template_methods.rb:10
-msgid "customisation"
-msgstr ""
+msgstr "すべてのレコードを表示する制限付きアクセス"
 
 #: ../../app/controllers/concerns/template_methods.rb:10
 msgid "template"
-msgstr ""
+msgstr "テンプレート"
+
+#: ../../app/controllers/concerns/template_methods.rb:10
+msgid "customisation"
+msgstr "カスタマイズ"
 
 #: ../../app/controllers/concerns/versionable.rb:21
 msgid "obj should be a Template, Phase, Section, Question, or Annotation"
-msgstr ""
+msgstr "objはテンプレート、フェーズ、セクション、質問、または注釈でなければなりません"
 
 #: ../../app/controllers/concerns/versionable.rb:45
 #: ../../app/controllers/concerns/versionable.rb:64
 msgid "obj should be a Phase, Section, Question, or Annotation"
-msgstr ""
+msgstr "objはPhase、Section、Question、またはAnnotationでなければなりません"
 
 #: ../../app/controllers/concerns/versionable.rb:85
 msgid "The search_space does not respond to each"
-msgstr ""
+msgstr "search_spaceはそれぞれに応答しません"
 
 #: ../../app/controllers/concerns/versionable.rb:89
 msgid "The search space does not have elements associated"
-msgstr ""
+msgstr "検索スペースには要素が関連付けられていません"
 
-#: ../../app/controllers/contacts_controller.rb:10
+#: ../../app/controllers/contacts_controller.rb:11
 msgid "Captcha verification failed, please retry."
-msgstr ""
+msgstr "Captchaの確認に失敗しました。再試行してください。"
 
-#: ../../app/controllers/contacts_controller.rb:16
+#: ../../app/controllers/contacts_controller.rb:17
 msgid "Contact email was successfully sent."
-msgstr ""
+msgstr "お問い合わせを送信しました。"
 
-#: ../../app/controllers/contacts_controller.rb:18
+#: ../../app/controllers/contacts_controller.rb:19
 msgid "Unable to submit your request"
-msgstr ""
+msgstr "リクエストを送信できません"
 
 #: ../../app/controllers/feedback_requests_controller.rb:9
 msgid "Unable to submit your request for feedback at this time."
-msgstr ""
+msgstr "この時点でフィードバックのリクエストを送信できません。"
 
 #: ../../app/controllers/feedback_requests_controller.rb:10
 msgid "An error occurred when requesting feedback for this plan."
-msgstr ""
+msgstr "このプランのフィードバックを要求しているときにエラーが発生しました。"
 
 #: ../../app/controllers/guidance_groups_controller.rb:33
 #: ../../app/controllers/guidances_controller.rb:48
@@ -188,7 +188,7 @@ msgstr ""
 #: ../../app/controllers/super_admin/orgs_controller.rb:52
 #: ../../app/controllers/super_admin/themes_controller.rb:22
 msgid "created"
-msgstr ""
+msgstr "作成した"
 
 #: ../../app/controllers/guidance_groups_controller.rb:36
 #: ../../app/controllers/guidances_controller.rb:50
@@ -197,114 +197,114 @@ msgstr ""
 #: ../../app/controllers/org_admin/questions_controller.rb:71
 #: ../../app/controllers/org_admin/sections_controller.rb:83
 #: ../../app/controllers/org_admin/templates_controller.rb:166
-#: ../../app/controllers/plans_controller.rb:130
+#: ../../app/controllers/plans_controller.rb:137
 #: ../../app/controllers/super_admin/notifications_controller.rb:41
 #: ../../app/controllers/super_admin/orgs_controller.rb:55
 #: ../../app/controllers/super_admin/themes_controller.rb:25
 msgid "create"
-msgstr ""
+msgstr "作成する"
 
 #: ../../app/controllers/guidance_groups_controller.rb:57
 #: ../../app/controllers/guidances_controller.rb:70
 #: ../../app/controllers/notes_controller.rb:86
 #: ../../app/controllers/org_admin/sections_controller.rb:98
 #: ../../app/controllers/org_admin/templates_controller.rb:184
-#: ../../app/controllers/orgs_controller.rb:59
-#: ../../app/controllers/plans_controller.rb:220
-#: ../../app/controllers/plans_controller.rb:223
-#: ../../app/controllers/registrations_controller.rb:222
-#: ../../app/controllers/registrations_controller.rb:226
-#: ../../app/controllers/registrations_controller.rb:248
-#: ../../app/controllers/registrations_controller.rb:252
+#: ../../app/controllers/orgs_controller.rb:65
+#: ../../app/controllers/plans_controller.rb:227
+#: ../../app/controllers/plans_controller.rb:230
+#: ../../app/controllers/registrations_controller.rb:285
+#: ../../app/controllers/registrations_controller.rb:289
+#: ../../app/controllers/registrations_controller.rb:311
+#: ../../app/controllers/registrations_controller.rb:315
 #: ../../app/controllers/users_controller.rb:97
 #: ../../app/controllers/users_controller.rb:121
 msgid "saved"
-msgstr ""
+msgstr "保存された"
 
 #: ../../app/controllers/guidance_groups_controller.rb:60
 #: ../../app/controllers/guidances_controller.rb:72
 #: ../../app/controllers/notes_controller.rb:104
 #: ../../app/controllers/org_admin/sections_controller.rb:100
 #: ../../app/controllers/org_admin/templates_controller.rb:189
-#: ../../app/controllers/orgs_controller.rb:61
-#: ../../app/controllers/plans_controller.rb:229
-#: ../../app/controllers/plans_controller.rb:232
-#: ../../app/controllers/plans_controller.rb:237
-#: ../../app/controllers/registrations_controller.rb:229
-#: ../../app/controllers/registrations_controller.rb:255
+#: ../../app/controllers/orgs_controller.rb:67
+#: ../../app/controllers/plans_controller.rb:236
+#: ../../app/controllers/plans_controller.rb:239
+#: ../../app/controllers/plans_controller.rb:244
+#: ../../app/controllers/registrations_controller.rb:292
+#: ../../app/controllers/registrations_controller.rb:318
 msgid "save"
-msgstr ""
+msgstr "セーブ"
 
 #: ../../app/controllers/guidance_groups_controller.rb:74
 msgid "Your guidance group has been published and is now available to users."
-msgstr ""
+msgstr "ガイダンスグループが公開され、ユーザーが利用できるようになりました。"
 
 #: ../../app/controllers/guidance_groups_controller.rb:77
 #: ../../app/controllers/guidances_controller.rb:110
 msgid "publish"
-msgstr ""
+msgstr "公開する"
 
 #: ../../app/controllers/guidance_groups_controller.rb:91
 msgid "Your guidance group is no longer published and will not be available to users."
-msgstr ""
+msgstr "ガイダンスグループは公開されなくなり、ユーザーは利用できなくなります。"
 
 #: ../../app/controllers/guidance_groups_controller.rb:94
 #: ../../app/controllers/guidances_controller.rb:129
 msgid "unpublish"
-msgstr ""
+msgstr "未公開"
 
 #: ../../app/controllers/guidance_groups_controller.rb:105
 #: ../../app/controllers/guidances_controller.rb:88
 #: ../../app/controllers/org_admin/phases_controller.rb:157
 #: ../../app/controllers/org_admin/questions_controller.rb:128
 #: ../../app/controllers/org_admin/sections_controller.rb:127
-#: ../../app/controllers/plans_controller.rb:267
+#: ../../app/controllers/plans_controller.rb:274
 #: ../../app/controllers/super_admin/notifications_controller.rb:63
 #: ../../app/controllers/super_admin/themes_controller.rb:50
 msgid "deleted"
-msgstr ""
+msgstr "削除された"
 
 #: ../../app/controllers/guidance_groups_controller.rb:107
 #: ../../app/controllers/guidances_controller.rb:91
 #: ../../app/controllers/org_admin/phases_controller.rb:159
 #: ../../app/controllers/org_admin/questions_controller.rb:130
 #: ../../app/controllers/org_admin/sections_controller.rb:129
-#: ../../app/controllers/plans_controller.rb:272
+#: ../../app/controllers/plans_controller.rb:279
 #: ../../app/controllers/super_admin/notifications_controller.rb:66
 #: ../../app/controllers/super_admin/themes_controller.rb:53
 msgid "delete"
-msgstr ""
+msgstr "削除"
 
 #: ../../app/controllers/guidances_controller.rb:107
 msgid "Your guidance has been published and is now available to users."
-msgstr ""
+msgstr "あなたのガイダンスは公開され、ユーザーが利用できるようになりました。"
 
 #: ../../app/controllers/guidances_controller.rb:126
 msgid "Your guidance is no longer published and will not be available to users."
-msgstr ""
+msgstr "あなたのガイダンスは公開されなくなり、ユーザーは利用できなくなります。"
 
 #: ../../app/controllers/notes_controller.rb:124
 #: ../../app/controllers/org_admin/templates_controller.rb:215
 #: ../../app/controllers/super_admin/orgs_controller.rb:84
 msgid "removed"
-msgstr ""
+msgstr "除去された"
 
 #: ../../app/controllers/notes_controller.rb:142
 #: ../../app/controllers/org_admin/templates_controller.rb:217
 #: ../../app/controllers/super_admin/orgs_controller.rb:87
 msgid "remove"
-msgstr ""
+msgstr "削除します"
 
 #: ../../app/controllers/org_admin/phases_controller.rb:17
 #: ../../app/controllers/org_admin/templates_controller.rb:108
 msgid ""
 "You are viewing a historical version of this template. You will not be able to"
 " make changes."
-msgstr ""
+msgstr "このテンプレートの履歴バージョンを表示しています。変更を加えることはできません。"
 
 #: ../../app/controllers/org_admin/phases_controller.rb:93
 msgid "You canot add a phase to a historical version of a template."
-msgstr ""
+msgstr "テンプレートの履歴バージョンにフェーズを追加することはできません。"
 
 #: ../../app/controllers/org_admin/phases_controller.rb:112
 #: ../../app/controllers/org_admin/phases_controller.rb:135
@@ -315,11 +315,11 @@ msgstr ""
 #: ../../app/controllers/org_admin/sections_controller.rb:103
 #: ../../app/controllers/org_admin/sections_controller.rb:132
 msgid "Unable to create a new version of this template."
-msgstr ""
+msgstr "このテンプレートの新しいバージョンを作成できません。"
 
 #: ../../app/controllers/org_admin/phases_controller.rb:130
 #: ../../app/controllers/org_admin/questions_controller.rb:98
-#: ../../app/controllers/plans_controller.rb:329
+#: ../../app/controllers/plans_controller.rb:337
 #: ../../app/controllers/super_admin/notifications_controller.rb:51
 #: ../../app/controllers/super_admin/themes_controller.rb:39
 #: ../../app/controllers/super_admin/users_controller.rb:27
@@ -329,52 +329,52 @@ msgstr ""
 
 #: ../../app/controllers/org_admin/phases_controller.rb:132
 #: ../../app/controllers/org_admin/questions_controller.rb:100
-#: ../../app/controllers/plans_controller.rb:332
+#: ../../app/controllers/plans_controller.rb:340
 #: ../../app/controllers/super_admin/notifications_controller.rb:53
 #: ../../app/controllers/super_admin/themes_controller.rb:41
 #: ../../app/controllers/super_admin/users_controller.rb:29
 msgid "update"
-msgstr ""
+msgstr "更新"
 
 #: ../../app/controllers/org_admin/plans_controller.rb:35
 msgid "%{plan_owner} has been notified that you have finished providing feedback"
-msgstr ""
+msgstr "%{plan_owner}にフィードバックの提供が完了した旨が通知されました"
 
 #: ../../app/controllers/org_admin/plans_controller.rb:42
 msgid "Unable to notify user that you have finished providing feedback."
-msgstr ""
+msgstr "フィードバックの提供が終了したことをユーザーに通知できません。"
 
 #: ../../app/controllers/org_admin/sections_controller.rb:68
 msgid "Unable to create a new section. The phase you specified does not exist."
-msgstr ""
+msgstr "新しいセクションを作成できません。指定したフェーズは存在しません。"
 
 #: ../../app/controllers/org_admin/template_copies_controller.rb:18
-#: ../../app/controllers/plans_controller.rb:311
+#: ../../app/controllers/plans_controller.rb:319
 msgid "copy"
-msgstr ""
+msgstr "COPY"
 
 #:
 #: ../../app/controllers/org_admin/template_customization_transfers_controller.rb:17
 msgid "That template is no longer customizable."
-msgstr ""
+msgstr "そのテンプレートはもはやカスタマイズできません。"
 
 #: ../../app/controllers/org_admin/template_customizations_controller.rb:19
 msgid "Unable to customize that template."
-msgstr ""
+msgstr "テンプレートをカスタマイズできません。"
 
 #: ../../app/controllers/org_admin/template_customizations_controller.rb:22
 msgid "That template is not customizable."
-msgstr ""
+msgstr "そのテンプレートはカスタマイズできません。"
 
 #: ../../app/controllers/org_admin/templates_controller.rb:22
 #: ../../app/views/org_admin/templates/index.html.erb:42
 msgid "All Templates"
-msgstr ""
+msgstr "すべてのテンプレート"
 
 #: ../../app/controllers/org_admin/templates_controller.rb:46
 #: ../../app/views/org_admin/templates/index.html.erb:51
 msgid "%{org_name} Templates"
-msgstr ""
+msgstr "%{org_name}テンプレート"
 
 #: ../../app/controllers/org_admin/templates_controller.rb:48
 #: ../../app/views/org_admin/templates/index.html.erb:53
@@ -383,17 +383,17 @@ msgstr ""
 
 #: ../../app/controllers/org_admin/templates_controller.rb:79
 msgid "Customizable Templates"
-msgstr ""
+msgstr "カスタマイズ可能なテンプレート"
 
 #: ../../app/controllers/org_admin/templates_controller.rb:195
 msgid "Error parsing links for a %{template}"
-msgstr ""
+msgstr "%{template}のリンクを解析中にエラーが発生しました"
 
 #: ../../app/controllers/org_admin/templates_controller.rb:222
 msgid ""
 "You cannot delete a #{template_type(template)} that has been used to create pl"
 "ans."
-msgstr ""
+msgstr "プランの作成に使用された＃{template_type（テンプレート）}は削除できません。"
 
 #: ../../app/controllers/org_admin/templates_controller.rb:258
 msgid ""
@@ -407,169 +407,152 @@ msgstr ""
 
 #: ../../app/controllers/org_admin/templates_controller.rb:263
 msgid "You can not publish a historical version of this #{template_type(template)}."
-msgstr ""
+msgstr "この＃{template_type（テンプレート）}の履歴バージョンは公開できません。"
 
 #: ../../app/controllers/org_admin/templates_controller.rb:276
 msgid "Unable to unpublish your #{template_type(template)}."
-msgstr ""
+msgstr "＃{template_type（テンプレート）}の公開を解除できません。"
 
 #: ../../app/controllers/org_admin/templates_controller.rb:280
 msgid "Successfully unpublished your #{template_type(template)}"
-msgstr ""
+msgstr "あなたの＃{template_type（テンプレート）}を公開しませんでした"
 
-#: ../../app/controllers/orgs_controller.rb:79
+#: ../../app/controllers/orgs_controller.rb:85
 msgid "No organisations are currently registered."
-msgstr ""
+msgstr "組織は現在登録されていません。"
 
-#: ../../app/controllers/orgs_controller.rb:103
+#: ../../app/controllers/orgs_controller.rb:118
 msgid "Your organisation does not seem to be properly configured."
-msgstr ""
+msgstr "組織が正しく構成されていないようです。"
 
-#: ../../app/controllers/orgs_controller.rb:108
+#: ../../app/controllers/orgs_controller.rb:123
 msgid "Please choose an organisation"
-msgstr ""
+msgstr "組織を選択してください"
 
 #: ../../app/controllers/plan_exports_controller.rb:77
 msgid "Created using the %{application_name}. Last modified %{date}"
-msgstr ""
+msgstr "%{application_name}を使用して作成されます。最終変更%{date}"
 
-#: ../../app/controllers/plans_controller.rb:55
+#: ../../app/controllers/plans_controller.rb:59
 msgid "Unable to identify a suitable template for your plan."
-msgstr ""
+msgstr "プランに適したテンプレートを特定できません。"
 
-#: ../../app/controllers/plans_controller.rb:83
+#: ../../app/controllers/plans_controller.rb:87
 msgid "My Plan"
-msgstr ""
+msgstr "私の計画"
 
-#: ../../app/controllers/plans_controller.rb:85
+#: ../../app/controllers/plans_controller.rb:89
 msgid " Plan"
-msgstr ""
+msgstr " 計画"
 
-#: ../../app/controllers/plans_controller.rb:309
+#: ../../app/controllers/plans_controller.rb:317
 msgid "copied"
-msgstr ""
+msgstr "コピーされた"
 
-#: ../../app/controllers/plans_controller.rb:337
+#: ../../app/controllers/plans_controller.rb:345
 msgid ""
 "Unable to change the plan's status since it is needed at least %{percentage} p"
 "ercentage responded"
-msgstr ""
+msgstr "少なくとも%{percentage}パーセントの回答が必要であるため、プランのステータスを変更できません"
 
-#: ../../app/controllers/plans_controller.rb:345
+#: ../../app/controllers/plans_controller.rb:353
 msgid "Unable to find plan id %{plan_id}"
 msgstr ""
 
-#: ../../app/controllers/plans_controller.rb:359
+#: ../../app/controllers/plans_controller.rb:367
 msgid "Your project is now a test."
-msgstr ""
+msgstr "あなたのプロジェクトはテストになりました。"
 
-#: ../../app/controllers/plans_controller.rb:359
+#: ../../app/controllers/plans_controller.rb:367
 msgid "Your project is no longer a test."
 msgstr ""
 
-#: ../../app/controllers/plans_controller.rb:363
+#: ../../app/controllers/plans_controller.rb:371
 msgid "Unable to change the plan's test status"
-msgstr ""
+msgstr "プランのテストステータスを変更できません"
 
-#: ../../app/controllers/plans_controller.rb:377
+#: ../../app/controllers/plans_controller.rb:385
 msgid "There is no plan associated with id %{id}"
-msgstr ""
+msgstr "id %{id}に関連する計画はありません"
 
-#: ../../app/controllers/public_pages_controller.rb:56
+#: ../../app/controllers/public_pages_controller.rb:78
 msgid "Template created using the %{application_name} service. Last modified %{date}"
-msgstr ""
+msgstr "%{application_name}サービスを使用して作成されたテンプレート。最終変更%{date}"
 
-#: ../../app/controllers/public_pages_controller.rb:70
+#: ../../app/controllers/public_pages_controller.rb:93
 msgid "Unable to download the DMP Template at this time."
-msgstr ""
+msgstr "この時点でDMPテンプレートをダウンロードできません。"
 
-#: ../../app/controllers/registrations_controller.rb:35
+#: ../../app/controllers/registrations_controller.rb:42
 msgid ""
 "Please make a choice below. After linking your details to a %{application_name"
 "} account, you will be able to sign in directly with your institutional creden"
 "tials."
 msgstr ""
+"下記を選択してください。あなたの詳細を%{application_name}アカウントにリンクしたら、あなたの機関の資格情報で直接サインインすることができま"
+"す。"
 
-#: ../../app/controllers/registrations_controller.rb:58
+#: ../../app/controllers/registrations_controller.rb:70
 msgid "You must accept the terms and conditions to register."
 msgstr ""
 
-#: ../../app/controllers/registrations_controller.rb:62
-#: ../../app/controllers/registrations_controller.rb:176
-msgid ""
-"Please select an organisation from the list, or enter your organisation's name"
-"."
-msgstr ""
-
-#: ../../app/controllers/registrations_controller.rb:76
+#: ../../app/controllers/registrations_controller.rb:95
 msgid "That email address is already registered."
-msgstr ""
+msgstr "その電子メールアドレスはすでに登録されています。"
 
-#: ../../app/controllers/registrations_controller.rb:86
-msgid ""
-"You cannot be assigned to other organisation since that option does not exist "
-"in the system. Please contact your system administrators."
-msgstr ""
-
-#: ../../app/controllers/registrations_controller.rb:108
-msgid ""
-"Welcome! You have signed up successfully with your institutional credentials. "
-"You will now be able to access your account with them."
-msgstr ""
-
-#: ../../app/controllers/registrations_controller.rb:124
+#: ../../app/controllers/registrations_controller.rb:161
 msgid "Unable to create your account.#{errors_for_display(resource)}"
-msgstr ""
+msgstr "アカウントを作成できません。＃{errors_for_display（resource）}"
 
-#: ../../app/controllers/registrations_controller.rb:160
+#: ../../app/controllers/registrations_controller.rb:217
 msgid "Save Unsuccessful. "
-msgstr ""
+msgstr "保存に失敗しました。"
 
-#: ../../app/controllers/registrations_controller.rb:163
+#: ../../app/controllers/registrations_controller.rb:220
 msgid "Please enter an email address. "
-msgstr ""
+msgstr "メールアドレスを入力してください。"
 
-#: ../../app/controllers/registrations_controller.rb:167
+#: ../../app/controllers/registrations_controller.rb:224
 msgid "Please enter a First name. "
-msgstr ""
+msgstr "ファーストネームを入力してください。"
 
-#: ../../app/controllers/registrations_controller.rb:171
+#: ../../app/controllers/registrations_controller.rb:228
 msgid "Please enter a Last name. "
-msgstr ""
+msgstr "姓を入力してください。"
 
-#: ../../app/controllers/registrations_controller.rb:188
+#: ../../app/controllers/registrations_controller.rb:251
 msgid "Please enter your password to change email address."
-msgstr ""
+msgstr "メールアドレスを変更するには、パスワードを入力してください。"
 
-#: ../../app/controllers/registrations_controller.rb:236
+#: ../../app/controllers/registrations_controller.rb:299
 msgid "Please enter your current password"
-msgstr ""
+msgstr "現在のパスワードを入力してください"
 
-#: ../../app/controllers/registrations_controller.rb:238
+#: ../../app/controllers/registrations_controller.rb:301
 msgid "Please enter a password confirmation"
-msgstr ""
+msgstr "パスワード確認を入力してください"
 
-#: ../../app/controllers/registrations_controller.rb:240
+#: ../../app/controllers/registrations_controller.rb:303
 msgid "Password and comfirmation must match"
-msgstr ""
+msgstr "パスワードと確認は一致する必要があります"
 
 #: ../../app/controllers/roles_controller.rb:20
 msgid ""
 "Cannot share plan with %{email} since that email matches with the owner of the"
 " plan."
-msgstr ""
+msgstr "そのメールはプランのオーナーと一致するため、%{email}とプランを共有できません。"
 
 #: ../../app/controllers/roles_controller.rb:27
 msgid "Plan is already shared with %{email}."
-msgstr ""
+msgstr "計画は既に%{email}と共有されています。"
 
 #: ../../app/controllers/roles_controller.rb:34
 msgid "Invitation to %{email} issued successfully."
-msgstr ""
+msgstr "%{email}への招待が正常に発行されました。"
 
 #: ../../app/controllers/roles_controller.rb:39
 msgid "Plan shared with %{email}."
-msgstr ""
+msgstr "%{email}と共有するプラン。"
 
 #: ../../app/controllers/roles_controller.rb:53
 msgid "You must provide a valid email address and select a permission level."
@@ -577,17 +560,17 @@ msgstr ""
 
 #: ../../app/controllers/roles_controller.rb:59
 msgid "Please enter an email address"
-msgstr ""
+msgstr "メールアドレスを入力してください"
 
 #: ../../app/controllers/roles_controller.rb:77
 msgid ""
 "Successfully changed the permissions for #{@role.user.email}. They have been n"
 "otified via email."
-msgstr ""
+msgstr "#{@role.user.email}の権限を正常に変更しました。彼らは電子メールで通知されています。"
 
 #: ../../app/controllers/roles_controller.rb:91
 msgid "Access removed"
-msgstr ""
+msgstr "アクセスが削除された"
 
 #: ../../app/controllers/roles_controller.rb:110
 msgid "Plan removed"
@@ -595,13 +578,7 @@ msgstr ""
 
 #: ../../app/controllers/roles_controller.rb:112
 msgid "Unable to remove the plan"
-msgstr ""
-
-#: ../../app/controllers/sessions_controller.rb:24
-msgid ""
-"Your account has been successfully linked to your institutional credentials. Y"
-"ou will now be able to sign in with them."
-msgstr ""
+msgstr "プランを削除できません"
 
 #: ../../app/controllers/settings/plans_controller.rb:36
 msgid "Export settings updated successfully."
@@ -609,33 +586,33 @@ msgstr ""
 
 #: ../../app/controllers/settings/plans_controller.rb:39
 msgid "An error has occurred while saving/resetting your export settings."
-msgstr ""
+msgstr "エクスポート設定の保存/リセット中にエラーが発生しました。"
 
 #: ../../app/controllers/super_admin/notifications_controller.rb:83
 msgid "There is no notification associated with id  %{id}"
-msgstr ""
+msgstr "id %{id}に関連付けられた通知はありません"
 
 #: ../../app/controllers/super_admin/org_swaps_controller.rb:13
 msgid "Please select an organisation from the list"
-msgstr ""
+msgstr "リストから組織を選択してください"
 
 #: ../../app/controllers/super_admin/org_swaps_controller.rb:21
 msgid ""
 "Your organisation affiliation has been changed. You may now edit templates for"
 " %{org_name}."
-msgstr ""
+msgstr "組織の所属が変更されました。 %{org_name}のテンプレートを編集できるようになりました。"
 
 #: ../../app/controllers/super_admin/org_swaps_controller.rb:24
 msgid "Unable to change your organisation affiliation at this time."
-msgstr ""
+msgstr "現時点ではあなたの組織の所属を変更できません。"
 
 #: ../../app/controllers/super_admin/org_swaps_controller.rb:27
 msgid "Unknown organisation."
-msgstr ""
+msgstr "不明な組織。"
 
 #: ../../app/controllers/super_admin/orgs_controller.rb:64
 msgid "There seems to be a problem with your logo. Please upload it again."
-msgstr ""
+msgstr "あなたのロゴに問題があるようです。もう一度アップロードしてください。"
 
 #: ../../app/controllers/super_admin/users_controller.rb:25
 msgid "profile for %{username}"
@@ -643,31 +620,41 @@ msgstr ""
 
 #: ../../app/controllers/user_identifiers_controller.rb:18
 msgid "Successfully unlinked your account from %{is}."
-msgstr ""
+msgstr "あなたのアカウントと%{is}のリンクを解除しました。"
 
 #: ../../app/controllers/user_identifiers_controller.rb:22
 msgid "Unable to unlink your account from %{is}."
-msgstr ""
+msgstr "アカウントを%{is}からリンク解除できません。"
 
 #: ../../app/controllers/users/invitations_controller.rb:17
 msgid ""
 "You are already signed in as another user. Please log out to activate your inv"
 "itation."
-msgstr ""
+msgstr "あなたはすでに別のユーザーとしてサインインしています。招待状を有効にするには、ログアウトしてください。"
 
-#: ../../app/controllers/users/omniauth_callbacks_controller.rb:46
+#: ../../app/controllers/users/omniauth_callbacks_controller.rb:95
+msgid ""
+"It looks like this is your first time logging in. Please verify and complete t"
+"he information below to finish creating an account."
+msgstr "これは初めてログインしたようです。以下の情報を確認して完了し、アカウントの作成を完了してください。"
+
+#: ../../app/controllers/users/omniauth_callbacks_controller.rb:105
+msgid "Unable to create your account at this time."
+msgstr "この時点であなたのアカウントを作成できません。"
+
+#: ../../app/controllers/users/omniauth_callbacks_controller.rb:125
 msgid "Successfully signed in"
-msgstr ""
+msgstr "ログインに成功しました"
 
-#: ../../app/controllers/users/omniauth_callbacks_controller.rb:59
-msgid "Your account has been successfully linked to %{scheme}."
-msgstr ""
+#: ../../app/controllers/users/omniauth_callbacks_controller.rb:145
+msgid "Your account has been successfully created."
+msgstr "アカウントが正常に作成されました。"
 
-#: ../../app/controllers/users/omniauth_callbacks_controller.rb:64
-msgid "Unable to link your account to %{scheme}."
-msgstr ""
+#: ../../app/controllers/users/omniauth_callbacks_controller.rb:150
+msgid "Unable to create your account."
+msgstr "アカウントを作成できません。"
 
-#: ../../app/controllers/users/omniauth_callbacks_controller.rb:77
+#: ../../app/controllers/users/omniauth_callbacks_controller.rb:161
 msgid ""
 "The current #{scheme.description} iD has been already linked to a user with em"
 "ail #{identifier.user.email}"
@@ -675,33 +662,43 @@ msgstr ""
 
 #: ../../app/controllers/users_controller.rb:136
 msgid "Successfully %{action} %{username}'s account."
-msgstr ""
+msgstr "%{action} %{username}のアカウントは正常に終了しました。"
 
 #: ../../app/controllers/users_controller.rb:137
 msgid "activated"
-msgstr ""
+msgstr "活性化した"
 
 #: ../../app/controllers/users_controller.rb:137
 msgid "deactivated"
-msgstr ""
+msgstr "失効した"
 
 #: ../../app/controllers/users_controller.rb:144
 msgid "Unable to %{action} %{username}"
-msgstr ""
-
-#: ../../app/controllers/users_controller.rb:145
-msgid "activate"
-msgstr ""
+msgstr "%{action} %{username}にアクセスできない"
 
 #: ../../app/controllers/users_controller.rb:145
 msgid "deactivate"
-msgstr ""
+msgstr "非アクティブ化する"
+
+#: ../../app/controllers/users_controller.rb:145
+msgid "activate"
+msgstr "アクティブ化する"
+
+#: ../../app/controllers/users_controller.rb:177
+msgid "The DMPTool Account email associated with this username is #{@user.email}"
+msgstr "このユーザー名に関連付けられたDMPToolアカウントの電子メールは#{@user.email}です。"
+
+#: ../../app/controllers/users_controller.rb:183
+msgid ""
+"We do not recognize the username %{username}. Please try again or contact us i"
+"f you have forgotten the username and email for your existing DMPTool account."
+msgstr "ユーザー名%{username}は認識されません。あなたの既存のDMPToolアカウントのユーザー名と電子メールを忘れた場合は、もう一度お試しください。"
 
 #: ../../app/helpers/annotations_helper.rb:7
 msgid ""
 "You can add an example answer to help users respond. These will be presented a"
 "bove the answer box and can be copied/ pasted."
-msgstr ""
+msgstr "サンプル回答を追加して、ユーザーの反応に役立てることができます。これらは回答ボックスの上に表示され、コピー/ペーストすることができます。"
 
 #: ../../app/helpers/annotations_helper.rb:8
 msgid ""
@@ -709,20 +706,22 @@ msgid ""
 "emes too, this will be pulled in based on your selections below so it's best n"
 "ot to duplicate too much text."
 msgstr ""
+"この質問に付随する具体的なガイダンスを入力してください。テーマ別のガイダンスがある場合は、以下の選択肢に基づいてこれが表示されますので、あまりにも多くのテキ"
+"ストを複製しないことをお勧めします。"
+
+#: ../../app/helpers/exports_helper.rb:38
+msgid "Creators:"
+msgstr "クリエイター："
 
 #: ../../app/helpers/exports_helper.rb:38
 #: ../../app/models/concerns/exportable_plan.rb:120
 #: ../../app/views/shared/export/_plan_txt.erb:4
 msgid "Creator:"
-msgstr ""
-
-#: ../../app/helpers/exports_helper.rb:38
-msgid "Creators:"
-msgstr ""
+msgstr "クリエイター："
 
 #: ../../app/helpers/feedbacks_helper.rb:3
 msgid "%{application_name}: Your plan has been submitted for feedback"
-msgstr ""
+msgstr "%{application_name}：あなたの計画はフィードバックのために提出されました"
 
 #: ../../app/helpers/feedbacks_helper.rb:7
 msgid ""
@@ -730,6 +729,8 @@ msgid ""
 "eedback from an administrator at your organisation. If you have questions pert"
 "aining to this action, please contact us at %{organisation_email}.</p>"
 msgstr ""
+"<p>こんにちは%{user_name}。 </p><p>あなたの計画 \"%{plan_name}\"があなたの組織の管理者からのフィードバックのために提出さ"
+"れました。この措置に関するご質問は、%{organisation_email}までお問い合わせください。 </p>"
 
 #: ../../app/helpers/feedbacks_helper.rb:13
 msgid "#{text}"
@@ -743,6 +744,9 @@ msgid ""
 "s\n"
 "       at %{organisation_email}."
 msgstr ""
+"サンプルメッセージ：%{org_name}のデータライブラリアンが48時間以内にお客様のご要望にお答えします\n"
+"       時間。この措置に関するご質問は、お問い合わせください\n"
+"       %{organisation_email}で"
 
 #: ../../app/helpers/perms_helper.rb:5
 msgid "Add organisations"
@@ -751,35 +755,35 @@ msgstr ""
 #: ../../app/helpers/perms_helper.rb:6
 #: ../../app/views/org_admin/templates/index.html.erb:24
 msgid "Change affiliation"
-msgstr ""
+msgstr "所属を変更する"
 
 #: ../../app/helpers/perms_helper.rb:7
 #: ../../app/views/users/_admin_grant_permissions.html.erb:21
 msgid "Manage user privileges"
-msgstr ""
+msgstr "ユーザー権限の管理"
 
 #: ../../app/helpers/perms_helper.rb:8
 #: ../../app/views/users/_admin_grant_permissions.html.erb:25
 msgid "Manage templates"
-msgstr ""
+msgstr "テンプレートの管理"
 
 #: ../../app/helpers/perms_helper.rb:9
 #: ../../app/views/users/_admin_grant_permissions.html.erb:29
 msgid "Manage guidance"
-msgstr ""
+msgstr "ガイダンスを管理する"
 
 #: ../../app/helpers/perms_helper.rb:10
 msgid "API rights"
-msgstr ""
+msgstr "API権限"
 
 #: ../../app/helpers/perms_helper.rb:11
 #: ../../app/views/users/_admin_grant_permissions.html.erb:37
 msgid "Manage organisation details"
-msgstr ""
+msgstr "組織の詳細を管理する"
 
 #: ../../app/helpers/perms_helper.rb:12
 msgid "Grant API to organisations"
-msgstr ""
+msgstr "組織にAPIを許可する"
 
 #: ../../app/helpers/plans_helper.rb:6
 #: ../../app/views/paginable/plans/_org_admin.html.erb:8
@@ -787,15 +791,15 @@ msgstr ""
 #: ../../app/views/paginable/plans/_publicly_visible.html.erb:8
 #: ../../app/views/plans/_share_form.html.erb:52
 msgid "Owner"
-msgstr ""
+msgstr "オーナー"
 
 #: ../../app/helpers/plans_helper.rb:11
 msgid "Co-owner"
-msgstr ""
+msgstr "共同オーナー"
 
 #: ../../app/helpers/plans_helper.rb:13
 msgid "Editor"
-msgstr ""
+msgstr "編集者"
 
 #: ../../app/helpers/plans_helper.rb:15
 msgid "Read only"
@@ -803,33 +807,33 @@ msgstr ""
 
 #: ../../app/helpers/plans_helper.rb:38
 msgid "Organisation: anyone at my organisation can view."
-msgstr ""
+msgstr "組織：私の組織の誰もが閲覧できます。"
 
 #: ../../app/helpers/plans_helper.rb:40
 msgid "Public: anyone can view."
-msgstr ""
+msgstr "公開：誰でも閲覧できます。"
 
 #: ../../app/helpers/plans_helper.rb:42
 #: ../../app/views/layouts/application.html.erb:94
 msgid "Private: restricted to me and people I invite."
-msgstr ""
+msgstr "プライベート：私と私が招待する人に制限されています。"
 
 #: ../../app/helpers/settings_template_helper.rb:6
 msgid "Plan Name"
-msgstr ""
+msgstr "計画名"
 
 #: ../../app/helpers/settings_template_helper.rb:8
 msgid "Plan ID"
-msgstr ""
+msgstr "プランID"
 
 #: ../../app/helpers/settings_template_helper.rb:10
 #: ../../app/views/plans/_edit_details.html.erb:33
 msgid "Grant number"
-msgstr ""
+msgstr "助成金番号"
 
 #: ../../app/helpers/settings_template_helper.rb:12
 msgid "Principal Investigator / Researcher"
-msgstr ""
+msgstr "主任研究員/研究員"
 
 #: ../../app/helpers/settings_template_helper.rb:14
 msgid "Plan Data Contact"
@@ -837,20 +841,20 @@ msgstr ""
 
 #: ../../app/helpers/settings_template_helper.rb:16
 msgid "Plan Description"
-msgstr ""
+msgstr "計画の説明"
 
 #: ../../app/helpers/settings_template_helper.rb:18
-#: ../../app/views/orgs/_profile_form.html.erb:92
+#: ../../app/views/orgs/_profile_form.html.erb:94
 #: ../../app/views/paginable/templates/_customisable.html.erb:7
 #: ../../app/views/paginable/templates/_organisational.html.erb:10
 #: ../../app/views/plans/_edit_details.html.erb:22
 #: ../../app/views/plans/_show_details.html.erb:4
 msgid "Funder"
-msgstr ""
+msgstr "ファインダー"
 
 #: ../../app/helpers/settings_template_helper.rb:20
 #: ../../app/views/devise/registrations/_password_confirmation.html.erb:22
-#: ../../app/views/orgs/_profile_form.html.erb:104
+#: ../../app/views/orgs/_profile_form.html.erb:106
 #: ../../app/views/paginable/orgs/_index.html.erb:5
 #: ../../app/views/paginable/plans/_org_admin.html.erb:7
 #: ../../app/views/paginable/plans/_publicly_visible.html.erb:7
@@ -860,15 +864,15 @@ msgstr ""
 #: ../../app/views/shared/_my_org.html.erb:8
 #: ../../app/views/usage/index.html.erb:62
 msgid "Organisation"
-msgstr ""
+msgstr "組織"
 
 #: ../../app/helpers/settings_template_helper.rb:22
 msgid "Your ORCID"
-msgstr ""
+msgstr "あなたのORCID"
 
 #: ../../app/helpers/settings_template_helper.rb:25
 msgid "Unknown column name."
-msgstr ""
+msgstr "不明な列名。"
 
 #: ../../app/mailers/user_mailer.rb:12
 msgid "Welcome to %{tool_name}"
@@ -880,64 +884,64 @@ msgstr ""
 
 #: ../../app/mailers/user_mailer.rb:35
 msgid "Changed permissions on a Data Management Plan in %{tool_name}"
-msgstr ""
+msgstr "%{tool_name}のデータ管理計画の権限が変更されました"
 
 #: ../../app/mailers/user_mailer.rb:62
 msgid "%{application_name}: %{user_name} requested feedback on a plan"
-msgstr ""
+msgstr "%{application_name}：%{user_name}が計画のフィードバックを要求しました"
 
 #: ../../app/mailers/user_mailer.rb:75
 msgid "%{application_name}: Expert feedback has been provided for %{plan_title}"
-msgstr ""
+msgstr "%{application_name}：%{plan_title}に対してエキスパートフィードバックが提供されました"
 
 #: ../../app/mailers/user_mailer.rb:106
 msgid "DMP Visibility Changed: %{plan_title}"
-msgstr ""
+msgstr "DMPの可視性が変更されました：%{plan_title}"
 
 #: ../../app/mailers/user_mailer.rb:121
 msgid "%{tool_name}: A new comment was added to %{plan_title}"
-msgstr ""
+msgstr "%{tool_name}：%{plan_title}に新しいコメントが追加されました"
 
 #: ../../app/mailers/user_mailer.rb:132
 msgid "Administrator privileges granted in %{tool_name}"
-msgstr ""
+msgstr "%{tool_name}で付与された管理者権限"
 
 #: ../../app/models/concerns/exportable_plan.rb:21
 msgid "Phase"
-msgstr ""
-
-#: ../../app/models/concerns/exportable_plan.rb:23
-#: ../../app/models/exported_plan.rb:111 ../../app/models/exported_plan.rb:113
-msgid "Section"
-msgstr ""
-
-#: ../../app/models/concerns/exportable_plan.rb:23
-#: ../../app/models/exported_plan.rb:111
-msgid "Question"
-msgstr ""
+msgstr "段階"
 
 #: ../../app/models/concerns/exportable_plan.rb:23
 #: ../../app/models/concerns/exportable_plan.rb:25
 #: ../../app/models/exported_plan.rb:111 ../../app/models/exported_plan.rb:113
 msgid "Answer"
-msgstr ""
+msgstr "回答"
+
+#: ../../app/models/concerns/exportable_plan.rb:23
+#: ../../app/models/exported_plan.rb:111
+msgid "Question"
+msgstr "質問"
+
+#: ../../app/models/concerns/exportable_plan.rb:23
+#: ../../app/models/exported_plan.rb:111 ../../app/models/exported_plan.rb:113
+msgid "Section"
+msgstr "セクション"
 
 #: ../../app/models/concerns/exportable_plan.rb:111
 msgid " Customised By: "
-msgstr ""
+msgstr " カスタマイズ："
 
 #: ../../app/models/concerns/exportable_plan.rb:119
 #: ../../app/views/shared/export/_plan_txt.erb:4
 msgid "Creators: "
-msgstr ""
+msgstr "クリエイター："
 
 #: ../../app/models/concerns/exportable_plan.rb:120
 msgid "%{authors}"
-msgstr ""
+msgstr "%{authors}"
 
 #: ../../app/models/concerns/exportable_plan.rb:121
 msgid "%{affiliation}"
-msgstr ""
+msgstr "%{affiliation}"
 
 #: ../../app/models/concerns/exportable_plan.rb:123
 #: ../../app/models/concerns/exportable_plan.rb:125
@@ -946,15 +950,19 @@ msgstr ""
 #: ../../app/views/shared/export/_plan_txt.erb:7
 #: ../../app/views/shared/export/_plan_txt.erb:9
 msgid "Template: "
-msgstr ""
+msgstr "テンプレート："
 
 #: ../../app/models/concerns/exportable_plan.rb:123
 msgid "%{funder}"
-msgstr ""
+msgstr "%{funder}"
 
 #: ../../app/models/concerns/exportable_plan.rb:125
 msgid "%{template}"
 msgstr ""
+
+#: ../../app/models/concerns/exportable_plan.rb:128
+msgid "%{grant_number}"
+msgstr "%{grant_number}"
 
 #: ../../app/models/concerns/exportable_plan.rb:128
 #: ../../app/views/shared/export/_plan_coversheet.erb:25
@@ -962,35 +970,31 @@ msgstr ""
 msgid "Grant number: "
 msgstr ""
 
-#: ../../app/models/concerns/exportable_plan.rb:128
-msgid "%{grant_number}"
-msgstr ""
-
 #: ../../app/models/concerns/exportable_plan.rb:131
 #: ../../app/views/shared/export/_plan_coversheet.erb:29
 #: ../../app/views/shared/export/_plan_txt.erb:15
 msgid "Project abstract: "
-msgstr ""
+msgstr "プロジェクト概要："
 
 #: ../../app/models/concerns/exportable_plan.rb:131
 msgid "%{description}"
-msgstr ""
+msgstr "%{description}"
 
 #: ../../app/models/concerns/exportable_plan.rb:134
 #: ../../app/views/shared/export/_plan_coversheet.erb:33
 #: ../../app/views/shared/export/_plan_txt.erb:18
 msgid "Last modified: "
-msgstr ""
+msgstr "最終更新日："
 
 #: ../../app/models/concerns/exportable_plan.rb:134
 msgid "%{date}"
-msgstr ""
+msgstr "%{date}"
 
 #: ../../app/models/concerns/exportable_plan.rb:135
 #: ../../app/views/shared/export/_plan_coversheet.erb:36
 #: ../../app/views/shared/export/_plan_txt.erb:19
 msgid "Copyright information:"
-msgstr ""
+msgstr "著作権情報："
 
 #: ../../app/models/concerns/exportable_plan.rb:136
 msgid ""
@@ -1005,19 +1009,25 @@ msgid ""
 "hip to,\n"
 "             your project or proposal"
 msgstr ""
+"上記のプラン作成者は、他の人が\n"
+"             彼らが自分たちの計画で望むように、この計画の文章の多くは、\n"
+"             必要に応じてカスタマイズすることができます。作成者にクレジットを与える必要はありません。\n"
+"             使用される言語のソースとして使用されますが、プランのテキストのいずれかを使用します\n"
+"             クリエイターがそれを支持する、またはそれと関係があることを意味するものではありません。\n"
+"             あなたのプロジェクトまたは提案"
 
 #: ../../app/models/concerns/exportable_plan.rb:151
 msgid "Not Answered"
-msgstr ""
+msgstr "返事しなかった"
 
 #: ../../app/models/concerns/validation_messages.rb:4
 #: ../../app/models/template.rb:202
 msgid "can't be blank"
-msgstr ""
+msgstr "を入力してください"
 
 #: ../../app/models/concerns/validation_messages.rb:6
 msgid "must be unique"
-msgstr ""
+msgstr "ユニークでなければならない"
 
 #: ../../app/models/concerns/validation_messages.rb:8
 msgid "isn't a valid value"
@@ -1025,54 +1035,54 @@ msgstr ""
 
 #: ../../app/models/exported_plan.rb:111 ../../app/models/exported_plan.rb:113
 msgid "Selected option(s)"
-msgstr ""
+msgstr "選択したオプション"
 
 #: ../../app/models/exported_plan.rb:111 ../../app/models/exported_plan.rb:113
 msgid "Answered by"
-msgstr ""
+msgstr "で答える"
 
 #: ../../app/models/exported_plan.rb:111 ../../app/models/exported_plan.rb:113
 msgid "Answered at"
-msgstr ""
+msgstr "で答える"
 
 #: ../../app/models/exported_plan.rb:154
 msgid "Details"
-msgstr ""
+msgstr "詳細"
 
 #: ../../app/models/exported_plan.rb:161
 msgid "-"
-msgstr ""
+msgstr " - "
 
 #: ../../app/models/exported_plan.rb:180
 #: ../../app/views/shared/export/_plan.erb:44
 msgid "Question not answered."
-msgstr ""
+msgstr "質問は答えられません。"
 
-#: ../../app/models/org.rb:101
+#: ../../app/models/org.rb:106 ../../app/models/org.rb:122
 msgid "must be one of the following formats: jpeg, jpg, png, gif, bmp"
-msgstr ""
+msgstr "次の形式のいずれかでなければなりません：jpeg、jpg、png、gif、bmp"
 
-#: ../../app/models/org.rb:103
+#: ../../app/models/org.rb:108 ../../app/models/org.rb:123
 msgid "can't be larger than 500KB"
-msgstr ""
+msgstr "500KBを超えることはできません"
 
 #: ../../app/models/plan.rb:54
 msgid "organisational"
-msgstr ""
+msgstr "組織的"
 
 #: ../../app/models/plan.rb:55
 msgid "public"
-msgstr ""
+msgstr "パブリック"
 
 #: ../../app/models/plan.rb:56
 msgid "test"
-msgstr ""
+msgstr "テスト"
 
 #: ../../app/models/plan.rb:57
 msgid "private"
-msgstr ""
+msgstr "プライベート"
 
-#: ../../app/models/question.rb:141
+#: ../../app/models/question.rb:142
 msgid "guidance on"
 msgstr ""
 
@@ -1082,15 +1092,15 @@ msgstr ""
 
 #: ../../app/models/role.rb:42
 msgid "read the plan and provide feedback."
-msgstr ""
+msgstr "計画を読み、フィードバックを提供する。"
 
 #: ../../app/models/role.rb:46
 msgid "co-owner"
-msgstr ""
+msgstr "共同オーナー"
 
 #: ../../app/models/role.rb:47 ../../app/models/role.rb:52
 msgid "write and edit the plan in a collaborative manner."
-msgstr ""
+msgstr "計画を共同で作成し、編集します。"
 
 #: ../../app/models/role.rb:48
 msgid "You can also grant rights to other collaborators."
@@ -1098,79 +1108,79 @@ msgstr ""
 
 #: ../../app/models/role.rb:51
 msgid "editor"
-msgstr ""
+msgstr "編集者"
 
 #: ../../app/models/role.rb:56
 msgid "read-only"
-msgstr ""
+msgstr "読み取り専用"
 
 #: ../../app/models/role.rb:57
 msgid "read the plan and leave comments."
-msgstr ""
+msgstr "計画を読んでコメントを残す。"
 
 #: ../../app/models/role.rb:93
 msgid "can't be less than zero"
-msgstr ""
+msgstr "ゼロより小さくすることはできません"
 
 #: ../../app/models/settings/template.rb:76
 msgid "A required setting has not been provided"
-msgstr ""
+msgstr "必要な設定が提供されていません"
 
 #: ../../app/models/settings/template.rb:78
 msgid "Margin value is invalid"
-msgstr ""
+msgstr "マージンの値が無効です"
 
 #: ../../app/models/settings/template.rb:80
 msgid "Margin cannot be negative"
-msgstr ""
+msgstr "マージンはマイナスにすることはできません"
 
 #: ../../app/models/settings/template.rb:82
 msgid "Unknown margin. Can only be 'top', 'bottom', 'left' or 'right'"
-msgstr ""
+msgstr "不明なマージン。 '上'、 '下'、 '左'、または '右'のみにすることができます"
 
 #: ../../app/models/settings/template.rb:84
 msgid "Invalid font size"
-msgstr ""
+msgstr "無効なフォントサイズ"
 
 #: ../../app/models/settings/template.rb:86
 msgid "Invalid font face"
-msgstr ""
+msgstr "無効なフォント"
 
 #: ../../app/models/settings/template.rb:88
 msgid "Unknown formatting setting"
-msgstr ""
+msgstr "不明な書式設定"
 
 #: ../../app/models/settings/template.rb:95
 msgid "Invalid maximum pages"
-msgstr ""
+msgstr "無効な最大ページ数"
 
 #: ../../app/models/template.rb:230
 msgid "A historical template cannot be retrieved for being modified"
-msgstr ""
+msgstr "履歴テンプレートを変更するために取得することはできません"
 
 #: ../../app/models/template.rb:337
 msgid "generate_copy! requires an organisation target"
-msgstr ""
+msgstr "generate_copy！組織のターゲットが必要"
 
 #: ../../app/models/template.rb:345
 msgid "Copy of %{template}"
-msgstr ""
+msgstr "%{template}のコピー"
 
 #: ../../app/models/template.rb:353
 msgid "generate_version! requires a published template"
-msgstr ""
+msgstr "generate_version！公開されたテンプレートが必要です"
 
 #: ../../app/models/template.rb:368
 msgid "customize! requires an organisation target"
-msgstr ""
+msgstr "カスタマイズ！組織のターゲットが必要"
 
 #: ../../app/models/template.rb:373
 msgid "customize! requires a template from a funder"
 msgstr ""
 
-#: ../../app/models/user.rb:335
+#: ../../app/models/user.rb:355
 msgid "A Data Management Plan in %{application_name} has been shared with you"
-msgstr ""
+msgstr "%{application_name}のデータ管理計画があなたと共有されました"
 
 #: ../../app/policies/api/v0/guidance_group_policy.rb:7
 #: ../../app/policies/api/v0/guidance_policy.rb:8
@@ -1181,36 +1191,36 @@ msgstr ""
 #: ../../app/policies/plan_policy.rb:6 ../../app/policies/template_policy.rb:5
 #: ../../app/policies/theme_policy.rb:3
 msgid "must be logged in"
-msgstr ""
+msgstr "ログインする必要があります"
 
 #: ../../app/policies/api/v0/guidance_group_policy.rb:9
 #: ../../app/policies/api/v0/guidance_policy.rb:10
 #: ../../app/policies/api/v0/statistics_policy.rb:9
 #: ../../app/policies/api/v0/template_policy.rb:9
 msgid "must have access to guidances api"
-msgstr ""
+msgstr "ガイダンスAPIにアクセスできる必要があります"
 
 #: ../../app/policies/api/v0/plans_policy.rb:10
 msgid "must have access to plans api"
-msgstr ""
+msgstr "計画APIにアクセスできる必要があります"
 
 #: ../../app/policies/plan_policy.rb:7
 msgid "are not authorized to view that plan"
-msgstr ""
+msgstr "そのプランを表示する権限がありません"
 
 #: ../../app/services/template/upgrade_customization_service.rb:67
 msgid "upgrade_customization! requires a customised template"
-msgstr ""
+msgstr "upgrade_customization！カスタマイズされたテンプレートが必要です"
 
 #: ../../app/services/template/upgrade_customization_service.rb:72
 msgid ""
 "upgrade cannot be carried out since there is no published template of its curr"
 "ent funder"
-msgstr ""
+msgstr "現在の資金提供元の公開テンプレートがないため、アップグレードは実行できません"
 
 #: ../../app/validators/after_validator.rb:4
 msgid "must be after %{date}"
-msgstr ""
+msgstr "%{date}の後にする必要があります"
 
 #: ../../app/validators/org_links_validator.rb:7
 msgid "A key \"org\" is expected for links hash"
@@ -1219,15 +1229,15 @@ msgstr ""
 #: ../../app/validators/org_links_validator.rb:10
 #: ../../app/validators/template_links_validator.rb:15
 msgid "A hash is expected for links"
-msgstr ""
+msgstr "リンクにはハッシュが必要です"
 
 #: ../../app/validators/template_links_validator.rb:9
 msgid "A key %{key} is expected for links hash"
-msgstr ""
+msgstr "キー%{key}はリンクハッシュに期待されます"
 
 #: ../../app/validators/template_links_validator.rb:11
 msgid "The key %{key} does not have a valid set of object links"
-msgstr ""
+msgstr "キー%{key}に有効なオブジェクトリンクのセットがありません"
 
 #: ../../app/views/answers/_locking.html.erb:2
 msgid "The following answer cannot be saved"
@@ -1237,34 +1247,34 @@ msgstr ""
 msgid ""
 "since %{name} saved the answer below while you were editing. Please, combine y"
 "our changes and then save the answer again."
-msgstr ""
+msgstr "%{name}は編集中に以下の回答を保存しています。変更内容を組み合わせて、再度回答を保存してください。"
 
 #: ../../app/views/answers/_new_edit.html.erb:13
 msgid "Your Selected Standards:"
-msgstr ""
+msgstr "選択した基準："
 
 #: ../../app/views/answers/_new_edit.html.erb:17
 msgid "Add Standard"
-msgstr ""
+msgstr "スタンダードを追加"
 
 #: ../../app/views/answers/_new_edit.html.erb:19
 msgid "Please select a subject"
-msgstr ""
+msgstr "件名を選択してください"
 
 #: ../../app/views/answers/_new_edit.html.erb:22
 msgid "Please select a sub-subject"
-msgstr ""
+msgstr "サブジェクトを選択してください"
 
 #: ../../app/views/answers/_new_edit.html.erb:28
 msgid "Browse Standards"
-msgstr ""
+msgstr "標準の参照"
 
 #: ../../app/views/answers/_new_edit.html.erb:33
 msgid "Please wait, Standards are loading"
-msgstr ""
+msgstr "しばらくお待ちください"
 
 #: ../../app/views/answers/_new_edit.html.erb:64
-#: ../../app/views/devise/passwords/edit.html.erb:28
+#: ../../app/views/devise/passwords/edit.html.erb:27
 #: ../../app/views/devise/registrations/_password_details.html.erb:31
 #: ../../app/views/devise/registrations/_personal_details.html.erb:82
 #: ../../app/views/guidance_groups/_guidance_group_form.html.erb:26
@@ -1279,7 +1289,7 @@ msgstr ""
 #: ../../app/views/org_admin/sections/_form.html.erb:14
 #: ../../app/views/org_admin/templates/_form.html.erb:80
 #: ../../app/views/orgs/_feedback_form.html.erb:30
-#: ../../app/views/orgs/_profile_form.html.erb:123
+#: ../../app/views/orgs/_profile_form.html.erb:125
 #: ../../app/views/plans/_edit_details.html.erb:150
 #: ../../app/views/plans/_edit_details.html.erb:169
 #: ../../app/views/questions/_preview_question.html.erb:111
@@ -1290,14 +1300,14 @@ msgstr ""
 #: ../../app/views/users/_notification_preferences.html.erb:47
 #: ../../app/views/users/admin_grant_permissions.html.erb:55
 msgid "Save"
-msgstr ""
+msgstr "セーブ"
 
 #: ../../app/views/answers/_new_edit.html.erb:72
 #: ../../app/views/org_admin/questions/_show.html.erb:43
 #: ../../app/views/questions/_preview_question.html.erb:69
 #: ../../app/views/questions/_preview_question.html.erb:88
 msgid "example answer"
-msgstr ""
+msgstr "回答例"
 
 #: ../../app/views/answers/_status.html.erb:3
 msgid "Saving..."
@@ -1309,7 +1319,7 @@ msgstr ""
 
 #: ../../app/views/answers/_status.html.erb:8
 msgid " by %{user_name}"
-msgstr ""
+msgstr " %{user_name}"
 
 #: ../../app/views/contact_us/contacts/_new_left.html.erb:4
 #: ../../app/views/guidance_groups/_guidance_group_form.html.erb:2
@@ -1324,7 +1334,7 @@ msgstr ""
 #: ../../app/views/plans/_show_details.html.erb:26
 #: ../../app/views/users/admin_grant_permissions.html.erb:17
 msgid "Name"
-msgstr ""
+msgstr "お名前"
 
 #: ../../app/views/contact_us/contacts/_new_left.html.erb:13
 #: ../../app/views/contact_us/contacts/_new_right.html.erb:23
@@ -1340,30 +1350,30 @@ msgstr ""
 #: ../../app/views/shared/_sign_in_form.html.erb:3
 #: ../../app/views/super_admin/users/edit.html.erb:15
 msgid "Email"
-msgstr ""
+msgstr "メールアドレス"
 
 #: ../../app/views/contact_us/contacts/_new_left.html.erb:22
 msgid "Subject"
-msgstr ""
+msgstr "件名"
 
 #: ../../app/views/contact_us/contacts/_new_left.html.erb:29
 #: ../../app/views/orgs/_feedback_form.html.erb:22
 msgid "Message"
-msgstr ""
+msgstr "お問い合せ内容"
 
 #: ../../app/views/contact_us/contacts/_new_left.html.erb:37
 msgid "Security check"
-msgstr ""
+msgstr "セキュリティーチェック"
 
 #: ../../app/views/contact_us/contacts/_new_left.html.erb:41
 #: ../../app/views/plans/_share_form.html.erb:112
 msgid "Submit"
-msgstr ""
+msgstr "送信する"
 
 #: ../../app/views/contact_us/contacts/new.html.erb:1
 #: ../../app/views/contact_us/contacts/new.html.erb:4
 msgid "Contact Us"
-msgstr ""
+msgstr "お問い合わせ"
 
 #: ../../app/views/contact_us/contacts/new.html.erb:6
 msgid ""
@@ -1372,29 +1382,32 @@ msgid ""
 "te <em class=\"sr-only\">(new window)</em></a>. If you would like to contact us "
 "about %{application_name}, please fill out the form below."
 msgstr ""
+"%{application_name}は%{organisation_name}によって提供されます。 <br />弊社の<a href=\"%{organi"
+"sation_url}\" target=\"_blank\">ウェブサイト<em class=\"sr-only\">（新しいウィンドウ）で</em></a>詳しく"
+"知ることができます。 %{application_name}についてのお問い合わせは、下記のフォームにご記入ください。"
 
 #: ../../app/views/devise/invitations/edit.html.erb:1
 #: ../../app/views/devise/invitations/edit.html.erb:4
 msgid "Create an account to view the plan"
-msgstr ""
+msgstr "プランを表示するためのアカウントを作成する"
 
 #: ../../app/views/devise/invitations/edit.html.erb:5
 msgid ""
 "You will need to create an account in order to accept your invitation to view "
 "the data management plan (DMP)."
-msgstr ""
+msgstr "データ管理プラン（DMP）を表示するための招待状を受け入れるには、アカウントを作成する必要があります。"
 
 #: ../../app/views/devise/invitations/edit.html.erb:16
 #: ../../app/views/devise/passwords/edit.html.erb:15
 #: ../../app/views/devise/registrations/_password_details.html.erb:13
 msgid "New password"
-msgstr ""
+msgstr "新しいパスワード"
 
 #: ../../app/views/devise/invitations/edit.html.erb:20
 #: ../../app/views/devise/passwords/edit.html.erb:19
 #: ../../app/views/devise/registrations/_password_details.html.erb:18
 msgid "Password confirmation"
-msgstr ""
+msgstr "パスワードの確認"
 
 #: ../../app/views/devise/invitations/edit.html.erb:24
 #: ../../app/views/devise/registrations/new.html.erb:18
@@ -1402,7 +1415,7 @@ msgstr ""
 #: ../../app/views/shared/_access_controls.html.erb:11
 #: ../../app/views/shared/_create_account_form.html.erb:42
 msgid "Create account"
-msgstr ""
+msgstr "アカウントを作成する"
 
 #: ../../app/views/devise/mailer/confirmation_instructions.html.erb:2
 msgid "Welcome to %{application_name}"
@@ -1410,32 +1423,32 @@ msgstr ""
 
 #: ../../app/views/devise/mailer/confirmation_instructions.html.erb:4
 msgid "Thank you for registering. Please confirm your email address"
-msgstr ""
-
-#: ../../app/views/devise/mailer/confirmation_instructions.html.erb:6
-msgid "Click here to confirm your account"
-msgstr ""
-
-#: ../../app/views/devise/mailer/confirmation_instructions.html.erb:6
-msgid "or copy"
-msgstr ""
+msgstr "登録していただきありがとうございます。あなたのメールアドレスを確認してください"
 
 #: ../../app/views/devise/mailer/confirmation_instructions.html.erb:6
 msgid "into your browser"
-msgstr ""
+msgstr "あなたのブラウザに"
+
+#: ../../app/views/devise/mailer/confirmation_instructions.html.erb:6
+msgid "or copy"
+msgstr "またはコピー"
+
+#: ../../app/views/devise/mailer/confirmation_instructions.html.erb:6
+msgid "Click here to confirm your account"
+msgstr "あなたのアカウントを確認するにはここをクリック"
 
 #: ../../app/views/devise/mailer/invitation_instructions.html.erb:6
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:5
 #: ../../app/views/user_mailer/_email_signature.html.erb:4
 #: ../../app/views/user_mailer/welcome_notification.html.erb:5
 msgid "Query or feedback related to %{tool_name}"
-msgstr ""
+msgstr "%{tool_name}に関連するクエリまたはフィードバック"
 
 #: ../../app/views/devise/mailer/invitation_instructions.html.erb:10
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:9
 #: ../../app/views/user_mailer/sharing_notification.html.erb:8
 msgid "Hello %{user_email}"
-msgstr ""
+msgstr "こんにちは%{user_email}"
 
 #: ../../app/views/devise/mailer/invitation_instructions.html.erb:13
 msgid ""
@@ -1453,28 +1466,28 @@ msgstr ""
 #: ../../app/views/devise/mailer/invitation_instructions.html.erb:17
 #: ../../app/views/user_mailer/sharing_notification.html.erb:18
 msgid "Click here"
-msgstr ""
+msgstr "ここをクリック"
 
 #: ../../app/views/devise/mailer/invitation_instructions.html.erb:21
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:17
 #: ../../app/views/user_mailer/_email_signature.html.erb:12
 #: ../../app/views/user_mailer/welcome_notification.html.erb:19
 msgid "All the best"
-msgstr ""
+msgstr "ではごきげんよう"
 
 #: ../../app/views/devise/mailer/invitation_instructions.html.erb:23
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:19
 #: ../../app/views/user_mailer/_email_signature.html.erb:14
 #: ../../app/views/user_mailer/welcome_notification.html.erb:21
 msgid "The %{tool_name} team"
-msgstr ""
+msgstr "%{tool_name}チーム"
 
 #: ../../app/views/devise/mailer/invitation_instructions.html.erb:26
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:22
 #: ../../app/views/user_mailer/_email_signature.html.erb:20
 #: ../../app/views/user_mailer/welcome_notification.html.erb:24
 msgid "Please do not reply to this email."
-msgstr ""
+msgstr "このメールに返信しないでください。"
 
 #: ../../app/views/devise/mailer/invitation_instructions.html.erb:27
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:22
@@ -1482,94 +1495,94 @@ msgstr ""
 msgid ""
 "If you have any questions or need help, please contact us at %{helpdesk_email}"
 " or visit %{contact_us}"
-msgstr ""
+msgstr "ご不明な点がございましたら、%{helpdesk_email}までご連絡いただくか、%{contact_us}"
 
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:12
 msgid ""
 "Someone has requested a link to change your %{tool_name} password. You can do "
 "this through the link below."
-msgstr ""
+msgstr "誰かがあなたの%{tool_name}パスワードを変更するためのリンクをリクエストしました。あなたは下のリンクからこれを行うことができます。"
 
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:14
 msgid "Change my password"
-msgstr ""
+msgstr "私のパスワードを変更"
 
 #: ../../app/views/devise/mailer/reset_password_instructions.html.erb:15
 msgid "If you didn't request this, please ignore this email."
-msgstr ""
+msgstr "あなたがこれを要求していない場合は、このメールを無視してください。"
 
 #: ../../app/views/devise/mailer/unlock_instructions.html.erb:2
 msgid "Hello"
-msgstr ""
-
-#: ../../app/views/devise/mailer/unlock_instructions.html.erb:4
-msgid "Your"
-msgstr ""
+msgstr "こんにちは"
 
 #: ../../app/views/devise/mailer/unlock_instructions.html.erb:4
 msgid ""
 "account has been locked due to an excessive number of unsuccessful sign in att"
 "empts."
+msgstr "サインインに失敗したためにアカウントがロックされました。"
+
+#: ../../app/views/devise/mailer/unlock_instructions.html.erb:4
+msgid "Your"
 msgstr ""
 
 #: ../../app/views/devise/mailer/unlock_instructions.html.erb:6
 msgid "Click the link below to unlock your account"
-msgstr ""
+msgstr "下のリンクをクリックしてあなたのアカウントのロックを解除してください"
 
 #: ../../app/views/devise/mailer/unlock_instructions.html.erb:8
 msgid "Unlock my account"
-msgstr ""
+msgstr "アカウントのロックを解除"
 
 #: ../../app/views/devise/passwords/edit.html.erb:1
 #: ../../app/views/devise/passwords/edit.html.erb:4
 msgid "Change your password"
-msgstr ""
+msgstr "パスワードを変更してください"
 
 #: ../../app/views/devise/passwords/edit.html.erb:24
 #: ../../app/views/devise/registrations/_password_details.html.erb:25
 msgid "Show passwords"
-msgstr ""
+msgstr "パスワードを表示する"
 
 #: ../../app/views/devise/passwords/new.html.erb:1
 #: ../../app/views/devise/passwords/new.html.erb:8
 #: ../../app/views/devise/shared/_links.erb:2
 msgid "Forgot your password?"
-msgstr ""
+msgstr "パスワードをお忘れですか？"
 
 #: ../../app/views/devise/passwords/new.html.erb:5
 msgid "The email address you entered is not registered."
-msgstr ""
+msgstr "入力したメールアドレスは登録されていません。"
 
 #: ../../app/views/devise/passwords/new.html.erb:10
 msgid ""
 "Please enter your email below and we will send you instructions on how to rese"
 "t your password."
-msgstr ""
+msgstr "下記のメールアドレスを入力してください。パスワードをリセットする方法をお知らせします。"
 
 #: ../../app/views/devise/passwords/new.html.erb:22
 msgid "Send"
-msgstr ""
+msgstr "SEND"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:5
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:21
 msgid ""
 "ORCID provides a persistent digital identifier that distinguishes you from oth"
 "er researchers. Learn more at orcid.org"
-msgstr ""
+msgstr "ORCIDは、あなたを他の研究者と区別する永続的なデジタル識別子を提供します。 orcid.orgで詳しく見る"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:7
 msgid "ORCID logo"
-msgstr ""
+msgstr "ORCIDロゴ"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:9
 msgid "Create or connect your ORCID iD"
-msgstr ""
+msgstr "ORCID iDを作成または接続する"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:12
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:40
 #: ../../app/views/devise/registrations/_personal_details.html.erb:54
 msgid "Institutional credentials"
-msgstr ""
+msgstr "機関の資格情報"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:14
 msgid "Link your institutional credentials"
@@ -1577,21 +1590,21 @@ msgstr ""
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:16
 msgid "Link your institutional credentials to access your account with them."
-msgstr ""
+msgstr "あなたの機関の資格情報をリンクして、あなたのアカウントにアクセスしてください。"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:22
 msgid "Disconnect your account from ORCID. You can reconnect at any time."
-msgstr ""
+msgstr "アカウントをORCIDから切り離します。いつでも再接続できます。"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:23
 msgid "Are you sure you want to disconnect your ORCID ID?"
-msgstr ""
+msgstr "ORCID IDを切断してもよろしいですか？"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:36
 msgid ""
 "Your account has been linked to your organisation. You can now login with that"
 " method."
-msgstr ""
+msgstr "あなたのアカウントはあなたの組織にリンクされています。これで、そのメソッドでログインできます。"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:37
 msgid "Unlink your account from your organisation. You can link again at any time."
@@ -1599,28 +1612,28 @@ msgstr ""
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:38
 msgid "Are you sure you want to unlink your institutional credentials?"
-msgstr ""
+msgstr "あなたの機関の資格情報をリンク解除してもよろしいですか？"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:56
 msgid "Your account has been linked to #{scheme.description}."
-msgstr ""
+msgstr "あなたのアカウントは＃{scheme.description}にリンクされています。"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:81
 msgid ""
 "Unlink your account from #{scheme.description}. You can link again at any time"
 "."
-msgstr ""
+msgstr "＃{scheme.description}からアカウントのリンクを解除してください。いつでもリンクすることができます。"
 
 #: ../../app/views/devise/registrations/_external_identifier.html.erb:82
 msgid "Are you sure you want to unlink #{scheme.description} ID?"
-msgstr ""
+msgstr "＃{scheme.description} IDのリンクを解除してもよろしいですか？"
 
 #: ../../app/views/devise/registrations/_password_confirmation.html.erb:9
 msgid ""
 "Your email address is also your login id and therefore an important part of yo"
 "ur account information. For your safety we require you to confirm your passwor"
 "d to make this change."
-msgstr ""
+msgstr "あなたのメールアドレスはログインIDでもあり、アカウント情報の重要な部分です。安全のため、この変更を行うためにパスワードを確認する必要があります。"
 
 #: ../../app/views/devise/registrations/_password_confirmation.html.erb:11
 #: ../../app/views/devise/registrations/edit.html.erb:15
@@ -1633,11 +1646,11 @@ msgstr ""
 msgid ""
 "Are you sure you want to change your organisational affiliation? Doing so will"
 " remove your administrative privileges."
-msgstr ""
+msgstr "組織の所属を変更してもよろしいですか？これにより、管理者権限が削除されます。"
 
 #: ../../app/views/devise/registrations/_password_confirmation.html.erb:27
 msgid "Yes, I understand that I will lose my administrative privileges"
-msgstr ""
+msgstr "はい、私は私の管理権限を失うことを理解しています"
 
 #: ../../app/views/devise/registrations/_password_details.html.erb:3
 msgid ""
@@ -1647,42 +1660,42 @@ msgstr ""
 
 #: ../../app/views/devise/registrations/_password_details.html.erb:8
 msgid "Current password"
-msgstr ""
+msgstr "現在のパスワード"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:3
 msgid ""
 "Please note that your email address is used as your username. If you change th"
 "is, remember to use your new email address on sign in."
-msgstr ""
+msgstr "あなたのメールアドレスはあなたのユーザー名として使用されています。これを変更する場合は、ログイン時に新しいメールアドレスを使用してください。"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:6
 msgid "You can edit any of the details below."
-msgstr ""
+msgstr "以下のいずれかの詳細を編集できます。"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:16
 #: ../../app/views/super_admin/users/edit.html.erb:20
 msgid "First name"
-msgstr ""
+msgstr "ファーストネーム"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:21
 #: ../../app/views/super_admin/users/edit.html.erb:25
 msgid "Last name"
-msgstr ""
+msgstr "苗字"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:36
 #: ../../app/views/layouts/_signin_signout.html.erb:6
 #: ../../app/views/super_admin/users/edit.html.erb:41
 msgid "Language"
-msgstr ""
+msgstr "言語"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:45
 msgid "My privileges"
-msgstr ""
+msgstr "私の特権"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:46
 #: ../../app/views/users/_current_privileges.html.erb:3
 msgid "Super Admin"
-msgstr ""
+msgstr "スーパー管理者"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:46
 #: ../../app/views/users/_current_privileges.html.erb:5
@@ -1691,33 +1704,33 @@ msgstr ""
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:72
 msgid "API token"
-msgstr ""
+msgstr "APIトークン"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:76
 msgid "API Information"
-msgstr ""
+msgstr "API情報"
 
 #: ../../app/views/devise/registrations/_personal_details.html.erb:77
 msgid "How to use the API"
-msgstr ""
+msgstr "APIの使い方"
 
 #: ../../app/views/devise/registrations/edit.html.erb:1
 #: ../../app/views/devise/registrations/edit.html.erb:4
 #: ../../app/views/layouts/_signin_signout.html.erb:29
 msgid "Edit profile"
-msgstr ""
+msgstr "プロファイル編集"
 
 #: ../../app/views/devise/registrations/edit.html.erb:12
 msgid "Personal Details"
-msgstr ""
+msgstr "個人情報"
 
 #: ../../app/views/devise/registrations/edit.html.erb:18
 msgid "Notification Preferences"
-msgstr ""
+msgstr "通知設定"
 
 #: ../../app/views/devise/registrations/new.html.erb:6
 msgid "Do you have a %{application_name} account?"
-msgstr ""
+msgstr "あなたは%{application_name}アカウントを持っていますか？"
 
 #: ../../app/views/devise/registrations/new.html.erb:9
 #: ../../app/views/layouts/_navigation.html.erb:64
@@ -1725,27 +1738,27 @@ msgstr ""
 #: ../../app/views/shared/_access_controls.html.erb:5
 #: ../../app/views/shared/_sign_in_form.html.erb:19
 msgid "Sign in"
-msgstr ""
+msgstr "サインイン"
 
 #: ../../app/views/devise/registrations/new.html.erb:11
 msgid "This will link your existing account to your credentials."
-msgstr ""
+msgstr "これにより、既存のアカウントが資格情報にリンクされます。"
 
 #: ../../app/views/devise/registrations/new.html.erb:15
 msgid "No %{application_name} account?"
-msgstr ""
+msgstr "%{application_name}アカウントはありませんか？"
 
 #: ../../app/views/devise/registrations/new.html.erb:20
 msgid "This will create an account and link it to your credentials."
-msgstr ""
+msgstr "これにより、アカウントが作成され、資格情報にリンクされます。"
 
 #: ../../app/views/devise/shared/_links.erb:6
 msgid "Didn't receive confirmation instructions?"
-msgstr ""
+msgstr "確認メールがまだ届きませんか？"
 
 #: ../../app/views/devise/shared/_links.erb:10
 msgid "Didn't receive unlock instructions?"
-msgstr ""
+msgstr "ロック解除命令を受信しませんでしたか？"
 
 #: ../../app/views/guidance_groups/_guidance_group_form.html.erb:3
 msgid ""
@@ -1754,6 +1767,8 @@ msgid ""
 "dentifying the theme e.g. \"[guidance group name]: guidance on data sharing\" so"
 " we suggest you just use the organisation or department name."
 msgstr ""
+"ガイダンスグループに適切な名前を追加します。この名前は、ガイダンスがどこから来たのかをエンドユーザーに伝えるために使用されます。テーマを識別するテキストに追"
+"加されます。 「[ガイダンスグループ名]：データ共有に関するガイダンス」のように、組織名や部門名を使用することをお勧めします。"
 
 #: ../../app/views/guidance_groups/_guidance_group_form.html.erb:10
 #: ../../app/views/guidance_groups/admin_edit.html.erb:19
@@ -1761,7 +1776,7 @@ msgstr ""
 msgid ""
 "Check this box when you are ready for guidance associated with this group to a"
 "ppear on user's plans."
-msgstr ""
+msgstr "ユーザーの計画にこのグループが関連付けられていることを示す準備が整ったら、このボックスをオンにします。"
 
 #: ../../app/views/guidance_groups/_guidance_group_form.html.erb:12
 #: ../../app/views/guidance_groups/admin_edit.html.erb:20
@@ -1779,7 +1794,7 @@ msgstr ""
 #: ../../app/views/paginable/templates/_organisational.html.erb:34
 #: ../../app/views/paginable/templates/_organisational.html.erb:37
 msgid "Published"
-msgstr ""
+msgstr "発行済み"
 
 #: ../../app/views/guidance_groups/_guidance_group_form.html.erb:20
 #: ../../app/views/guidance_groups/admin_edit.html.erb:24
@@ -1789,10 +1804,12 @@ msgid ""
 "ollege or institute, check this box.  Users will be able to select to display "
 "this subset guidance when answering questions in the 'create plan' wizard."
 msgstr ""
+"ガイダンスがユーザーのサブセットのみを対象としている場合など。特定の大学または研究所の者は、このボックスにチェックを入れます。 「プランの作成」ウィザードで"
+"質問に答えるときに、このサブセットのガイダンスを表示するように選択することができます。"
 
 #: ../../app/views/guidance_groups/_guidance_group_form.html.erb:22
 msgid "Optional Subset (e.g. School/Department)"
-msgstr ""
+msgstr "オプションのサブセット（例：学校/部門）"
 
 #: ../../app/views/guidance_groups/_index_by_theme.html.erb:6
 #: ../../app/views/guidance_groups/_show.html.erb:6
@@ -1800,7 +1817,7 @@ msgstr ""
 #: ../../app/views/org_admin/phases/container.html.erb:47
 #: ../../app/views/phases/_edit_plan_answers.html.erb:9
 msgid "expand all"
-msgstr ""
+msgstr "すべて展開"
 
 #: ../../app/views/guidance_groups/_index_by_theme.html.erb:8
 #: ../../app/views/guidance_groups/_show.html.erb:8
@@ -1808,7 +1825,7 @@ msgstr ""
 #: ../../app/views/org_admin/phases/container.html.erb:51
 #: ../../app/views/phases/_edit_plan_answers.html.erb:11
 msgid "collapse all"
-msgstr ""
+msgstr "すべてを崩壊させる"
 
 #: ../../app/views/guidance_groups/admin_edit.html.erb:1
 #: ../../app/views/guidance_groups/admin_edit.html.erb:4
@@ -1817,13 +1834,13 @@ msgstr ""
 #: ../../app/views/guidances/new_edit.html.erb:31
 #: ../../app/views/paginable/guidances/_index.html.erb:7
 msgid "Guidance group"
-msgstr ""
+msgstr "ガイダンスグループ"
 
 #: ../../app/views/guidance_groups/admin_edit.html.erb:5
 #: ../../app/views/guidance_groups/admin_new.html.erb:5
 #: ../../app/views/guidances/new_edit.html.erb:16
 msgid "View all guidance"
-msgstr ""
+msgstr "すべてのガイダンスを表示"
 
 #: ../../app/views/guidance_groups/admin_edit.html.erb:15
 #: ../../app/views/guidance_groups/admin_new.html.erb:14
@@ -1832,16 +1849,18 @@ msgid ""
 "ser where the guidance has come from. We suggest you use the organisation or d"
 "epartment name e.g. \"OU\" or \"Maths & Stats\""
 msgstr ""
+"ガイダンスグループに適切な名前を追加します。この名前は、ガイダンスがどこから来たのかをエンドユーザーに伝えます。組織名や部門名などを使用することをおすすめし"
+"ます。 「OU」または「数学と統計」"
 
 #: ../../app/views/guidance_groups/admin_edit.html.erb:25
 #: ../../app/views/guidance_groups/admin_new.html.erb:24
 msgid "Optional Subset"
-msgstr ""
+msgstr "オプションのサブセット"
 
 #: ../../app/views/guidance_groups/admin_edit.html.erb:25
 #: ../../app/views/guidance_groups/admin_new.html.erb:24
 msgid " (e.g. School/ Department) "
-msgstr ""
+msgstr " （学校/学科など）"
 
 #: ../../app/views/guidance_groups/admin_edit.html.erb:30
 #: ../../app/views/guidance_groups/admin_new.html.erb:30
@@ -1856,7 +1875,7 @@ msgstr ""
 #: ../../app/views/super_admin/themes/_form.html.erb:19
 #: ../../app/views/users/_admin_grant_permissions.html.erb:65
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: ../../app/views/guidances/_guidance_display.html.erb:10
 #: ../../app/views/guidances/admin_index.html.erb:1
@@ -1871,7 +1890,7 @@ msgstr ""
 #: ../../app/views/public_pages/template_export.pdf.erb:81
 #: ../../app/views/super_admin/themes/_form.html.erb:9
 msgid "Guidance"
-msgstr ""
+msgstr "ガイダンス"
 
 #: ../../app/views/guidances/admin_index.html.erb:7
 msgid ""
@@ -1879,6 +1898,8 @@ msgid ""
 ". a particular College / School, Institute or department. When you create guid"
 "ance you'll be asked to assign it to a guidance group."
 msgstr ""
+"まずガイダンスグループを作成します。これは、組織全体であってもサブセットであってもよい。特定のカレッジ/スクール、研究所または部門。ガイダンスを作成すると、"
+"それをガイダンスグループに割り当てるよう求められます。"
 
 #: ../../app/views/guidances/admin_index.html.erb:14
 msgid "Guidance group list"
@@ -1886,11 +1907,11 @@ msgstr ""
 
 #: ../../app/views/guidances/admin_index.html.erb:24
 msgid "Create a guidance group"
-msgstr ""
+msgstr "ガイダンスグループを作成する"
 
 #: ../../app/views/guidances/admin_index.html.erb:27
 msgid "Guidance list"
-msgstr ""
+msgstr "ガイダンスリスト"
 
 #: ../../app/views/guidances/admin_index.html.erb:30
 msgid ""
@@ -1900,6 +1921,8 @@ msgid ""
 "ally displayed across all templates rather than having to write guidance to ac"
 "company each."
 msgstr ""
+"テーマ別に表示するガイダンスを書くことができます（例：ボード全体に表示されるストレージとバックアップに関する一般的なガイダンス）。テーマ別の一般的なガイダン"
+"スを書くことは、それぞれに付随するガイダンスを書く必要がなく、すべてのテンプレートにわたってアドバイスが自動的に表示されるので、時間と労力を節約します。"
 
 #: ../../app/views/guidances/admin_index.html.erb:33
 msgid ""
@@ -1908,14 +1931,16 @@ msgid ""
 "icants to BBSRC for example), you can do so by adding guidance to a specific q"
 "uestion when you edit your template."
 msgstr ""
+"BBSRCへの応募者に具体的な指示がある場合など、より広いオーディエンスにとって役に立たない特定の資金提供者のためのガイダンスを提供する必要がある場合は、編"
+"集するときに特定の質問にガイダンスを追加することによって行うことができますあなたのテンプレート。"
 
 #: ../../app/views/guidances/admin_index.html.erb:45
 msgid "Create guidance"
-msgstr ""
+msgstr "ガイダンスを作成する"
 
 #: ../../app/views/guidances/new_edit.html.erb:22
 msgid "Enter your guidance here. You can include links where needed."
-msgstr ""
+msgstr "ここにガイダンスを入力してください。必要に応じてリンクを含めることができます。"
 
 #: ../../app/views/guidances/new_edit.html.erb:29
 msgid ""
@@ -1924,10 +1949,12 @@ msgid ""
 "ch you create guidance groups, across all templates that have questions with t"
 "he corresponding theme tags."
 msgstr ""
+"このガイダンスに関連する1つまたは複数のテーマを選択してください。これにより、一般的な組織レベルのガイダンス、またはガイダンスグループを作成する学校/部署が"
+"、対応するテーマタグで質問を持つすべてのテンプレートにわたって表示されます。"
 
 #: ../../app/views/guidances/new_edit.html.erb:34
 msgid "Select which group this guidance relates to."
-msgstr ""
+msgstr "このガイダンスが関連するグループを選択します。"
 
 #: ../../app/views/guidances/new_edit.html.erb:41
 msgid "Check this box when you are ready for this guidance to appear on user's plans."
@@ -1935,18 +1962,20 @@ msgstr ""
 
 #: ../../app/views/guidances/new_edit.html.erb:42
 msgid "Published?"
-msgstr ""
+msgstr "公開されましたか？"
 
 #: ../../app/views/home/_welcome.html.erb:1
 #: ../../app/views/home/_welcome.html.erb:3
 msgid "Welcome to #{Rails.configuration.branding[:application][:name]}."
-msgstr ""
+msgstr "＃{Rails.configuration.branding[:application] [:name]} へようこそ。"
 
 #: ../../app/views/home/_welcome.html.erb:5
 msgid ""
 "<p>%{application_name} has been developed by the <strong>%{organisation_name}<"
 "/strong> to help you write data management plans.</p>"
 msgstr ""
+"<p> %{application_name}は、 <strong>%{organisation_name}</strong>によって開発され、データ管理計"
+"画の作成に役立ちます。 </p>"
 
 #: ../../app/views/home/_welcome.html.erb:11
 msgid "Getting started:"
@@ -1954,56 +1983,56 @@ msgstr ""
 
 #: ../../app/views/kaminari/_first_page.html.erb:3
 msgid "First"
-msgstr ""
+msgstr "最初"
 
 #: ../../app/views/kaminari/_gap.html.erb:2
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: ../../app/views/kaminari/_last_page.html.erb:3
 msgid "Last"
-msgstr ""
+msgstr "最終"
 
 #: ../../app/views/kaminari/_next_page.html.erb:3
 msgid "Next"
-msgstr ""
+msgstr "次"
 
 #: ../../app/views/kaminari/_prev_page.html.erb:3
 msgid "Previous"
-msgstr ""
+msgstr "前"
 
 #: ../../app/views/layouts/_branding.html.erb:60
 msgid "Admin"
-msgstr ""
+msgstr "管理者"
 
 #: ../../app/views/layouts/_branding.html.erb:66
 #: ../../app/views/paginable/users/_index.html.erb:13
 #: ../../app/views/usage/index.html.erb:43
 msgid "Plans"
-msgstr ""
+msgstr "予定"
 
 #: ../../app/views/layouts/_branding.html.erb:72
 #: ../../app/views/org_admin/templates/index.html.erb:4
 #: ../../app/views/paginable/orgs/_index.html.erb:8
 msgid "Templates"
-msgstr ""
+msgstr "テンプレート"
 
 #: ../../app/views/layouts/_branding.html.erb:82
 #: ../../app/views/super_admin/orgs/index.html.erb:2
 #: ../../app/views/super_admin/orgs/index.html.erb:6
 msgid "Organisations"
-msgstr ""
+msgstr "組織"
 
 #: ../../app/views/layouts/_branding.html.erb:87
 #: ../../app/views/orgs/admin_edit.html.erb:1
 #: ../../app/views/orgs/admin_edit.html.erb:4
 msgid "Organisation details"
-msgstr ""
+msgstr "組織の詳細"
 
 #: ../../app/views/layouts/_branding.html.erb:93
 #: ../../app/views/usage/index.html.erb:42
 msgid "Users"
-msgstr ""
+msgstr "ユーザー"
 
 #: ../../app/views/layouts/_branding.html.erb:98
 #: ../../app/views/org_admin/questions/_show.html.erb:56
@@ -2012,74 +2041,74 @@ msgstr ""
 #: ../../app/views/super_admin/themes/index.html.erb:1
 #: ../../app/views/super_admin/themes/index.html.erb:4
 msgid "Themes"
-msgstr ""
+msgstr "テーマ"
 
 #: ../../app/views/layouts/_branding.html.erb:103
 msgid "Usage"
-msgstr ""
+msgstr "使用法"
 
 #: ../../app/views/layouts/_branding.html.erb:108
 #: ../../app/views/org_admin/plans/index.html.erb:11
 #: ../../app/views/super_admin/notifications/index.html.erb:1
 #: ../../app/views/super_admin/notifications/index.html.erb:4
 msgid "Notifications"
-msgstr ""
+msgstr "お知らせ"
 
 #: ../../app/views/layouts/_footer.html.erb:13
 msgid "About"
-msgstr ""
+msgstr "約1時間t"
 
 #: ../../app/views/layouts/_footer.html.erb:14
 msgid "Contact us"
-msgstr ""
+msgstr "お問い合わせ"
 
 #: ../../app/views/layouts/_footer.html.erb:15
 #: ../../app/views/static_pages/termsuse.html.erb:1
 #: ../../app/views/static_pages/termsuse.html.erb:4
 msgid "Terms of use"
-msgstr ""
+msgstr "利用規約"
 
 #: ../../app/views/layouts/_footer.html.erb:16
 #: ../../app/views/static_pages/privacy.html.erb:1
 #: ../../app/views/static_pages/privacy.html.erb:4
 msgid "Privacy statement"
-msgstr ""
+msgstr "プライバシーに関する声明"
 
 #: ../../app/views/layouts/_footer.html.erb:17
 msgid "Github"
-msgstr ""
+msgstr "ギター"
 
 #: ../../app/views/layouts/_navigation.html.erb:23
 #: ../../app/views/plans/index.html.erb:1
 #: ../../app/views/plans/index.html.erb:4
 msgid "My Dashboard"
-msgstr ""
+msgstr "マイダッシュボード"
 
 #: ../../app/views/layouts/_navigation.html.erb:26
 msgid "Create plans"
-msgstr ""
+msgstr "計画を作成する"
 
 #: ../../app/views/layouts/_navigation.html.erb:31
 msgid "Reference"
-msgstr ""
+msgstr "参照"
 
 #: ../../app/views/layouts/_navigation.html.erb:36
 #: ../../app/views/layouts/_navigation.html.erb:48
 #: ../../app/views/public_pages/plan_index.html.erb:1
 #: ../../app/views/public_pages/plan_index.html.erb:4
 msgid "Public DMPs"
-msgstr ""
+msgstr "パブリックDMP"
 
 #: ../../app/views/layouts/_navigation.html.erb:39
 #: ../../app/views/layouts/_navigation.html.erb:51
 #: ../../app/views/public_pages/template_index.html.erb:1
 #: ../../app/views/public_pages/template_index.html.erb:4
 msgid "DMP Templates"
-msgstr ""
+msgstr "DMPテンプレート"
 
 #: ../../app/views/layouts/_navigation.html.erb:45
 msgid "Home"
-msgstr ""
+msgstr "ホーム"
 
 #: ../../app/views/layouts/_navigation.html.erb:56
 #: ../../app/views/static_pages/about_us.html.erb:28
@@ -2094,81 +2123,81 @@ msgstr ""
 
 #: ../../app/views/layouts/_paginable.html.erb:33
 msgid "View all search results"
-msgstr ""
+msgstr "すべての検索結果を表示"
 
 #: ../../app/views/layouts/_paginable.html.erb:35
 msgid "View less search results"
-msgstr ""
+msgstr "少ない検索結果を表示"
 
 #: ../../app/views/layouts/_paginable.html.erb:37
 #: ../../app/views/layouts/_paginable.html.erb:48
 msgid "Clear search results"
-msgstr ""
+msgstr "検索結果をクリア"
 
 #: ../../app/views/layouts/_paginable.html.erb:41
 msgid "View all"
-msgstr ""
+msgstr "すべて表示"
 
 #: ../../app/views/layouts/_paginable.html.erb:43
 msgid "View less"
-msgstr ""
+msgstr "もっと見る"
 
 #: ../../app/views/layouts/_signin_signout.html.erb:32
 msgid "Logout"
-msgstr ""
+msgstr "ログアウト"
 
 #: ../../app/views/layouts/application.html.erb:5
 msgid "%{application_name}"
-msgstr ""
+msgstr "%{application_name}"
 
 #: ../../app/views/layouts/application.html.erb:65
 msgid "Error:"
-msgstr ""
+msgstr "エラー："
 
 #: ../../app/views/layouts/application.html.erb:65
 msgid "Notice:"
-msgstr ""
+msgstr "通知："
 
 #: ../../app/views/layouts/application.html.erb:86
 #: ../../app/views/plans/new.html.erb:16
 msgid "This field is required."
-msgstr ""
+msgstr "この項目は必須です。"
 
 #: ../../app/views/layouts/application.html.erb:88
 #: ../../app/views/shared/_create_account_form.html.erb:29
 msgid "Show password"
-msgstr ""
+msgstr "パスワードを表示する"
 
 #: ../../app/views/layouts/application.html.erb:89
 msgid "Select an organisation from the list."
-msgstr ""
+msgstr "リストから組織を選択します。"
 
 #: ../../app/views/layouts/application.html.erb:90
 msgid "My organisation isn't listed"
 msgstr ""
 
 #: ../../app/views/layouts/application.html.erb:92
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:38
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:36
 msgid "N/A"
-msgstr ""
+msgstr "N / A"
 
 #: ../../app/views/layouts/application.html.erb:93
 msgid "Private"
-msgstr ""
+msgstr "プライベート"
 
 #: ../../app/views/layouts/application.html.erb:96
 msgid "Hide list."
-msgstr ""
+msgstr "リストを非表示にする。"
 
 #: ../../app/views/layouts/application.html.erb:97
 msgid "See the full list of partner institutions."
-msgstr ""
+msgstr "パートナー機関の完全なリストを参照してください。"
 
 #: ../../app/views/layouts/application.html.erb:99
 msgid ""
 "Unable to find a suitable template for the research organisation and funder yo"
 "u selected."
-msgstr ""
+msgstr "あなたが選んだ研究機関と資金提供者に適したテンプレートを見つけることができません。"
 
 #: ../../app/views/layouts/application.html.erb:100
 msgid "Please select a research organisation and funder to continue."
@@ -2176,19 +2205,19 @@ msgstr ""
 
 #: ../../app/views/layouts/application.html.erb:102
 msgid "Loading ..."
-msgstr ""
+msgstr "読み込んでいます..."
 
 #: ../../app/views/layouts/application.html.erb:103
 msgid "Unable to load the section's content at this time."
-msgstr ""
+msgstr "この時点でセクションのコンテンツを読み込むことができません。"
 
 #: ../../app/views/layouts/application.html.erb:104
 msgid "Unable to load the question's content at this time."
-msgstr ""
+msgstr "この時点で質問の内容を読み込むことができません。"
 
 #: ../../app/views/notes/_archive.html.erb:8
 msgid "Are you sure you want to remove this comment?"
-msgstr ""
+msgstr "このコメントを削除してもよろしいですか？"
 
 #: ../../app/views/notes/_archive.html.erb:10
 #: ../../app/views/notes/_list.html.erb:16
@@ -2197,40 +2226,40 @@ msgstr ""
 #: ../../app/views/paginable/guidance_groups/_index.html.erb:49
 #: ../../app/views/paginable/guidances/_index.html.erb:60
 #: ../../app/views/paginable/orgs/_index.html.erb:33
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:74
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:72
 #: ../../app/views/paginable/templates/_customisable.html.erb:75
 #: ../../app/views/paginable/templates/_organisational.html.erb:72
 #: ../../app/views/plans/_share_form.html.erb:68
 msgid "Remove"
-msgstr ""
+msgstr "削除します"
 
 #: ../../app/views/notes/_edit.html.erb:5
 msgid "Edit comment to share with collaborators"
-msgstr ""
+msgstr "共同編集者と共有するコメントを編集する"
 
 #: ../../app/views/notes/_layout.html.erb:21
 msgid "Add Comment"
-msgstr ""
+msgstr "コメントを追加"
 
 #: ../../app/views/notes/_list.html.erb:15
 #: ../../app/views/org_admin/questions/_show.html.erb:99
 #: ../../app/views/paginable/guidance_groups/_index.html.erb:43
 #: ../../app/views/paginable/guidances/_index.html.erb:53
 #: ../../app/views/paginable/orgs/_index.html.erb:31
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:57
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:55
 #: ../../app/views/paginable/templates/_history.html.erb:39
 #: ../../app/views/paginable/templates/_organisational.html.erb:54
 #: ../../app/views/paginable/users/_index.html.erb:64
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 #: ../../app/views/notes/_new.html.erb:8
 msgid "Add comments to share with collaborators"
-msgstr ""
+msgstr "共同編集者と共有するコメントを追加する"
 
 #: ../../app/views/notes/_title.html.erb:3
 msgid "Comments"
-msgstr ""
+msgstr "コメント"
 
 #: ../../app/views/org_admin/annotations/_show.html.erb:4
 msgid "%{org} Example Answer"
@@ -2246,7 +2275,7 @@ msgstr ""
 #: ../../app/views/super_admin/notifications/_form.html.erb:6
 #: ../../app/views/super_admin/themes/_form.html.erb:5
 msgid "Title"
-msgstr ""
+msgstr "タイトル"
 
 #: ../../app/views/org_admin/phases/_form.html.erb:4
 msgid ""
@@ -2254,22 +2283,24 @@ msgid ""
 "ll see in the tabs when completing a plan. If you only have one phase, call it"
 " something generic e.g. Glasgow DMP"
 msgstr ""
+"フェーズのタイトルを入力します。初期DMP、フルDMP ...これは、計画を完了するときにタブでユーザーに表示されるものです。 1つの段階のみを持っている場"
+"合は、それを総称と呼びます。グラスゴーDMP"
 
 #: ../../app/views/org_admin/phases/_form.html.erb:9
 #: ../../app/views/org_admin/phases/_show.html.erb:4
 msgid "Order of display"
-msgstr ""
+msgstr "表示順序"
 
 #: ../../app/views/org_admin/phases/_form.html.erb:12
 msgid "This allows you to order the phases of your template."
-msgstr ""
+msgstr "これにより、テンプレートのフェーズを順序付けることができます。"
 
 #: ../../app/views/org_admin/phases/_form.html.erb:16
 msgid ""
 "Enter a basic description. This will be presented to users on the 'Admin Plan'"
 " tab, above the summary of the sections and questions which they will be asked"
 " to answer."
-msgstr ""
+msgstr "基本的な説明を入力します。これは、「管理計画」タブのセクションと質問の要旨の上にユーザーに表示されます。"
 
 #: ../../app/views/org_admin/phases/_form.html.erb:17
 #: ../../app/views/org_admin/phases/_show.html.erb:6
@@ -2278,19 +2309,19 @@ msgstr ""
 #: ../../app/views/org_admin/templates/_show.html.erb:5
 #: ../../app/views/paginable/templates/_organisational.html.erb:8
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: ../../app/views/org_admin/phases/_new.html.erb:1
 #: ../../app/views/org_admin/phases/container.html.erb:21
 msgid "Phase details"
-msgstr ""
+msgstr "位相の詳細"
 
 #: ../../app/views/org_admin/phases/_new.html.erb:2
 msgid ""
 "When you create a new phase for your template, a version will automatically be"
 " created. Once you complete the form below you will be provided with options t"
 "o create sections and questions."
-msgstr ""
+msgstr "テンプレートの新しい段階を作成すると、自動的にバージョンが作成されます。下のフォームに記入すると、セクションと質問を作成するオプションが提供されます。"
 
 #: ../../app/views/org_admin/phases/_overview.html.erb:2
 msgid "Template Overview"
@@ -2298,88 +2329,88 @@ msgstr ""
 
 #: ../../app/views/org_admin/phases/_phase.html.erb:9
 msgid "Customise phase"
-msgstr ""
+msgstr "フェーズのカスタマイズ"
 
 #: ../../app/views/org_admin/phases/_phase.html.erb:11
 msgid "Edit phase"
-msgstr ""
+msgstr "フェーズの編集"
 
 #: ../../app/views/org_admin/phases/_phase.html.erb:13
 msgid "Show phase"
-msgstr ""
+msgstr "ショーフェーズ"
 
 #: ../../app/views/org_admin/phases/_phase.html.erb:16
 msgid "Delete phase"
-msgstr ""
+msgstr "フェーズ削除"
 
 #: ../../app/views/org_admin/phases/_phase.html.erb:17
 msgid ""
 "You are about to delete the '%{phase_title}' phase. This will remove all of th"
 "e sections and questions listed below. Are you sure?"
-msgstr ""
+msgstr "あなたは '%{phase_title}'段階を削除しようとしています。これにより、下記のセクションと質問がすべて削除されます。本気ですか？"
 
 #: ../../app/views/org_admin/phases/_phase.html.erb:18
 #: ../../app/views/paginable/guidances/_index.html.erb:61
 msgid "... (continued)"
-msgstr ""
+msgstr "...（続き）"
 
 #: ../../app/views/org_admin/phases/_phase.html.erb:34
 #: ../../app/views/org_admin/phases/container.html.erb:37
 msgid "Sections"
-msgstr ""
+msgstr "セクション"
 
 #: ../../app/views/org_admin/phases/_phase.html.erb:35
 #: ../../app/views/org_admin/questions/_index.html.erb:1
 msgid "Questions"
-msgstr ""
+msgstr "質問"
 
 #: ../../app/views/org_admin/phases/container.html.erb:7
 #: ../../app/views/org_admin/templates/container.html.erb:6
 #: ../../app/views/org_admin/templates/history.html.erb:6
 #: ../../app/views/org_admin/templates/new.html.erb:4
 msgid "View all templates"
-msgstr ""
+msgstr "すべてのテンプレートを見る"
 
 #: ../../app/views/org_admin/phases/container.html.erb:24
 msgid "Preview"
-msgstr ""
+msgstr "プレビュー"
 
 #: ../../app/views/org_admin/phases/container.html.erb:62
 msgid "Drag arrows to rearrange sections."
-msgstr ""
+msgstr "矢印をドラッグしてセクションを再配置します。"
 
 #: ../../app/views/org_admin/phases/container.html.erb:64
 msgid "You may place them before or after the main template sections."
-msgstr ""
+msgstr "メインテンプレートセクションの前後に配置することができます。"
 
 #: ../../app/views/org_admin/phases/container.html.erb:67
 msgid "Re-order sections"
-msgstr ""
+msgstr "セクションを並べ替える"
 
 #: ../../app/views/org_admin/phases/preview.html.erb:11
 msgid "Back to customise phase"
-msgstr ""
+msgstr "カスタマイズフェーズに戻る"
 
 #: ../../app/views/org_admin/phases/preview.html.erb:18
 msgid "Back to edit phase"
-msgstr ""
+msgstr "編集フェーズに戻る"
 
 #: ../../app/views/org_admin/phases/preview.html.erb:26
 msgid "Back to phase"
-msgstr ""
+msgstr "フェーズに戻る"
 
 #: ../../app/views/org_admin/phases/preview.html.erb:38
 #: ../../app/views/phases/_overview.html.erb:6
 msgid "Write plan"
-msgstr ""
+msgstr "書き込みプラン"
 
 #: ../../app/views/org_admin/plans/index.html.erb:4
 msgid "%{org_name} Plans"
-msgstr ""
+msgstr "%{org_name}計画"
 
 #: ../../app/views/org_admin/plans/index.html.erb:16
 msgid "Plan"
-msgstr ""
+msgstr "計画"
 
 #: ../../app/views/org_admin/plans/index.html.erb:17
 msgid "Requestor"
@@ -2387,7 +2418,7 @@ msgstr ""
 
 #: ../../app/views/org_admin/plans/index.html.erb:18
 msgid "Type"
-msgstr ""
+msgstr "タイプ"
 
 #: ../../app/views/org_admin/plans/index.html.erb:19
 #: ../../app/views/paginable/guidance_groups/_index.html.erb:9
@@ -2396,26 +2427,26 @@ msgstr ""
 #: ../../app/views/paginable/guidances/_index.html.erb:50
 #: ../../app/views/paginable/orgs/_index.html.erb:9
 #: ../../app/views/paginable/orgs/_index.html.erb:28
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:13
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:52
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:11
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:50
 #: ../../app/views/paginable/templates/_customisable.html.erb:51
 #: ../../app/views/paginable/templates/_history.html.erb:9
 #: ../../app/views/paginable/templates/_organisational.html.erb:51
 #: ../../app/views/plans/_share_form.html.erb:42
 msgid "Actions"
-msgstr ""
+msgstr "行動"
 
 #: ../../app/views/org_admin/plans/index.html.erb:28
 msgid "Feedback requested"
-msgstr ""
-
-#: ../../app/views/org_admin/plans/index.html.erb:29
-msgid "Complete"
-msgstr ""
+msgstr "フィードバックのリクエスト"
 
 #: ../../app/views/org_admin/plans/index.html.erb:29
 msgid "Notify the plan owner that I have finished providing feedback"
-msgstr ""
+msgstr "私がフィードバックの提供を終了したことを計画の所有者に通知する"
+
+#: ../../app/views/org_admin/plans/index.html.erb:29
+msgid "Complete"
+msgstr "コンプリート"
 
 #: ../../app/views/org_admin/plans/index.html.erb:38
 msgid "Download plans <em class=\"sr-only\">(new window)</span>"
@@ -2423,43 +2454,43 @@ msgstr ""
 
 #: ../../app/views/org_admin/question_options/_option_fields.html.erb:3
 msgid "Order"
-msgstr ""
+msgstr "注文"
 
 #: ../../app/views/org_admin/question_options/_option_fields.html.erb:6
 #: ../../app/views/paginable/guidances/_index.html.erb:5
 #: ../../app/views/shared/_links.html.erb:11
 msgid "Text"
-msgstr ""
+msgstr "テキスト"
 
 #: ../../app/views/org_admin/question_options/_option_fields.html.erb:9
 msgid "Default"
-msgstr ""
+msgstr "デフォルト"
 
 #: ../../app/views/org_admin/question_options/_option_fields.html.erb:41
 msgid "Add option"
-msgstr ""
+msgstr "オプションを追加"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:2
 msgid "Question %{number}:"
-msgstr ""
+msgstr "質問%{number}："
 
 #: ../../app/views/org_admin/questions/_form.html.erb:2
 msgid "New question:"
-msgstr ""
+msgstr "新しい質問："
 
 #: ../../app/views/org_admin/questions/_form.html.erb:13
 msgid "Question Number"
-msgstr ""
+msgstr "質問番号"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:20
 #: ../../app/views/org_admin/questions/_show.html.erb:15
 msgid "Question text"
-msgstr ""
+msgstr "質問テキスト"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:26
 #: ../../app/views/org_admin/questions/_show.html.erb:30
 msgid "Answer format"
-msgstr ""
+msgstr "回答フォーマット"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:36
 msgid ""
@@ -2471,58 +2502,62 @@ msgid ""
 " select box allows users to select several options from a scrollable list, usi"
 "ng the CTRL key;</li></ul>"
 msgstr ""
+"次の中から選択できます： <ul><li> - テキスト領域（段落の大きなボックス）。 </li><li> - テキストフィールド（短い回答）。 </li>"
+"<li> - オプションがリストに表示され、複数の値を選択できるチェックボックス。 </li><li>ラジオボタン - オプションはリストに表示されますが、"
+"1つのみを選択できます。 </li><li> - このボックスのようなドロップダウン - 選択できるオプションは1つだけです。 </li><li> - 複数"
+"選択ボックスでは、CTRLキーを使用してスクロール可能リストから複数のオプションを選択できます。 </li></ul>"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:52
 msgid "Display additional comment area."
-msgstr ""
+msgstr "追加のコメント領域を表示します。"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:58
 msgid "Default answer"
-msgstr ""
+msgstr "デフォルトの答え"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:59
 msgid ""
 "Anything you enter here will display in the answer box. If you want an answer "
 "in a certain format (e.g. tables), you can enter that style here."
-msgstr ""
+msgstr "ここに入力したものは、回答欄に表示されます。特定の形式（例：表）の回答が必要な場合は、ここにそのスタイルを入力できます。"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:80
 msgid ""
 "Select one or more themes that are relevant to this question. This will allow "
 "similarly themed organisation-level guidance to appear alongside your question"
 "."
-msgstr ""
+msgstr "この質問に関連する1つ以上のテーマを選択します。これにより、同じテーマの組織レベルのガイダンスがあなたの質問の横に表示されます。"
+
+#: ../../app/views/org_admin/questions/_form.html.erb:87
+msgid "You are about to delete question #%{question_number}. Are you sure?"
+msgstr "質問番号%{question_number}を削除しようとしています。本気ですか？"
 
 #: ../../app/views/org_admin/questions/_form.html.erb:87
 #: ../../app/views/org_admin/sections/_form.html.erb:16
 #: ../../app/views/super_admin/notifications/_form.html.erb:59
 #: ../../app/views/super_admin/themes/_form.html.erb:15
 msgid "Delete"
-msgstr ""
-
-#: ../../app/views/org_admin/questions/_form.html.erb:87
-msgid "You are about to delete question #%{question_number}. Are you sure?"
-msgstr ""
+msgstr "削除"
 
 #: ../../app/views/org_admin/questions/_index.html.erb:14
 msgid "Add Question"
-msgstr ""
+msgstr "質問を追加する"
 
 #: ../../app/views/org_admin/questions/_index.html.erb:19
 msgid "New Question"
-msgstr ""
+msgstr "新しい質問"
 
 #: ../../app/views/org_admin/questions/_show.html.erb:13
 msgid "Question number"
-msgstr ""
+msgstr "質問番号"
 
 #: ../../app/views/org_admin/questions/_show.html.erb:19
 msgid "Question options"
-msgstr ""
+msgstr "質問のオプション"
 
 #: ../../app/views/org_admin/questions/_show.html.erb:25
 msgid "Default value"
-msgstr ""
+msgstr "デフォルト値"
 
 #: ../../app/views/org_admin/questions/_show.html.erb:34
 msgid "Additional comment area will be displayed."
@@ -2530,30 +2565,30 @@ msgstr ""
 
 #: ../../app/views/org_admin/questions/_show.html.erb:36
 msgid "No additional comment area will be displayed."
-msgstr ""
+msgstr "追加のコメント領域は表示されません。"
 
 #: ../../app/views/org_admin/questions/_show.html.erb:57
 msgid "No themes selected"
-msgstr ""
+msgstr "テーマは選択されていません"
 
 #: ../../app/views/org_admin/questions/_show.html.erb:67
 #: ../../app/views/org_admin/questions/_show.html.erb:75
 #: ../../app/views/org_admin/questions/_show.html.erb:105
 msgid "Annotations"
-msgstr ""
+msgstr "注釈"
 
 #: ../../app/views/org_admin/questions/_show.html.erb:71
 #: ../../app/views/org_admin/questions/_show.html.erb:110
 msgid "None provided"
-msgstr ""
+msgstr "提供されていない"
 
 #: ../../app/views/org_admin/sections/_edit.html.erb:3
 msgid "Section details"
-msgstr ""
+msgstr "セクションの詳細"
 
 #: ../../app/views/org_admin/sections/_form.html.erb:4
 msgid "Enter a title for the section"
-msgstr ""
+msgstr "セクションのタイトルを入力してください"
 
 #: ../../app/views/org_admin/sections/_form.html.erb:7
 msgid ""
@@ -2561,44 +2596,45 @@ msgid ""
 "ection or instructions on how to answer. This text will be displayed in the co"
 "loured banner once a section is opened to edit."
 msgstr ""
+"基本的な説明を入力します。これは、セクションでカバーされていることの概要や、回答方法に関する説明です。このテキストは、セクションを開いて編集すると、色付きの"
+"バナーに表示されます。"
 
 #: ../../app/views/org_admin/sections/_form.html.erb:17
 msgid ""
 "You are about to delete '%{section_title}'. This will affect questions linked "
 "to this section. Are you sure?"
-msgstr ""
+msgstr "あなたは '%{section_title}'を削除しようとしています。これは、このセクションにリンクされている質問に影響します。本気ですか？"
 
-#: ../../app/views/org_admin/sections/_index.html.erb:60
+#: ../../app/views/org_admin/sections/_index.html.erb:59
 msgid "Add a new section"
-msgstr ""
+msgstr "新しいセクションを追加"
 
 #: ../../app/views/org_admin/shared/_theme_selector.html.erb:42
 msgid "No themes have been defined. Please contact your administrator for assistance."
-msgstr ""
+msgstr "テーマは定義されていません。管理者に連絡してください。"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:6
 msgid ""
 "Enter a description that helps you to differentiate between templates e.g. if "
 "you have ones for different audiences"
-msgstr ""
+msgstr "テンプレートの区別に役立つ説明を入力してください。さまざまなユーザーのためのものがある場合"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:14
 #: ../../app/views/org_admin/templates/_show.html.erb:32
 #: ../../app/views/paginable/plans/_org_admin.html.erb:10
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:10
 msgid "Visibility"
-msgstr ""
+msgstr "可視性"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:16
 msgid ""
 "Checking this box prevents the template from appearing in the public list of t"
 "emplates."
-msgstr ""
+msgstr "このチェックボックスをオンにすると、テンプレートがテンプレートの公開リストに表示されなくなります。"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:23
 #: ../../app/views/org_admin/templates/_show.html.erb:35
 msgid "for internal %{org_name} use only"
-msgstr ""
+msgstr "社内%{org_name}のみの使用"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:30
 #: ../../app/views/org_admin/templates/_show.html.erb:13
@@ -2608,7 +2644,7 @@ msgstr ""
 #: ../../app/views/paginable/templates/_index.html.erb:7
 #: ../../app/views/paginable/templates/_organisational.html.erb:12
 msgid "Status"
-msgstr ""
+msgstr "状態"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:35
 #: ../../app/views/org_admin/templates/_row.html.erb:16
@@ -2618,17 +2654,17 @@ msgstr ""
 #: ../../app/views/paginable/templates/_customisable.html.erb:37
 #: ../../app/views/paginable/templates/_organisational.html.erb:40
 msgid "Unpublished"
-msgstr ""
+msgstr "未発表"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:37
 #: ../../app/views/paginable/templates/_history.html.erb:18
 msgid "Draft"
-msgstr ""
+msgstr "ドラフト"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:44
 #: ../../app/views/org_admin/templates/_show.html.erb:41
 msgid "Created at"
-msgstr ""
+msgstr "作成日"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:50
 #: ../../app/views/org_admin/templates/_show.html.erb:43
@@ -2636,38 +2672,38 @@ msgstr ""
 #: ../../app/views/paginable/guidances/_index.html.erb:9
 #: ../../app/views/paginable/templates/_history.html.erb:8
 msgid "Last updated"
-msgstr ""
+msgstr "最終更新"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:62
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:9
 msgid "Funder Links"
-msgstr ""
+msgstr "Funder Links"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:65
 msgid ""
 "Add links to funder websites that provide additional information about the req"
 "uirements for this template"
-msgstr ""
+msgstr "このテンプレートの要件に関する追加情報を提供するファインダーWebサイトへのリンクを追加する"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:71
 msgid "Sample Plan Links"
-msgstr ""
+msgstr "サンプルプランのリンク"
 
 #: ../../app/views/org_admin/templates/_form.html.erb:74
 msgid "Add links to sample plans if provided by the funder."
-msgstr ""
+msgstr "サンプルプランへのリンクを追加するには、資金提供者が提供します。"
 
 #: ../../app/views/org_admin/templates/_navigation.html.erb:3
 msgid "Template details"
-msgstr ""
+msgstr "テンプレートの詳細"
 
 #: ../../app/views/org_admin/templates/_navigation.html.erb:14
 msgid "Add new phase"
-msgstr ""
+msgstr "新しい段階を追加"
 
 #: ../../app/views/org_admin/templates/_row.html.erb:12
 msgid "This template is published changes but has unpublished changes!"
-msgstr ""
+msgstr "このテンプレートは変更が公開されていますが、未公開の変更があります。"
 
 #: ../../app/views/org_admin/templates/_show.html.erb:16
 #: ../../app/views/paginable/templates/_customisable.html.erb:27
@@ -2677,7 +2713,7 @@ msgstr ""
 #: ../../app/views/org_admin/templates/_show.html.erb:19
 #: ../../app/views/org_admin/templates/_show.html.erb:22
 msgid "Customisations are published"
-msgstr ""
+msgstr "カスタマイズが公開されています"
 
 #: ../../app/views/org_admin/templates/_show.html.erb:21
 #: ../../app/views/paginable/templates/_customisable.html.erb:33
@@ -2685,15 +2721,15 @@ msgstr ""
 msgid ""
 "You have unpublished changes! Select \"Publish changes\" in the Actions menu whe"
 "n you are ready to make them available to users."
-msgstr ""
+msgstr "未発表の変更があります。 [操作]メニューの[変更を公開]を選択して、ユーザーが利用できるようにします。"
 
 #: ../../app/views/org_admin/templates/_show.html.erb:26
 msgid "Customisations are unpublished"
-msgstr ""
+msgstr "カスタマイズは未発表です"
 
 #: ../../app/views/org_admin/templates/_show.html.erb:37
 msgid "available to the public"
-msgstr ""
+msgstr "一般に公開されている"
 
 #: ../../app/views/org_admin/templates/container.html.erb:5
 #: ../../app/views/org_admin/templates/new.html.erb:3
@@ -2701,22 +2737,22 @@ msgid "New Template"
 msgstr ""
 
 #: ../../app/views/org_admin/templates/history.html.erb:4
-msgid "Template Customisation History"
-msgstr ""
+msgid "Template History"
+msgstr "テンプレート履歴"
 
 #: ../../app/views/org_admin/templates/history.html.erb:4
-msgid "Template History"
-msgstr ""
+msgid "Template Customisation History"
+msgstr "テンプレートカスタマイズの履歴"
 
 #: ../../app/views/org_admin/templates/history.html.erb:10
 msgid ""
 "Here you can view previously published versions of your template.  These can n"
 "o longer be modified."
-msgstr ""
+msgstr "テンプレートの以前に公開されたバージョンを表示できます。これらはもはや変更することができません。"
 
 #: ../../app/views/org_admin/templates/history.html.erb:27
 msgid "This template is new and does not yet have any publication history."
-msgstr ""
+msgstr "このテンプレートは新しく、まだ公開履歴はありません。"
 
 #: ../../app/views/org_admin/templates/index.html.erb:10
 msgid ""
@@ -2733,10 +2769,13 @@ msgid ""
 " want to add questions to funder templates use the 'customise template' option"
 "s below."
 msgstr ""
+"データ管理プランの組織テンプレートを追加する場合は、[テンプレート作成]ボタンを使用します。必要に応じて、複数のテンプレートを作成できます。研究者のためのも"
+"のと博士課程の学生のためのものです。テンプレートは、ファインダーテンプレートが適用されていない場合、組織内のユーザーに表示されます。あなたがfunderテン"
+"プレートに質問を追加する場合は、下記の 'customize template'オプションを使用してください。"
 
 #: ../../app/views/org_admin/templates/index.html.erb:62
 msgid "Customisable Templates"
-msgstr ""
+msgstr "カスタマイズ可能なテンプレート"
 
 #: ../../app/views/org_admin/templates/index.html.erb:79
 #: ../../app/views/org_admin/templates/index.html.erb:92
@@ -2746,7 +2785,7 @@ msgstr ""
 #: ../../app/views/org_admin/templates/index.html.erb:82
 #: ../../app/views/org_admin/templates/index.html.erb:95
 msgid "Published (%{count})"
-msgstr ""
+msgstr "公開済み（%{count}）"
 
 #: ../../app/views/org_admin/templates/index.html.erb:85
 #: ../../app/views/org_admin/templates/index.html.erb:98
@@ -2759,24 +2798,24 @@ msgstr ""
 
 #: ../../app/views/org_admin/templates/index.html.erb:116
 msgid "Create a template"
-msgstr ""
+msgstr "テンプレートを作成する"
 
 #: ../../app/views/orgs/_feedback_form.html.erb:1
 #: ../../app/views/orgs/_feedback_form.html.erb:3
 msgid "Request Feedback"
-msgstr ""
+msgstr "リクエストのフィードバック"
 
 #: ../../app/views/orgs/_feedback_form.html.erb:8
 msgid "On"
-msgstr ""
+msgstr "に"
 
 #: ../../app/views/orgs/_feedback_form.html.erb:12
 msgid "Off"
-msgstr ""
+msgstr "オフ"
 
 #: ../../app/views/orgs/_feedback_form.html.erb:18
 msgid "Request Expert Feedback - Message Displayed on Share Plan Tab:"
-msgstr ""
+msgstr "エキスパートフィードバックを要求する - 共有計画タブに表示されるメッセージ："
 
 #: ../../app/views/orgs/_org_link.html.erb:3
 #: ../../app/views/shared/_links.html.erb:24
@@ -2792,34 +2831,34 @@ msgstr ""
 #: ../../app/views/orgs/_org_link.html.erb:11
 #: ../../app/views/shared/_links.html.erb:38
 msgid "Remove this link"
-msgstr ""
+msgstr "このリンクを削除"
 
 #: ../../app/views/orgs/_profile_form.html.erb:4
 msgid "Organisation full name"
-msgstr ""
+msgstr "組織の正式名称"
 
 #: ../../app/views/orgs/_profile_form.html.erb:10
 msgid "Organisation abbreviated name"
-msgstr ""
+msgstr "組織略称"
 
 #: ../../app/views/orgs/_profile_form.html.erb:17
 msgid "Organization logo"
-msgstr ""
+msgstr "組織のロゴ"
 
 #: ../../app/views/orgs/_profile_form.html.erb:25
 msgid "This will remove your organisation's logo"
-msgstr ""
+msgstr "これにより、組織のロゴが削除されます"
 
 #: ../../app/views/orgs/_profile_form.html.erb:26
 msgid "Remove logo"
-msgstr ""
+msgstr "ロゴを削除する"
 
 #: ../../app/views/orgs/_profile_form.html.erb:28
 #: ../../app/views/orgs/shibboleth_ds.html.erb:34
 #: ../../app/views/plans/new.html.erb:51 ../../app/views/plans/new.html.erb:77
 #: ../../app/views/shared/_sign_in_form.html.erb:23
 msgid "or"
-msgstr ""
+msgstr "または"
 
 #: ../../app/views/orgs/_profile_form.html.erb:42
 msgid "Organisation URLs"
@@ -2827,55 +2866,55 @@ msgstr ""
 
 #: ../../app/views/orgs/_profile_form.html.erb:45
 msgid "Links will be displayed next to your organisation's logo"
-msgstr ""
+msgstr "組織のロゴの横にリンクが表示されます"
 
 #: ../../app/views/orgs/_profile_form.html.erb:52
 msgid "Administrator contact"
-msgstr ""
+msgstr "管理者の連絡先"
 
 #: ../../app/views/orgs/_profile_form.html.erb:57
 msgid "Contact email"
-msgstr ""
+msgstr "連絡先メールアドレス"
 
 #: ../../app/views/orgs/_profile_form.html.erb:66
 msgid ""
 "This information can only be changed by a system administrator. Contact the He"
 "lp Desk if you have questions or to request changes."
-msgstr ""
+msgstr "この情報は、システム管理者のみが変更できます。質問がある場合や変更を求める場合は、ヘルプデスクにお問い合わせください。"
 
 #: ../../app/views/orgs/_profile_form.html.erb:67
 msgid "Organisational Configuration Information"
-msgstr ""
+msgstr "組織の構成情報"
 
-#: ../../app/views/orgs/_profile_form.html.erb:75
+#: ../../app/views/orgs/_profile_form.html.erb:77
 msgid "Shibboleth Entity Id"
-msgstr ""
+msgstr "ShibbolethエンティティID"
 
-#: ../../app/views/orgs/_profile_form.html.erb:76
+#: ../../app/views/orgs/_profile_form.html.erb:78
 msgid "Example: urn:mace:incommon:my-org.org"
-msgstr ""
+msgstr "例：urn：mace：incommon：my-org.org"
 
-#: ../../app/views/orgs/_profile_form.html.erb:81
+#: ../../app/views/orgs/_profile_form.html.erb:83
 msgid "Shibboleth Domain"
-msgstr ""
+msgstr "シボルスドメイン"
 
-#: ../../app/views/orgs/_profile_form.html.erb:82
+#: ../../app/views/orgs/_profile_form.html.erb:84
 msgid "Example: my-org.org"
-msgstr ""
+msgstr "例：my-org.org"
 
-#: ../../app/views/orgs/_profile_form.html.erb:88
+#: ../../app/views/orgs/_profile_form.html.erb:90
 msgid "Organisation Types"
-msgstr ""
+msgstr "組織タイプ"
 
-#: ../../app/views/orgs/_profile_form.html.erb:98
+#: ../../app/views/orgs/_profile_form.html.erb:100
 msgid "Institution"
-msgstr ""
+msgstr "機関"
 
-#: ../../app/views/orgs/_profile_form.html.erb:109
+#: ../../app/views/orgs/_profile_form.html.erb:111
 msgid "You must select at least one organisation type"
 msgstr ""
 
-#: ../../app/views/orgs/_profile_form.html.erb:115
+#: ../../app/views/orgs/_profile_form.html.erb:117
 msgid "Organisation type(s)"
 msgstr ""
 
@@ -2886,35 +2925,35 @@ msgstr ""
 
 #: ../../app/views/orgs/admin_edit.html.erb:6
 msgid "View all organisations"
-msgstr ""
+msgstr "すべての組織を表示"
 
 #: ../../app/views/orgs/admin_edit.html.erb:15
 msgid "Profile information"
-msgstr ""
+msgstr "プロフィール情報"
 
 #: ../../app/views/orgs/admin_edit.html.erb:19
 #: ../../app/views/plans/_share_form.html.erb:128
 #: ../../app/views/static_pages/help.html.erb:45
 msgid "Request feedback"
-msgstr ""
+msgstr "リクエストのフィードバック"
 
 #: ../../app/views/orgs/shibboleth_ds.html.erb:1
 #: ../../app/views/orgs/shibboleth_ds.html.erb:4
 msgid "Find your organisation to sign in"
-msgstr ""
+msgstr "あなたの組織を検索してサインインする"
 
 #: ../../app/views/orgs/shibboleth_ds.html.erb:12
 msgid "Look up your organisation here"
-msgstr ""
+msgstr "ここであなたの組織を見てください"
 
 #: ../../app/views/orgs/shibboleth_ds.html.erb:16
 msgid "Please select one"
-msgstr ""
+msgstr "1つを選択してください"
 
 #: ../../app/views/orgs/shibboleth_ds.html.erb:30
 #: ../../app/views/usage/index.html.erb:70
 msgid "Go"
-msgstr ""
+msgstr "行こう"
 
 #: ../../app/views/orgs/shibboleth_ds.html.erb:36
 msgid "See the full list of participating institutions"
@@ -2926,78 +2965,78 @@ msgstr ""
 
 #: ../../app/views/orgs/shibboleth_ds.html.erb:78
 msgid "Create an account with any email address"
-msgstr ""
+msgstr "任意のメールアドレスでアカウントを作成する"
 
 #: ../../app/views/paginable/guidance_groups/_index.html.erb:7
 msgid "Optional subset"
-msgstr ""
+msgstr "オプションのサブセット"
 
 #: ../../app/views/paginable/guidance_groups/_index.html.erb:25
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:34
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:44
-#: ../../app/views/paginable/templates/_history.html.erb:25
-#: ../../app/views/paginable/users/_index.html.erb:58
-msgid "No"
-msgstr ""
-
-#: ../../app/views/paginable/guidance_groups/_index.html.erb:27
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:34
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:32
 #: ../../app/views/paginable/plans/_privately_visible.html.erb:42
 #: ../../app/views/paginable/templates/_history.html.erb:25
 #: ../../app/views/paginable/users/_index.html.erb:58
+msgid "No"
+msgstr "ノー"
+
+#: ../../app/views/paginable/guidance_groups/_index.html.erb:27
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:32
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:40
+#: ../../app/views/paginable/templates/_history.html.erb:25
+#: ../../app/views/paginable/users/_index.html.erb:58
 msgid "Yes"
-msgstr ""
+msgstr "はい"
 
 #: ../../app/views/paginable/guidance_groups/_index.html.erb:45
 #: ../../app/views/paginable/guidances/_index.html.erb:56
 #: ../../app/views/paginable/templates/_customisable.html.erb:66
 #: ../../app/views/paginable/templates/_organisational.html.erb:57
 msgid "Unpublish"
-msgstr ""
+msgstr "未公開"
 
 #: ../../app/views/paginable/guidance_groups/_index.html.erb:47
 #: ../../app/views/paginable/guidances/_index.html.erb:58
 #: ../../app/views/paginable/templates/_customisable.html.erb:71
 #: ../../app/views/paginable/templates/_organisational.html.erb:62
 msgid "Publish"
-msgstr ""
+msgstr "公開する"
 
 #: ../../app/views/paginable/guidance_groups/_index.html.erb:49
 msgid ""
 "You are about to delete '%{guidance_group_name}'. This will affect guidance. A"
 "re you sure?"
-msgstr ""
+msgstr "あなたは '%{guidance_group_name}'を削除しようとしています。これはガイダンスに影響します。本気ですか？"
 
 #: ../../app/views/paginable/guidances/_index.html.erb:61
 msgid "You are about to delete '%{guidance_summary}'. Are you sure?"
-msgstr ""
+msgstr "あなたは '%{guidance_summary}'を削除しようとしています。本気ですか？"
 
 #: ../../app/views/paginable/notifications/_index.html.erb:5
 #: ../../app/views/super_admin/notifications/_form.html.erb:14
 msgid "Level"
-msgstr ""
+msgstr "レベル"
 
 #: ../../app/views/paginable/notifications/_index.html.erb:6
 #: ../../app/views/super_admin/notifications/_form.html.erb:32
 msgid "Start"
-msgstr ""
+msgstr "開始"
 
 #: ../../app/views/paginable/notifications/_index.html.erb:7
 #: ../../app/views/super_admin/notifications/_form.html.erb:40
 msgid "Expiration"
-msgstr ""
+msgstr "有効期限"
 
 #: ../../app/views/paginable/orgs/_index.html.erb:6
 msgid "Administrator Email"
-msgstr ""
+msgstr "管理者用電子メール"
 
 #: ../../app/views/paginable/orgs/_index.html.erb:7
 msgid "Organisation Type(s)"
-msgstr ""
+msgstr "組織のタイプ"
 
 #: ../../app/views/paginable/orgs/_index.html.erb:33
 msgid "You are about to delete '%{org_name}'. Are you sure?"
-msgstr ""
+msgstr "あなたは '%{org_name}'を削除しようとしています。本気ですか？"
 
 #: ../../app/views/paginable/plans/_org_admin.html.erb:5
 #: ../../app/views/paginable/plans/_organisationally_or_publicly_visible.html.erb:9
@@ -3005,29 +3044,29 @@ msgstr ""
 #: ../../app/views/paginable/plans/_publicly_visible.html.erb:5
 #: ../../app/views/plans/_show_details.html.erb:2
 msgid "Project Title"
-msgstr ""
+msgstr "プロジェクト名"
 
 #: ../../app/views/paginable/plans/_org_admin.html.erb:6
 #: ../../app/views/paginable/plans/_organisationally_or_publicly_visible.html.erb:13
 #: ../../app/views/paginable/plans/_privately_visible.html.erb:6
 #: ../../app/views/paginable/plans/_publicly_visible.html.erb:6
 msgid "Template"
-msgstr ""
+msgstr "テンプレート"
 
 #: ../../app/views/paginable/plans/_org_admin.html.erb:9
 #: ../../app/views/paginable/plans/_organisationally_or_publicly_visible.html.erb:18
 msgid "Updated"
-msgstr ""
+msgstr "更新しました"
 
 #: ../../app/views/paginable/plans/_org_admin.html.erb:28
 #: ../../app/views/paginable/plans/_privately_visible.html.erb:9
 msgid "Test"
-msgstr ""
+msgstr "テスト"
 
 #:
 #: ../../app/views/paginable/plans/_organisationally_or_publicly_visible.html.erb:21
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:63
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:69
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:61
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:67
 #: ../../app/views/paginable/plans/_publicly_visible.html.erb:9
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:6
 #: ../../app/views/plans/_navigation.html.erb:23
@@ -3040,78 +3079,74 @@ msgstr ""
 #: ../../app/views/paginable/plans/_organisationally_or_publicly_visible.html.erb:31
 #: ../../app/views/paginable/plans/_publicly_visible.html.erb:18
 msgid "Unknown"
-msgstr ""
+msgstr "未知の"
 
 #:
 #: ../../app/views/paginable/plans/_organisationally_or_publicly_visible.html.erb:34
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: ../../app/views/paginable/plans/_privately_visible.html.erb:7
 msgid "Edited"
-msgstr ""
+msgstr "編集済み"
 
 #: ../../app/views/paginable/plans/_privately_visible.html.erb:8
 msgid "Role"
 msgstr ""
 
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:11
-msgid "Shared"
-msgstr ""
-
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:31
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:29
 #: ../../app/views/paginable/users/_index.html.erb:55
 #: ../../app/views/plans/_share_form.html.erb:27
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:60
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:58
 #: ../../app/views/plans/_navigation.html.erb:18
 msgid "Share"
 msgstr ""
 
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:64
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:62
 msgid "Make a copy"
-msgstr ""
+msgstr "コピーを作成する"
 
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:66
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:64
 #: ../../app/views/paginable/templates/_history.html.erb:41
 msgid "View"
-msgstr ""
+msgstr "ビュー"
 
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:73
-msgid ""
-"Are you sure you wish to remove this public plan? This will remove it from the"
-" Public DMPs page but any collaborators will still be able to access it."
-msgstr ""
-
-#: ../../app/views/paginable/plans/_privately_visible.html.erb:73
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:71
 msgid ""
 "Are you sure you wish to remove this plan? Any collaborators will still be abl"
 "e to access it."
-msgstr ""
+msgstr "このプランを削除してもよろしいですか？共同編集者は引き続きアクセスできます。"
+
+#: ../../app/views/paginable/plans/_privately_visible.html.erb:71
+msgid ""
+"Are you sure you wish to remove this public plan? This will remove it from the"
+" Public DMPs page but any collaborators will still be able to access it."
+msgstr "この公的な計画を削除してもよろしいですか？これにより、Public DMPsページから削除されますが、共同編集者は引き続きアクセスできます。"
 
 #: ../../app/views/paginable/plans/_publicly_visible.html.erb:17
 msgid "Not Applicable"
-msgstr ""
+msgstr "適用できません"
 
 #: ../../app/views/paginable/plans/_publicly_visible.html.erb:20
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:19
 msgid "PDF <em class=\"sr-only\">(new window)</em>"
-msgstr ""
+msgstr "PDF <em class=\"sr-only\">（新しいウィンドウ）</em>"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:6
 #: ../../app/views/paginable/templates/_index.html.erb:5
 #: ../../app/views/paginable/templates/_organisational.html.erb:6
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:5
 msgid "Template Name"
-msgstr ""
+msgstr "テンプレート名"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:9
 #: ../../app/views/paginable/templates/_index.html.erb:8
 #: ../../app/views/paginable/templates/_organisational.html.erb:13
 msgid "Edited Date"
-msgstr ""
+msgstr "編集日"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:26
 msgid ""
@@ -3122,35 +3157,35 @@ msgstr ""
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:41
 msgid "Not customized"
-msgstr ""
+msgstr "カスタマイズされていない"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:57
 msgid "Transfer customisation"
-msgstr ""
+msgstr "カスタマイズの転送"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:63
 msgid "Edit customisation"
-msgstr ""
+msgstr "カスタマイズの編集"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:64
 #: ../../app/views/paginable/templates/_organisational.html.erb:55
 msgid "History"
-msgstr ""
+msgstr "歴史"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:69
 #: ../../app/views/paginable/templates/_organisational.html.erb:60
 msgid "Publish changes"
-msgstr ""
+msgstr "変更を公開する"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:77
 msgid ""
 "Are you sure you want to remove your customization of \"%{template_title}\"? Any"
 " published versions will become unavailable to users."
-msgstr ""
+msgstr "あなたは \"%{template_title}\"のカスタマイズを削除してもよろしいですか？公開されたバージョンはユーザーが利用できなくなります。"
 
 #: ../../app/views/paginable/templates/_customisable.html.erb:83
 msgid "Customise"
-msgstr ""
+msgstr "カスタマイズ"
 
 #: ../../app/views/paginable/templates/_history.html.erb:6
 msgid "Version"
@@ -3158,172 +3193,172 @@ msgstr ""
 
 #: ../../app/views/paginable/templates/_history.html.erb:33
 msgid "Edit customizations"
-msgstr ""
+msgstr "カスタマイズの編集"
 
 #: ../../app/views/paginable/templates/_history.html.erb:35
 msgid "View customizations"
-msgstr ""
+msgstr "カスタマイズの表示"
 
 #: ../../app/views/paginable/templates/_organisational.html.erb:65
 msgid "Copy"
-msgstr ""
+msgstr "COPY"
 
 #: ../../app/views/paginable/templates/_organisational.html.erb:74
 msgid ""
 "Are you sure you want to remove \"%{template_title}\"? Any published versions wi"
 "ll become unavailable to users."
-msgstr ""
+msgstr "あなたは \"%{template_title}\"を削除してもよろしいですか？公開されたバージョンはユーザーが利用できなくなります。"
 
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:7
 msgid "Organisation Name"
-msgstr ""
+msgstr "組織名"
 
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:8
 msgid "Last Updated"
-msgstr ""
+msgstr "最終更新"
 
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:10
 msgid "Sample plans are provided by a funder, an organisation or a trusted party."
-msgstr ""
+msgstr "サンプルプランは、資金提供者、組織、または信頼できる当事者によって提供されます。"
 
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:10
 msgid "Sample Plans"
-msgstr ""
+msgstr "サンプルプラン"
 
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:10
 msgid "(if available)"
-msgstr ""
+msgstr "（可能な場合は）"
 
 #: ../../app/views/paginable/templates/_publicly_visible.html.erb:18
 msgid "DOCX <em class=\"sr-only\">(new window)</em>"
-msgstr ""
+msgstr "DOCX <em class=\"sr-only\">（新しいウィンドウ）</em>"
 
 #: ../../app/views/paginable/users/_index.html.erb:11
 msgid "Created date"
-msgstr ""
+msgstr "作成日"
 
 #: ../../app/views/paginable/users/_index.html.erb:12
 msgid "Last activity"
-msgstr ""
+msgstr "最後の活動"
 
 #: ../../app/views/paginable/users/_index.html.erb:14
 msgid "Current Privileges"
-msgstr ""
+msgstr "現在の特権"
 
 #: ../../app/views/paginable/users/_index.html.erb:15
 msgid "Active"
-msgstr ""
+msgstr "アクティブ"
 
 #: ../../app/views/paginable/users/_index.html.erb:16
 msgid "Privileges"
-msgstr ""
+msgstr "特権"
 
 #: ../../app/views/paginable/users/_index.html.erb:27
 msgid "Edit Profile"
-msgstr ""
+msgstr "プロファイル編集"
 
 #: ../../app/views/phases/_overview.html.erb:5
 msgid "Instructions"
-msgstr ""
+msgstr "指示"
 
 #: ../../app/views/plans/_download_form.html.erb:2
 msgid "Download settings"
-msgstr ""
+msgstr "設定をダウンロードする"
 
 #: ../../app/views/plans/_download_form.html.erb:6
 msgid "Select phase to download"
-msgstr ""
+msgstr "ダウンロードするフェーズを選択"
 
 #: ../../app/views/plans/_download_form.html.erb:13
 msgid "Optional plan components"
-msgstr ""
+msgstr "オプションの計画コンポーネント"
 
 #: ../../app/views/plans/_download_form.html.erb:17
 msgid "project details coversheet"
-msgstr ""
+msgstr "プロジェクトの詳細カバーシート"
 
 #: ../../app/views/plans/_download_form.html.erb:23
 msgid "question text and section headings"
-msgstr ""
+msgstr "質問テキストとセクション見出し"
 
 #: ../../app/views/plans/_download_form.html.erb:29
 msgid "unanswered questions"
-msgstr ""
+msgstr "未回答の質問"
 
 #: ../../app/views/plans/_download_form.html.erb:36
 msgid "supplementary section(s) not requested by funding organisation"
-msgstr ""
+msgstr "資金調達組織によって要求されていない補足セクション"
 
 #: ../../app/views/plans/_download_form.html.erb:42
 msgid "Format"
-msgstr ""
+msgstr "フォーマット"
 
 #: ../../app/views/plans/_download_form.html.erb:51
 msgid "PDF formatting"
-msgstr ""
+msgstr "PDFフォーマット"
 
 #: ../../app/views/plans/_download_form.html.erb:54
 msgid "Font"
-msgstr ""
+msgstr "フォント"
 
 #: ../../app/views/plans/_download_form.html.erb:57
 msgid "Margin (mm)"
-msgstr ""
+msgstr "マージン（mm）"
 
 #: ../../app/views/plans/_download_form.html.erb:62
 msgid "Face"
-msgstr ""
+msgstr "面"
 
 #: ../../app/views/plans/_download_form.html.erb:70
 msgid "Size"
-msgstr ""
+msgstr "サイズ"
 
 #: ../../app/views/plans/_download_form.html.erb:78
 msgid "Top"
-msgstr ""
+msgstr "上"
 
 #: ../../app/views/plans/_download_form.html.erb:87
 msgid "Bottom"
-msgstr ""
+msgstr "ボトム"
 
 #: ../../app/views/plans/_download_form.html.erb:96
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: ../../app/views/plans/_download_form.html.erb:105
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: ../../app/views/plans/_download_form.html.erb:116
 msgid "Download Plan <em class=\"sr-only\">(new window)</em>"
-msgstr ""
+msgstr "計画をダウンロードする<em class=\"sr-only\">（新しいウィンドウ）</em>"
 
 #: ../../app/views/plans/_edit_details.html.erb:6
 msgid "Project title"
-msgstr ""
+msgstr "プロジェクト名"
 
 #: ../../app/views/plans/_edit_details.html.erb:10
 msgid "If applying for funding, state the name exactly as in the grant proposal."
-msgstr ""
+msgstr "資金援助を申請する場合は、助成金提案と同じ名前を記入してください。"
 
 #: ../../app/views/plans/_edit_details.html.erb:15
 #: ../../app/views/plans/new.html.erb:28
 msgid "mock project for testing, practice, or educational purposes"
-msgstr ""
+msgstr "テスト、練習、教育目的の模擬プロジェクト"
 
 #: ../../app/views/plans/_edit_details.html.erb:37
 msgid "Grant reference number if applicable [POST-AWARD DMPs ONLY]"
-msgstr ""
+msgstr "該当する場合は参照番号を付与する[POST  -  AWARD DMPのみ]"
 
 #: ../../app/views/plans/_edit_details.html.erb:42
 msgid "Project abstract"
-msgstr ""
+msgstr "プロジェクト概要"
 
 #: ../../app/views/plans/_edit_details.html.erb:44
 msgid ""
 "Briefly summarise your research project to help others understand the purposes"
 " for which the data are being collected or created."
-msgstr ""
+msgstr "あなたの研究プロジェクトを簡単に要約して、他の人がデータの収集または作成の目的を理解できるようにします。"
 
 #: ../../app/views/plans/_edit_details.html.erb:53
 #: ../../app/views/plans/_show_details.html.erb:10
@@ -3332,7 +3367,7 @@ msgstr ""
 
 #: ../../app/views/plans/_edit_details.html.erb:57
 msgid "A pertinent ID as determined by the funder and/or organisation."
-msgstr ""
+msgstr "ファンドおよび/または組織によって決定される適切なID。"
 
 #: ../../app/views/plans/_edit_details.html.erb:61
 #: ../../app/views/plans/_show_details.html.erb:14
@@ -3342,44 +3377,44 @@ msgstr ""
 #: ../../app/views/plans/_edit_details.html.erb:75
 #: ../../app/views/plans/_show_details.html.erb:18
 msgid "ORCID iD"
-msgstr ""
+msgstr "ORCID iD"
 
 #: ../../app/views/plans/_edit_details.html.erb:97
 #: ../../app/views/plans/_edit_details.html.erb:140
 #: ../../app/views/plans/_show_details.html.erb:28
 msgid "Phone"
-msgstr ""
+msgstr "電話"
 
 #: ../../app/views/plans/_edit_details.html.erb:108
 msgid "Data contact person"
-msgstr ""
+msgstr "データ担当者"
 
 #: ../../app/views/plans/_edit_details.html.erb:113
 msgid "Same as Principal Investigator"
-msgstr ""
+msgstr "主任研究員と同じ"
 
 #: ../../app/views/plans/_edit_details.html.erb:153
 #: ../../app/views/plans/_edit_details.html.erb:180
 msgid "Select Guidance"
-msgstr ""
+msgstr "ガイダンスの選択"
 
 #: ../../app/views/plans/_edit_details.html.erb:154
 msgid ""
 "To help you write your plan, %{application_name} can show you guidance from a "
 "variety of organisations."
-msgstr ""
+msgstr "あなたの計画を書くのを助けるために、%{application_name}はあなたに様々な組織からの指導を示すことができます。"
 
 #: ../../app/views/plans/_edit_details.html.erb:158
 msgid "Select up to 6 organisations to see their guidance."
-msgstr ""
+msgstr "ガイダンスを見るには、最大6つの組織を選択してください。"
 
 #: ../../app/views/plans/_edit_details.html.erb:165
 msgid "Find guidance from additional organisations below"
-msgstr ""
+msgstr "下記の追加組織からガイダンスを探す"
 
 #: ../../app/views/plans/_edit_details.html.erb:166
 msgid "See the full list"
-msgstr ""
+msgstr "全リストを見る"
 
 #: ../../app/views/plans/_edit_details.html.erb:182
 msgid ""
@@ -3387,43 +3422,45 @@ msgid ""
 "variety of organisations. Please choose up to 6 organisations of the following"
 " organisations who offer guidance relevant to your plan."
 msgstr ""
+"あなたの計画を書くのを助けるために、%{application_name}はあなたに様々な組織からの指導を示すことができます。あなたの計画に関連したガイダン"
+"スを提供する次の組織の6つの組織を選んでください。"
 
 #: ../../app/views/plans/_edit_details.html.erb:185
 msgid "Don't forget to save your changes after making your selections."
-msgstr ""
+msgstr "選択した後、変更を保存することを忘れないでください。"
 
 #: ../../app/views/plans/_navigation.html.erb:4
 msgid "Project Details"
-msgstr ""
+msgstr "プロジェクトの詳細"
 
 #: ../../app/views/plans/_navigation.html.erb:7
 msgid "Plan overview"
-msgstr ""
+msgstr "計画の概要"
 
 #: ../../app/views/plans/_navigation.html.erb:12
 msgid "Write Plan"
-msgstr ""
+msgstr "書き込みプラン"
 
 #: ../../app/views/plans/_overview_details.html.erb:9
 msgid ""
 "This plan is based on the \"%{template_title}\" template provided by %{org_name}"
 "."
-msgstr ""
+msgstr "この計画は、%{org_name}が提供する「%{template_title}」テンプレートに基づいています。"
 
 #: ../../app/views/plans/_overview_details.html.erb:34
 msgid "%{phase_title} (%{sections_size} %{sections}, %{questions_size} %{questions})"
-msgstr ""
+msgstr "%{sections_size}（%{sections_size} %{sections}、%{questions_size} %{questions}）"
 
 #: ../../app/views/plans/_overview_details.html.erb:35
 msgid "section"
 msgid_plural "sections"
-msgstr[0] ""
+msgstr[0] "セクション"
 msgstr[1] ""
 
 #: ../../app/views/plans/_overview_details.html.erb:37
 msgid "question"
 msgid_plural "questions"
-msgstr[0] ""
+msgstr[0] "質問"
 msgstr[1] ""
 
 #: ../../app/views/plans/_share_form.html.erb:1
@@ -3436,31 +3473,33 @@ msgid ""
 "nswer at least %{percentage}%% of the questions to enable these options. Note:"
 " test plans are set to private visibility by default."
 msgstr ""
+"公共または組織の可視性は、完成した計画を対象としています。これらのオプションを有効にするには、少なくとも%{percentage} %%の質問に回答する必要"
+"があります。注：テスト計画はデフォルトでプライベートな表示に設定されています。"
 
 #: ../../app/views/plans/_share_form.html.erb:10
 msgid ""
 "Private: visible to me, specified collaborators and administrators at my organ"
 "isation"
-msgstr ""
+msgstr "非公開：私の目に見える、指定された共同編集者、管理者"
 
 #: ../../app/views/plans/_share_form.html.erb:16
 #: ../../app/views/user_mailer/plan_visibility.html.erb:18
 msgid "Organisation: anyone at my organisation can view"
-msgstr ""
+msgstr "組織：自分の組織の誰でも閲覧できます"
 
 #: ../../app/views/plans/_share_form.html.erb:22
 msgid "Public: anyone can view"
-msgstr ""
+msgstr "公開：誰でも閲覧できます"
 
 #: ../../app/views/plans/_share_form.html.erb:32
 msgid "Manage collaborators"
-msgstr ""
+msgstr "共同編集者を管理する"
 
 #: ../../app/views/plans/_share_form.html.erb:33
 msgid ""
 "Invite specific people to read, edit, or administer your plan. Invitees will r"
 "eceive an email notification that they have access to this plan."
-msgstr ""
+msgstr "特定の人にプランを読んだり、編集したり、管理したりしてもらいましょう。招待者には、このプランへのアクセス権がある旨の電子メール通知が届きます。"
 
 #: ../../app/views/plans/_share_form.html.erb:39
 msgid "Email address"
@@ -3469,45 +3508,45 @@ msgstr ""
 #: ../../app/views/plans/_share_form.html.erb:40
 #: ../../app/views/plans/_share_form.html.erb:91
 msgid "Permissions"
-msgstr ""
+msgstr "アクセス許可"
 
 #: ../../app/views/plans/_share_form.html.erb:68
 msgid "Are you sure?"
-msgstr ""
+msgstr "本気ですか？"
 
 #: ../../app/views/plans/_share_form.html.erb:78
 msgid "Invite collaborators"
-msgstr ""
+msgstr "共同編集者を招待する"
 
 #: ../../app/views/plans/_share_form.html.erb:96
 msgid "Co-owner: can edit project details, change visibility, and add collaborators"
-msgstr ""
+msgstr "共同オーナー：プロジェクトの詳細を編集したり、公開設定を変更したり、共同編集者を追加することができます"
 
 #: ../../app/views/plans/_share_form.html.erb:102
 msgid "Editor: can comment and make changes"
-msgstr ""
+msgstr "エディタ：コメントや変更が可能"
 
 #: ../../app/views/plans/_share_form.html.erb:108
 msgid "Read only: can view and comment, but not make changes"
-msgstr ""
+msgstr "読み取り専用：表示とコメントはできますが、変更はできません"
 
 #: ../../app/views/plans/_share_form.html.erb:120
 msgid "Request expert feedback"
-msgstr ""
+msgstr "エキスパートからのフィードバック"
 
 #: ../../app/views/plans/_share_form.html.erb:121
 msgid ""
 "Click below to give data management staff at your organisation access to read "
 "and comment on your plan."
-msgstr ""
+msgstr "下記をクリックすると、組織のデータ管理担当者がプランを読んでコメントにアクセスできます。"
 
 #: ../../app/views/plans/_share_form.html.erb:125
 msgid "You can continue to edit and download the plan in the interim."
-msgstr ""
+msgstr "途中で計画を編集してダウンロードし続けることができます。"
 
 #: ../../app/views/plans/_share_form.html.erb:132
 msgid "Feedback has been requested."
-msgstr ""
+msgstr "フィードバックが要求されました。"
 
 #: ../../app/views/plans/_show_details.html.erb:6
 msgid "Grant Number"
@@ -3515,94 +3554,98 @@ msgstr ""
 
 #: ../../app/views/plans/_show_details.html.erb:8
 msgid "Project Abstract"
-msgstr ""
+msgstr "プロジェクト概要"
 
 #: ../../app/views/plans/_show_details.html.erb:24
 msgid "Data Contact Person"
-msgstr ""
+msgstr "データ担当者"
 
-#: ../../app/views/plans/index.html.erb:8
+#: ../../app/views/plans/index.html.erb:9
 msgid ""
 "The table below lists the plans that you have created, and that have been shar"
 "ed with you by others. You can edit, share, download, make a copy, or remove t"
 "hese plans at any time."
 msgstr ""
-
-#: ../../app/views/plans/index.html.erb:10
-msgid "Welcome"
-msgstr ""
+"次の表には、作成したプランと、他のプランによって共有されたプランがリストされています。これらのプランをいつでも編集、共有、ダウンロード、コピー、または削除す"
+"ることができます。"
 
 #: ../../app/views/plans/index.html.erb:11
-msgid "You are now ready to create your first DMP."
-msgstr ""
+msgid "Welcome"
+msgstr "ようこそ"
 
 #: ../../app/views/plans/index.html.erb:12
-msgid "Click the 'Create plan' button below to begin."
-msgstr ""
+msgid "You are now ready to create your first DMP."
+msgstr "これで、最初のDMPを作成する準備が整いました。"
 
-#: ../../app/views/plans/index.html.erb:29
+#: ../../app/views/plans/index.html.erb:13
+msgid "Click the 'Create plan' button below to begin."
+msgstr "下の[プラン作成]ボタンをクリックして開始してください。"
+
+#: ../../app/views/plans/index.html.erb:31
 #: ../../app/views/plans/new.html.erb:107
 msgid "Create plan"
 msgstr ""
 
-#: ../../app/views/plans/index.html.erb:35
+#: ../../app/views/plans/index.html.erb:38
 msgid "%{org_title} Plans"
-msgstr ""
+msgstr "%{org_title}計画"
 
-#: ../../app/views/plans/index.html.erb:36
+#: ../../app/views/plans/index.html.erb:39
 msgid ""
 "The table below lists the plans that users at your organisation have created a"
 "nd shared within your organisation. This allows you to download a PDF and view"
 " their plans as samples or to discover new research data."
 msgstr ""
+"次の表は、組織内のユーザーが組織内で作成および共有している計画を示しています。これにより、PDFをダウンロードし、その計画をサンプルとして表示したり、新しい"
+"研究データを発見したりすることができます。"
 
 #: ../../app/views/plans/new.html.erb:1 ../../app/views/plans/new.html.erb:4
 msgid "Create a new plan"
-msgstr ""
+msgstr "新しい計画を作成する"
 
 #: ../../app/views/plans/new.html.erb:7
 msgid ""
 "Before you get started, we need some information about your research project t"
 "o set you up with the best DMP template for your needs."
-msgstr ""
+msgstr "開始する前に、あなたのニーズに合った最適なDMPテンプレートを設定するためのリサーチプロジェクトについての情報が必要です。"
 
 #: ../../app/views/plans/new.html.erb:16
 msgid "What research project are you planning?"
-msgstr ""
+msgstr "どのような研究プロジェクトを計画していますか？"
 
 #: ../../app/views/plans/new.html.erb:21
 msgid "If applying for funding, state the project title exactly as in the proposal."
-msgstr ""
+msgstr "資金援助を申請する場合は、プロポーザルとまったく同じプロジェクト名を記載してください。"
 
 #: ../../app/views/plans/new.html.erb:36
 msgid "You must select a research organisation from the list or click the checkbox."
-msgstr ""
+msgstr "リストから研究組織を選択するか、チェックボックスをクリックする必要があります。"
 
 #: ../../app/views/plans/new.html.erb:37
 msgid "Select the primary research organisation"
-msgstr ""
+msgstr "主要研究機関を選択する"
 
 #: ../../app/views/plans/new.html.erb:48
 msgid "You must select a research organisation from the list."
-msgstr ""
+msgstr "リストから研究組織を選択する必要があります。"
 
 #: ../../app/views/plans/new.html.erb:49
 msgid "Please select a valid research organisation from the list."
-msgstr ""
+msgstr "リストから有効な研究機関を選択してください。"
 
 #: ../../app/views/plans/new.html.erb:54
 msgid ""
 "No research organisation associated with this plan or my research organisation"
 " is not listed"
-msgstr ""
-
-#: ../../app/views/plans/new.html.erb:64
-msgid "You must select a funder from the list or click the checkbox."
-msgstr ""
+msgstr "この計画に関連する研究機関や私の研究機関はリストに載っていません"
 
 #: ../../app/views/plans/new.html.erb:64
 msgid "Select the primary funding organisation"
-msgstr ""
+msgstr "主要な資金調達組織を選択する"
+
+#: ../../app/views/plans/new.html.erb:64
+msgid "You must select a funder from the list or click the checkbox."
+msgstr "リストから資金を選択するか、チェックボックスをクリックする必要があります。"
 
 #: ../../app/views/plans/new.html.erb:74
 msgid "You must select a funding organisation from the list."
@@ -3610,19 +3653,19 @@ msgstr ""
 
 #: ../../app/views/plans/new.html.erb:75
 msgid "Please select a valid funding organisation from the list."
-msgstr ""
+msgstr "リストから有効な資金調達組織を選択してください。"
 
 #: ../../app/views/plans/new.html.erb:80
 msgid "No funder associated with this plan or my funder is not listed"
-msgstr ""
+msgstr "このプランに関連した資金提供者がいないか、または私の資金提供者が記載されていません"
 
 #: ../../app/views/plans/new.html.erb:92
 msgid "Which DMP template would you like to use?"
-msgstr ""
+msgstr "どのDMPテンプレートを使用しますか？"
 
 #: ../../app/views/plans/new.html.erb:100
 msgid "We found multiple DMP templates corresponding to your funder."
-msgstr ""
+msgstr "あなたのファンドに対応する複数のDMPテンプレートが見つかりました。"
 
 #: ../../app/views/public_pages/plan_index.html.erb:8
 msgid ""
@@ -3630,15 +3673,17 @@ msgid ""
 " publicly by their owners. They are not vetted for quality, completeness, or a"
 "dherence to funder guidelines."
 msgstr ""
+"パブリックDMPは、%{application_name}サービスを使用して作成され、所有者が公に共有する計画です。彼らは、品質、完全性、または資金提供者の"
+"ガイドラインへの遵守について審査されていません。"
 
 #: ../../app/views/public_pages/plan_index.html.erb:12
 msgid "There are currently no public DMPs."
-msgstr ""
+msgstr "現在のところ、公開DMPはありません。"
 
 #: ../../app/views/public_pages/template_export.docx.erb:39
 #: ../../app/views/public_pages/template_export.pdf.erb:81
 msgid "Example Answer"
-msgstr ""
+msgstr "回答例"
 
 #: ../../app/views/public_pages/template_index.html.erb:6
 msgid "Templates are provided by a funder, an organisation, or a trusted party."
@@ -3646,39 +3691,39 @@ msgstr ""
 
 #: ../../app/views/public_pages/template_index.html.erb:8
 msgid "There are currently no public Templates."
-msgstr ""
+msgstr "現在、公開テンプレートはありません。"
 
 #: ../../app/views/questions/_new_edit_question_option_based.html.erb:42
 msgid "Additional Information"
-msgstr ""
+msgstr "追加情報"
 
 #: ../../app/views/questions/_preview_question.html.erb:78
 msgid "Comment"
-msgstr ""
+msgstr "コメント"
 
 #: ../../app/views/questions/_preview_question.html.erb:103
 msgid "Text field"
-msgstr ""
+msgstr "テキストフィールド"
 
 #: ../../app/views/questions/_preview_question.html.erb:106
 msgid "Text area"
-msgstr ""
+msgstr "テキスト領域"
 
 #: ../../app/views/questions/_preview_question.html.erb:113
 msgid "Not answered yet"
-msgstr ""
+msgstr "まだ答えられていない"
 
 #: ../../app/views/shared/_accessible_combobox.html.erb:5
 msgid "Please select an item from the list."
-msgstr ""
+msgstr "リストから項目を選択してください。"
 
 #: ../../app/views/shared/_accessible_combobox.html.erb:13
 msgid "Begin typing to see a filtered list"
-msgstr ""
+msgstr "入力を開始してフィルタリングされたリストを表示する"
 
 #: ../../app/views/shared/_accessible_combobox.html.erb:39
 msgid "No items available."
-msgstr ""
+msgstr "商品がありません。"
 
 #: ../../app/views/shared/_create_account_form.html.erb:4
 msgid "First Name"
@@ -3686,58 +3731,58 @@ msgstr ""
 
 #: ../../app/views/shared/_create_account_form.html.erb:8
 msgid "Last Name"
-msgstr ""
+msgstr "苗字"
 
 #: ../../app/views/shared/_create_account_form.html.erb:37
 msgid "I accept the"
-msgstr ""
+msgstr "私は"
 
 #: ../../app/views/shared/_create_account_form.html.erb:38
 msgid "terms and conditions"
-msgstr ""
+msgstr "規約と条件"
 
 #: ../../app/views/shared/_links.html.erb:5
 msgid "Links"
-msgstr ""
+msgstr "リンク"
 
 #: ../../app/views/shared/_links.html.erb:6
 msgid "Up to "
-msgstr ""
+msgstr "まで"
 
 #: ../../app/views/shared/_links.html.erb:49
 msgid "+ Add an additional URL"
-msgstr ""
+msgstr "+追加のURLを追加する"
 
 #: ../../app/views/shared/_my_org.html.erb:16
 #: ../../app/views/shared/_my_org.html.erb:21
 msgid ""
 "Please select an organisation from the list, or click the \"My organisation isn"
 "'t listed\" link and enter your organisation's name."
-msgstr ""
+msgstr "リストから組織を選択するか、[自分の組織は表示されていません]リンクをクリックして、組織の名前を入力してください。"
 
 #: ../../app/views/shared/_my_org.html.erb:29
 msgid "My organisation isn't listed."
-msgstr ""
+msgstr "私の組織はリストされていません。"
 
 #: ../../app/views/shared/_my_org.html.erb:33
 msgid "Please enter the name of your organisation"
-msgstr ""
+msgstr "あなたの組織の名前を入力してください"
 
 #: ../../app/views/shared/_search.html.erb:11
 msgid "Search"
-msgstr ""
+msgstr "サーチ"
 
 #: ../../app/views/shared/_sign_in_form.html.erb:11
 msgid "Forgot password?"
-msgstr ""
+msgstr "パスワードをお忘れですか？"
 
 #: ../../app/views/shared/_sign_in_form.html.erb:16
 msgid "Remember email"
-msgstr ""
+msgstr "メールアドレスを記憶する"
 
 #: ../../app/views/shared/_sign_in_form.html.erb:27
 msgid "Sign in with your institutional credentials"
-msgstr ""
+msgstr "あなたの機関の資格情報でサインインする"
 
 #: ../../app/views/shared/_table_filter.html.erb:4
 msgid "Filter plans"
@@ -3746,20 +3791,20 @@ msgstr ""
 #: ../../app/views/shared/_table_filter.html.erb:11
 #: ../../app/views/shared/_table_filter.html.erb:12
 msgid "Remove the filter"
-msgstr ""
+msgstr "フィルターを取り外す"
 
 #: ../../app/views/shared/export/_plan_coversheet.erb:4
 msgid "A Data Management Plan created using "
-msgstr ""
+msgstr "を使用して作成されたデータ管理計画"
 
 #: ../../app/views/shared/export/_plan_coversheet.erb:12
 #: ../../app/views/shared/export/_plan_txt.erb:5
 msgid "Affiliation: "
-msgstr ""
+msgstr "所属："
 
 #: ../../app/views/shared/export/_plan_coversheet.erb:21
 msgid "ORCID iD: "
-msgstr ""
+msgstr "ORCID iD："
 
 #: ../../app/views/shared/export/_plan_coversheet.erb:39
 #: ../../app/views/shared/export/_plan_txt.erb:20
@@ -3770,15 +3815,18 @@ msgid ""
 "sed, but using any of the plan's text does not imply that the creator(s) endor"
 "se, or have any relationship to, your project or proposal"
 msgstr ""
+" 上記のプラン作成者は、他の人が自分の計画でこのプランのテキストを多く使用し、必要に応じてカスタマイズできることに合意しました。作成者を使用言語のソースとし"
+"てクレジットする必要はありませんが、計画のテキストのいずれかを使用しても、クリエイターがプロジェクトまたはプロポーザルを推奨または関連していることを意味する"
+"ものではありません"
 
 #: ../../app/views/shared/export/_plan_txt.erb:62
 msgid "A Data Management Plan created using %{application_name}"
-msgstr ""
+msgstr "%{application_name}を使用して作成されたデータ管理計画"
 
 #: ../../app/views/static_pages/about_us.html.erb:1
 #: ../../app/views/static_pages/about_us.html.erb:4
 msgid "About %{application_name}"
-msgstr ""
+msgstr "%{application_name}について"
 
 #: ../../app/views/static_pages/about_us.html.erb:11
 msgid ""
@@ -3791,10 +3839,14 @@ msgid ""
 "researcher through the process of generating a comprehensive plan tailored to "
 "specific DMP requirements."
 msgstr ""
+"今日の学術研究者は、組織の方針を遵守するため、または出版や助成金の前提条件として、さまざまなデータ管理活動に従事する必要性がますます高まっています。研究者が"
+"効果的なデータ管理計画（DMP）を作成するのを助けるため、資金提供者や大学と緊密に協力して、オンラインアプリケーションDMPRoadmapを開発しました。こ"
+"のツールは、詳細なガイダンスと一般的なリソースおよび組織的なリソースへのリンクを提供し、特定のDMP要件に合わせた包括的なプランを生成するプロセスを通して研"
+"究者を案内します。"
 
 #: ../../app/views/static_pages/about_us.html.erb:13
 msgid "DMP Background"
-msgstr ""
+msgstr "DMPの背景"
 
 #: ../../app/views/static_pages/about_us.html.erb:15
 msgid ""
@@ -3802,10 +3854,12 @@ msgid ""
 "e developed and delivered tools for data management planning since the advent "
 "of open data policies in 2011. "
 msgstr ""
+"カリフォルニア州立図書館のDigital Curation CenterとUC3チームは、2011年のオープンデータ政策の到来以来、データ管理計画のためのツ"
+"ールを開発し、提供してきました。"
 
 #: ../../app/views/static_pages/about_us.html.erb:16
 msgid " (DCC-UK) and "
-msgstr ""
+msgstr " （DCC-UK）および"
 
 #: ../../app/views/static_pages/about_us.html.erb:17
 msgid ""
@@ -3825,42 +3879,44 @@ msgid ""
 "nfrastructure for DMPs. Future enhancements will focus on making DMPs machine "
 "actionable so please continue sharing your use cases."
 msgstr ""
+"新しいプラットフォームは、各チームがその上で動作するサービスとは別個のものになります。私たちの共通目標：DMPのコアインフラストラクチャとしてDMPRoad"
+"mapプラットフォームを組み合わせて提供します。今後の拡張は、DMPを機械で実行可能にすることに重点を置くので、引き続きユースケースを共有してください。"
 
 #: ../../app/views/static_pages/about_us.html.erb:21
 msgid "We invite you to peruse the DMPRoadmap GitHub wiki to learn how to "
-msgstr ""
+msgstr "DMPRoadmap GitHub wikiを熟読して"
+
+#: ../../app/views/static_pages/about_us.html.erb:21
+msgid " in the project. You can also report bugs and request new features via "
+msgstr " プロジェクトでバグを報告したり、新しい機能をリクエストすることもできます"
 
 #: ../../app/views/static_pages/about_us.html.erb:21
 msgid "get involved<em class=\"sr-only\"> (new window)</em>"
 msgstr ""
 
-#: ../../app/views/static_pages/about_us.html.erb:21
-msgid " in the project. You can also report bugs and request new features via "
-msgstr ""
-
 #: ../../app/views/static_pages/about_us.html.erb:22
 msgid "GitHub Issues"
-msgstr ""
+msgstr "GitHubの問題"
 
 #: ../../app/views/static_pages/about_us.html.erb:24
 msgid "Getting Started"
-msgstr ""
+msgstr "入門"
 
 #: ../../app/views/static_pages/about_us.html.erb:26
 msgid "If you have an account please sign in and start creating or editing your DMP."
 msgstr ""
 
 #: ../../app/views/static_pages/about_us.html.erb:27
+msgid "on the homepage."
+msgstr "ホームページに"
+
+#: ../../app/views/static_pages/about_us.html.erb:27
 msgid "If you do not have a %{application_name} account, click on"
-msgstr ""
+msgstr "%{application_name}アカウントをお持ちでない場合は、をクリックしてください"
 
 #: ../../app/views/static_pages/about_us.html.erb:27
 msgid "Sign up"
-msgstr ""
-
-#: ../../app/views/static_pages/about_us.html.erb:27
-msgid "on the homepage."
-msgstr ""
+msgstr "サインアップ"
 
 #: ../../app/views/static_pages/about_us.html.erb:28
 msgid "Please visit the"
@@ -3872,7 +3928,7 @@ msgstr ""
 
 #: ../../app/views/static_pages/about_us.html.erb:30
 msgid "Customising for your Organisation"
-msgstr ""
+msgstr "組織のカスタマイズ"
 
 #: ../../app/views/static_pages/about_us.html.erb:32
 msgid ""
@@ -3882,6 +3938,9 @@ msgid ""
 "mplates. Users from participating organisations that configure the tool for si"
 "ngle sign-on can log in with their own organisational accounts."
 msgstr ""
+"組織は、ツールをカスタマイズして、ローカルの要件、リソース、およびサービスを強調表示できます。ローカルのDMP要件に対応するために組織テンプレートを追加する"
+"ことができます。また、追加のセクションや質問をファンダリテンプレートに含めることもできます。シングルサインオン用のツールを構成する参加組織のユーザーは、独自"
+"の組織アカウントでログインできます。"
 
 #: ../../app/views/static_pages/help.html.erb:11
 msgid ""
@@ -3889,10 +3948,12 @@ msgid ""
 " From here you can edit, share, download, copy or remove any of your plans. Yo"
 "u will also see plans that have been shared with you by others."
 msgstr ""
+"DMPRoadmapにログインすると、[マイダッシュボード]ページに移動します。ここから、あなたの計画を編集、共有、ダウンロード、コピー、または削除すること"
+"ができます。他の人があなたと共有している計画も表示されます。"
 
 #: ../../app/views/static_pages/help.html.erb:13
 msgid "Create a plan"
-msgstr ""
+msgstr "計画を作成する"
 
 #: ../../app/views/static_pages/help.html.erb:15
 msgid ""
@@ -3901,26 +3962,28 @@ msgid ""
 " questions and guidance you should be presented with. Confirm your selection b"
 "y clicking 'Create plan.'"
 msgstr ""
+"プランを作成するには、[マイダッシュボード]ページまたはトップメニューから[プランを作成]ボタンをクリックします。どの質問や指針を提示するかは、メニューやテ"
+"ィックボックスからオプションを選択して決定してください。 [プランを作成]をクリックして選択内容を確認します。"
 
 #: ../../app/views/static_pages/help.html.erb:17
 msgid "Write your plan"
-msgstr ""
+msgstr "あなたの計画を書く"
 
 #: ../../app/views/static_pages/help.html.erb:19
 msgid ""
 "The tabbed interface allows you to navigate through different functions when e"
 "diting your plan."
-msgstr ""
+msgstr "タブ付きインタフェースを使用すると、プランを編集するときにさまざまな機能をナビゲートできます。"
 
 #: ../../app/views/static_pages/help.html.erb:21
 msgid "'Project Details' includes basic administrative details."
-msgstr ""
+msgstr "「プロジェクトの詳細」には基本的な管理の詳細が含まれます。"
 
 #: ../../app/views/static_pages/help.html.erb:22
 msgid ""
 "'Plan Overview' tells you what template and guidance your plan is based on and"
 " gives you an overview to the questions that you will be asked."
-msgstr ""
+msgstr "「計画の概要」では、計画の基礎となるテンプレートとガイダンスが表示され、質問される質問の概要が示されます。"
 
 #: ../../app/views/static_pages/help.html.erb:23
 msgid ""
@@ -3931,13 +3994,13 @@ msgstr ""
 
 #: ../../app/views/static_pages/help.html.erb:24
 msgid "'Share' allows you to invite others to read or contribute to your plan."
-msgstr ""
+msgstr "「共有」では、他の人にあなたの計画を読んだり、貢献したりすることができます。"
 
 #: ../../app/views/static_pages/help.html.erb:25
 msgid ""
 "'Download' allows you to download your plan in various formats. This may be us"
 "eful if you need to submit your plan as part of a grant application."
-msgstr ""
+msgstr "'ダウンロード'を使用すると、さまざまな形式でプランをダウンロードできます。これは、助成金申請書の一部としてあなたの計画を提出する必要がある場合に便利です。"
 
 #: ../../app/views/static_pages/help.html.erb:28
 msgid ""
@@ -3945,16 +4008,18 @@ msgid ""
 "your plan displayed. Click into these in turn to answer the questions. You can"
 " format your responses using the text editing buttons."
 msgstr ""
+"質問タブのいずれかを表示すると、プランのさまざまなセクションが表示されます。これらを順番にクリックすると、質問に答えることができます。テキスト編集ボタンを使"
+"用して応答をフォーマットすることができます。"
 
 #: ../../app/views/static_pages/help.html.erb:30
 msgid ""
 "Guidance is displayed in the right-hand panel. If you need more guidance or fi"
 "nd there is too much, you can make adjustments on the ‘Project Details’ tab."
-msgstr ""
+msgstr "ガイダンスが右側のパネルに表示されます。より多くのガイダンスが必要な場合や、余裕がある場合は、[プロジェクトの詳細]タブで調整できます。"
 
 #: ../../app/views/static_pages/help.html.erb:32
 msgid "Share plans"
-msgstr ""
+msgstr "計画を共有する"
 
 #: ../../app/views/static_pages/help.html.erb:34
 msgid ""
@@ -3963,22 +4028,24 @@ msgid ""
 "via the radio buttons and click to 'Add collaborator.' Adjust permissions or r"
 "emove collaborators at any time via the drop-down options."
 msgstr ""
+"招待する共同編集者のメールアドレスを、プランの閲覧や編集に挿入します。ラジオボタンを使用して許可する権限のレベルを設定し、[共同編集者を追加]をクリックしま"
+"す。ドロップダウンオプションを使用して、いつでも権限を調整したり共同編集者を削除したりできます。"
 
 #: ../../app/views/static_pages/help.html.erb:36
 msgid "The ‘Share’ tab is also where you can set your plan visibility."
-msgstr ""
+msgstr "[共有]タブでは、プランの可視性を設定することもできます。"
 
 #: ../../app/views/static_pages/help.html.erb:38
 msgid "Private: restricted to you and your collaborators."
-msgstr ""
+msgstr "非公開：あなたとあなたの協力者だけに制限されます。"
 
 #: ../../app/views/static_pages/help.html.erb:39
 msgid "Organisational: anyone at your organisation can view your plan."
-msgstr ""
+msgstr "組織：あなたの組織の誰でもあなたの計画を見ることができます。"
 
 #: ../../app/views/static_pages/help.html.erb:40
 msgid "Public: anyone can view your plan in the Public DMPs list."
-msgstr ""
+msgstr "公開：誰でもあなたのプランを公開DMPリストで見ることができます。"
 
 #: ../../app/views/static_pages/help.html.erb:43
 msgid ""
@@ -3986,6 +4053,8 @@ msgid ""
 "’ and ‘Organisational’ visibility are intended for finished plans. You must an"
 "swer at least 50% of the questions to enable these options."
 msgstr ""
+"デフォルトでは、すべての新規計画とテスト計画は「プライベート」可視性に設定されます。 「パブリック」および「組織的」可視性は、完成した計画を対象としています"
+"。これらのオプションを有効にするには、質問の少なくとも50％に回答する必要があります。"
 
 #: ../../app/views/static_pages/help.html.erb:46
 msgid ""
@@ -3996,10 +4065,13 @@ msgid ""
 "o each question. You will be notified by email when an administrator provides "
 "feedback."
 msgstr ""
+"あなたの計画についてフィードバックを求めるオプションもあります。これは、組織の研究サポートスタッフがこのサービスを有効にしている場合に利用できます。 [Fe"
+"edback]をクリックすると、あなたのローカル管理者にあなたの要求が通知されます。それらのコメントは、各質問に隣接する「コメント」フィールドに表示されます"
+"。管理者がフィードバックを送信すると、電子メールで通知されます。"
 
 #: ../../app/views/static_pages/help.html.erb:49
 msgid "Download plans"
-msgstr ""
+msgstr "計画をダウンロードする"
 
 #: ../../app/views/static_pages/help.html.erb:50
 msgid ""
@@ -4009,10 +4081,13 @@ msgid ""
 " also adjust the formatting (font type, size and margins) for PDF files, which"
 " may be helpful if working to page limits.</p>"
 msgstr ""
+"ここからさまざまな形式でプランをダウンロードできます。これは、助成金申請書の一部としてあなたの計画を提出する必要がある場合に便利です。表示/ダウンロードした"
+"いプランを選択し、クリックしてダウンロードしてください。また、PDFファイルの書式（フォントの種類、サイズ、余白）を調整することもできます。これは、ページ制"
+"限に役立つ場合に役立ちます。 </p>"
 
 #: ../../app/views/static_pages/privacy.html.erb:10
 msgid "Information about you: how we use it and with whom we share it"
-msgstr ""
+msgstr "あなたに関する情報：私たちはそれをどのように利用するのか"
 
 #: ../../app/views/static_pages/privacy.html.erb:11
 msgid ""
@@ -4026,12 +4101,14 @@ msgid ""
 "der to deliver and improve the %{application_name} service in a customised man"
 "ner and to ensure each user receives relevant information."
 msgstr ""
+"%{org_name}は、%{application_name}ユーザーの個人データを処理して、%{application_name}サービスをカスタマイズ"
+"して提供し、各ユーザーが関連情報を確実に受け取るようにします。"
 
 #: ../../app/views/static_pages/privacy.html.erb:15
 msgid ""
 "The processing of your personal data by the %{org_name} is necessary for pursu"
 "ing the following legitimate interests:"
-msgstr ""
+msgstr "%{org_name}によるお客様の個人情報の処理は、以下の正当な利益を追求するために必要です。"
 
 #: ../../app/views/static_pages/privacy.html.erb:18
 msgid ""
@@ -4039,6 +4116,8 @@ msgid ""
 "ur user experience e.g. provision of relevant templates and guidance for your "
 "organisation."
 msgstr ""
+"%{application_name}サービスへのアクセスとユーザーエクスペリエンスのパーソナライゼーションを提供する。関連するテンプレートの提供、組織への"
+"ガイダンスを提供します。"
 
 #: ../../app/views/static_pages/privacy.html.erb:20
 msgid ""
@@ -4057,18 +4136,22 @@ msgid ""
 "s service upon request to the %{application_name} team within a period of 30 d"
 "ays."
 msgstr ""
+"%{application_name}サービスを引き続き使用する限り、私たちが提供した個人情報は保持されます。お客様の個人情報は、30日以内に%{appli"
+"cation_name}チームの要請に応じてこのサービスから削除することができます。"
 
 #: ../../app/views/static_pages/privacy.html.erb:26
 msgid ""
 "If you have any questions, please contact the %{application_name} team at: <a "
 "href='mailto:%{helpdesk_email}'>%{helpdesk_email}</a>"
 msgstr ""
+"ご不明な点がございましたら、%{application_name}チーム%{helpdesk_email}までご連絡ください<a href='mailto:"
+"%{helpdesk_email}'>。</a>"
 
 #: ../../app/views/static_pages/privacy.html.erb:30
 msgid ""
 "This statement was last revised on %{revdate} and may be revised at any time w"
 "ith prior notice."
-msgstr ""
+msgstr "この声明は%{revdate}で最後に改訂されたものであり、事前通知を受けていつでも改訂することができます。"
 
 #: ../../app/views/static_pages/termsuse.html.erb:12
 msgid ""
@@ -4080,7 +4163,7 @@ msgstr ""
 
 #: ../../app/views/static_pages/termsuse.html.erb:14
 msgid "DMPRoadmap"
-msgstr ""
+msgstr "DMPRoadmap"
 
 #: ../../app/views/static_pages/termsuse.html.erb:16
 msgid ""
@@ -4088,6 +4171,8 @@ msgid ""
 "s a shared resource for the research community. It is hosted at CDL by the Uni"
 "versity of California Curation Center."
 msgstr ""
+"DMPRoadmap（ 'ツール'、 'システム'）は、DCCとCDLが研究コミュニティの共有リソースとして開発したツールです。カリフォルニア大学カレッジ・"
+"センターによってCDLで開催されています。"
 
 #: ../../app/views/static_pages/termsuse.html.erb:18
 msgid ""
@@ -4156,28 +4241,30 @@ msgid ""
 "yed in orange.<br/><strong>Danger:</strong> error message, for anything critic"
 "al, displayed in red"
 msgstr ""
+"<strong>Info：</strong>青色で表示される簡単な情報メッセージ。 <br/> <strong>警告：</strong>珍しいものを通知する"
+"警告メッセージがオレンジ色で表示されます。 <br/> <strong>危険：</strong>エラーメッセージ、何かクリティカル、赤色で表示"
 
 #: ../../app/views/super_admin/notifications/_form.html.erb:26
 msgid "Dismissable"
-msgstr ""
+msgstr "却下可能"
 
 #: ../../app/views/super_admin/notifications/_form.html.erb:49
 msgid "Body"
-msgstr ""
+msgstr "体"
 
 #: ../../app/views/super_admin/notifications/_form.html.erb:63
 msgid "Are you sure you want to delete the notification \"%{title}\""
-msgstr ""
+msgstr "「%{title}」という通知を削除してもよろしいですか？"
 
 #: ../../app/views/super_admin/notifications/edit.html.erb:1
 #: ../../app/views/super_admin/notifications/edit.html.erb:3
 msgid "Editing Notification"
-msgstr ""
+msgstr "通知の編集"
 
 #: ../../app/views/super_admin/notifications/edit.html.erb:4
 #: ../../app/views/super_admin/notifications/new.html.erb:4
 msgid "View all notifications"
-msgstr ""
+msgstr "すべての通知を表示"
 
 #: ../../app/views/super_admin/notifications/index.html.erb:10
 msgid "+ Add New Notification"
@@ -4185,49 +4272,49 @@ msgstr ""
 
 #: ../../app/views/super_admin/notifications/new.html.erb:1
 msgid "New notification"
-msgstr ""
+msgstr "新しい通知"
 
 #: ../../app/views/super_admin/notifications/new.html.erb:3
 msgid "New Notification"
-msgstr ""
+msgstr "新しい通知"
 
 #: ../../app/views/super_admin/orgs/index.html.erb:8
 msgid "Create Organisation"
-msgstr ""
+msgstr "組織の作成"
 
 #: ../../app/views/super_admin/themes/_form.html.erb:17
 msgid "Are you sure you want to delete the theme \"%{title}\"?"
-msgstr ""
+msgstr "テーマ「%{title}」を削除してもよろしいですか？"
 
 #: ../../app/views/super_admin/themes/edit.html.erb:3
 #: ../../app/views/super_admin/themes/new.html.erb:3
 msgid "View all themes"
-msgstr ""
+msgstr "すべてのテーマを表示"
 
 #: ../../app/views/super_admin/themes/index.html.erb:10
 msgid "+ Add New Theme"
-msgstr ""
+msgstr "+新しいテーマを追加"
 
 #: ../../app/views/super_admin/themes/new.html.erb:2
 msgid "New theme"
-msgstr ""
+msgstr "新しいテーマ"
 
 #: ../../app/views/super_admin/users/edit.html.erb:1
 #: ../../app/views/super_admin/users/edit.html.erb:5
 msgid "Editing profile for %{username}"
-msgstr ""
+msgstr "%{username}のプロフィールの編集"
 
 #: ../../app/views/super_admin/users/edit.html.erb:6
 msgid "View all users"
-msgstr ""
+msgstr "すべてのユーザーを表示"
 
 #: ../../app/views/usage/index.html.erb:1
 msgid "Usage statistics"
-msgstr ""
+msgstr "使用統計"
 
 #: ../../app/views/usage/index.html.erb:9
 msgid "Download global usage"
-msgstr ""
+msgstr "グローバル用途をダウンロード"
 
 #: ../../app/views/usage/index.html.erb:27
 msgid ""
@@ -4235,6 +4322,8 @@ msgid ""
 "range. The graphs display new users and plans for your organisation over the p"
 "ast year. You can download a CSV report for each graph."
 msgstr ""
+"フィルタを使用して、カスタム日付範囲の組織使用統計情報を生成します。グラフには、過去1年間に組織の新しいユーザーと計画が表示されます。各グラフのCSVレポー"
+"トをダウンロードできます。"
 
 #: ../../app/views/usage/index.html.erb:32
 msgid "Run your own filter"
@@ -4242,33 +4331,33 @@ msgstr ""
 
 #: ../../app/views/usage/index.html.erb:39
 msgid "Topic"
-msgstr ""
+msgstr "トピック"
 
 #: ../../app/views/usage/index.html.erb:49
 msgid "Start date"
-msgstr ""
+msgstr "開始日"
 
 #: ../../app/views/usage/index.html.erb:55
 msgid "End date"
-msgstr ""
+msgstr "終了日"
 
 #: ../../app/views/usage/index.html.erb:76
 msgid ""
 "You don't have access to use the API. An api token is needed to generate usage"
 " statistics."
-msgstr ""
+msgstr "APIを使用するためのアクセス権がありません。使用統計を生成するには、apiトークンが必要です。"
 
 #: ../../app/views/usage/index.html.erb:88
 msgid "New users"
-msgstr ""
+msgstr "新しい利用者"
 
 #: ../../app/views/usage/index.html.erb:89
 msgid "New plans"
-msgstr ""
+msgstr "新しい計画"
 
 #: ../../app/views/usage/index.html.erb:97
 msgid "Total users"
-msgstr ""
+msgstr "ユーザー総数"
 
 #: ../../app/views/usage/index.html.erb:98
 msgid "Total plans"
@@ -4276,48 +4365,48 @@ msgstr ""
 
 #: ../../app/views/usage/index.html.erb:111
 msgid "No. users joined during last year"
-msgstr ""
+msgstr "昨年参加したユーザー数"
 
 #: ../../app/views/usage/index.html.erb:119
 msgid "There is no data available for users joined yet."
-msgstr ""
+msgstr "まだ参加しているユーザーは利用可能なデータがありません。"
 
 #: ../../app/views/usage/index.html.erb:124
 msgid "No. plans during last year"
-msgstr ""
+msgstr "昨年の計画"
 
 #: ../../app/views/usage/index.html.erb:132
 msgid "There is no data available for plans yet."
-msgstr ""
+msgstr "まだ計画に利用できるデータはありません。"
 
 #: ../../app/views/user_mailer/_email_signature.html.erb:18
 msgid "You may change your notification preferences on your profile page. "
-msgstr ""
+msgstr "プロフィールページで通知設定を変更することができます。"
 
 #: ../../app/views/user_mailer/admin_privileges.html.erb:8
 #: ../../app/views/user_mailer/new_comment.html.erb:9
 msgid "Hello %{user_name}"
-msgstr ""
+msgstr "こんにちは%{user_name}"
 
 #: ../../app/views/user_mailer/admin_privileges.html.erb:12
 msgid "You have been granted administrator privileges in %{tool_name}:"
-msgstr ""
+msgstr "あなたは%{tool_name}の管理者特権を与えられています："
 
 #: ../../app/views/user_mailer/admin_privileges.html.erb:19
 msgid "You have been revoked administrator privileges in %{tool_name}."
-msgstr ""
+msgstr "%{tool_name}の管理者権限が取り消されました。"
 
 #: ../../app/views/user_mailer/admin_privileges.html.erb:23
 msgid ""
 "More information about administering the %{tool_name} for users at your organi"
 "sation is available at the %{help_url}."
-msgstr ""
+msgstr "組織内のユーザーの%{tool_name}の管理に関する詳細については、%{help_url}を参照してください。"
 
 #: ../../app/views/user_mailer/api_token_granted_notification.html.erb:8
 #: ../../app/views/user_mailer/permissions_change_notification.html.erb:10
 #: ../../app/views/user_mailer/plan_visibility.html.erb:9
 msgid "Hello %{username}"
-msgstr ""
+msgstr "こんにちは%{username}"
 
 #: ../../app/views/user_mailer/api_token_granted_notification.html.erb:11
 msgid ""
@@ -4335,10 +4424,12 @@ msgid ""
 "ents can be found in the 'Write plan' tab on the right side of the page (Guida"
 "nce/Comments)."
 msgstr ""
+"%{commenter}は計画 \"%{link_html}\"のフィードバックを終了しました。コメントは、ページの右側にある「書き込み計画」タブ（ガイダンス/"
+"コメント）にあります。"
 
 #: ../../app/views/user_mailer/feedback_notification.html.erb:9
 msgid "Hello %{user_name},"
-msgstr ""
+msgstr "こんにちは%{user_name}さん、"
 
 #: ../../app/views/user_mailer/feedback_notification.html.erb:12
 msgid ""
@@ -4346,6 +4437,8 @@ msgid ""
 "lease visit the 'Plans' page under the Admin menu in %{application_name} and o"
 "pen the plan."
 msgstr ""
+"%{requestor}は計画%{link_html}に対するフィードバックを要求している。コメントを追加するには、%{application_name}の"
+"管理者メニューの[プラン]ページにアクセスし、プランを開きます。"
 
 #: ../../app/views/user_mailer/new_comment.html.erb:12
 msgid ""
@@ -4358,26 +4451,28 @@ msgid ""
 "Your permissions relating to %{plan_title} have changed. You now have %{type} "
 "access. This means you can %{placeholder1} %{placeholder2}"
 msgstr ""
+"%{plan_title}に関するあなたの許可が変更されました。あなたは今%{type}アクセス権を持っています。つまり、%{placeholder1} %"
+"{placeholder2}"
 
 #: ../../app/views/user_mailer/plan_access_removed.html.erb:2
 msgid "Hello "
-msgstr ""
-
-#: ../../app/views/user_mailer/plan_access_removed.html.erb:3
-msgid "Your access to "
-msgstr ""
+msgstr "こんにちは"
 
 #: ../../app/views/user_mailer/plan_access_removed.html.erb:3
 msgid " has been removed by "
-msgstr ""
+msgstr " によって削除されました"
+
+#: ../../app/views/user_mailer/plan_access_removed.html.erb:3
+msgid "Your access to "
+msgstr "あなたへのアクセス"
 
 #: ../../app/views/user_mailer/plan_visibility.html.erb:12
 msgid "The plan %{plan_title} had its visibility changed to %{plan_visibility}."
-msgstr ""
+msgstr "計画%{plan_title}は、その可視性が%{plan_visibility}に変更されました。"
 
 #: ../../app/views/user_mailer/plan_visibility.html.erb:15
 msgid "Visibility definitions:"
-msgstr ""
+msgstr "可視性の定義："
 
 #: ../../app/views/user_mailer/plan_visibility.html.erb:17
 msgid "Private: restricted to me and my collaborators"
@@ -4385,7 +4480,7 @@ msgstr ""
 
 #: ../../app/views/user_mailer/plan_visibility.html.erb:19
 msgid "Public: anyone can view on the web"
-msgstr ""
+msgstr "公開：誰でもウェブ上で閲覧できます"
 
 #: ../../app/views/user_mailer/plan_visibility.html.erb:23
 msgid ""
@@ -4395,14 +4490,15 @@ msgstr ""
 
 #: ../../app/views/user_mailer/sharing_notification.html.erb:11
 msgid ""
-"Your colleague %{inviter_name} has invited you to contribute to
-\n"
+"Your colleague %{inviter_name} has invited you to contribute to\n"
 "            their Data Management Plan in %{tool_name}"
 msgstr ""
+"あなたの同僚%{inviter_name}があなたに寄付を依頼しました\n"
+"            %{tool_name}のデータ管理計画"
 
 #: ../../app/views/user_mailer/welcome_notification.html.erb:13
 msgid "Welcome to %{tool_name}, %{username}"
-msgstr ""
+msgstr "ようこそ%{tool_name}、%{username}"
 
 #: ../../app/views/user_mailer/welcome_notification.html.erb:16
 msgid ""
@@ -4410,10 +4506,12 @@ msgid ""
 "ny queries or feedback as you use the tool, please contact us at %{helpdesk_em"
 "ail} or visit %{contact_us}"
 msgstr ""
+"%{tool_name}は、データ管理計画の策定に役立ちます。ツールを使用しているときにクエリやフィードバックをお持ちの場合は、%{helpdesk_ema"
+"il}までご連絡いただくか、%{contact_us}"
 
 #: ../../app/views/user_mailer/welcome_notification.html.erb:24
 msgid "You may change your notification preferences on your profile page."
-msgstr ""
+msgstr "プロフィールページで通知設定を変更することができます。"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:9
 msgid "Editing privileges for %{username}"
@@ -4424,37 +4522,37 @@ msgstr ""
 msgid ""
 "Allows the user to assign permissions to other users within the same organisat"
 "ion. Users can only assign permissions they own themselves"
-msgstr ""
+msgstr "ユーザーが同じ組織内の他のユーザーに権限を割り当てることを許可します。ユーザーは自分自身の所有権のみを割り当てることができます"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:23
 #: ../../app/views/users/admin_grant_permissions.html.erb:25
 msgid ""
 "Allows the user to create new organisational templates, edit existing ones and"
 " customise funder templates"
-msgstr ""
+msgstr "ユーザーが新しい組織テンプレートを作成し、既存のテンプレートを編集し、テンプレートテンプレートをカスタマイズできるようにする"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:27
 #: ../../app/views/users/admin_grant_permissions.html.erb:29
 msgid "Allows the user to create and edit guidance"
-msgstr ""
+msgstr "ユーザーがガイダンスを作成および編集できるようにする"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:31
 #: ../../app/views/users/admin_grant_permissions.html.erb:33
 msgid ""
 "Provides the user with an API token and grants rights to harvest information f"
 "rom the tool"
-msgstr ""
+msgstr "ユーザーにAPIトークンを提供し、ツールから情報を収集する権利を付与する"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:33
 msgid "Use API"
-msgstr ""
+msgstr "APIを使用する"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:35
 #: ../../app/views/users/admin_grant_permissions.html.erb:37
 msgid ""
 "Allows the user to amend the organisation details (name, URL etc) and add basi"
 "c branding such as the logo"
-msgstr ""
+msgstr "組織の詳細（名前、URLなど）を修正し、ロゴなどの基本的なブランドを追加することができます"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:47
 msgid "Allows the user to create new organisations"
@@ -4466,11 +4564,11 @@ msgstr ""
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:51
 msgid "Allows the user to manage organisation affiliation"
-msgstr ""
+msgstr "ユーザーが組織の所属を管理できるようにする"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:53
 msgid "Manage organisation affiliation"
-msgstr ""
+msgstr "組織の所属を管理する"
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:55
 msgid "Allows the user to grant API access to organisations."
@@ -4478,11 +4576,11 @@ msgstr ""
 
 #: ../../app/views/users/_admin_grant_permissions.html.erb:57
 msgid "Grant API access"
-msgstr ""
+msgstr "APIアクセスを許可する"
 
 #: ../../app/views/users/_notification_preferences.html.erb:6
 msgid "Select all"
-msgstr ""
+msgstr "すべて選択"
 
 #: ../../app/views/users/_notification_preferences.html.erb:7
 msgid "Deselect all"
@@ -4490,32 +4588,32 @@ msgstr ""
 
 #: ../../app/views/users/_notification_preferences.html.erb:13
 msgid "A new comment has been added to my DMP"
-msgstr ""
+msgstr "私のDMPに新しいコメントが追加されました"
 
 #: ../../app/views/users/_notification_preferences.html.erb:18
 msgid "A plan has been shared with me"
-msgstr ""
+msgstr "計画は私と共有されている"
 
 #: ../../app/views/users/_notification_preferences.html.erb:23
 msgid "Admin privileges granted to me"
-msgstr ""
+msgstr "私に与えられた管理者権限"
 
 #: ../../app/views/users/_notification_preferences.html.erb:29
 msgid "Feedback has been requested for my DMP"
-msgstr ""
+msgstr "私のDMPのフィードバックが要求されました"
 
 #: ../../app/views/users/_notification_preferences.html.erb:34
 msgid "Feedback has been provided for my DMP"
-msgstr ""
+msgstr "私のDMPのフィードバックが提供されました"
 
 #: ../../app/views/users/_notification_preferences.html.erb:43
 msgid "My DMP's visibility has changed"
-msgstr ""
+msgstr "私のDMPの可視性が変わった"
 
 #: ../../app/views/users/admin_grant_permissions.html.erb:1
 #: ../../app/views/users/admin_grant_permissions.html.erb:6
 msgid "Edit User Privileges"
-msgstr ""
+msgstr "ユーザー特権の編集"
 
 #: ../../app/views/users/admin_index.html.erb:1
 #: ../../app/views/users/admin_index.html.erb:5
@@ -4527,18 +4625,20 @@ msgid ""
 "Below is a list of users registered for your organisation. You can\n"
 "        sort the data by each field."
 msgstr ""
+"以下は、組織に登録されているユーザーの一覧です。あなたはできる\n"
+"        各フィールドでデータを並べ替えます。"
 
 #: ../../app/views/users/admin_index.html.erb:22
 msgid "Download users"
-msgstr ""
+msgstr "ユーザーをダウンロードする"
 
 #: i18n_placeholders.rb:2
 msgid "activerecord.errors.messages.record_invalid"
-msgstr ""
+msgstr "activerecord.errors.messages.record_invalid"
 
 #: i18n_placeholders.rb:4
 msgid "activerecord.errors.models.user.attributes.current_password.invalid"
-msgstr ""
+msgstr "activerecord.errors.models.user.attributes.current_password.invalid"
 
 #: i18n_placeholders.rb:6
 msgid "activerecord.errors.models.user.attributes.email.blank"
@@ -4546,8 +4646,8 @@ msgstr ""
 
 #: i18n_placeholders.rb:8
 msgid "activerecord.errors.models.user.attributes.password.blank"
-msgstr ""
+msgstr "activerecord.errors.models.user.attributes.password.blank"
 
 #: i18n_placeholders.rb:10
 msgid "activerecord.errors.models.user.attributes.password_confirmation.confirmation"
-msgstr ""
+msgstr "activerecord.errors.models.user.attributes.password_confirmation.confirmation"

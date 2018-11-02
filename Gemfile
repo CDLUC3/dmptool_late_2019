@@ -108,7 +108,7 @@ gem 'feedjira'
 
 # ------------------------------------------------
 # INTERNATIONALIZATION
-gem 'translation',  git: 'https://github.com/xsrust/rails', branch: 'extending_gettext'
+gem 'translation',  git: 'https://github.com/briri/rails', branch: 'extending_gettext'
 
 # ------------------------------------------------
 # PAGINATION

@@ -2,10 +2,17 @@
 # IF YOU UPDATE IT, YOUR CHANGES WILL BE LOST AT THE NEXT SYNC.
 #
 # To update this file, use this translation interface:
-# https://translation.io/xsrust/roadmap/en-GB
+# https://translation.io/briri/dmptool/en-GB
 #
 ---
 en-GB:
+  views:
+    pagination:
+      truncate: "&hellip;"
+      first: "&laquo; First"
+      last: Last &raquo;
+      previous: "&lsaquo; Prev"
+      next: Next &rsaquo;
   date:
     day_names:
     - Sunday
@@ -103,14 +110,14 @@ en-GB:
       odd: must be odd
       even: must be even
       taken: has already been taken
-      already_confirmed: was already confirmed, please try signing in
+      already_confirmed: was already confirmed
       confirmation_period_expired: needs to be confirmed within %{period}, please
         request a new one
       expired: has expired, please request a new one
       not_found: not found
       not_locked: was not locked
       not_saved:
-        one: '1 error prohibited this %{resource} from being saved:'
+        one: '1 error prohibited with %{resource} from being saved:'
         other: "%{count} errors prohibited this %{resource} from being saved:"
     unavailable_session: 
     unacceptable_request: 
@@ -194,18 +201,21 @@ en-GB:
       destroy:
         notice: 
         alert: 
+  multibyte:
+  - 
+  - 
+  - 
   devise:
     confirmations:
-      confirmed: Your account was successfully confirmed. Please sign in.
+      confirmed: Your account was successfully confirmed. You are now signed in.
       send_instructions: You will receive an email with instructions about how to
-        confirm your account in a few minutes.
+        confirm your account in a few minuets.
       send_paranoid_instructions: If your email address exists in our database, you
         will receive an email with instructions about how to confirm your account
         in a few minutes.
     failure:
       already_authenticated: You are already signed in.
-      inactive: Your account is no longer active. Please contact us to reactivate
-        your account.
+      inactive: Your account was not activated yet.
       invalid: Invalid email or password.
       locked: Your account is locked.
       last_attempt: 
@@ -216,7 +226,7 @@ en-GB:
       invited: You have a pending invitation, accept it to finish creating your account.
     mailer:
       confirmation_instructions:
-        subject: Confirm your DMPonline account
+        subject: Confirmation instructions
       reset_password_instructions:
         subject: Reset password instructions
       unlock_instructions:
@@ -269,7 +279,7 @@ en-GB:
         unlock your account in a few minutes.
       send_paranoid_instructions: If your account exists, you will receive an email
         with instructions about how to unlock it in a few minutes.
-      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+      unlocked: Your account was successfully unlocked. You are now signed in.
     invitations:
       send_instructions: An invitation email has been sent to %{email}.
       invitation_token_invalid: The invitation token provided is not valid!
@@ -314,14 +324,3 @@ en-GB:
     notices:
       error: You must enter both fields.
       success: Contact email was successfully sent.
-  views:
-    pagination:
-      first: "&laquo; First"
-      last: Last &raquo;
-      previous: "&lsaquo; Prev"
-      next: Next &rsaquo;
-      truncate: "&hellip;"
-  multibyte:
-  - 
-  - 
-  - 
