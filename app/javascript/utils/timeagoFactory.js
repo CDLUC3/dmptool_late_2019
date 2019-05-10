@@ -1,15 +1,15 @@
-import enUS from '../locale/en_US/timeago';
+import enGB from '../locale/en_GB/timeago';
 
 /* global timeago */
 const TimeagoFactory = (() => {
-  timeago.register('en_US', enUS);
+  timeago.register('en_GB', enGB);
   /*
     @param el - DOM element
     @returns
   */
   return {
     render: (el) => {
-      timeago().render(el, 'en_US');
+      timeago().render(el, 'en_GB');
     },
   };
 })();
