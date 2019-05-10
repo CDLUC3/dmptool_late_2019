@@ -128,7 +128,7 @@
     <% if @plan.feedback_requested? %>
       <h2><%= _("Feedback has been requested.") %></h2>
       <div class="well well-sm">
-        <%= sanitize current_user.org.feedback_email_msg.to_s %>
+        <%= sanitize current_user.org.feedback_email_msg.to_s % { user_name: current_user.name(false), plan_name: plan.title } %>
       </div>
       <p><%= _('You can continue to edit and download the plan in the interim.') %></p>
 
