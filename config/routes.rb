@@ -119,6 +119,7 @@ Rails.application.routes.draw do
       get 'download'
       post 'duplicate'
       post 'visibility', constraints: {format: [:json]}
+      post 'register', constraints: {format: [:json]}
       post 'set_test', constraints: {format: [:json]}
       get 'overview'
     end

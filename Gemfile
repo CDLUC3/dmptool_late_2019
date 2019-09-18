@@ -180,6 +180,10 @@ gem "dotenv-rails"
 
 gem 'activerecord-session_store'
 
+# ------------------------------------------------
+# DMP DOI Registration
+gem 'httparty'
+
 
 # ------------------------------------------------
 # ENVIRONMENT SPECIFIC DEPENDENCIES

@@ -5,7 +5,7 @@ require 'httparty'
 module Dmphub
 
   # Service that sends DMP data to the DMPHub system and receives a DOI
-  class PublicationService
+  class RegistrationService
 
     DEFAULT_HEADERS = headers = {
       'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',

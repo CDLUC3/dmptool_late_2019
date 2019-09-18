@@ -34,6 +34,20 @@
   </fieldset>
 <% end %>
 
+<h2><%= _('Register your plan') %></h2>
+<p><%= _('A paragraph explaining the benefits of registering your plan.') %></p>
+<p><%= _('Your plan will have the same visibility that you have defined above') %></p>
+<%= form_for(@plan, url: register_plan_path, method: :post, html: { id: 'set_register', remote: true }) do |f| %>
+  <fieldset<%= (allow_visibility && @plan.doi.blank? ? '' : ' disabled') %>>
+    <div class="col-xs-8">
+      <%= f.submit _('Register your plan') %>
+    </div>
+  </fieldset>
+  <div id="plan_citation">
+    <%= @plan.doi %>
+  </div>
+<% end %>
+
 <h2><%= _('Manage collaborators')%></h2>
 <p><%= _('Invite specific people to read, edit, or administer your plan. Invitees will receive an email notification that they have access to this plan.') %></p>
 <% if @plan.roles.any? then %>
