@@ -21,6 +21,7 @@
 #  created_at                        :datetime
 #  updated_at                        :datetime
 #  template_id                       :integer
+#  doi                               :string
 #
 # Indexes
 #

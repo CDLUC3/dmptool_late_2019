@@ -218,9 +218,11 @@ ActiveRecord::Schema.define(version: 20190507091025) do
     t.string   "principal_investigator_phone"
     t.boolean  "feedback_requested",                default: false
     t.boolean  "complete",                          default: false
+    t.string   "doi",                                               null: false
   end
 
   add_index "plans", ["template_id"], name: "index_plans_on_template_id", using: :btree
+  add_index "plans", ["doi"], name: "index_plans_on_doi", using: :btree
 
   create_table "plans_guidance_groups", force: :cascade do |t|
     t.integer "guidance_group_id"
