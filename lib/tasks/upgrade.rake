@@ -1,6 +1,14 @@
 require 'set'
 namespace :upgrade do
 
+  desc "Upgrade to v2.1.4"
+  task v2_1_4: :environment do
+    Rake::Task['upgrade:add_ror_identifier_scheme'].execute
+    Rake::Task['upgrade:seed_ror'].execute
+    Rake::Task['upgrade:add_fundref_identifier_scheme'].execute
+    Rake::Task['upgrade:seed_fundref'].execute
+  end
+
   desc "Upgrade to v2.1.3"
   task v2_1_3: :environment do
     Rake::Task['upgrade:fill_blank_plan_identifiers'].execute
@@ -694,6 +702,106 @@ namespace :upgrade do
     review_plan_ids = Role.reviewer.pluck(:plan_id).uniq
     Plan.where(id: review_plan_ids).update_all(feedback_requested: true)
     Role.reviewer.destroy_all
+  end
+
+  desc "Add ROR to the available identifier schemes"
+  task add_ror_identifier_scheme: :environment do
+    p "Adding ROR to the identifier_schemes table"
+    IdentifierScheme.create(
+      name: 'ror',
+      description: 'Research Organization Registry',
+      user_landing_url: 'https://ror.org',
+      active: true
+    ) unless IdentifierScheme.where(name: 'ror').any?
+  end
+
+  desc "Seed existing organization with their ROR ids"
+  task seed_ror: :environment do
+    ror_scheme = IdentifierScheme.where(name: 'ror').first
+    # If the ROR IdentifierScheme is not defined then add it
+    Rake::Task['upgrade:add_ror_identifier_scheme'].execute if ror_scheme.nil?
+    ror_scheme = IdentifierScheme.where(name: 'ror').first if ror_scheme.nil?
+
+    p "Adding ROR ids for each Organisation"
+    Org.all.order(:name).each do |org|
+      next if OrgIdentifier.where(identifier_scheme_id: ror_scheme.id, org_id: org.id).any?
+
+      begin
+        hash = Ror::LookupService.find_by_ror_name(org.name).first
+        next unless hash.present? && hash[:id].present? && hash[:name].present?
+
+        p "Assigning #{org.name} with ROR: #{hash[:id]} - #{hash[:name]}"
+        OrgIdentifier.create(
+          identifier_scheme_id: ror_scheme.id,
+          org_id: org.id,
+          identifier: hash[:id],
+          attrs: { ror_name: hash[:name] }
+        )
+      rescue Ror::RorError => re
+        p "ERROR processing '#{org.name}': #{re.message}"
+        next
+      end
+    end
+
+    p "Complete!"
+    p "-----------------------------------------------------------"
+    p "You should now verify that each organization was assigned to the correct ROR ids."
+    p ""
+    p "  SELECT orgs.id, orgs.name, oid.attrs, oid.identifier "
+    p "  FROM orgs INNER JOIN org_identifiers oid ON orgs.id = oid.org_id "
+    p "  WHERE oid.identifier_scheme_id = #{ror_scheme.id} ORDER BY orgs.name;"
+    p ""
+    p "If one of the matches was incorrect, you can search for the proper one manually at: https://ror.org/search"
+  end
+
+  desc "Add Fundref to the available identifier schemes"
+  task add_fundref_identifier_scheme: :environment do
+    p "Adding Fundref to the identifier_schemes table"
+    IdentifierScheme.create(
+      name: 'fundref',
+      description: 'Crossref Funder Registry',
+      user_landing_url: 'https://api.crossref.org',
+      active: true
+    ) unless IdentifierScheme.where(name: 'fundref').any?
+  end
+
+  desc "Seed existing funder organizations with their Fundref ids"
+  task seed_fundref: :environment do
+    fundref_scheme = IdentifierScheme.where(name: 'fundref').first
+    # If the Fundref IdentifierScheme is not defined then add it
+    Rake::Task['upgrade:add_fundref_identifier_scheme'].execute if fundref_scheme.nil?
+    fundref_scheme = IdentifierScheme.where(name: 'fundref').first if fundref_scheme.nil?
+
+    p "Adding Fundref ids for each funder Organisation"
+    Org.funder.order(:name).each do |org|
+      next if OrgIdentifier.where(identifier_scheme_id: fundref_scheme.id, org_id: org.id).any?
+
+      begin
+        hash = Crossref::FunderService.find_by_name(org.name).first
+        next unless hash.present? && hash[:id].present? && hash[:name].present?
+
+        p "Assigning #{org.name} with Fundref: #{hash[:id]} - #{hash[:name]}"
+        OrgIdentifier.create(
+          identifier_scheme_id: fundref_scheme.id,
+          org_id: org.id,
+          identifier: hash[:id],
+          attrs: { fundref_name: hash[:name] }
+        )
+      rescue Crossref::CrossrefFunderError => cfe
+        p "ERROR processing '#{org.name}': #{cfe.message}"
+        next
+      end
+    end
+
+    p "Complete!"
+    p "-----------------------------------------------------------"
+    p "You should now verify that each organization was assigned to the correct Fundref ids."
+    p ""
+    p "  SELECT orgs.id, orgs.name, oid.attrs, oid.identifier "
+    p "  FROM orgs INNER JOIN org_identifiers oid ON orgs.id = oid.org_id "
+    p "  WHERE oid.identifier_scheme_id = #{fundref_scheme.id} ORDER BY orgs.name;"
+    p ""
+    p "If one of the matches was incorrect, you can search for the proper one manually at: http://api.crossref.org/funders?query=[name]"
   end
 
   private

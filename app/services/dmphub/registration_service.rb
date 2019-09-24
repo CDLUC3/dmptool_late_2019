@@ -15,27 +15,45 @@ module Dmphub
     def initialize
       @errors = []
       retrieve_auth_token
+
+      @base_path = "#{Branding.fetch(:dmphub, :base_path)}"
+      @auth_path = "#{@base_path}#{Branding.fetch(:dmphub, :token_path)}"
+      @create_path = "#{@base_path}#{Branding.fetch(:dmphub, :create_path)}"
+      @show_path = "#{@base_path}#{Branding.fetch(:dmphub, :show_path)}"
+      @index_path = "#{@base_path}#{Branding.fetch(:dmphub, :index_path)}"
+
+      Rails.logger.error @errors.join(', ') if @errors.any?
     end
 
     def register(dmp:)
-      return nil unless @token.present?
+      retrieve_auth_token unless @token.present?
+      return nil unless dmp.present?
 
-      url = "#{base_api_url}/data_management_plans"
-      resp = HTTParty.post(url, body: dmp, headers: authenticated_headers)
+p dmp.inspect
+#return nil
+
+      resp = HTTParty.post(@create_path, body: JSON.parse(dmp), headers: authenticated_headers)
       payload = JSON.parse(resp.body)
-      doi = payload.dmp_ids.select { |id| id.category == 'doi' }.first
+      doi = payload.fetch('content', {}).fetch('dmp', {}).fetch('dmp_ids', []).select do |id|
+        id['category'] == 'doi'
+      end
       @errors << "register #{resp.code} : #{payload['error']} - #{payload['error_description']}" unless resp.code == 201
       @errors << "DMP registered but no DOI was returned!" if resp.code == 201 && doi.blank?
-      doi
+
+      Rails.logger.error @errors.join(', ') if @errors.any?
+      doi.first&.fetch('value', '')
     end
 
     def is_published?(doi:)
+      retrieve_auth_token unless @token.present?
       return false unless doi.present?
 
-      url = "#{base_api_url}/data_management_plans/#{doi}"
-      resp = HTTParty.get(url, headers: authenticated_headers)
+      resp = HTTParty.get(@show_path, headers: authenticated_headers)
       payload = JSON.parse(resp.body)
       @errors << "#{payload['error']} - #{payload['error_description']}" unless resp.code == 200
+
+      Rails.logger.error @errors.join(', ') if @errors.any?
+
       resp.code == 200 && payload['error'].empty? && payload['title'].present?
     end
 
@@ -44,26 +62,22 @@ module Dmphub
     def retrieve_auth_token
       payload = {
         grant_type: 'client_credentials',
-        client_id: Branding.fetch(:dmphub, :client_id),
+        client_id: Branding.fetch(:dmphub, :client_uid),
         client_secret: Branding.fetch(:dmphub, :client_secret)
       }
-      url = "#{base_api_url}/oauth/token"
-      resp = HTTParty.post(url, body: args, headers: DEFAULT_HEADERS)
+      resp = HTTParty.post(@auth_path, body: payload, headers: DEFAULT_HEADERS)
       response = JSON.parse(resp.body)
       @token = response if resp.code == 200
       @errors << "#{payload['error']} - #{payload['error_description']}" unless resp.code == 200
-
     rescue StandardError => se
       @errors << se.message
       return nil
     end
 
-    def base_api_url
-      "#{Branding.fetch(:dmphub, :base_path)}/#{Branding.fetch(:dmphub, :version)}"
-    end
-
     def authenticated_headers
+      agent = "#{Branding.fetch(:dmphub, :user_agent)} (#{Branding.fetch(:dmphub, :client_uid)})"
       DEFAULT_HEADERS.merge({
+        'User-Agent': agent,
         'Authorization': "#{@token['token_type']} #{@token['access_token']}"
       })
     end

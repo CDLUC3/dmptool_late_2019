@@ -44,7 +44,10 @@
     </div>
   </fieldset>
   <div id="plan_citation">
-    <%= @plan.doi %>
+    <% if @plan.doi.present? %>
+      <% url = "#{Branding.fetch(:dmphub, :base_path)}/data_management_plans/%{doi}" % { doi: @plan.doi } %>
+      <%= _('Your plan DOI is: %{doi}').html_safe % { doi: link_to(@plan.doi, url, target: '_blank') } %>
+    <% end %>
   </div>
 <% end %>
 

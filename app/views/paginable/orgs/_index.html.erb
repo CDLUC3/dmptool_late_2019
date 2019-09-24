@@ -1,3 +1,5 @@
+<% ror_scheme = IdentifierScheme.where(name: 'ror').first %>
+
 <div class="table-responsive">
   <table class="table table-hover" id="guidance-groups">
     <thead>
@@ -6,16 +8,28 @@
         <th scope="col"><%= _('Administrator Email') %>&nbsp;<%= paginable_sort_link('orgs.contact_email') %></th>
         <th scope="col"><%= _('Organisation Type(s)') %>&nbsp;<%= paginable_sort_link('orgs.org_type') %></th>
         <th scope="col"><%= _('Templates') %></th>
+        <% if ror_scheme.present? %>
+          <th scope="col" class="sorter-false"><%= _('ROR id') %></th>
+        <% end %>
         <th scope="col" class="sorter-false"><span aria-hidden="false" class="sr-only"><%= _('Actions') %></span></th>
       </tr>
     </thead>
     <tbody>
+      )
       <% scope.each do |org| %>
+        <% ror_id = org.org_identifiers.select { |id| id.identifier_scheme_id == ror_scheme.id }.first %>
         <tr>
           <td><%= org.name %></td>
           <td><%= org.contact_email %></td>
           <td><%= org.org_type_to_s %></td>
           <td><%= org.template_count %></td>
+          <% if ror_scheme.present? %>
+            <td>
+              <% if ror_id.present? %>
+                <%= link_to ror_id.identifier, ror_id.identifier, target: '_blank' %>
+              <% end %>
+            </td>
+          <% end %>
           <td>
             <div class="dropdown">
               <button

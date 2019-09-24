@@ -110,6 +110,7 @@ class OrgsController < ApplicationController
   end
 
   private
+
   def org_params
     params.require(:org).permit(:name, :abbreviation, :logo, :contact_email,
                                 :contact_name, :remove_logo, :org_type,
