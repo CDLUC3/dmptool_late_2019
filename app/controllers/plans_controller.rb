@@ -375,16 +375,30 @@ class PlansController < ApplicationController
 
         plan.update(doi: doi)
 
-        redirect_to 'share', alert: err if err.present?
-        redirect_to 'share', notice: _("Successfully registered your plan. Your new DOI is: %{doi}") % { doi: doi }
+p "ERR: #{err.inspect}"
+p "DOI: #{doi}"
+
+        if err.present?
+          render status: :bad_request, json: {
+            code: 0, msg: err || _("Unable to register a DOI for your plan at this time.")
+          }
+        else
+          render json: {
+            code: 1, msg: "Successfully registered your plan. Your new DOI is: %{doi}" % { doi: doi }
+          }
+        end
       else
         # rubocop:disable Metrics/LineLength
-        redirect_to 'share', alert: _("Unable to change the plan's status since it is needed at least %{percentage} percentage responded") % {
+        render status: :bad_request, json: {
+          code: 0, msg: _("Unable to change the plan's status since it is needed at least %{percentage} percentage responded") % {
               percentage: Rails.application.config.default_plan_percentage_answered }
+        }
         # rubocop:enable Metrics/LineLength
       end
     else
-      redirect_to 'share', alert: _("Unable to find plan id %{plan_id}") % { plan_id: params[:id] }
+      render status: :bad_request, json: {
+        code: 0, msg: _("Unable to find plan id %{plan_id}") % { plan_id: params[:id] }
+      }
     end
   end
 

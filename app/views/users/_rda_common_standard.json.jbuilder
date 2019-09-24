@@ -28,9 +28,11 @@ unless user.name(false) == user.email
     end
   else
     if orcid.present?
-      json.contact_id do
-        json.category 'orcid'
-        json.value orcid.identifier
+      json.contact_ids do
+        json.array! 1.times do
+          json.category 'orcid'
+          json.value orcid.identifier
+        end
       end
     end
   end

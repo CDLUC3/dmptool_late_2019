@@ -30,7 +30,7 @@ json.dmp do
         json.title plan.title
         json.funding do
           json.array! 1.times do
-            json.funder_uri fundref_id.identifier
+            json.funder_id fundref_id.identifier
             json.funding_status 'planned'
           end
         end

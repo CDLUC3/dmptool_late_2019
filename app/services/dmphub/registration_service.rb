@@ -29,14 +29,12 @@ module Dmphub
       retrieve_auth_token unless @token.present?
       return nil unless dmp.present?
 
-p dmp.inspect
-#return nil
-
       resp = HTTParty.post(@create_path, body: JSON.parse(dmp), headers: authenticated_headers)
       payload = JSON.parse(resp.body)
       doi = payload.fetch('content', {}).fetch('dmp', {}).fetch('dmp_ids', []).select do |id|
         id['category'] == 'doi'
       end
+
       @errors << "register #{resp.code} : #{payload['error']} - #{payload['error_description']}" unless resp.code == 201
       @errors << "DMP registered but no DOI was returned!" if resp.code == 201 && doi.blank?
 
@@ -85,3 +83,81 @@ p dmp.inspect
   end
 
 end
+
+# Sample response from the DMPHub:
+#
+# {
+#   "generation_date"=>"2019-09-24 14:21:14 -0700",
+#   "caller"=>"vanilla_roadmap",
+#   "source"=>"POST http://localhost:3003/api/v1/data_management_plans",
+#   "content"=>{
+#     "dmp"=>{
+#       "created"=>"2019-09-24 21:21:14 UTC",
+#       "modified"=>"2019-09-24 21:21:14 UTC",
+#       "links"=>[{
+#         "rel"=>"self",
+#         "href"=>"http://localhost:3000/api/v1/data_management_plans/10.80030/panv-q907"
+#       }],
+#       "title"=>"BCO DMO Template Test",
+#       "description"=>"One thing to remember when doing this, is that your JSON content's size ...",
+#       "language"=>"en",
+#       "ethical_issues_exist"=>"unknown",
+#       "dmp_ids"=>[
+#         {
+#           "created"=>"2019-09-24 21:21:14 UTC",
+#           "modified"=>"2019-09-24 21:21:14 UTC",
+#           "category"=>"url",
+#           "provenance"=>"vanilla_roadmap",
+#           "value"=>"http://localhost:3000/plans/32697"
+#         }, {
+#           "created"=>"2019-09-24 21:21:14 UTC",
+#           "modified"=>"2019-09-24 21:21:14 UTC",
+#           "category"=>"doi",
+#           "provenance"=>"datacite",
+#           "value"=>"10.80030/panv-q907"
+#         }
+#       ],
+#       "contact"=>{
+#         "created"=>"2019-09-24 21:21:14 UTC",
+#         "modified"=>"2019-09-24 21:21:14 UTC",
+#         "name"=>"Brian Riley",
+#         "mbox"=>"brian.riley@ucop.edu",
+#         "organizations"=>[{
+#           "created"=>"2019-09-24 21:21:14 UTC",
+#           "modified"=>"2019-09-24 21:21:14 UTC",
+#           "name"=>"University of California, Office of the President (UCOP)",
+#           "identifiers"=>[{
+#             "created"=>"2019-09-24 21:21:14 UTC",
+#             "modified"=>"2019-09-24 21:21:14 UTC",
+#             "category"=>"ror",
+#             "provenance"=>"vanilla_roadmap",
+#             "value"=>"https://ror.org/04032fz76"
+#           }]
+#         }],
+#         "contact_ids"=>[{
+#           "created"=>"2019-09-24 21:21:14 UTC",
+#           "modified"=>"2019-09-24 21:21:14 UTC",
+#           "category"=>"orcid",
+#           "provenance"=>"vanilla_roadmap",
+#           "value"=>"0000-0001-9870-5882"
+#         }]
+#       },
+#       "project"=>{
+#         "created"=>"2019-09-24 21:21:14 UTC",
+#         "modified"=>"2019-09-24 21:21:14 UTC",
+#         "title"=>"BCO DMO Template Test",
+#         "description"=>"One thing to remember when doing this, is that your JSON content's size ...",
+#         "start_on"=>"2019-09-24 21:21:14 UTC",
+#         "end_on"=>"2021-09-24 21:21:14 UTC"
+#       },
+#       "datasets"=>[{
+#         "created"=>"2019-09-24 21:21:14 UTC",
+#         "modified"=>"2019-09-24 21:21:14 UTC",
+#         "title"=>"BCO DMO Template Test",
+#         "type"=>"dataset",
+#         "personal_data"=>"unknown",
+#         "sensitive_data"=>"unknown"
+#       }]
+#     }
+#   }
+# }
