@@ -355,6 +355,53 @@ class PlansController < ApplicationController
     end
   end
 
+  # POST /plans/:id/register
+  def register
+    plan = Plan.find(params[:id])
+    if plan.present?
+      authorize plan
+      if plan.visibility_allowed?
+        # TODO: Detemine how to pass the visibility/security via the RDA Common Standard
+        service = Dmphub::RegistrationService.new
+        # TODO: Figure out workflow for updating a DMP (is it user triggered like this initial registration
+        #       or do we auto-publish changes if the plan has a DOI?)
+        err = _('Your plan is already registered!') if plan.doi? && service.is_published?(plan.doi)
+
+        dmp_as_json = render_to_string partial: '/plans/rda_common_standard', locals: { plan: plan }
+        doi = service.register(dmp: dmp_as_json)
+
+        redirect_to 'share',
+        err = _('Unable to secure a DOI for your plan at this time') unless doi.present?
+
+        plan.update(doi: doi)
+
+p "ERR: #{err.inspect}"
+p "DOI: #{doi}"
+
+        if err.present?
+          render status: :bad_request, json: {
+            code: 0, msg: err || _("Unable to register a DOI for your plan at this time.")
+          }
+        else
+          render json: {
+            code: 1, msg: "Successfully registered your plan. Your new DOI is: %{doi}" % { doi: doi }
+          }
+        end
+      else
+        # rubocop:disable Metrics/LineLength
+        render status: :bad_request, json: {
+          code: 0, msg: _("Unable to change the plan's status since it is needed at least %{percentage} percentage responded") % {
+              percentage: Rails.application.config.default_plan_percentage_answered }
+        }
+        # rubocop:enable Metrics/LineLength
+      end
+    else
+      render status: :bad_request, json: {
+        code: 0, msg: _("Unable to find plan id %{plan_id}") % { plan_id: params[:id] }
+      }
+    end
+  end
+
   def set_test
     plan = Plan.find(params[:id])
     authorize plan

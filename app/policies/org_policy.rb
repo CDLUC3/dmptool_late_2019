@@ -53,4 +53,8 @@ class OrgPolicy < ApplicationPolicy
 # ---------------------------------------------------------
 # End DMPTool customization
 # ---------------------------------------------------------
+
+  def autocomplete?
+    true
+  end
 end

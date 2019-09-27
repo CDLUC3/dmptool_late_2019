@@ -17,4 +17,17 @@ $(() => {
       notifier.renderAlert(`${xhr.statusCode} - ${xhr.statusText}`);
     }
   });
+
+  $('#set_register').on('ajax:success', (e, data) => {
+    if (isObject(data) && isString(data.msg)) {
+      notifier.renderNotice(data.msg);
+    }
+  });
+  $('#set_register').on('ajax:error', (e, xhr) => {
+    if (isObject(xhr.responseJSON)) {
+      notifier.renderAlert(xhr.responseJSON.msg);
+    } else {
+      notifier.renderAlert(`${xhr.statusCode} - ${xhr.statusText}`);
+    }
+  });
 });

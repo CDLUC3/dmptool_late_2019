@@ -55,6 +55,10 @@ class PlanPolicy < ApplicationPolicy
     @plan.administerable_by?(@user.id)
   end
 
+  def register?
+    @plan.administerable_by?(@user.id)
+  end
+
   def set_test?
     @plan.administerable_by?(@user.id)
   end
