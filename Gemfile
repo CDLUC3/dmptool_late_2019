@@ -112,7 +112,7 @@ gem 'dragonfly'
 
 group :aws, optional: true do
 
-  gem 'dragonfly-s3_data_store'
+  #gem 'dragonfly-s3_data_store'
 
 end
 
