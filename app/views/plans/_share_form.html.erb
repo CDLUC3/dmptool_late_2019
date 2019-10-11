@@ -37,20 +37,23 @@
 <% end %>
 
 <h2><%= _('Register your plan') %></h2>
-<p><%= _('A paragraph explaining the benefits of registering your plan.') %></p>
-<p><%= _('Your plan will have the same visibility that you have defined above') %></p>
+<p><%= _('Registing your plan with the DMP Registry will provide your DMP with a DOI and allow other systems to integrate with your metadata. Your DMP will have the same visibility settings you have defined above.') %></p>
 <%= form_for(@plan, url: register_plan_path, method: :post, html: { id: 'set_register', remote: true }) do |f| %>
-  <fieldset<%= (allow_visibility && @plan.doi.blank? ? '' : ' disabled') %>>
-    <div class="col-xs-8">
-      <%= f.submit _('Register your plan') %>
-    </div>
-  </fieldset>
-  <div id="plan_citation">
-    <% if @plan.doi.present? %>
+
+  <% unless @plan.doi.present? %>
+    <fieldset<%= (allow_visibility && @plan.doi.blank? ? '' : ' disabled') %>>
+      <div class="col-xs-8">
+        <%= f.submit _('Register'), style: 'background-color: rgb(14, 86, 130); color: #FFF; padding: 5px 15px;' %>
+        <span class="progress"></span>
+      </div>
+    </fieldset>
+  <% else %>
+    <div id="plan_citation">
       <% url = "#{Branding.fetch(:dmphub, :base_path)}/data_management_plans/%{doi}" % { doi: @plan.doi } %>
-      <%= _('Your plan DOI is: %{doi}').html_safe % { doi: link_to(@plan.doi, url, target: '_blank') } %>
-    <% end %>
-  </div>
+      <p><%= _('Your plan has already been registered. Your DOI is: %{doi}').html_safe % { doi: link_to(@plan.doi, url, target: '_blank') } %></p>
+    </div>
+  <% end %>
+  <br>
 <% end %>
 
 <h2><%= _('Manage collaborators')%></h2>

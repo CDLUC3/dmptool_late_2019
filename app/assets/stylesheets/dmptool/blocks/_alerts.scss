@@ -1,6 +1,10 @@
 #notification-area.alert-info {
   background-color: $color-green;
   color: $color-primary-text;
+
+  a {
+    color: $color-primary-text;
+  }
 }
 
 #notification-area.alert-warning {

@@ -375,16 +375,15 @@ class PlansController < ApplicationController
 
         plan.update(doi: doi)
 
-p "ERR: #{err.inspect}"
-p "DOI: #{doi}"
-
         if err.present?
           render status: :bad_request, json: {
             code: 0, msg: err || _("Unable to register a DOI for your plan at this time.")
           }
         else
+          url = "#{Branding.fetch(:dmphub, :base_path)}/data_management_plans/#{doi}"
+          link = "<a href=\"#{url}\" target=\"_blank\">#{doi}</a>"
           render json: {
-            code: 1, msg: "Successfully registered your plan. Your new DOI is: %{doi}" % { doi: doi }
+            code: 1, msg: "Successfully registered your plan. Your new DOI is: %{doi}" % { doi: link }
           }
         end
       else

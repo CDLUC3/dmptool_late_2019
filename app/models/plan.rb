@@ -405,7 +405,7 @@ class Plan < ActiveRecord::Base
                   .administrator
                   .order(:created_at)
                   .pluck(:user_id).first
-    User.find(usr_id)
+    User.find(usr_id) unless usr_id.nil?
   end
 
   # Creates a role for the specified user (will update the user's
